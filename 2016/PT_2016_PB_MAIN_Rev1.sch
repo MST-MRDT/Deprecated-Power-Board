@@ -14721,6 +14721,70 @@ WING
 </deviceset>
 </devicesets>
 </library>
+<library name="con-molex">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="22-23-2041">
+<description>.100" (2.54mm) Center Header - 4 Pin</description>
+<wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="3.175" x2="5.08" y2="1.27" width="0.254" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MV">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="M">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="22-23-2041" prefix="X">
+<description>.100" (2.54mm) Center Header - 4 Pin</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="22-23-2041">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="22-23-2041" constant="no"/>
+<attribute name="OC_FARNELL" value="1462920" constant="no"/>
+<attribute name="OC_NEWARK" value="38C0355" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14994,6 +15058,11 @@ WING
 <part name="M2-3" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
 <part name="M2-4" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
 <part name="U$25" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="HORIZ"/>
+<part name="U$26" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="U$27" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="U$28" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="U$29" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="X1" library="con-molex" deviceset="22-23-2041" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15273,11 +15342,19 @@ WING
 <instance part="M1+" gate="G$1" x="-198.12" y="15.24" rot="R270"/>
 <instance part="U$41" gate="G$1" x="-607.06" y="160.02"/>
 <instance part="U$42" gate="G$1" x="-607.06" y="152.4"/>
-<instance part="M2-1" gate="G$1" x="53.34" y="-96.52" rot="R270"/>
-<instance part="M2-2" gate="G$1" x="63.5" y="-96.52" rot="R270"/>
-<instance part="M2-3" gate="G$1" x="116.84" y="-96.52" rot="R270"/>
-<instance part="M2-4" gate="G$1" x="127" y="-96.52" rot="R270"/>
+<instance part="M2-1" gate="G$1" x="68.58" y="-172.72"/>
+<instance part="M2-2" gate="G$1" x="68.58" y="-198.12"/>
+<instance part="M2-3" gate="G$1" x="68.58" y="-162.56"/>
+<instance part="M2-4" gate="G$1" x="68.58" y="-185.42"/>
 <instance part="U$25" gate="G$1" x="-607.06" y="142.24"/>
+<instance part="U$26" gate="G$1" x="63.5" y="-96.52" rot="R270"/>
+<instance part="U$27" gate="G$1" x="129.54" y="-96.52" rot="R270"/>
+<instance part="U$28" gate="G$1" x="119.38" y="-96.52" rot="R270"/>
+<instance part="U$29" gate="G$1" x="55.88" y="-96.52" rot="R270"/>
+<instance part="X1" gate="-1" x="25.4" y="-182.88" rot="R180"/>
+<instance part="X1" gate="-2" x="25.4" y="-180.34" rot="R180"/>
+<instance part="X1" gate="-3" x="25.4" y="-177.8" rot="R180"/>
+<instance part="X1" gate="-4" x="25.4" y="-175.26" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -15354,8 +15431,8 @@ WING
 <segment>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="45.72" y1="-88.9" x2="45.72" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-88.9" x2="53.34" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="M2-1" gate="G$1" pin="P$1"/>
+<pinref part="U$29" gate="G$1" pin="P$1"/>
+<wire x1="45.72" y1="-88.9" x2="55.88" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
@@ -15775,8 +15852,8 @@ WING
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="109.22" y1="-88.9" x2="109.22" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="-88.9" x2="116.84" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="M2-3" gate="G$1" pin="P$1"/>
+<pinref part="U$28" gate="G$1" pin="P$1"/>
+<wire x1="109.22" y1="-88.9" x2="119.38" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
@@ -16268,8 +16345,8 @@ WING
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="-86.36" x2="73.66" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="73.66" y="-86.36"/>
+<pinref part="U$26" gate="G$1" pin="P$1"/>
 <wire x1="63.5" y1="-88.9" x2="73.66" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="M2-2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -16959,8 +17036,8 @@ WING
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-86.36" x2="137.16" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="137.16" y="-86.36"/>
-<wire x1="127" y1="-88.9" x2="137.16" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="M2-4" gate="G$1" pin="P$1"/>
+<pinref part="U$27" gate="G$1" pin="P$1"/>
+<wire x1="137.16" y1="-88.9" x2="129.54" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="121.92" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
@@ -17371,6 +17448,42 @@ WING
 <wire x1="-454.66" y1="-83.82" x2="-436.88" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="U$24" gate="G$1" pin="Z"/>
 <wire x1="-436.88" y1="-86.36" x2="-436.88" y2="-83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="X1" gate="-4" pin="S"/>
+<wire x1="27.94" y1="-175.26" x2="48.26" y2="-175.26" width="0.1524" layer="91"/>
+<pinref part="M2-3" gate="G$1" pin="P$1"/>
+<wire x1="60.96" y1="-162.56" x2="48.26" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-162.56" x2="48.26" y2="-175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="X1" gate="-2" pin="S"/>
+<wire x1="27.94" y1="-180.34" x2="48.26" y2="-180.34" width="0.1524" layer="91"/>
+<pinref part="M2-4" gate="G$1" pin="P$1"/>
+<wire x1="60.96" y1="-185.42" x2="48.26" y2="-185.42" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-185.42" x2="48.26" y2="-180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="27.94" y1="-182.88" x2="45.72" y2="-182.88" width="0.1524" layer="91"/>
+<pinref part="M2-2" gate="G$1" pin="P$1"/>
+<wire x1="60.96" y1="-198.12" x2="45.72" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-198.12" x2="45.72" y2="-182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="M2-1" gate="G$1" pin="P$1"/>
+<wire x1="60.96" y1="-172.72" x2="50.8" y2="-172.72" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="-172.72" x2="50.8" y2="-177.8" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-3" pin="S"/>
+<wire x1="50.8" y1="-177.8" x2="27.94" y2="-177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
