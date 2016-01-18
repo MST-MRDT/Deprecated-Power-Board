@@ -14721,70 +14721,6 @@ WING
 </deviceset>
 </devicesets>
 </library>
-<library name="con-molex">
-<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="22-23-2041">
-<description>.100" (2.54mm) Center Header - 4 Pin</description>
-<wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
-<wire x1="5.08" y1="3.175" x2="5.08" y2="1.27" width="0.254" layer="21"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="1.27" x2="-5.08" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
-<text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="MV">
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-<symbol name="M">
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="22-23-2041" prefix="X">
-<description>.100" (2.54mm) Center Header - 4 Pin</description>
-<gates>
-<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-4" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="22-23-2041">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="22-23-2041" constant="no"/>
-<attribute name="OC_FARNELL" value="1462920" constant="no"/>
-<attribute name="OC_NEWARK" value="38C0355" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14825,7 +14761,7 @@ WING
 <part name="Q6" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="U$6" library="Jake" deviceset="LT1910" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C16" library="resistor" deviceset="C-US" device="C1206" value="10µF"/>
+<part name="C16" library="resistor" deviceset="C-US" device="C1206" value=".1µF"/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -14852,7 +14788,7 @@ WING
 <part name="Q7" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="U$7" library="Jake" deviceset="LT1910" device=""/>
 <part name="GND47" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C24" library="resistor" deviceset="C-US" device="C1206" value="10µF"/>
+<part name="C24" library="resistor" deviceset="C-US" device="C1206" value=".1µF"/>
 <part name="GND48" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED6" library="SparkFun-LED" deviceset="LED" device="1206"/>
@@ -14862,7 +14798,7 @@ WING
 <part name="Q9" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="U$8" library="Jake" deviceset="LT1910" device=""/>
 <part name="GND52" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C26" library="resistor" deviceset="C-US" device="C1206" value="10µF"/>
+<part name="C26" library="resistor" deviceset="C-US" device="C1206" value=".1µF"/>
 <part name="GND53" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND54" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED7" library="SparkFun-LED" deviceset="LED" device="1206"/>
@@ -14872,7 +14808,7 @@ WING
 <part name="Q11" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="U$9" library="Jake" deviceset="LT1910" device=""/>
 <part name="GND57" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C28" library="resistor" deviceset="C-US" device="C1206" value="10µF"/>
+<part name="C28" library="resistor" deviceset="C-US" device="C1206" value=".1µF"/>
 <part name="GND58" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND59" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED8" library="SparkFun-LED" deviceset="LED" device="1206"/>
@@ -14882,7 +14818,7 @@ WING
 <part name="Q14" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="U$10" library="Jake" deviceset="LT1910" device=""/>
 <part name="GND62" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C30" library="resistor" deviceset="C-US" device="C1206" value="10µF"/>
+<part name="C30" library="resistor" deviceset="C-US" device="C1206" value=".1µF"/>
 <part name="GND63" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND64" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED9" library="SparkFun-LED" deviceset="LED" device="1206"/>
@@ -14892,7 +14828,7 @@ WING
 <part name="Q16" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="U$11" library="Jake" deviceset="LT1910" device=""/>
 <part name="GND67" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C32" library="resistor" deviceset="C-US" device="C1206" value="10µF"/>
+<part name="C32" library="resistor" deviceset="C-US" device="C1206" value=".1µF"/>
 <part name="GND68" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND69" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED10" library="SparkFun-LED" deviceset="LED" device="1206"/>
@@ -14902,7 +14838,7 @@ WING
 <part name="Q20" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="U$13" library="Jake" deviceset="LT1910" device=""/>
 <part name="GND77" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C36" library="resistor" deviceset="C-US" device="C1206" value="10µF"/>
+<part name="C36" library="resistor" deviceset="C-US" device="C1206" value=".1µF"/>
 <part name="GND78" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND79" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED12" library="SparkFun-LED" deviceset="LED" device="1206"/>
@@ -14978,7 +14914,7 @@ WING
 <part name="Q1" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="U$1" library="Jake" deviceset="LT1910" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C7" library="resistor" deviceset="C-US" device="C1206" value="10µF"/>
+<part name="C7" library="resistor" deviceset="C-US" device="C1206" value=".1µF"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED11" library="SparkFun-LED" deviceset="LED" device="1206"/>
@@ -15035,33 +14971,28 @@ WING
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120 Ohm"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="M5-" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="AUX2+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="AUX2+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="M3-" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="M5+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="M5+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="AUX1-" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="AUX1+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="AUX1+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="AUX2-" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="M3+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="M3+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="M6-" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="M4+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="M4+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="M1-" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="M6+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="M6+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="M4-" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="M2+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="M2+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="M2-" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="M1+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="M1+" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="U$41" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="HORIZ"/>
 <part name="U$42" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="HORIZ"/>
-<part name="M2-1" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="M2-2" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="M2-3" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="M2-4" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
 <part name="U$25" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="HORIZ"/>
-<part name="U$26" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH"/>
-<part name="U$27" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH"/>
-<part name="U$28" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH"/>
-<part name="U$29" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH"/>
-<part name="X1" library="con-molex" deviceset="22-23-2041" device=""/>
+<part name="U$26" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="U$27" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="U$28" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT"/>
+<part name="U$29" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT"/>
 <part name="C13" library="resistor" deviceset="C-US" device="C1206" value="1nF"/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C14" library="resistor" deviceset="C-US" device="C1206" value="1nF"/>
@@ -15347,19 +15278,11 @@ WING
 <instance part="M1+" gate="G$1" x="-198.12" y="15.24" rot="R270"/>
 <instance part="U$41" gate="G$1" x="-607.06" y="160.02"/>
 <instance part="U$42" gate="G$1" x="-607.06" y="152.4"/>
-<instance part="M2-1" gate="G$1" x="68.58" y="-172.72"/>
-<instance part="M2-2" gate="G$1" x="68.58" y="-198.12"/>
-<instance part="M2-3" gate="G$1" x="68.58" y="-162.56"/>
-<instance part="M2-4" gate="G$1" x="68.58" y="-185.42"/>
 <instance part="U$25" gate="G$1" x="-607.06" y="142.24"/>
 <instance part="U$26" gate="G$1" x="63.5" y="-96.52" rot="R270"/>
 <instance part="U$27" gate="G$1" x="129.54" y="-96.52" rot="R270"/>
 <instance part="U$28" gate="G$1" x="119.38" y="-96.52" rot="R270"/>
 <instance part="U$29" gate="G$1" x="55.88" y="-96.52" rot="R270"/>
-<instance part="X1" gate="-1" x="25.4" y="-182.88" rot="R180"/>
-<instance part="X1" gate="-2" x="25.4" y="-180.34" rot="R180"/>
-<instance part="X1" gate="-3" x="25.4" y="-177.8" rot="R180"/>
-<instance part="X1" gate="-4" x="25.4" y="-175.26" rot="R180"/>
 <instance part="C13" gate="G$1" x="66.04" y="124.46"/>
 <instance part="GND36" gate="1" x="58.42" y="114.3"/>
 <instance part="C14" gate="G$1" x="58.42" y="124.46"/>
@@ -17475,42 +17398,6 @@ WING
 <wire x1="-454.66" y1="-83.82" x2="-436.88" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="U$24" gate="G$1" pin="Z"/>
 <wire x1="-436.88" y1="-86.36" x2="-436.88" y2="-83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="X1" gate="-4" pin="S"/>
-<wire x1="27.94" y1="-175.26" x2="48.26" y2="-175.26" width="0.1524" layer="91"/>
-<pinref part="M2-3" gate="G$1" pin="P$1"/>
-<wire x1="60.96" y1="-162.56" x2="48.26" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-162.56" x2="48.26" y2="-175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="X1" gate="-2" pin="S"/>
-<wire x1="27.94" y1="-180.34" x2="48.26" y2="-180.34" width="0.1524" layer="91"/>
-<pinref part="M2-4" gate="G$1" pin="P$1"/>
-<wire x1="60.96" y1="-185.42" x2="48.26" y2="-185.42" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-185.42" x2="48.26" y2="-180.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="X1" gate="-1" pin="S"/>
-<wire x1="27.94" y1="-182.88" x2="45.72" y2="-182.88" width="0.1524" layer="91"/>
-<pinref part="M2-2" gate="G$1" pin="P$1"/>
-<wire x1="60.96" y1="-198.12" x2="45.72" y2="-198.12" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-198.12" x2="45.72" y2="-182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="M2-1" gate="G$1" pin="P$1"/>
-<wire x1="60.96" y1="-172.72" x2="50.8" y2="-172.72" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-172.72" x2="50.8" y2="-177.8" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-3" pin="S"/>
-<wire x1="50.8" y1="-177.8" x2="27.94" y2="-177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
