@@ -164,7 +164,7 @@
 <text x="133.096" y="14.732" size="1.6764" layer="21" rot="R180" align="bottom-center">Missouri S&amp;T Mars Rover 
 Cameron Nichols 
 Power Board 2016</text>
-<text x="77.47" y="3.048" size="3.81" layer="21">+   -
+<text x="76.454" y="3.048" size="3.81" layer="21">+   -
 VPACK</text>
 <text x="89.408" y="121.412" size="1.778" layer="21" rot="R90">REY-5V</text>
 <wire x1="0" y1="0" x2="153.924" y2="0" width="0" layer="20"/>
