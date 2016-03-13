@@ -237,43 +237,36 @@
 <description>3-Pin D&lt;sup&gt;2&lt;/sup&gt;PAK
 						&lt;br&gt;
 						2-pin w/ tab</description>
-<wire x1="-5.2" y1="-4.575" x2="-5.2" y2="4.575" width="0.2032" layer="51"/>
-<wire x1="5.2" y1="4.575" x2="5.2" y2="-4.575" width="0.2032" layer="51"/>
-<wire x1="5.2" y1="-4.575" x2="-5.2" y2="-4.575" width="0.2032" layer="21"/>
-<wire x1="-5.2" y1="-4.575" x2="-5.2" y2="-3.175" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="-4.575" x2="5.2" y2="-3.175" width="0.2032" layer="21"/>
-<rectangle x1="2.015" y1="-9.775" x2="3.065" y2="-6.575" layer="51"/>
-<rectangle x1="-3.065" y1="-9.775" x2="-2.015" y2="-6.575" layer="51"/>
-<rectangle x1="-0.525" y1="-6.375" x2="0.525" y2="-4.475" layer="21"/>
-<rectangle x1="-3.065" y1="-6.375" x2="-2.015" y2="-4.475" layer="21"/>
-<rectangle x1="2.015" y1="-6.375" x2="3.065" y2="-4.475" layer="21"/>
-<smd name="1" x="-2.54" y="-8.275" dx="1.6" dy="3.5" layer="1"/>
-<smd name="2" x="2.54" y="-8.275" dx="1.6" dy="3.5" layer="1"/>
-<smd name="TAB" x="0" y="2" dx="12.2" dy="9.75" layer="1"/>
+<wire x1="0" y1="-0.003" x2="0" y2="9.147" width="0.2032" layer="21"/>
+<wire x1="10.16" y1="9.147" x2="10.16" y2="-0.003" width="0.2032" layer="21"/>
+<wire x1="10.16" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="1.397" width="0.2032" layer="21"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="1.397" width="0.2032" layer="21"/>
+<rectangle x1="7.095" y1="-5.457" x2="8.145" y2="-2.257" layer="21"/>
+<rectangle x1="2.015" y1="-5.457" x2="3.065" y2="-2.257" layer="21"/>
+<rectangle x1="4.555" y1="-1.803" x2="5.605" y2="0.097" layer="21"/>
+<rectangle x1="2.015" y1="-1.803" x2="3.065" y2="0.097" layer="21"/>
+<rectangle x1="7.095" y1="-1.803" x2="8.145" y2="0.097" layer="21"/>
+<smd name="1" x="2.54" y="-4.191" dx="2.0828" dy="3.81" layer="1"/>
+<smd name="2" x="7.62" y="-4.191" dx="2.0828" dy="3.81" layer="1"/>
+<smd name="TAB" x="5.08" y="6.604" dx="10.16" dy="7.62" layer="1"/>
 <text x="-4.953" y="-3.556" size="0.4318" layer="25">&gt;Name</text>
 <text x="-4.953" y="-4.318" size="0.4318" layer="27">&gt;Value</text>
-<polygon width="0.2032" layer="51">
-<vertex x="-5.2" y="4.6"/>
-<vertex x="-5.2" y="5.7"/>
-<vertex x="-2.8" y="6.075"/>
-<vertex x="2.8" y="6.075"/>
-<vertex x="5.2" y="5.7"/>
-<vertex x="5.2" y="4.6"/>
+<polygon width="0.2032" layer="21">
+<vertex x="0" y="9.172"/>
+<vertex x="0" y="9.891"/>
+<vertex x="2.661" y="10.393"/>
+<vertex x="7.753" y="10.393"/>
+<vertex x="10.16" y="9.891"/>
+<vertex x="10.16" y="9.172"/>
 </polygon>
-<polygon width="0.127" layer="51">
-<vertex x="-4.25" y="-1.925"/>
-<vertex x="-4.25" y="0"/>
-<vertex x="-3.6" y="0"/>
-<vertex x="-3.6" y="3.4"/>
-<vertex x="-2.8" y="3.4"/>
-<vertex x="-2.8" y="6.075"/>
-<vertex x="2.8" y="6.075"/>
-<vertex x="2.8" y="3.4"/>
-<vertex x="3.6" y="3.4"/>
-<vertex x="3.6" y="0"/>
-<vertex x="4.25" y="0"/>
-<vertex x="4.25" y="-1.925"/>
-</polygon>
+<dimension x1="-1.27" y1="2.794" x2="-1.27" y2="-6.096" x3="-2.794" y3="-1.651" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="15.494" y1="10.414" x2="15.494" y2="-6.096" x3="18.034" y3="2.159" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="11.684" y1="2.794" x2="11.684" y2="-2.286" x3="12.954" y3="0.254" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="-2.794" y1="2.794" x2="-2.794" y2="10.414" x3="-2.286" y3="6.604" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="0" y1="11.43" x2="10.16" y2="11.43" x3="5.08" y3="12.192" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="1.524" y1="-6.35" x2="3.556" y2="-6.35" x3="2.54" y3="-8.382" textsize="1.27" layer="47" unit="inch"/>
+<dimension x1="9.144" y1="-2.286" x2="9.144" y2="-6.096" x3="24.13" y3="-4.191" textsize="1.27" layer="47" unit="inch"/>
 </package>
 <package name="691321100002">
 <pad name="L" x="-1.79" y="0" drill="1.4"/>
@@ -13333,18 +13326,50 @@ diameter 5 mm, horizontal, grid 17 mm</description>
 </library>
 <library name="MRDT-Connectors">
 <packages>
+<package name="APP45_MOUNTING_WING_HORIZ">
+<wire x1="0" y1="0" x2="-16.764" y2="0" width="0.127" layer="51"/>
+<wire x1="-16.764" y1="0" x2="-16.764" y2="1.651" width="0.127" layer="51"/>
+<wire x1="-16.764" y1="1.651" x2="-16.764" y2="6.223" width="0.127" layer="51"/>
+<wire x1="-16.764" y1="6.223" x2="-16.764" y2="7.9375" width="0.127" layer="51"/>
+<wire x1="-16.764" y1="7.9375" x2="0" y2="7.9375" width="0.127" layer="51"/>
+<wire x1="0" y1="7.9375" x2="0" y2="6.223" width="0.127" layer="51"/>
+<wire x1="0" y1="6.223" x2="0" y2="1.651" width="0.127" layer="51"/>
+<wire x1="0" y1="1.651" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="7.874" x2="0" y2="8.382" width="0.127" layer="49" style="shortdash"/>
+<wire x1="0" y1="8.382" x2="-12.319" y2="8.382" width="0.127" layer="49" style="shortdash"/>
+<wire x1="-12.319" y1="8.382" x2="-12.319" y2="7.874" width="0.127" layer="49" style="shortdash"/>
+<wire x1="0" y1="0" x2="0" y2="0.508" width="0.127" layer="49" style="shortdash"/>
+<wire x1="-12.319" y1="0.508" x2="-12.319" y2="0" width="0.127" layer="49" style="shortdash"/>
+<wire x1="-9.652" y1="6.223" x2="-9.652" y2="1.651" width="0.127" layer="51"/>
+<wire x1="-9.652" y1="1.651" x2="-5.08" y2="1.651" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="1.651" x2="-5.08" y2="6.223" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="6.223" x2="-9.652" y2="6.223" width="0.127" layer="51"/>
+<wire x1="0" y1="6.223" x2="-16.764" y2="6.223" width="0.127" layer="51" style="shortdash"/>
+<wire x1="0" y1="1.651" x2="-16.764" y2="1.651" width="0.127" layer="51" style="shortdash"/>
+<hole x="-7.366" y="3.96875" drill="4.318"/>
+<wire x1="-12.319" y1="0.508" x2="0" y2="0.508" width="0.127" layer="49" style="shortdash"/>
+<wire x1="-10.795" y1="3.937" x2="-7.366" y2="0.508" width="0.127" layer="49" style="shortdash" curve="90"/>
+<wire x1="-7.366" y1="0.508" x2="-3.937" y2="3.937" width="0.127" layer="49" style="shortdash" curve="90"/>
+<wire x1="-3.937" y1="3.937" x2="-7.366" y2="7.366" width="0.127" layer="49" style="shortdash" curve="90"/>
+<wire x1="-7.366" y1="7.366" x2="-10.795" y2="3.937" width="0.127" layer="49" style="shortdash" curve="90"/>
+<dimension x1="-7.366" y1="3.937" x2="-4.9413375" y2="6.3616625" x3="-6.15366875" y3="5.14933125" textsize="1.27" layer="47" dtype="radius" unit="inch" precision="3" visible="yes"/>
+<dimension x1="-5.31779375" y1="4.619734375" x2="-9.41420625" y2="3.254265625" x3="-9.41420625" y3="3.254265625" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="3" visible="yes"/>
+<dimension x1="0" y1="6.223" x2="0" y2="1.651" x3="1.397" y3="3.937" textsize="1.27" layer="47" unit="inch" precision="3" visible="yes"/>
+<dimension x1="0" y1="0" x2="-16.764" y2="0" x3="-8.382" y3="-3.556" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="3" visible="yes"/>
+<dimension x1="-16.764" y1="7.9375" x2="-16.51" y2="0" x3="-22.86" y3="3.96875" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="5"/>
+</package>
 <package name="APP45_PCB_HORIZ_RIGHT">
-<pad name="P$1" x="28.194" y="3.937" drill="4.064" thermals="no"/>
-<wire x1="0" y1="0" x2="0" y2="7.874" width="0.127" layer="51"/>
-<wire x1="0" y1="7.874" x2="8.001" y2="7.874" width="0.127" layer="51"/>
-<wire x1="8.001" y1="7.874" x2="8.89" y2="7.874" width="0.127" layer="51"/>
-<wire x1="11.176" y1="7.874" x2="24.638" y2="7.874" width="0.127" layer="51"/>
-<wire x1="24.638" y1="7.874" x2="24.638" y2="0" width="0.127" layer="51"/>
+<pad name="P$1" x="28.194" y="3.96875" drill="4.064" thermals="no"/>
+<wire x1="0" y1="0" x2="0" y2="7.9375" width="0.127" layer="51"/>
+<wire x1="0" y1="7.9375" x2="8.001" y2="7.9375" width="0.127" layer="51"/>
+<wire x1="8.001" y1="7.9375" x2="8.89" y2="7.9375" width="0.127" layer="51"/>
+<wire x1="11.176" y1="7.9375" x2="24.638" y2="7.9375" width="0.127" layer="51"/>
+<wire x1="24.638" y1="7.9375" x2="24.638" y2="0" width="0.127" layer="51"/>
 <wire x1="24.638" y1="0" x2="11.176" y2="0" width="0.127" layer="51"/>
 <wire x1="8.89" y1="0" x2="8.001" y2="0" width="0.127" layer="51"/>
 <wire x1="8.001" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
-<wire x1="8.001" y1="0" x2="8.001" y2="7.874" width="0.127" layer="51" style="shortdash"/>
-<wire x1="11.176" y1="7.874" x2="8.89" y2="7.874" width="0.127" layer="51" curve="-180"/>
+<wire x1="8.001" y1="0" x2="8.001" y2="7.9375" width="0.127" layer="51" style="shortdash"/>
+<wire x1="11.176" y1="7.9375" x2="8.89" y2="7.9375" width="0.127" layer="51" curve="-180"/>
 <wire x1="8.89" y1="0" x2="11.176" y2="0" width="0.127" layer="51" curve="-180"/>
 <wire x1="24.638" y1="0" x2="24.638" y2="-0.508" width="0.127" layer="49" style="shortdash"/>
 <wire x1="24.638" y1="-0.508" x2="12.319" y2="-0.508" width="0.127" layer="49" style="shortdash"/>
@@ -13359,63 +13384,8 @@ diameter 5 mm, horizontal, grid 17 mm</description>
 <dimension x1="0" y1="0" x2="10.033" y2="0" x3="5.0165" y3="-7.62" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
 <dimension x1="0" y1="0" x2="8.001" y2="0" x3="4.0005" y3="-3.048" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
 <dimension x1="0" y1="0" x2="28.194" y2="3.937" x3="14.097" y3="-16.256" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
-<dimension x1="24.638" y1="7.874" x2="24.638" y2="0" x3="34.798" y3="3.937" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
 <dimension x1="11.176" y1="7.874" x2="8.89" y2="7.874" x3="10.033" y3="9.398" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="3" visible="yes"/>
-</package>
-<package name="APP45_MOUNTING_WING_HORIZ">
-<wire x1="0" y1="0" x2="-16.764" y2="0" width="0.127" layer="51"/>
-<wire x1="-16.764" y1="0" x2="-16.764" y2="1.651" width="0.127" layer="51"/>
-<wire x1="-16.764" y1="1.651" x2="-16.764" y2="6.223" width="0.127" layer="51"/>
-<wire x1="-16.764" y1="6.223" x2="-16.764" y2="7.874" width="0.127" layer="51"/>
-<wire x1="-16.764" y1="7.874" x2="0" y2="7.874" width="0.127" layer="51"/>
-<wire x1="0" y1="7.874" x2="0" y2="6.223" width="0.127" layer="51"/>
-<wire x1="0" y1="6.223" x2="0" y2="1.651" width="0.127" layer="51"/>
-<wire x1="0" y1="1.651" x2="0" y2="0" width="0.127" layer="51"/>
-<wire x1="0" y1="7.874" x2="0" y2="8.382" width="0.127" layer="49" style="shortdash"/>
-<wire x1="0" y1="8.382" x2="-12.319" y2="8.382" width="0.127" layer="49" style="shortdash"/>
-<wire x1="-12.319" y1="8.382" x2="-12.319" y2="7.874" width="0.127" layer="49" style="shortdash"/>
-<wire x1="0" y1="0" x2="0" y2="0.508" width="0.127" layer="49" style="shortdash"/>
-<wire x1="-12.319" y1="0.508" x2="-12.319" y2="0" width="0.127" layer="49" style="shortdash"/>
-<wire x1="-9.652" y1="6.223" x2="-9.652" y2="1.651" width="0.127" layer="51"/>
-<wire x1="-9.652" y1="1.651" x2="-5.08" y2="1.651" width="0.127" layer="51"/>
-<wire x1="-5.08" y1="1.651" x2="-5.08" y2="6.223" width="0.127" layer="51"/>
-<wire x1="-5.08" y1="6.223" x2="-9.652" y2="6.223" width="0.127" layer="51"/>
-<wire x1="0" y1="6.223" x2="-16.764" y2="6.223" width="0.127" layer="51" style="shortdash"/>
-<wire x1="0" y1="1.651" x2="-16.764" y2="1.651" width="0.127" layer="51" style="shortdash"/>
-<hole x="-7.366" y="3.937" drill="4.318"/>
-<wire x1="-12.319" y1="0.508" x2="0" y2="0.508" width="0.127" layer="49" style="shortdash"/>
-<wire x1="-10.795" y1="3.937" x2="-7.366" y2="0.508" width="0.127" layer="49" style="shortdash" curve="90"/>
-<wire x1="-7.366" y1="0.508" x2="-3.937" y2="3.937" width="0.127" layer="49" style="shortdash" curve="90"/>
-<wire x1="-3.937" y1="3.937" x2="-7.366" y2="7.366" width="0.127" layer="49" style="shortdash" curve="90"/>
-<wire x1="-7.366" y1="7.366" x2="-10.795" y2="3.937" width="0.127" layer="49" style="shortdash" curve="90"/>
-<dimension x1="-7.366" y1="3.937" x2="-4.9413375" y2="6.3616625" x3="-6.15366875" y3="5.14933125" textsize="1.27" layer="47" dtype="radius" unit="inch" precision="3" visible="yes"/>
-<dimension x1="-5.31779375" y1="4.619734375" x2="-9.41420625" y2="3.254265625" x3="-9.41420625" y3="3.254265625" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="3" visible="yes"/>
-<dimension x1="0" y1="6.223" x2="0" y2="1.651" x3="1.397" y3="3.937" textsize="1.27" layer="47" unit="inch" precision="3" visible="yes"/>
-<dimension x1="0" y1="0" x2="-0.762" y2="7.874" x3="5.969" y3="3.937" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="3" visible="yes"/>
-<dimension x1="0" y1="0" x2="-16.764" y2="0" x3="-8.382" y3="-3.556" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="3" visible="yes"/>
-</package>
-<package name="APP45_PCB_HORIZ_RIGHT_2HIGH">
-<wire x1="0" y1="0" x2="0" y2="7.874" width="0.127" layer="51"/>
-<wire x1="0" y1="7.874" x2="8.001" y2="7.874" width="0.127" layer="51"/>
-<wire x1="8.001" y1="7.874" x2="8.89" y2="7.874" width="0.127" layer="51"/>
-<wire x1="11.176" y1="7.874" x2="24.638" y2="7.874" width="0.127" layer="51"/>
-<wire x1="24.638" y1="7.874" x2="24.638" y2="0" width="0.127" layer="51"/>
-<wire x1="24.638" y1="0" x2="11.176" y2="0" width="0.127" layer="51"/>
-<wire x1="8.89" y1="0" x2="8.001" y2="0" width="0.127" layer="51"/>
-<wire x1="8.001" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
-<wire x1="8.001" y1="0" x2="8.001" y2="7.874" width="0.127" layer="51" style="shortdash"/>
-<pad name="P$2" x="36.068" y="3.937" drill="4.064" thermals="no"/>
-<wire x1="11.176" y1="7.874" x2="8.89" y2="7.874" width="0.127" layer="51" curve="-180"/>
-<wire x1="8.89" y1="0" x2="11.176" y2="0" width="0.127" layer="51" curve="-180"/>
-<wire x1="24.638" y1="0" x2="24.638" y2="-0.508" width="0.127" layer="49" style="shortdash"/>
-<wire x1="24.638" y1="-0.508" x2="12.319" y2="-0.508" width="0.127" layer="49" style="shortdash"/>
-<wire x1="12.319" y1="-0.508" x2="12.319" y2="0" width="0.127" layer="49" style="shortdash"/>
-<wire x1="24.638" y1="7.874" x2="24.638" y2="7.366" width="0.127" layer="49" style="shortdash"/>
-<wire x1="24.638" y1="7.366" x2="12.319" y2="7.366" width="0.127" layer="49" style="shortdash"/>
-<wire x1="12.319" y1="7.366" x2="12.319" y2="7.874" width="0.127" layer="49" style="shortdash"/>
-<wire x1="24.638" y1="2.286" x2="12.319" y2="2.286" width="0.127" layer="49" style="shortdash"/>
-<wire x1="12.319" y1="2.286" x2="12.319" y2="5.588" width="0.127" layer="49" style="shortdash"/>
-<wire x1="12.319" y1="5.588" x2="24.638" y2="5.588" width="0.127" layer="49" style="shortdash"/>
+<dimension x1="24.638" y1="7.9375" x2="24.638" y2="0" x3="36.83" y3="3.96875" textsize="1.27" layer="47" unit="inch" precision="4"/>
 </package>
 <package name="APP45_PCB_VERT">
 <wire x1="0" y1="0" x2="0" y2="7.874" width="0.127" layer="51"/>
@@ -13488,9 +13458,32 @@ diameter 5 mm, horizontal, grid 17 mm</description>
 <wire x1="0" y1="7.874" x2="0" y2="0" width="0.127" layer="49" style="shortdash"/>
 <dimension x1="7.366" y1="3.937" x2="0.508" y2="3.937" x3="0.508" y3="3.937" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="4" visible="yes"/>
 </package>
+<package name="APP45_PCB_HORIZ_RIGHT_2HIGH">
+<wire x1="0" y1="0" x2="0" y2="7.9375" width="0.127" layer="51"/>
+<wire x1="0" y1="7.9375" x2="8.001" y2="7.9375" width="0.127" layer="51"/>
+<wire x1="8.001" y1="7.9375" x2="8.89" y2="7.9375" width="0.127" layer="51"/>
+<wire x1="11.176" y1="7.9375" x2="24.638" y2="7.9375" width="0.127" layer="51"/>
+<wire x1="24.638" y1="7.9375" x2="24.638" y2="0" width="0.127" layer="51"/>
+<wire x1="24.638" y1="0" x2="11.176" y2="0" width="0.127" layer="51"/>
+<wire x1="8.89" y1="0" x2="8.001" y2="0" width="0.127" layer="51"/>
+<wire x1="8.001" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="8.001" y1="0" x2="8.001" y2="7.9375" width="0.127" layer="51" style="shortdash"/>
+<pad name="P$2" x="36.068" y="3.96875" drill="4.064" thermals="no"/>
+<wire x1="11.176" y1="7.9375" x2="8.89" y2="7.9375" width="0.127" layer="51" curve="-180"/>
+<wire x1="8.89" y1="0" x2="11.176" y2="0" width="0.127" layer="51" curve="-180"/>
+<wire x1="24.638" y1="0" x2="24.638" y2="-0.508" width="0.127" layer="49" style="shortdash"/>
+<wire x1="24.638" y1="-0.508" x2="12.319" y2="-0.508" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="-0.508" x2="12.319" y2="0" width="0.127" layer="49" style="shortdash"/>
+<wire x1="24.638" y1="7.874" x2="24.638" y2="7.366" width="0.127" layer="49" style="shortdash"/>
+<wire x1="24.638" y1="7.366" x2="12.319" y2="7.366" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="7.366" x2="12.319" y2="7.874" width="0.127" layer="49" style="shortdash"/>
+<wire x1="24.638" y1="2.286" x2="12.319" y2="2.286" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="2.286" x2="12.319" y2="5.588" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="5.588" x2="24.638" y2="5.588" width="0.127" layer="49" style="shortdash"/>
+</package>
 </packages>
 <symbols>
-<symbol name="ANDERSON_POWERPOLE">
+<symbol name="APP">
 <pin name="P$1" x="-7.62" y="0" length="middle"/>
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
@@ -13506,15 +13499,15 @@ diameter 5 mm, horizontal, grid 17 mm</description>
 <wire x1="10.16" y1="5.08" x2="10.16" y2="0" width="0.254" layer="94" style="shortdash"/>
 <wire x1="10.16" y1="0" x2="0" y2="0" width="0.254" layer="94" style="shortdash"/>
 <text x="5.08" y="1.524" size="1.27" layer="97" align="center">MOUNTING
-WING
-</text>
+      WING
+     </text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ANDERSON_POWERPOLE">
+<deviceset name="APP">
 <description>http://www.powerwerx.com/anderson-powerpoles/</description>
 <gates>
-<gate name="G$1" symbol="ANDERSON_POWERPOLE" x="0" y="0"/>
+<gate name="G$1" symbol="APP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="PP45_PCB_HORIZ_RIGHT_2HIGH" package="APP45_PCB_HORIZ_RIGHT_2HIGH">
@@ -15327,12 +15320,30 @@ Org</text>
 <library name="MRDT-Hardware">
 <packages>
 <package name="#8_SCREW">
+<description>BOLT DIA.: .162"
+HOLE DIA.: .17"
+HEAD DIA.: .265"</description>
 <hole x="0" y="0" drill="4.318"/>
-<circle x="0" y="0" radius="3.429" width="0.127" layer="51"/>
-<wire x1="2.0828" y1="0" x2="0" y2="2.0828" width="0.127" layer="49" style="shortdash" curve="90"/>
-<wire x1="0" y1="2.0828" x2="-2.0828" y2="0" width="0.127" layer="49" style="shortdash" curve="90"/>
-<wire x1="-2.0828" y1="0" x2="0" y2="-2.0828" width="0.127" layer="49" style="shortdash" curve="90"/>
-<wire x1="0" y1="-2.0828" x2="2.0828" y2="0" width="0.127" layer="49" style="shortdash" curve="90"/>
+<circle x="0" y="0" radius="3.3655" width="0.127" layer="51"/>
+<dimension x1="2.033221875" y1="0.72615" x2="-2.033221875" y2="-0.72615" x3="-2.033221875" y3="-0.72615" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="5" visible="yes"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="2.159" y1="0" x2="0" y2="-2.159" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="0" y1="-2.159" x2="-2.159" y2="0" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<dimension x1="3.3655" y1="0" x2="-3.3655" y2="0" x3="-3.3655" y3="0" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="6" visible="yes"/>
+</package>
+<package name="#6_SCREW">
+<description>BOLT DIA.: .136"
+HOLE DIA.: .14"
+HEAD DIA.: .22"</description>
+<circle x="0" y="0" radius="1.778" width="0.0254" layer="20"/>
+<dimension x1="1.257234375" y1="1.257234375" x2="-1.257234375" y2="-1.257234375" x3="-1.257234375" y3="-1.257234375" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="6" visible="yes"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="51"/>
+<dimension x1="2.634715625" y1="0.9299" x2="-2.634715625" y2="-0.9299" x3="-2.634715625" y3="-0.9299" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="6" visible="yes"/>
+<wire x1="0" y1="-1.778" x2="-1.778" y2="0" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="-1.778" y1="0" x2="0" y2="1.778" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="1.778" y1="0" x2="0" y2="-1.778" width="0.127" layer="49" style="shortdash" curve="-90"/>
 </package>
 </packages>
 <symbols>
@@ -15347,11 +15358,21 @@ HOLE</text>
 </symbols>
 <devicesets>
 <deviceset name="MOUNTING_HOLE">
+<description>Mounting hole for M6 bolt.
+Standard use mounting hole for:
+Tiva C Connected - M6
+Anderson Powerpole Mounting Wing - M8
+Most frame-mounted PCB's - M8</description>
 <gates>
 <gate name="G$1" symbol="MOUNTING_HOLES" x="0" y="0"/>
 </gates>
 <devices>
 <device name="#8" package="#8_SCREW">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="#6" package="#6_SCREW">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -15532,15 +15553,15 @@ HOLE</text>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120 Ohm"/>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120 Ohm"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BOTAPP-M1" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="TOPAPP-M1" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="BOTAPP-M1" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="TOPAPP-M1" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="APPPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="U$41" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="HORIZ"/>
 <part name="U$42" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="HORIZ"/>
 <part name="U$25" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="HORIZ"/>
-<part name="U$26" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
-<part name="U$27" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
-<part name="U$28" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT"/>
-<part name="U$29" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT"/>
+<part name="U$26" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="APPPP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="U$27" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="APPPP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="U$28" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT" value="APPPP45_PCB_HORIZ_RIGHT"/>
+<part name="U$29" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT" value="APPPP45_PCB_HORIZ_RIGHT"/>
 <part name="C13" library="resistor" deviceset="C-US" device="C1206" value="1uF"/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C14" library="resistor" deviceset="C-US" device="C1206" value="1uF"/>
@@ -15586,8 +15607,8 @@ HOLE</text>
 <part name="ACS714-M2" library="MRDT-2015-PowerBoard" deviceset="Q_ACS714" device="" value="ACS714LLCTR-50A-T"/>
 <part name="FILTERCAP-M2" library="resistor" deviceset="C-US" device="C1206" value="1nF"/>
 <part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BOTAPP-M2" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="TOPAPP-M2" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="BOTAPP-M2" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="TOPAPP-M2" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="APPPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="FET-M3" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="LT1910-M3" library="Jake" deviceset="LT1910" device=""/>
@@ -15603,8 +15624,8 @@ HOLE</text>
 <part name="ACS714-M3" library="MRDT-2015-PowerBoard" deviceset="Q_ACS714" device="" value="ACS714LLCTR-50A-T"/>
 <part name="FILTERCAP-M3" library="resistor" deviceset="C-US" device="C1206" value="1nF"/>
 <part name="GND51" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BOTAPP-M3" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="TOPAPP-M3" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="BOTAPP-M3" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="TOPAPP-M3" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="APPPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="FET-M4" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="LT1910-M4" library="Jake" deviceset="LT1910" device=""/>
@@ -15620,8 +15641,8 @@ HOLE</text>
 <part name="ACS714-M4" library="MRDT-2015-PowerBoard" deviceset="Q_ACS714" device="" value="ACS714LLCTR-50A-T"/>
 <part name="FILTERCAP-M4" library="resistor" deviceset="C-US" device="C1206" value="1nF"/>
 <part name="GND57" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BOTAPP-M4" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="TOPAPP-M4" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="BOTAPP-M4" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="TOPAPP-M4" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="APPPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="FET-M5" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="LT1910-M5" library="Jake" deviceset="LT1910" device=""/>
@@ -15637,8 +15658,8 @@ HOLE</text>
 <part name="ACS714-M5" library="MRDT-2015-PowerBoard" deviceset="Q_ACS714" device="" value="ACS714LLCTR-50A-T"/>
 <part name="FILTERCAP-M5" library="resistor" deviceset="C-US" device="C1206" value="1nF"/>
 <part name="GND63" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BOTAPP-M5" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="TOPAPP-M5" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="BOTAPP-M5" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="TOPAPP-M5" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="APPPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="FET-M6" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="LT1910-M6" library="Jake" deviceset="LT1910" device=""/>
@@ -15654,8 +15675,8 @@ HOLE</text>
 <part name="ACS714-M6" library="MRDT-2015-PowerBoard" deviceset="Q_ACS714" device="" value="ACS714LLCTR-50A-T"/>
 <part name="FILTERCAP-M6" library="resistor" deviceset="C-US" device="C1206" value="1nF"/>
 <part name="GND69" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BOTAPP-M6" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="TOPAPP-M6" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="BOTAPP-M6" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="TOPAPP-M6" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="APPPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="FET-M7" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="LT1910-M7" library="Jake" deviceset="LT1910" device=""/>
@@ -15671,8 +15692,8 @@ HOLE</text>
 <part name="ACS714-M7" library="MRDT-2015-PowerBoard" deviceset="Q_ACS714" device="" value="ACS714LLCTR-50A-T"/>
 <part name="FILTERCAP-M7" library="resistor" deviceset="C-US" device="C1206" value="1nF"/>
 <part name="GND79" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BOTAPP-M7" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="TOPAPP-M7" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="BOTAPP-M7" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="TOPAPP-M7" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="APPPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="FET-M8" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD" value="Q_IRFS7437PbF"/>
 <part name="LT1910-M8" library="Jake" deviceset="LT1910" device=""/>
@@ -15688,8 +15709,8 @@ HOLE</text>
 <part name="ACS714-M8" library="MRDT-2015-PowerBoard" deviceset="Q_ACS714" device="" value="ACS714LLCTR-50A-T"/>
 <part name="FILTERCAP-M8" library="resistor" deviceset="C-US" device="C1206" value="1nF"/>
 <part name="GND85" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BOTAPP-M8" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT"/>
-<part name="TOPAPP-M8" library="MRDT-Connectors" deviceset="ANDERSON_POWERPOLE" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="ANDERSON_POWERPOLEPP45_PCB_HORIZ_RIGHT_2HIGH"/>
+<part name="BOTAPP-M8" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT"/>
+<part name="TOPAPP-M8" library="MRDT-Connectors" deviceset="APP" device="PP45_PCB_HORIZ_RIGHT_2HIGH" value="APPPP45_PCB_HORIZ_RIGHT_2HIGH"/>
 <part name="U$1" library="MRDT-2015-General" deviceset="TIVA-C-CONNECTED" device=""/>
 <part name="U$2" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="HORIZ"/>
 <part name="U$4" library="MRDT-Connectors" deviceset="APP_MOUTING_WING" device="HORIZ"/>
@@ -16016,9 +16037,9 @@ HOLE</text>
 <instance part="U$2" gate="G$1" x="-162.56" y="93.98"/>
 <instance part="U$4" gate="G$1" x="-162.56" y="86.36"/>
 <instance part="U$5" gate="G$1" x="-320.04" y="-55.88"/>
-<instance part="U$8" gate="G$1" x="-162.56" y="68.58"/>
-<instance part="U$10" gate="G$1" x="-149.86" y="68.58"/>
-<instance part="U$11" gate="G$1" x="-162.56" y="60.96"/>
+<instance part="U$8" gate="G$1" x="-149.86" y="86.36"/>
+<instance part="U$10" gate="G$1" x="-149.86" y="78.74"/>
+<instance part="U$11" gate="G$1" x="-162.56" y="78.74"/>
 <instance part="U$7" gate="G$1" x="15.24" y="129.54"/>
 <instance part="SUPPLY18" gate="G$1" x="-22.86" y="-30.48"/>
 <instance part="SUPPLY19" gate="G$1" x="187.96" y="91.44"/>
