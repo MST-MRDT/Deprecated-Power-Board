@@ -15743,8 +15743,8 @@ Most frame-mounted PCB's - M8</description>
 <part name="GND91" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$9" library="LM74670-Q1" deviceset="LM74670-Q1" device=""/>
 <part name="U$13" library="LM74670-Q1" deviceset="LM74670-Q1" device=""/>
-<part name="Q1" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD"/>
-<part name="Q3" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="FDD8780"/>
+<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="FDD8780"/>
 <part name="C9" library="resistor" deviceset="C-US" device="C1206" value="1uF"/>
 <part name="C10" library="resistor" deviceset="C-US" device="C1206" value="1uF"/>
 <part name="SUPPLY31" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
@@ -16071,8 +16071,8 @@ Most frame-mounted PCB's - M8</description>
 <instance part="GND91" gate="1" x="-132.08" y="30.48"/>
 <instance part="U$9" gate="G$1" x="35.56" y="58.42"/>
 <instance part="U$13" gate="G$1" x="35.56" y="17.78"/>
-<instance part="Q1" gate="G$1" x="0" y="38.1" rot="MR90"/>
-<instance part="Q3" gate="G$1" x="0" y="78.74" rot="MR90"/>
+<instance part="Q1" gate="G$1" x="2.54" y="40.64" rot="MR90"/>
+<instance part="Q3" gate="G$1" x="2.54" y="81.28" rot="MR90"/>
 <instance part="C9" gate="G$1" x="63.5" y="60.96"/>
 <instance part="C10" gate="G$1" x="63.5" y="20.32"/>
 <instance part="SUPPLY31" gate="G$1" x="200.66" y="-76.2"/>
@@ -17964,7 +17964,7 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="-25.4" y1="81.28" x2="-20.32" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="ANODE"/>
 <wire x1="-20.32" y1="81.28" x2="-12.7" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="81.28" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="81.28" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="53.34" x2="-12.7" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="53.34" x2="-12.7" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="1"/>
@@ -17978,7 +17978,7 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="-25.4" y1="40.64" x2="-20.32" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="ANODE"/>
 <wire x1="-20.32" y1="40.64" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="40.64" x2="-7.62" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="40.64" x2="-2.54" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="12.7" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="1"/>
@@ -17992,7 +17992,7 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="15.24" y1="58.42" x2="2.54" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="58.42" x2="2.54" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="GATE_DRIVE"/>
-<wire x1="2.54" y1="63.5" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="63.5" x2="2.54" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="63.5" x2="2.54" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -18002,7 +18002,7 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="15.24" y1="17.78" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="17.78" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="30.48" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="33.02" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="GATE_DRIVE"/>
 <wire x1="2.54" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
 </segment>
