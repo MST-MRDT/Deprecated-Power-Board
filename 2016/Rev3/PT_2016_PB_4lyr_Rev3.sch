@@ -16056,11 +16056,13 @@ Most frame-mounted PCB's - M8</description>
 <part name="SUPPLY31" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="Q4" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
 <part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_PNP" device="MMBT4403" value="MMBT4403"/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120 Ohm"/>
-<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120 Ohm"/>
-<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120 Ohm"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1k"/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1k"/>
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1k"/>
 <part name="SUPPLY32" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1k"/>
+<part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16393,6 +16395,8 @@ Most frame-mounted PCB's - M8</description>
 <instance part="R9" gate="G$1" x="-48.26" y="144.78" rot="R90"/>
 <instance part="SUPPLY32" gate="G$1" x="-40.64" y="152.4"/>
 <instance part="GND16" gate="1" x="-38.1" y="109.22"/>
+<instance part="R11" gate="G$1" x="-55.88" y="119.38" rot="R90"/>
+<instance part="GND17" gate="1" x="-55.88" y="111.76"/>
 </instances>
 <busses>
 </busses>
@@ -17009,6 +17013,10 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="GND16" gate="1" pin="GND"/>
 <junction x="-38.1" y="111.76"/>
 </segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="V_BATT" class="0">
 <segment>
@@ -17403,9 +17411,12 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="SIG-5V" class="0">
 <segment>
-<wire x1="-53.34" y1="129.54" x2="-60.96" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="129.54" x2="-55.88" y2="129.54" width="0.1524" layer="91"/>
 <label x="-60.96" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="Q4" gate="G$1" pin="B"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="-55.88" y1="129.54" x2="-60.96" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="124.46" x2="-55.88" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-167.64" y1="-137.16" x2="-172.72" y2="-137.16" width="0.1524" layer="91"/>
