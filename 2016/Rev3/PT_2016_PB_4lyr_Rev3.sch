@@ -15524,7 +15524,7 @@ Most frame-mounted PCB's - M8</description>
 <part name="C8" library="resistor" deviceset="C-US" device="C1206" value=".1uF"/>
 <part name="GND86" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="R5" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="R1206" value="100k"/>
 <part name="GND91" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$9" library="LM74670-Q1" deviceset="LM74670-Q1" device=""/>
 <part name="U$13" library="LM74670-Q1" deviceset="LM74670-Q1" device=""/>
@@ -16826,30 +16826,6 @@ Most frame-mounted PCB's - M8</description>
 <segment>
 <wire x1="-132.08" y1="-35.56" x2="-127" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="+3V3"/>
-</segment>
-</net>
-<net name="N$100" class="0">
-<segment>
-<wire x1="-132.08" y1="-43.18" x2="-127" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="RST"/>
-</segment>
-</net>
-<net name="N$101" class="0">
-<segment>
-<wire x1="-132.08" y1="-48.26" x2="-127" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PB2"/>
-</segment>
-</net>
-<net name="N$102" class="0">
-<segment>
-<wire x1="-132.08" y1="-50.8" x2="-127" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PB3"/>
-</segment>
-</net>
-<net name="N$110" class="0">
-<segment>
-<wire x1="-132.08" y1="-73.66" x2="-127" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PD5"/>
 </segment>
 </net>
 <net name="IMEAS-5V" class="0">
