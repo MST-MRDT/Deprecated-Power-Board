@@ -15170,65 +15170,54 @@ Most frame-mounted PCB's - M8</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="LM74670-Q1">
+<library name="LM5050">
 <packages>
-<package name="LM74670-Q1">
-<smd name="P$1" x="-0.95" y="2.1" dx="0.45" dy="1.45" layer="1" rot="R180"/>
-<smd name="P$2" x="-0.3" y="2.1" dx="0.45" dy="1.45" layer="1" rot="R180"/>
-<smd name="P$3" x="0.35" y="2.1" dx="0.45" dy="1.45" layer="1" rot="R180"/>
-<smd name="P$4" x="1" y="2.1" dx="0.45" dy="1.45" layer="1" rot="R180"/>
-<smd name="P$5" x="-0.95" y="-2.3" dx="0.45" dy="1.45" layer="1" rot="R180"/>
-<smd name="P$6" x="-0.3" y="-2.3" dx="0.45" dy="1.45" layer="1" rot="R180"/>
-<smd name="P$7" x="0.35" y="-2.3" dx="0.45" dy="1.45" layer="1" rot="R180"/>
-<smd name="P$8" x="1" y="-2.3" dx="0.45" dy="1.45" layer="1" rot="R180"/>
-<dimension x1="1.8" y1="2.1" x2="1.8" y2="-2.3" x3="6.7" y3="-0.1" textsize="1.27" layer="47"/>
-<dimension x1="0.35" y1="-3.2" x2="1" y2="-3.2" x3="0.675" y3="-6.1" textsize="1.27" layer="47"/>
-<dimension x1="0.775" y1="2.9" x2="1.225" y2="2.9" x3="1" y3="4.4" textsize="1.27" layer="47"/>
-<dimension x1="-1.8" y1="2.825" x2="-1.8" y2="1.375" x3="-6.5" y3="2.1" textsize="1.27" layer="47"/>
-<dimension x1="1.8" y1="2.825" x2="1.8" y2="-3.025" x3="10.7" y3="-0.1" textsize="1.27" layer="47"/>
-<wire x1="-1.525" y1="1.196" x2="-1.525" y2="-1.396" width="0.127" layer="21"/>
-<wire x1="-1.525" y1="-1.396" x2="-1.271" y2="-1.65" width="0.127" layer="21" curve="90"/>
-<wire x1="-1.271" y1="-1.65" x2="1.321" y2="-1.65" width="0.127" layer="21"/>
-<wire x1="-1.525" y1="1.196" x2="-1.271" y2="1.45" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.321" y1="-1.65" x2="1.575" y2="-1.396" width="0.127" layer="21" curve="90"/>
-<wire x1="1.575" y1="-1.396" x2="1.575" y2="1.196" width="0.127" layer="21"/>
-<wire x1="1.575" y1="1.196" x2="1.321" y2="1.45" width="0.127" layer="21" curve="90"/>
-<wire x1="1.321" y1="1.45" x2="-1.271" y2="1.45" width="0.127" layer="21"/>
-<circle x="-1" y="-1.1" radius="0.22360625" width="0.127" layer="21"/>
+<package name="LM5050">
+<smd name="P$1" x="0" y="-1.35" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="1.35" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$3" x="0.95" y="-1.35" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$4" x="-0.95" y="-1.35" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$5" x="-0.95" y="1.35" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$6" x="0.95" y="1.35" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<dimension x1="1.5" y1="1.35" x2="1.5" y2="-1.35" x3="8.3" y3="0" textsize="1.27" layer="47" precision="3"/>
+<dimension x1="0.65" y1="-2" x2="1.25" y2="-2" x3="0.95" y3="-3.6" textsize="1.27" layer="47" precision="3"/>
+<dimension x1="-0.95" y1="2.15" x2="0" y2="2.15" x3="-0.475" y3="2.7" textsize="1.27" layer="47" precision="3"/>
+<wire x1="-1.525" y1="-0.875" x2="-1.525" y2="0.875" width="0.127" layer="21"/>
+<wire x1="-1.525" y1="0.875" x2="1.525" y2="0.875" width="0.127" layer="21"/>
+<wire x1="1.525" y1="0.875" x2="1.525" y2="-0.875" width="0.127" layer="21"/>
+<wire x1="1.525" y1="-0.875" x2="-1.525" y2="-0.875" width="0.127" layer="21"/>
+<circle x="-1.2" y="-0.5" radius="0.14141875" width="0.127" layer="21"/>
+<dimension x1="-1.9" y1="-0.8" x2="-1.9" y2="-1.9" x3="-7" y3="-1.35" textsize="1.27" layer="47" precision="3"/>
 </package>
 </packages>
 <symbols>
-<symbol name="LM74670-Q1">
-<wire x1="-15.24" y1="12.7" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
-<pin name="CATHODE" x="20.32" y="-5.08" length="middle" rot="R180"/>
-<pin name="V_CAP_H" x="20.32" y="5.08" length="middle" rot="R180"/>
-<pin name="GATE_DRIVE" x="-20.32" y="5.08" length="middle"/>
-<pin name="NC2" x="20.32" y="10.16" length="middle" rot="R180"/>
-<pin name="V_CAP_L" x="20.32" y="0" length="middle" rot="R180"/>
-<pin name="GATE_PULL_DOWN" x="-20.32" y="0" length="middle"/>
-<pin name="NC" x="-20.32" y="10.16" length="middle"/>
-<pin name="ANODE" x="-20.32" y="-5.08" length="middle"/>
-<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
-<wire x1="15.24" y1="12.7" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<symbol name="LM5050">
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="VS" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="GND" x="-10.16" y="-5.08" length="middle"/>
+<pin name="OFF" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="IN" x="-10.16" y="0" length="middle"/>
+<pin name="GATE" x="-10.16" y="5.08" length="middle"/>
+<pin name="OUT" x="15.24" y="0" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LM74670-Q1">
+<deviceset name="LM5050">
 <gates>
-<gate name="G$1" symbol="LM74670-Q1" x="0" y="-2.54"/>
+<gate name="G$1" symbol="LM5050" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="LM74670-Q1">
+<device name="" package="LM5050">
 <connects>
-<connect gate="G$1" pin="ANODE" pad="P$8"/>
-<connect gate="G$1" pin="CATHODE" pad="P$1"/>
-<connect gate="G$1" pin="GATE_DRIVE" pad="P$3"/>
-<connect gate="G$1" pin="GATE_PULL_DOWN" pad="P$6"/>
-<connect gate="G$1" pin="NC" pad="P$7"/>
-<connect gate="G$1" pin="NC2" pad="P$4"/>
-<connect gate="G$1" pin="V_CAP_H" pad="P$2"/>
-<connect gate="G$1" pin="V_CAP_L" pad="P$5"/>
+<connect gate="G$1" pin="GATE" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="IN" pad="P$6"/>
+<connect gate="G$1" pin="OFF" pad="P$3"/>
+<connect gate="G$1" pin="OUT" pad="P$5"/>
+<connect gate="G$1" pin="VS" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15526,12 +15515,8 @@ Most frame-mounted PCB's - M8</description>
 <part name="SUPPLY30" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="R5" library="resistor" deviceset="R-US_" device="R1206" value="100k"/>
 <part name="GND91" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$9" library="LM74670-Q1" deviceset="LM74670-Q1" device=""/>
-<part name="U$13" library="LM74670-Q1" deviceset="LM74670-Q1" device=""/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="FDD8780"/>
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="FDD8780"/>
-<part name="C9" library="resistor" deviceset="C-US" device="C1206" value="1uF"/>
-<part name="C10" library="resistor" deviceset="C-US" device="C1206" value="1uF"/>
 <part name="SUPPLY31" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="Q4" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
 <part name="SUPPLY32" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
@@ -15542,6 +15527,10 @@ Most frame-mounted PCB's - M8</description>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="100k"/>
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="100k"/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="U$6" library="LM5050" deviceset="LM5050" device=""/>
+<part name="U$9" library="LM5050" deviceset="LM5050" device=""/>
+<part name="GND92" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND93" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15859,12 +15848,8 @@ Most frame-mounted PCB's - M8</description>
 <instance part="SUPPLY30" gate="G$1" x="180.34" y="12.7"/>
 <instance part="R5" gate="G$1" x="-132.08" y="38.1" rot="R270"/>
 <instance part="GND91" gate="1" x="-132.08" y="30.48"/>
-<instance part="U$9" gate="G$1" x="35.56" y="58.42"/>
-<instance part="U$13" gate="G$1" x="35.56" y="17.78"/>
-<instance part="Q1" gate="G$1" x="2.54" y="40.64" rot="MR90"/>
-<instance part="Q3" gate="G$1" x="2.54" y="81.28" rot="MR90"/>
-<instance part="C9" gate="G$1" x="63.5" y="60.96"/>
-<instance part="C10" gate="G$1" x="63.5" y="20.32"/>
+<instance part="Q1" gate="G$1" x="22.86" y="40.64" rot="MR90"/>
+<instance part="Q3" gate="G$1" x="22.86" y="81.28" rot="MR90"/>
 <instance part="SUPPLY31" gate="G$1" x="200.66" y="-76.2"/>
 <instance part="Q4" gate="G$1" x="-27.94" y="121.92"/>
 <instance part="SUPPLY32" gate="G$1" x="-38.1" y="137.16"/>
@@ -15875,6 +15860,10 @@ Most frame-mounted PCB's - M8</description>
 <instance part="R1" gate="G$1" x="-58.42" y="116.84" rot="R180"/>
 <instance part="R6" gate="G$1" x="-50.8" y="109.22" rot="R270"/>
 <instance part="GND35" gate="1" x="-50.8" y="101.6"/>
+<instance part="U$6" gate="G$1" x="40.64" y="58.42"/>
+<instance part="U$9" gate="G$1" x="40.64" y="17.78"/>
+<instance part="GND92" gate="1" x="30.48" y="48.26"/>
+<instance part="GND93" gate="1" x="30.48" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -16494,6 +16483,16 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="GND"/>
+<pinref part="GND92" gate="1" pin="GND"/>
+<wire x1="30.48" y1="53.34" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="GND"/>
+<pinref part="GND93" gate="1" pin="GND"/>
+<wire x1="30.48" y1="12.7" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="V_BATT" class="0">
 <segment>
@@ -16976,18 +16975,24 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="116.84" y1="48.26" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
 <junction x="116.84" y="50.8"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="7.62" y1="81.28" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="CATHODE"/>
-<wire x1="73.66" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="53.34" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="53.34" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="7.62" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="40.64" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="40.64" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="CATHODE"/>
-<wire x1="55.88" y1="12.7" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="12.7" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="VS"/>
+<wire x1="55.88" y1="63.5" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="63.5" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="OUT"/>
+<wire x1="55.88" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="58.42" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="VS"/>
+<wire x1="55.88" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="22.86" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="OUT"/>
+<wire x1="55.88" y1="17.78" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="17.78" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SIG-M1" class="0">
@@ -17735,13 +17740,13 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="FINN-12V" gate="G$1" pin="+VOUT"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <wire x1="-25.4" y1="81.28" x2="-20.32" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="ANODE"/>
-<wire x1="-20.32" y1="81.28" x2="-12.7" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="81.28" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="53.34" x2="-12.7" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="53.34" x2="-12.7" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="81.28" x2="15.24" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="81.28" x2="17.78" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="76.2" x2="-20.32" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="IN"/>
+<wire x1="30.48" y1="58.42" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="58.42" x2="15.24" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -17749,65 +17754,13 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="POE-12V" gate="G$1" pin="+VOUT"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="-25.4" y1="40.64" x2="-20.32" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="ANODE"/>
-<wire x1="-20.32" y1="40.64" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="40.64" x2="-2.54" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="12.7" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="35.56" x2="-20.32" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U$9" gate="G$1" pin="GATE_PULL_DOWN"/>
-<pinref part="Q3" gate="G$1" pin="G"/>
-<wire x1="15.24" y1="58.42" x2="2.54" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="58.42" x2="2.54" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="GATE_DRIVE"/>
-<wire x1="2.54" y1="63.5" x2="2.54" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="63.5" x2="2.54" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$13" gate="G$1" pin="GATE_PULL_DOWN"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="15.24" y1="17.78" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="17.78" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="33.02" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="GATE_DRIVE"/>
-<wire x1="2.54" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U$9" gate="G$1" pin="V_CAP_H"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U$9" gate="G$1" pin="V_CAP_L"/>
-<wire x1="55.88" y1="58.42" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U$13" gate="G$1" pin="V_CAP_H"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U$13" gate="G$1" pin="V_CAP_L"/>
-<wire x1="55.88" y1="17.78" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="IN"/>
+<wire x1="30.48" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="17.78" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -17838,6 +17791,22 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="Q2" gate="G$1" pin="C"/>
 <wire x1="-43.18" y1="121.92" x2="-38.1" y2="121.92" width="0.1524" layer="91"/>
 <junction x="-38.1" y="121.92"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="GATE"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
+<wire x1="30.48" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="63.5" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="GATE"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="30.48" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="22.86" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
