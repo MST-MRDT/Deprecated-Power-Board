@@ -408,4 +408,6 @@ Text GLabel 9000 1900 3    50   Input ~ 0
 PD_3
 Wire Wire Line
 	9000 1500 9000 1900
+Text Notes 6600 1300 2    50   ~ 0
+* Shrink these down\n* Add 6 more\n
 $EndSCHEMATC
