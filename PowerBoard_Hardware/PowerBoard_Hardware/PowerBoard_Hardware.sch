@@ -107,17 +107,6 @@ F 3 "~" H 2850 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR?
-U 1 1 5D95318B
-P 4300 1250
-F 0 "#PWR?" H 4300 1100 50  0001 C CNN
-F 1 "+24V" H 4315 1423 50  0000 C CNN
-F 2 "" H 4300 1250 50  0001 C CNN
-F 3 "" H 4300 1250 50  0001 C CNN
-	1    4300 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5D953A3B
 P 4300 1500
@@ -255,17 +244,6 @@ F 2 "" H 4700 1200 60  0001 C CNN
 F 3 "" H 4700 1200 60  0001 C CNN
 	1    4850 1750
 	0    1    1    0   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 4 1 5D97C517
-P 5300 2250
-F 0 "Conn?" V 5400 2200 60  0000 R CNN
-F 1 "AndersonPP" V 5300 2200 60  0000 R CNN
-F 2 "" H 5150 1700 60  0001 C CNN
-F 3 "" H 5150 1700 60  0001 C CNN
-	4    5300 2250
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -452,17 +430,6 @@ F 3 "~" H 2850 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR?
-U 1 1 5D9E1C19
-P 4300 2700
-F 0 "#PWR?" H 4300 2550 50  0001 C CNN
-F 1 "+24V" H 4315 2873 50  0000 C CNN
-F 2 "" H 4300 2700 50  0001 C CNN
-F 3 "" H 4300 2700 50  0001 C CNN
-	1    4300 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5D9E1C1F
 P 4300 2950
@@ -513,17 +480,6 @@ F 3 "" H 4700 2650 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 4 1 5D9E1C3A
-P 5300 3700
-F 0 "Conn?" V 5400 3650 60  0000 R CNN
-F 1 "AndersonPP" V 5300 3650 60  0000 R CNN
-F 2 "" H 5150 3150 60  0001 C CNN
-F 3 "" H 5150 3150 60  0001 C CNN
-	4    5300 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5D9E1C40
 P 4950 3700
@@ -561,7 +517,7 @@ $EndComp
 Wire Wire Line
 	6400 3300 6400 3650
 Text GLabel 6300 3350 3    50   Input ~ 0
-PD_3
+PA_6
 Wire Wire Line
 	2850 3000 2900 3000
 Wire Wire Line
@@ -708,17 +664,6 @@ F 3 "~" H 7150 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR?
-U 1 1 5DA0D9F2
-P 8600 1300
-F 0 "#PWR?" H 8600 1150 50  0001 C CNN
-F 1 "+24V" H 8615 1473 50  0000 C CNN
-F 2 "" H 8600 1300 50  0001 C CNN
-F 3 "" H 8600 1300 50  0001 C CNN
-	1    8600 1300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5DA0D9F8
 P 8600 1550
@@ -769,25 +714,14 @@ F 3 "" H 9000 1250 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 4 1 5DA0DA13
-P 9600 2300
-F 0 "Conn?" V 9700 2250 60  0000 R CNN
-F 1 "AndersonPP" V 9600 2250 60  0000 R CNN
-F 2 "" H 9450 1750 60  0001 C CNN
-F 3 "" H 9450 1750 60  0001 C CNN
-	4    9600 2300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5DA0DA19
-P 9250 2300
-F 0 "#PWR?" H 9250 2050 50  0001 C CNN
-F 1 "GND" H 9255 2127 50  0000 C CNN
-F 2 "" H 9250 2300 50  0001 C CNN
-F 3 "" H 9250 2300 50  0001 C CNN
-	1    9250 2300
+P 9250 2650
+F 0 "#PWR?" H 9250 2400 50  0001 C CNN
+F 1 "GND" H 9255 2477 50  0000 C CNN
+F 2 "" H 9250 2650 50  0001 C CNN
+F 3 "" H 9250 2650 50  0001 C CNN
+	1    9250 2650
 	1    0    0    -1  
 $EndComp
 Text GLabel 7100 1750 0    50   Input ~ 0
@@ -817,7 +751,7 @@ $EndComp
 Wire Wire Line
 	10700 1900 10700 2250
 Text GLabel 10600 1950 3    50   Input ~ 0
-PD_3
+PD_7
 Wire Wire Line
 	7150 1600 7200 1600
 Wire Wire Line
@@ -860,9 +794,6 @@ $EndComp
 Wire Wire Line
 	8600 1400 8350 1400
 Wire Wire Line
-	8600 1300 8600 1400
-Connection ~ 8600 1400
-Wire Wire Line
 	8400 2250 8400 2300
 Wire Wire Line
 	8400 2300 8400 2400
@@ -896,8 +827,6 @@ Wire Wire Line
 	9600 1850 9500 1850
 Wire Wire Line
 	9500 1850 9500 1900
-Wire Wire Line
-	9250 2200 9250 2300
 Wire Wire Line
 	10500 2250 10500 2150
 Connection ~ 10500 2150
@@ -942,17 +871,6 @@ F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 5DA221AE
-P 7200 2700
-F 0 "#PWR?" H 7200 2550 50  0001 C CNN
-F 1 "+5V" H 7215 2873 50  0000 C CNN
-F 2 "" H 7200 2700 50  0001 C CNN
-F 3 "" H 7200 2700 50  0001 C CNN
-	1    7200 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5DA221B4
 P 7200 2900
@@ -961,17 +879,6 @@ F 1 "5.1k" H 7270 2855 50  0000 L CNN
 F 2 "" V 7130 2900 50  0001 C CNN
 F 3 "~" H 7200 2900 50  0001 C CNN
 	1    7200 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR?
-U 1 1 5DA221BA
-P 8650 2750
-F 0 "#PWR?" H 8650 2600 50  0001 C CNN
-F 1 "+24V" H 8665 2923 50  0000 C CNN
-F 2 "" H 8650 2750 50  0001 C CNN
-F 3 "" H 8650 2750 50  0001 C CNN
-	1    8650 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1025,17 +932,6 @@ F 3 "" H 9050 2700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 4 1 5DA221DB
-P 9650 3750
-F 0 "Conn?" V 9750 3700 60  0000 R CNN
-F 1 "AndersonPP" V 9650 3700 60  0000 R CNN
-F 2 "" H 9500 3200 60  0001 C CNN
-F 3 "" H 9500 3200 60  0001 C CNN
-	4    9650 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5DA221E1
 P 9300 3750
@@ -1073,7 +969,7 @@ $EndComp
 Wire Wire Line
 	10750 3350 10750 3700
 Text GLabel 10650 3400 3    50   Input ~ 0
-PD_3
+PM_4
 Wire Wire Line
 	7200 3050 7250 3050
 Wire Wire Line
@@ -1220,17 +1116,6 @@ F 3 "~" H 2900 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR?
-U 1 1 5DA2DAB1
-P 4350 4350
-F 0 "#PWR?" H 4350 4200 50  0001 C CNN
-F 1 "+24V" H 4365 4523 50  0000 C CNN
-F 2 "" H 4350 4350 50  0001 C CNN
-F 3 "" H 4350 4350 50  0001 C CNN
-	1    4350 4350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5DA2DAB7
 P 4350 4600
@@ -1281,17 +1166,6 @@ F 3 "" H 4750 4300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 4 1 5DA2DAD2
-P 5350 5350
-F 0 "Conn?" V 5450 5300 60  0000 R CNN
-F 1 "AndersonPP" V 5350 5300 60  0000 R CNN
-F 2 "" H 5200 4800 60  0001 C CNN
-F 3 "" H 5200 4800 60  0001 C CNN
-	4    5350 5350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5DA2DAD8
 P 5000 5350
@@ -1329,7 +1203,7 @@ $EndComp
 Wire Wire Line
 	6450 4950 6450 5300
 Text GLabel 6350 5000 3    50   Input ~ 0
-PD_3
+PM_5
 Wire Wire Line
 	2900 4650 2950 4650
 Wire Wire Line
@@ -1476,17 +1350,6 @@ F 3 "~" H 7200 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR?
-U 1 1 5DA436E7
-P 8650 4350
-F 0 "#PWR?" H 8650 4200 50  0001 C CNN
-F 1 "+24V" H 8665 4523 50  0000 C CNN
-F 2 "" H 8650 4350 50  0001 C CNN
-F 3 "" H 8650 4350 50  0001 C CNN
-	1    8650 4350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5DA436ED
 P 8650 4600
@@ -1537,17 +1400,6 @@ F 3 "" H 9050 4300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 4 1 5DA43708
-P 9650 5350
-F 0 "Conn?" V 9750 5300 60  0000 R CNN
-F 1 "AndersonPP" V 9650 5300 60  0000 R CNN
-F 2 "" H 9500 4800 60  0001 C CNN
-F 3 "" H 9500 4800 60  0001 C CNN
-	4    9650 5350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5DA4370E
 P 9300 5350
@@ -1585,7 +1437,7 @@ $EndComp
 Wire Wire Line
 	10750 4950 10750 5300
 Text GLabel 10650 5000 3    50   Input ~ 0
-PD_3
+PB_2
 Wire Wire Line
 	7200 4650 7250 4650
 Wire Wire Line
@@ -1732,17 +1584,6 @@ F 3 "~" H 2950 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR?
-U 1 1 5DA59DFF
-P 4400 6050
-F 0 "#PWR?" H 4400 5900 50  0001 C CNN
-F 1 "+24V" H 4415 6223 50  0000 C CNN
-F 2 "" H 4400 6050 50  0001 C CNN
-F 3 "" H 4400 6050 50  0001 C CNN
-	1    4400 6050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5DA59E05
 P 4400 6300
@@ -1793,17 +1634,6 @@ F 3 "" H 4800 6000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 4 1 5DA59E20
-P 5400 7050
-F 0 "Conn?" V 5500 7000 60  0000 R CNN
-F 1 "AndersonPP" V 5400 7000 60  0000 R CNN
-F 2 "" H 5250 6500 60  0001 C CNN
-F 3 "" H 5250 6500 60  0001 C CNN
-	4    5400 7050
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5DA59E26
 P 5050 7050
@@ -1841,7 +1671,7 @@ $EndComp
 Wire Wire Line
 	6500 6650 6500 7000
 Text GLabel 6400 6700 3    50   Input ~ 0
-PD_3
+PB_3
 Wire Wire Line
 	2950 6350 3000 6350
 Wire Wire Line
@@ -1939,4 +1769,239 @@ Wire Wire Line
 	4200 6700 4200 6350
 Wire Wire Line
 	4200 6350 4150 6350
+$Comp
+L Device:Fuse F?
+U 1 1 5D97AB27
+P 9250 2450
+F 0 "F?" H 9310 2496 50  0000 L CNN
+F 1 "Fuse" H 9310 2405 50  0000 L CNN
+F 2 "" V 9180 2450 50  0001 C CNN
+F 3 "~" H 9250 2450 50  0001 C CNN
+	1    9250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 5 1 5D980584
+P 9600 2300
+F 0 "Conn?" V 9650 2200 60  0000 R CNN
+F 1 "AndersonPP" V 9550 2200 60  0000 R CNN
+F 2 "" H 9450 1750 60  0001 C CNN
+F 3 "" H 9450 1750 60  0001 C CNN
+	5    9600 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 1250 8600 1400
+Connection ~ 8600 1400
+Wire Wire Line
+	9250 2650 9250 2600
+Wire Wire Line
+	9250 2300 9250 2200
+Text Notes 8150 900  0    50   ~ 0
+* Place fuses after \nsensor through the andersons\n
+Wire Wire Line
+	1350 3350 1350 3500
+Wire Wire Line
+	1200 3350 1350 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5D9D16D9
+P 1350 3500
+F 0 "#PWR?" H 1350 3250 50  0001 C CNN
+F 1 "GND" H 1355 3327 50  0000 C CNN
+F 2 "" H 1350 3500 50  0001 C CNN
+F 3 "" H 1350 3500 50  0001 C CNN
+	1    1350 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 2800 1350 2800
+$Comp
+L power:VDD #PWR?
+U 1 1 5D9BDC0A
+P 1100 2800
+F 0 "#PWR?" H 1100 2650 50  0001 C CNN
+F 1 "VDD" V 1118 2927 50  0000 L CNN
+F 2 "" H 1100 2800 50  0001 C CNN
+F 3 "" H 1100 2800 50  0001 C CNN
+	1    1100 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5D97FB62
+P 800 3450
+F 0 "Conn?" H 1008 3837 60  0000 C CNN
+F 1 "AndersonPP" H 1008 3731 60  0000 C CNN
+F 2 "" H 650 2900 60  0001 C CNN
+F 3 "" H 650 2900 60  0001 C CNN
+	1    800  3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 4 1 5D97D673
+P 1750 2700
+F 0 "Conn?" H 1722 2747 60  0000 R CNN
+F 1 "AndersonPP" H 1722 2853 60  0000 R CNN
+F 2 "" H 1600 2150 60  0001 C CNN
+F 3 "" H 1600 2150 60  0001 C CNN
+	4    1750 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5D97B35E
+P 8600 1250
+F 0 "#PWR?" H 8600 1100 50  0001 C CNN
+F 1 "VDD" H 8617 1423 50  0000 C CNN
+F 2 "" H 8600 1250 50  0001 C CNN
+F 3 "" H 8600 1250 50  0001 C CNN
+	1    8600 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5DA55359
+P 4300 1250
+F 0 "#PWR?" H 4300 1100 50  0001 C CNN
+F 1 "VDD" H 4317 1423 50  0000 C CNN
+F 2 "" H 4300 1250 50  0001 C CNN
+F 3 "" H 4300 1250 50  0001 C CNN
+	1    4300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5DA5671A
+P 4300 2700
+F 0 "#PWR?" H 4300 2550 50  0001 C CNN
+F 1 "VDD" H 4317 2873 50  0000 C CNN
+F 2 "" H 4300 2700 50  0001 C CNN
+F 3 "" H 4300 2700 50  0001 C CNN
+	1    4300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5DA59AC4
+P 4350 4350
+F 0 "#PWR?" H 4350 4200 50  0001 C CNN
+F 1 "VDD" H 4367 4523 50  0000 C CNN
+F 2 "" H 4350 4350 50  0001 C CNN
+F 3 "" H 4350 4350 50  0001 C CNN
+	1    4350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5DA5AB17
+P 8650 2750
+F 0 "#PWR?" H 8650 2600 50  0001 C CNN
+F 1 "VDD" H 8667 2923 50  0000 C CNN
+F 2 "" H 8650 2750 50  0001 C CNN
+F 3 "" H 8650 2750 50  0001 C CNN
+	1    8650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DA5B932
+P 7200 2700
+F 0 "#PWR?" H 7200 2550 50  0001 C CNN
+F 1 "+5V" H 7215 2873 50  0000 C CNN
+F 2 "" H 7200 2700 50  0001 C CNN
+F 3 "" H 7200 2700 50  0001 C CNN
+	1    7200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5DA5C607
+P 8650 4350
+F 0 "#PWR?" H 8650 4200 50  0001 C CNN
+F 1 "VDD" H 8667 4523 50  0000 C CNN
+F 2 "" H 8650 4350 50  0001 C CNN
+F 3 "" H 8650 4350 50  0001 C CNN
+	1    8650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5DA5D63F
+P 4400 6050
+F 0 "#PWR?" H 4400 5900 50  0001 C CNN
+F 1 "VDD" H 4417 6223 50  0000 C CNN
+F 2 "" H 4400 6050 50  0001 C CNN
+F 3 "" H 4400 6050 50  0001 C CNN
+	1    4400 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 5 1 5DA61E26
+P 5300 2250
+F 0 "Conn?" V 5350 2200 60  0000 R CNN
+F 1 "AndersonPP" V 5250 2200 60  0000 R CNN
+F 2 "" H 5150 1700 60  0001 C CNN
+F 3 "" H 5150 1700 60  0001 C CNN
+	5    5300 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 5 1 5DA63D07
+P 5300 3700
+F 0 "Conn?" V 5250 3650 60  0000 R CNN
+F 1 "AndersonPP" V 5150 3650 60  0000 R CNN
+F 2 "" H 5150 3150 60  0001 C CNN
+F 3 "" H 5150 3150 60  0001 C CNN
+	5    5300 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 5 1 5DA6612E
+P 9650 3750
+F 0 "Conn?" V 9750 3700 60  0000 R CNN
+F 1 "AndersonPP" V 9650 3700 60  0000 R CNN
+F 2 "" H 9500 3200 60  0001 C CNN
+F 3 "" H 9500 3200 60  0001 C CNN
+	5    9650 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 5 1 5DA670D8
+P 9650 5350
+F 0 "Conn?" V 9650 5300 60  0000 R CNN
+F 1 "AndersonPP" V 9550 5300 60  0000 R CNN
+F 2 "" H 9500 4800 60  0001 C CNN
+F 3 "" H 9500 4800 60  0001 C CNN
+	5    9650 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 5 1 5DA69292
+P 5350 5350
+F 0 "Conn?" V 5400 5300 60  0000 R CNN
+F 1 "AndersonPP" V 5300 5300 60  0000 R CNN
+F 2 "" H 5200 4800 60  0001 C CNN
+F 3 "" H 5200 4800 60  0001 C CNN
+	5    5350 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 5 1 5DA6A62B
+P 5400 7050
+F 0 "Conn?" V 5450 7000 60  0000 R CNN
+F 1 "AndersonPP" V 5350 7000 60  0000 R CNN
+F 2 "" H 5250 6500 60  0001 C CNN
+F 3 "" H 5250 6500 60  0001 C CNN
+	5    5400 7050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
