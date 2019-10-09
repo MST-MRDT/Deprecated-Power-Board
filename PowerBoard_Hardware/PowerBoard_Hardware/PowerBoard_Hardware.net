@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Patri\OneDrive\Documents\GitHub\PowerBoard_Hardware\PowerBoard_Hardware\PowerBoard_Hardware\PowerBoard_Hardware.sch)
-    (date "10/8/2019 8:30:29 PM")
+    (date "10/8/2019 8:33:52 PM")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

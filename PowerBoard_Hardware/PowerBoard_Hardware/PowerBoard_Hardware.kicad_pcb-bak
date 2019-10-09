@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -167,7 +167,7 @@
   (net 74 "Net-(R9-Pad2)")
   (net 75 "Net-(R10-Pad2)")
   (net 76 "Net-(R11-Pad2)")
-  (net 77 PVDD)
+  (net 77 VPP)
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -252,7 +252,20 @@
     (add_net PE_5)
     (add_net PM_4)
     (add_net PM_5)
-    (add_net PVDD)
+    (add_net VPP)
+  )
+
+  (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5AD71971) (tstamp 5D9DF505)
+    (at -81.28 182.88 180)
+    (path /5D97FB62)
+    (fp_text reference Conn1 (at 0 10.16) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value AndersonPP (at 0 -10.033) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 180) (size 18.288 18.288) (drill 9.144) (layers *.Cu *.Mask)
+      (net 1 GND) (zone_connect 2))
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5D9DE086)
@@ -427,7 +440,7 @@
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -463,7 +476,7 @@
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -497,7 +510,7 @@
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
@@ -533,7 +546,7 @@
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
@@ -823,7 +836,7 @@
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -857,7 +870,7 @@
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
@@ -893,7 +906,7 @@
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
@@ -2133,7 +2146,7 @@
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 49 "Net-(Q1-Pad1)"))
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2167,7 +2180,7 @@
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 52 "Net-(Q2-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
@@ -2205,7 +2218,7 @@
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 57 "Net-(Q3-Pad1)"))
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2241,7 +2254,7 @@
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 60 "Net-(Q4-Pad1)"))
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2385,7 +2398,7 @@
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 63 "Net-(Q5-Pad1)"))
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2419,7 +2432,7 @@
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 64 "Net-(Q6-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
@@ -2457,7 +2470,7 @@
     (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 67 "Net-(Q7-Pad1)"))
     (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 77 PVDD))
+      (net 77 VPP))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2509,7 +2522,7 @@
     (pad 6 smd rect (at 2.7 0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 49 "Net-(Q1-Pad1)"))
     (pad 8 smd rect (at 2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
-      (net 77 PVDD))
+      (net 77 VPP))
     (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8-N7_3.9x4.9mm_P1.27mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2561,7 +2574,7 @@
     (pad 6 smd rect (at 2.7 0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 52 "Net-(Q2-Pad1)"))
     (pad 8 smd rect (at 2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
-      (net 77 PVDD))
+      (net 77 VPP))
     (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8-N7_3.9x4.9mm_P1.27mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2613,7 +2626,7 @@
     (pad 6 smd rect (at 2.7 0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 57 "Net-(Q3-Pad1)"))
     (pad 8 smd rect (at 2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
-      (net 77 PVDD))
+      (net 77 VPP))
     (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8-N7_3.9x4.9mm_P1.27mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2653,7 +2666,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 8 smd rect (at 2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
-      (net 77 PVDD))
+      (net 77 VPP))
     (pad 6 smd rect (at 2.7 0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 60 "Net-(Q4-Pad1)"))
     (pad 5 smd rect (at 2.7 1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
@@ -2921,7 +2934,7 @@
     (pad 6 smd rect (at 2.7 0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 63 "Net-(Q5-Pad1)"))
     (pad 8 smd rect (at 2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
-      (net 77 PVDD))
+      (net 77 VPP))
     (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8-N7_3.9x4.9mm_P1.27mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2961,7 +2974,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 8 smd rect (at 2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
-      (net 77 PVDD))
+      (net 77 VPP))
     (pad 6 smd rect (at 2.7 0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 64 "Net-(Q6-Pad1)"))
     (pad 5 smd rect (at 2.7 1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
@@ -3013,7 +3026,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 8 smd rect (at 2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
-      (net 77 PVDD))
+      (net 77 VPP))
     (pad 6 smd rect (at 2.7 0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 67 "Net-(Q7-Pad1)"))
     (pad 5 smd rect (at 2.7 1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
@@ -3197,19 +3210,6 @@
     )
     (pad 1 thru_hole circle (at 0 0 180) (size 18.288 18.288) (drill 9.144) (layers *.Cu *.Mask)
       (net 1 GND) (zone_connect 2))
-  )
-
-  (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5AD71971) (tstamp 5D9D89D7)
-    (at -84.582 184.023)
-    (path /5D97D673)
-    (fp_text reference Conn15 (at 0 10.16) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value AndersonPP (at 0 -10.033) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 18.288 18.288) (drill 9.144) (layers *.Cu *.Mask)
-      (zone_connect 2))
   )
 
   (gr_line (start -7.62 68.58) (end -7.62 195.58) (layer F.SilkS) (width 0.12) (tstamp 5D9DEC4F))
