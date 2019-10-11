@@ -20,7 +20,7 @@ U 1 1 5D93E56E
 P 1350 2150
 F 0 "Conn2" H 1250 2050 60  0000 L CNN
 F 1 "Molex_SL_10" H 1100 1950 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_10_Horizontal" H 1350 2650 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_10_Vertical" H 1350 2650 60  0001 C CNN
 F 3 "" H 1350 2650 60  0001 C CNN
 	1    1350 2150
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5D93FBA5
 P 1550 2150
 F 0 "Conn3" H 1400 3450 60  0000 L CNN
 F 1 "Molex_SL_10" H 1200 3250 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_10_Horizontal" H 1550 2650 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_10_Vertical" H 1550 2650 60  0001 C CNN
 F 3 "" H 1550 2650 60  0001 C CNN
 	1    1550 2150
 	-1   0    0    -1  
@@ -487,7 +487,7 @@ F 3 "" H 4950 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2800 3150 0    50   Input ~ 0
-PE_0
+PE_2
 $Comp
 L Device:C_Small C2
 U 1 1 5D9E1C47
@@ -719,7 +719,7 @@ F 3 "" H 9250 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7100 1750 0    50   Input ~ 0
-PE_0
+PE_1
 $Comp
 L Device:C_Small C13
 U 1 1 5DA0DA20
@@ -937,7 +937,7 @@ F 3 "" H 9300 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7150 3200 0    50   Input ~ 0
-PE_0
+PE_3
 $Comp
 L Device:C_Small C14
 U 1 1 5DA221E8
@@ -1167,7 +1167,7 @@ F 3 "" H 5000 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2850 4800 0    50   Input ~ 0
-PE_0
+PE_4
 $Comp
 L Device:C_Small C3
 U 1 1 5DA2DADF
@@ -1399,7 +1399,7 @@ F 3 "" H 9300 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7150 4800 0    50   Input ~ 0
-PE_0
+PC_4
 $Comp
 L Device:C_Small C15
 U 1 1 5DA43715
@@ -1629,7 +1629,7 @@ F 3 "" H 5050 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2900 6500 0    50   Input ~ 0
-PE_0
+PC_5
 $Comp
 L Device:C_Small C4
 U 1 1 5DA59E2D
