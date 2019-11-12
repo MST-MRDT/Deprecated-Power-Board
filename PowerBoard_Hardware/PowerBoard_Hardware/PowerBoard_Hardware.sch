@@ -2006,4 +2006,6 @@ Text GLabel 4350 4350 1    50   Input ~ 0
 PVDD
 Text GLabel 4400 6050 1    50   Input ~ 0
 PVDD
+Text Notes 500  5250 0    50   ~ 0
+LAYOUT:\n*Make the layout increase the vertical dimension \nand decrease the horizintal dimentions \n(to condense the design and eliminate wasted space)\n*Move the GND and the Vin vias apart from \neach other on the layout\n*Ground the frame of the layout\n \nSCHEMATIC: \n*Add LEDs or some sort of indicator to the schematic\n*Protection diodes should be added for the MOSFETs\n\n
 $EndSCHEMATC
