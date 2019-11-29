@@ -1,0 +1,11 @@
+6 motor busses - 5 busses each side - max 5.5"
+
+Separate LEDs for FETs - wire labels
+	Color text - Orange for all besides 12V(Green) and Rockets/AUX(Blue)
+	Change resistors to 2.5k
+Use normal 50V capacitors for 10uF on LT conn 5
+Add text inside resistors
+Put fuses at beginning
+Change MOSFET type
+Get rid of pre-FET resistor
+Add 1nF cap between ISense 6 and GND
