@@ -1,0 +1,40 @@
+PowerBoard Rev 1 2019 Pin Map
+Pins that are assigned from the Tiva to the board.
+
+Row A1
+A1_1 (+3V3) = 3.3V (3.3 Volt signal)
+
+Row A2
+A2_1 (+3V3) = 3.3V (3.3 Volt Signal)
+
+Row B1
+B1_10 (PM5) = EX_ON (Spare Bus activation signal) [Digital]
+B1_9 (PM4) = 12V_ON (12V Bus activation signal) [Digital]
+B1_8 (PA6) = AUX_ON (Auxiliary Bus activation signal) [Digital]
+B1_7 (PD7) = RKT_ON (Rocket Bus activation signal) [Digital]
+B1_6 (PE3) = RKT_CURR (Rocket Bus current sensor) [Analog]
+B1_5 (PE2) = AUX_CURR (Auxiliary Bus current sensor) [Analog]
+B1_4 (PE1) = 12V_CURR (12V Bus current sensor) [Analog]
+B1_3 (PE0) = EX_CURR (Spare Bus current sensor) [Analog]
+B1_2 (GND) = GND 
+
+Row B2
+B2_8 (PK3) = M3_CURR (Motor Bus 3 current sensor) [Analog]
+B2_7 (PK2) = M3_ON (Motor Bus 3 activation signal) [Digital]
+B2_6 (PK1) = M2_CURR (Motor Bus 2 current sensor) [Analog]
+B2_5 (PK0) = M2_ON (Motor Bus 2 activation signal) [Digital]
+B2_4 (PB5) = M1_CURR (Motor Bus 1 current sensor) [Analog]
+B2_3 (PB4) = M1_ON (Motor Bus 1 activation signal [Digital]
+B2_2 (GND) = GND
+
+Row C1
+No pins are used
+
+Row C2
+No pins are used
+
+Row D1
+D1_1 (GND) = GND
+
+Row D2
+D2_1 (GND) = GND
