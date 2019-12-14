@@ -1596,8 +1596,6 @@ Wire Wire Line
 	2000 1000 2050 1000
 Wire Wire Line
 	2050 900  2000 900 
-Wire Notes Line
-	550  3250 3050 3250
 Text GLabel 6950 1500 3    50   Output ~ 0
 M1_ISENSE
 Text GLabel 3400 1300 0    50   Input ~ 0
@@ -1622,8 +1620,6 @@ Wire Wire Line
 	1450 1300 1500 1300
 Wire Wire Line
 	2050 1300 2000 1300
-Wire Notes Line
-	550  5050 3050 5050
 Text Notes 3200 9250 0    157  ~ 31
 LED Indicators
 Text Notes 500  3500 0    157  ~ 31
@@ -2768,8 +2764,6 @@ Wire Notes Line
 Wire Notes Line
 	12050 8950 12050 450 
 Wire Notes Line
-	3050 450  3050 8950
-Wire Notes Line
 	3050 2050 12050 2050
 Wire Notes Line
 	3050 3650 12050 3650
@@ -2811,8 +2805,6 @@ Wire Wire Line
 	4050 9600 4100 9600
 Wire Notes Line
 	3050 5550 12050 5550
-Wire Notes Line
-	550  7150 12050 7150
 Text Notes 3200 9650 0    118  ~ 0
 +5V
 Text Notes 5050 9250 0    118  ~ 0
@@ -3610,4 +3602,20 @@ Text Notes 2550 1350 0    59   ~ 0
 PK_3(A19)
 Text Notes 2550 950  0    59   ~ 0
 PD_4(A7)
+Wire Notes Line
+	3050 11250 9900 11250
+Wire Notes Line
+	9900 11250 9900 8950
+Wire Notes Line
+	3050 450  3050 11250
+Wire Notes Line
+	450  7150 450  450 
+Wire Notes Line
+	450  7150 12050 7150
+Wire Notes Line
+	450  3250 3050 3250
+Wire Notes Line
+	450  5050 3050 5050
+Wire Notes Line
+	450  450  12050 450 
 $EndSCHEMATC
