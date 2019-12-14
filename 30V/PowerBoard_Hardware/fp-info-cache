@@ -1,4 +1,4 @@
-27192358121931482
+27198329409060009
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 Neosid, Air-Coil, SML, 1turn, HDM0131A,
@@ -61466,6 +61466,20 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+Custom_Footprints
+Tiva_Breakout
+
+
+0
+80
+77
+Custom_Footprints
+z_sig_Patrick_Sanchez_15mmx5mm
+
+
+0
+0
+0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -78057,13 +78071,6 @@ MOLEX_SL_10_Vertical
 10
 10
 MRDT_Connectors
-Q36SR12020NRFA
-
-
-0
-8
-8
-MRDT_Connectors
 RP-SMA_Jack_Tru-Hole_Right-Angle
 
 
@@ -78085,6 +78092,13 @@ Solder Pad
 1
 1
 MRDT_Devices
+ABS25
+
+
+0
+4
+2
+MRDT_Devices
 BUZZER_SMI_1324_TW_5V_2_R
 
 
@@ -78092,12 +78106,12 @@ BUZZER_SMI_1324_TW_5V_2_R
 2
 2
 MRDT_Devices
-DC_DC_Converter_Quarter_Brick
+HX1198FNL
 
 
 0
-8
-8
+16
+16
 MRDT_Devices
 LDD-1500L_LED_DRIVER
 
@@ -78105,6 +78119,13 @@ LDD-1500L_LED_DRIVER
 0
 9
 9
+MRDT_Devices
+NX3225GA
+
+
+0
+4
+4
 MRDT_Devices
 OKI_Horizontal
 
@@ -78337,6 +78358,13 @@ TMP36
 3
 3
 MRDT_Shields
+Arduino_Micro_THT_Top
+
+ARDUINO, MICRO
+0
+34
+31
+MRDT_Shields
 ESP_8266_Breakout_Small
 
 
@@ -78484,6 +78512,13 @@ TM4C123G_Booster
 40
 39
 MRDT_Shields
+TM4C129Breakout_THT
+
+
+0
+56
+52
+MRDT_Shields
 TM4C129E_Launchpad_FULL_SMD_BOTTOM
 
 
@@ -78567,13 +78602,6 @@ TM4C129E_Launchpad_X9_THT_TOP
 0
 40
 39
-MRDT_Shields
-Tiva_Breakout
-
-
-0
-80
-77
 MRDT_Silkscreens
 0-README
 
@@ -78758,13 +78786,6 @@ z_sig_John_Bueke
 0
 MRDT_Silkscreens
 z_sig_Nick_Clark_Sig_20.0mmX10.3mm
-
-
-0
-0
-0
-MRDT_Silkscreens
-z_sig_Patrick_Sanchez_15mmx5mm
 
 
 0

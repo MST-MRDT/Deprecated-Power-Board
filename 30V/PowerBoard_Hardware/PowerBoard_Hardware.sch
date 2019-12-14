@@ -1548,32 +1548,30 @@ Text Notes 5100 2400 0    157  ~ 31
 Motor2
 Text Notes 5100 4050 0    157  ~ 31
 Motor3
-Text Notes 700  2300 0    59   ~ 0
+Text Notes 800  2600 0    59   ~ 0
 PM_4
-Text Notes 2950 2100 2    59   ~ 0
-PE_0(A3)
+Text Notes 950  2300 2    59   ~ 0
+PE_0
 Text Notes 700  2100 0    59   ~ 0
-PA_6
+PC_5
 Text Notes 2550 2000 0    59   ~ 0
-PE_1
+PC_6
 Text Notes 2550 2200 0    59   ~ 0
-PC_4
+PC_7
 Text Notes 950  2000 2    59   ~ 0
 PE_2(A1)
-Text Notes 2800 2300 2    59   ~ 0
+Text Notes 950  2400 2    59   ~ 0
 PE_4
 Text Notes 550  2200 0    59   ~ 0
-PE_3(A0)
-Text Notes 3000 950  2    59   ~ 0
-PK_0(A16)
-Text Notes 3000 1350 2    59   ~ 0
+PE_1(A2)
+Text Notes 950  1050 2    59   ~ 0
 PB_4(A10)
-Text Notes 500  1050 0    59   ~ 0
+Text Notes 2550 1150 0    59   ~ 0
 PK_1(A17)
 Text Notes 500  1250 0    59   ~ 0
-PK_2(A18)
+PD_2(A13)
 Text Notes 2550 1050 0    59   ~ 0
-PN_4
+PD_5
 Wire Wire Line
 	1500 2350 1450 2350
 Wire Wire Line
@@ -3526,10 +3524,10 @@ Wire Wire Line
 	2000 2250 2050 2250
 Wire Wire Line
 	2050 2350 2000 2350
-Text Notes 550  2400 0    59   ~ 0
-PD_7(A4)
+Text Notes 2550 2300 0    59   ~ 0
+PD_3(A12)
 Text Notes 2550 2400 0    59   ~ 0
-PM_5
+PB_2
 Text GLabel 1450 1200 0    50   Input ~ 0
 M4_ISENSE
 Text GLabel 1450 1000 0    50   Input ~ 0
@@ -3546,16 +3544,14 @@ Wire Wire Line
 	1450 900  1500 900 
 Wire Wire Line
 	1450 1000 1500 1000
-Text Notes 3000 1150 2    59   ~ 0
-PB_5(A11)
 Text Notes 2550 1250 0    59   ~ 0
-PN_5
-Text Notes 700  1350 0    59   ~ 0
-PP_4
-Text Notes 950  1150 2    59   ~ 0
 PQ_0
+Text Notes 950  1350 2    59   ~ 0
+PN_5
+Text Notes 950  1150 2    59   ~ 0
+PP_0
 Text Notes 950  950  2    59   ~ 0
-PD_5
+PP_1
 Wire Wire Line
 	2300 5650 2300 5700
 Wire Wire Line
@@ -3608,4 +3604,10 @@ F 3 "" H 1800 2450 60  0001 C CNN
 	1    1800 2150
 	-1   0    0    1   
 $EndComp
+Text Notes 2950 2100 2    59   ~ 0
+PE_5(A9)
+Text Notes 2550 1350 0    59   ~ 0
+PK_3(A19)
+Text Notes 2550 950  0    59   ~ 0
+PD_4(A7)
 $EndSCHEMATC
