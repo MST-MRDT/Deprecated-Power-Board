@@ -2774,9 +2774,9 @@ Wire Notes Line
 	3050 5550 12050 5550
 Text Notes 3200 9650 0    118  ~ 0
 +5V
-Text Notes 5050 9250 0    118  ~ 0
+Text Notes 5150 9300 0    118  ~ 0
 Motor1
-Text Notes 5050 9700 0    118  ~ 0
+Text Notes 5100 9750 0    118  ~ 0
 Motor2
 Wire Wire Line
 	5150 1100 5900 1100
@@ -2831,7 +2831,7 @@ Wire Wire Line
 	6450 10150 6500 10150
 Wire Wire Line
 	6800 10150 6850 10150
-Text Notes 5050 10150 0    118  ~ 0
+Text Notes 5100 10200 0    118  ~ 0
 Motor3
 Wire Wire Line
 	6150 10150 6100 10150
@@ -2874,7 +2874,7 @@ Wire Wire Line
 	6450 10550 6500 10550
 Wire Wire Line
 	6800 10550 6850 10550
-Text Notes 5050 10550 0    118  ~ 0
+Text Notes 5100 10600 0    118  ~ 0
 Motor4
 Wire Wire Line
 	6150 10550 6100 10550
@@ -2917,7 +2917,7 @@ Wire Wire Line
 	6450 11000 6500 11000
 Wire Wire Line
 	6800 11000 6850 11000
-Text Notes 5050 11000 0    118  ~ 0
+Text Notes 5100 11050 0    118  ~ 0
 Motor5
 Wire Wire Line
 	6150 11000 6100 11000
@@ -2997,9 +2997,9 @@ Wire Wire Line
 	9250 9700 9300 9700
 Wire Wire Line
 	9600 9700 9650 9700
-Text Notes 7850 9250 0    118  ~ 0
+Text Notes 7800 9300 0    118  ~ 0
 Rockets
-Text Notes 7800 9700 0    118  ~ 0
+Text Notes 7750 9750 0    118  ~ 0
 Auxiliary
 Wire Wire Line
 	8950 9250 8900 9250
@@ -3089,7 +3089,7 @@ Wire Wire Line
 	9250 10550 9300 10550
 Wire Wire Line
 	9600 10550 9650 10550
-Text Notes 7900 10550 0    118  ~ 0
+Text Notes 8050 10600 0    118  ~ 0
 Spare
 Wire Wire Line
 	8950 10550 8900 10550
@@ -3132,7 +3132,7 @@ Wire Wire Line
 	9250 11000 9300 11000
 Wire Wire Line
 	9600 11000 9650 11000
-Text Notes 7850 11000 0    118  ~ 0
+Text Notes 7950 11050 0    118  ~ 0
 Motor6
 Wire Wire Line
 	8950 11000 8900 11000
@@ -3626,10 +3626,10 @@ Wire Wire Line
 	2600 4000 2700 4000
 Connection ~ 2600 4000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0143
 U 1 1 5E180990
 P 2700 4300
-F 0 "#PWR?" H 2700 4050 50  0001 C CNN
+F 0 "#PWR0143" H 2700 4050 50  0001 C CNN
 F 1 "GND" H 2705 4127 50  0000 C CNN
 F 2 "" H 2700 4300 50  0001 C CNN
 F 3 "" H 2700 4300 50  0001 C CNN
