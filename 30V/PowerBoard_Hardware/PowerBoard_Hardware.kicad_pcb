@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 100)
+    (drawings 99)
     (tracks 581)
     (zones 0)
-    (modules 140)
+    (modules 141)
     (nets 106)
   )
 
@@ -57,8 +57,8 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
+    (pad_size 7.112 7.112)
+    (pad_drill 3.683)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
@@ -312,6 +312,18 @@
     (add_net SP_EN)
     (add_net SP_ISENSE)
     (add_net SP_LED)
+  )
+
+  (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5E486618) (tstamp 5E48C268)
+    (at 112.395 161.29)
+    (fp_text reference REF** (at 0 10.16) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value BATT_PWR_VIA (at 0 -10.033) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 7.112 7.112) (drill 3.683) (layers *.Cu *.Mask)
+      (net 1 GND) (zone_connect 2))
   )
 
   (module MRDT_Drill_Holes:4_40_Hole_Corner (layer F.Cu) (tedit 5AE4BA52) (tstamp 5E442D18)
@@ -8662,9 +8674,6 @@
   (gr_line (start 123.19 34.29) (end 123.19 39.37) (layer F.SilkS) (width 0.12))
   (gr_line (start 128.143 34.29) (end 123.19 34.29) (layer F.SilkS) (width 0.12))
   (gr_line (start 187.325 36.195) (end 194.31 36.195) (layer F.SilkS) (width 0.12))
-  (gr_text "Frame Ground Via?" (at 212.09 154.94) (layer F.SilkS)
-    (effects (font (size 2.032 2.032) (thickness 0.3048)))
-  )
   (dimension 74.93 (width 0.15) (layer Dwgs.User)
     (gr_text "2.9500 in" (at 258.475 99.06 270) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
