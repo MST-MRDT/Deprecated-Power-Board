@@ -1,37 +1,37 @@
-PowerBoard Rev 1 2019 Pin Map
+PowerBoard Rev 2 2019 Pin Map
 Pins that are assigned from the Tiva to the board.
 
 Row A1
 A1_1 (+3V3) = 3.3V (3.3 Volt signal)
-A1_2 (PE4) = RKT_ISENSE  (Rocket Bus current sensor) [Analog]
-A1_4 (PC5) = SP_EN (Spare Bus activation signal) [Digital]
-A1_5 (PC6) = 12V_EN (12V Bus activation signal) [Digital]
-A1_6 (PE5) = 12V_ISENSE (12V Bus current sensor) [Analog]
-A1_7 (PD3) = AUX_ISENSE (Auxiliary Bus current sensor) [Analog]
-A1_8 (PC7) = AUX_EN (Auxiliary Bus activation signal) [Digital]
-A1_9 (PB2) = RKT_EN (Rocket Bus activation signal) [Digital]
+A1_6 (PE5) = M6_ISENSE (Motor 6 Bus current sensor on 30V) [Analog]
+A1_7 (PD3) = SP_ISENSE (Spare Bus current sensor on 30V) [Analog]
+A1_10 (PB3) = SP_EN (Spare Bus activation signal on 30V) [Digital]
 
 Row A2
 A2_1 (+3V3) = 3.3V (3.3 Volt Signal)
-A2_2 (PD2) = M4_ISENSE (Motor 4 Bus current sensor) [Analog]
-A2_3 (PP0) = M5_EN (Motor 5 Bus activation signal) [Digital]
-A2_4 (PP1) = M1_EN (Motor 1 Bus activation signal) [Digital]
-A2_5 (PD4) = M1_ISENSE (Motor 1 Bus current sensor) [Analog]
-A2_6 (PD5) = M2_EN (Motor 2 Bus activation signal) [Digital]
-A2_7 (PQ0) = M3_EN (Motor 3 Bus activation signal) [Digital]
-A2_9 (PN5) = M4_EN (Motor 4 Bus activation signal) [Digital]
+A2_2 (PD2) = M4_ISENSE (Motor 4 Bus current sensor on 30V) [Analog]
+A2_3 (PP0) = M6_EN (Motor 6 Bus activation signal on 30V) [Digital]
+A2_4 (PP1) = M1_EN (Motor 1 Bus activation signal on 30V) [Digital]
+A2_5 (PD4) = M1_ISENSE (Motor 1 Bus current sensor on 30V) [Analog]
+A2_6 (PD5) = M2_ISENSE (Motor 2 Bus current sensor on 30V) [Analog]
+A2_7 (PQ0) = AUX_EN (Auxiliary Bus activation signal on 30V) [Digital]
+A2_8 (PP4) = M3_EN (Motor 3 Bus activation signal on 30V) [Digital]
+A2_9 (PN5) = M4_EN (Motor 4 Bus activation signal on 30V) [Digital]
+A2_10 (PN4) = M2_EN (Motor 2 Bus activation signal on 30V) [Digital]
 
 Row B1
 B1_2 (GND) = GND 
-B1_3 (PE0) = M6_EN (Auxiliary Bus current sensor) [Analog]
-B1_4 (PE1) = M6_ISENSE  (Motor 6 Bus current sensor) [Analog]
-B1_5 (PE2) = SP_ISENSE (Spare Bus current sensor) [Analog]
 
 Row B2
 B2_2 (GND) = GND
-B2_3 (PB4) = M5_ISENSE (Motor 5 Bus current sensor) [Analog]
-B2_6 (PK1) = M2_ISENSE (Motor 2 Bus current sensor) [Analog]
-B2_8 (PK3) = M3_ISENSE (Motor 3 Bus current sensor) [Analog]
+B2_3 (PB4) = M5_ISENSE (Motor 5 Bus current sensor on 30V) [Analog]
+B2_4 (PB5) = RKT_ISENSE  (Rocket Bus current sensor on 30V) [Analog]
+B2_5 (PK0) = RKT_EN (Rocket Bus activation signal on 30V) [Digital]
+B2_6 (PK1) = AUX_ISENSE (Auxiliary Bus current sensor on 30V) [Analog]
+B2_7 (PK2) = 12V_ISENSE (12V Bus current sensor on 30V) [Analog]
+B2_8 (PK3) = M3_ISENSE (Motor 3 Bus current sensor on 30V) [Analog]
+B2_9 (PA4) = 12V_EN (12V Bus activation signal on 30V) [Digital]
+B2_10 (PA5) = M5_EN (Motor 5 Bus activation signal on 30V) [Digital]
 
 Row C1
 No pins are used
