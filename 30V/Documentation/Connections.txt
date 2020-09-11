@@ -1,0 +1,46 @@
+PowerBoard Outgoing and Ingoing Connections
+Incoming
+Battery Power Cable-PVDD
+Battery Ground Cable-GND
+
+Outgoing
+2 Pin SL- TIVA_3V3
+	1. +3V3
+	2. GND
+
+10 Vertically Stacked Horizontal Andersons
+	1. Motor Bus 1
+	2. Motor Bus 2
+	3. Motor Bus 3
+	4. Motor Bus 4
+	5. Motor Bus 5
+	6. Rockets Bus
+	7. Auxillary Motor Bus
+	8. 12V Bus
+	9. Spare Bus
+	10. Motor Bus 6
+
+Incoming/Outgoing
+2x5 PinHeader - TIVA_L1
+	1. M3_ISENSE
+	2. M4_EN
+	3. M3_EN
+	4. M4_ISENSE
+	5. M2_ISENSE
+	6. M5_EN
+	7. M2_EN
+	8. M5_ISENSE
+	9. M1_ISENSE
+	10. M1_EN
+
+2x5 PinHeader - TIVA_R1
+	1. RKT_EN
+	2. RKT_ISENSE
+	3. AUX_ISENSE
+	4. M6_EN
+	5. AUX_EN
+	6. M6_ISENSE
+	7. 12V_ISENSE
+	8. SP_EN
+	9. 12V_EN
+	10. SP_ISENSE
