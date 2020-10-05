@@ -187,17 +187,6 @@ Wire Wire Line
 Connection ~ 3850 1950
 Wire Wire Line
 	3850 1950 3850 2000
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 1 1 5F7C63CA
-P 3950 2400
-F 0 "Conn?" V 4211 2372 60  0000 R CNN
-F 1 "AndersonPP" V 4105 2372 60  0000 R CNN
-F 2 "" H 3800 1850 60  0001 C CNN
-F 3 "" H 3800 1850 60  0001 C CNN
-	1    3950 2400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3700 1450 4050 1450
 Connection ~ 3700 1450
@@ -262,5 +251,16 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4350 1550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 4350 1550 50  0001 C CNN
 	1    4350 1550
 	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5F7C63CA
+P 3950 2400
+F 0 "Conn?" V 3850 2550 60  0000 R CNN
+F 1 "AndersonPP" V 3750 2650 60  0000 R CNN
+F 2 "" H 3800 1850 60  0001 C CNN
+F 3 "" H 3800 1850 60  0001 C CNN
+	1    3950 2400
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
