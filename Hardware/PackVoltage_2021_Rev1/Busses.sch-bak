@@ -100,12 +100,12 @@ Wire Wire Line
 $Comp
 L Device:Fuse F?
 U 1 1 5F78099C
-P 2550 1150
-F 0 "F?" H 2610 1196 50  0000 L CNN
-F 1 "Fuse" H 2610 1105 50  0000 L CNN
-F 2 "" V 2480 1150 50  0001 C CNN
-F 3 "~" H 2550 1150 50  0001 C CNN
-	1    2550 1150
+P 2650 1250
+F 0 "F?" H 2710 1296 50  0000 L CNN
+F 1 "Fuse" H 2710 1205 50  0000 L CNN
+F 2 "" V 2580 1250 50  0001 C CNN
+F 3 "~" H 2650 1250 50  0001 C CNN
+	1    2650 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -113,7 +113,7 @@ L Device:R R?
 U 1 1 5F78141C
 P 1100 1500
 F 0 "R?" V 893 1500 50  0000 C CNN
-F 1 "R" V 984 1500 50  0000 C CNN
+F 1 "5.1k" V 984 1500 50  0000 C CNN
 F 2 "" V 1030 1500 50  0001 C CNN
 F 3 "~" H 1100 1500 50  0001 C CNN
 	1    1100 1500
@@ -128,4 +128,68 @@ Wire Wire Line
 Connection ~ 2000 2200
 Wire Wire Line
 	2000 2200 2000 2250
+Text GLabel 1250 1650 0    50   Input ~ 0
+Driver_M1
+Wire Wire Line
+	1250 1650 1400 1650
+$Comp
+L power:+5V #PWR?
+U 1 1 5F7BA80F
+P 750 1500
+F 0 "#PWR?" H 750 1350 50  0001 C CNN
+F 1 "+5V" H 765 1673 50  0000 C CNN
+F 2 "" H 750 1500 50  0001 C CNN
+F 3 "" H 750 1500 50  0001 C CNN
+	1    750  1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  1500 950  1500
+Wire Wire Line
+	1250 1500 1400 1500
+$Comp
+L Device:C_Small C?
+U 1 1 5F7BBB24
+P 1400 2000
+F 0 "C?" H 1492 2046 50  0000 L CNN
+F 1 "0.1uF" H 1492 1955 50  0000 L CNN
+F 2 "" H 1400 2000 50  0001 C CNN
+F 3 "~" H 1400 2000 50  0001 C CNN
+	1    1400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1800 1400 1900
+Wire Wire Line
+	1400 2100 2000 2100
+Connection ~ 2000 2100
+$Comp
+L Device:C_Small C?
+U 1 1 5F7BDEAC
+P 2750 2000
+F 0 "C?" H 2842 2046 50  0000 L CNN
+F 1 "0.1uF" H 2842 1955 50  0000 L CNN
+F 2 "" H 2750 2000 50  0001 C CNN
+F 3 "~" H 2750 2000 50  0001 C CNN
+	1    2750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1500 2750 1650
+Wire Wire Line
+	2550 1500 2650 1500
+Wire Wire Line
+	2550 1650 2750 1650
+Connection ~ 2750 1650
+Wire Wire Line
+	2750 1650 2750 1900
+Wire Wire Line
+	2650 1400 2650 1500
+Connection ~ 2650 1500
+Wire Wire Line
+	2650 1500 2750 1500
+Wire Wire Line
+	2500 1100 2650 1100
+Text GLabel 2500 1100 0    50   Input ~ 0
+PackVoltage
 $EndSCHEMATC
