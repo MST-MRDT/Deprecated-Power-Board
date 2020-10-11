@@ -1,0 +1,175 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Drill_Holes:BATT_PWR_VIA V1
+U 1 1 5F83ED6F
+P 2200 2400
+F 0 "V1" H 2328 2420 60  0000 L CNN
+F 1 "BATT_PWR_VIA" H 2328 2314 60  0000 L CNN
+F 2 "" H 2200 2400 60  0001 C CNN
+F 3 "" H 2200 2400 60  0001 C CNN
+	1    2200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 5F83FC51
+P 2350 2850
+F 0 "C1" H 2465 2896 50  0000 L CNN
+F 1 "470uF" H 2465 2805 50  0000 L CNN
+F 2 "" H 2350 2850 50  0001 C CNN
+F 3 "~" H 2350 2850 50  0001 C CNN
+	1    2350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 5F840D70
+P 2750 2850
+F 0 "C2" H 2865 2896 50  0000 L CNN
+F 1 "470uF" H 2865 2805 50  0000 L CNN
+F 2 "" H 2750 2850 50  0001 C CNN
+F 3 "~" H 2750 2850 50  0001 C CNN
+	1    2750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5F8410A5
+P 3150 2850
+F 0 "C?" H 3265 2896 50  0000 L CNN
+F 1 "CP1" H 3265 2805 50  0000 L CNN
+F 2 "" H 3150 2850 50  0001 C CNN
+F 3 "~" H 3150 2850 50  0001 C CNN
+	1    3150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5F8414AB
+P 3550 2850
+F 0 "C?" H 3665 2896 50  0000 L CNN
+F 1 "CP1" H 3665 2805 50  0000 L CNN
+F 2 "" H 3550 2850 50  0001 C CNN
+F 3 "~" H 3550 2850 50  0001 C CNN
+	1    3550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2600 2200 2700
+Wire Wire Line
+	2200 2700 2350 2700
+Wire Wire Line
+	2350 2700 2750 2700
+Connection ~ 2350 2700
+Connection ~ 2750 2700
+Wire Wire Line
+	2750 2700 3150 2700
+Connection ~ 3150 2700
+Wire Wire Line
+	3150 2700 3550 2700
+Wire Wire Line
+	2350 3000 2750 3000
+Connection ~ 2750 3000
+Wire Wire Line
+	2750 3000 3150 3000
+Connection ~ 3150 3000
+Wire Wire Line
+	3150 3000 3550 3000
+Text GLabel 4450 2600 1    50   Output ~ 0
+PV
+Connection ~ 3550 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5F841CDF
+P 4650 3050
+F 0 "#PWR?" H 4650 2800 50  0001 C CNN
+F 1 "GND" H 4655 2877 50  0000 C CNN
+F 2 "" H 4650 3050 50  0001 C CNN
+F 3 "" H 4650 3050 50  0001 C CNN
+	1    4650 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3000 4650 3050
+$Comp
+L MRDT_Drill_Holes:Via GND1
+U 1 1 5F842285
+P 2200 3350
+F 0 "GND1" H 2428 3408 60  0000 L CNN
+F 1 "Via" H 2428 3302 60  0000 L CNN
+F 2 "" H 2200 3350 60  0001 C CNN
+F 3 "" H 2200 3350 60  0001 C CNN
+	1    2200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8427B7
+P 2350 3600
+F 0 "#PWR?" H 2350 3350 50  0001 C CNN
+F 1 "GND" H 2355 3427 50  0000 C CNN
+F 2 "" H 2350 3600 50  0001 C CNN
+F 3 "" H 2350 3600 50  0001 C CNN
+	1    2350 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3350 2350 3350
+Wire Wire Line
+	2350 3350 2350 3600
+$Comp
+L Device:D D1
+U 1 1 5F844C01
+P 3900 2850
+F 0 "D1" V 3854 2930 50  0000 L CNN
+F 1 "D" V 3945 2930 50  0000 L CNN
+F 2 "" H 3900 2850 50  0001 C CNN
+F 3 "~" H 3900 2850 50  0001 C CNN
+	1    3900 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5F845B68
+P 4350 2850
+F 0 "D2" V 4304 2930 50  0000 L CNN
+F 1 "D" V 4395 2930 50  0000 L CNN
+F 2 "" H 4350 2850 50  0001 C CNN
+F 3 "~" H 4350 2850 50  0001 C CNN
+	1    4350 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 2700 3900 2700
+Wire Wire Line
+	4450 2600 4450 2700
+Connection ~ 3900 2700
+Wire Wire Line
+	3900 2700 4350 2700
+Connection ~ 4350 2700
+Wire Wire Line
+	4350 2700 4450 2700
+Wire Wire Line
+	3550 3000 3900 3000
+Connection ~ 3550 3000
+Connection ~ 3900 3000
+Wire Wire Line
+	3900 3000 4350 3000
+Connection ~ 4350 3000
+Wire Wire Line
+	4350 3000 4650 3000
+$EndSCHEMATC

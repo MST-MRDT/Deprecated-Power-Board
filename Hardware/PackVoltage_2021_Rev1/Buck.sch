@@ -1,0 +1,244 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Devices:LM2576D2TR4 U?
+U 1 1 5F826D23
+P 2700 2850
+F 0 "U?" H 2700 3275 50  0000 C CNN
+F 1 "LM2576D2TR4" H 2700 3184 50  0000 C CNN
+F 2 "" H 2700 3300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf" H 2700 3300 50  0001 C CNN
+	1    2700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F827523
+P 2000 3050
+F 0 "#PWR?" H 2000 2800 50  0001 C CNN
+F 1 "GND" H 2005 2877 50  0000 C CNN
+F 2 "" H 2000 3050 50  0001 C CNN
+F 3 "" H 2000 3050 50  0001 C CNN
+	1    2000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2650 2000 2650
+Wire Wire Line
+	2000 2650 2000 2800
+Wire Wire Line
+	2200 2800 2000 2800
+Connection ~ 2000 2800
+Wire Wire Line
+	2000 2800 2000 2950
+Wire Wire Line
+	2200 2950 2000 2950
+Connection ~ 2000 2950
+Wire Wire Line
+	2000 2950 2000 3050
+Wire Wire Line
+	3200 2650 3500 2650
+$Comp
+L Device:C C1
+U 1 1 5F828247
+P 3800 2450
+F 0 "C1" V 3548 2450 50  0000 C CNN
+F 1 "100uF" V 3639 2450 50  0000 C CNN
+F 2 "" H 3838 2300 50  0001 C CNN
+F 3 "~" H 3800 2450 50  0001 C CNN
+	1    3800 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 2450 3650 2450
+$Comp
+L power:GND #PWR?
+U 1 1 5F828A9F
+P 4250 2550
+F 0 "#PWR?" H 4250 2300 50  0001 C CNN
+F 1 "GND" H 4255 2377 50  0000 C CNN
+F 2 "" H 4250 2550 50  0001 C CNN
+F 3 "" H 4250 2550 50  0001 C CNN
+	1    4250 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2450 4250 2450
+Wire Wire Line
+	4250 2450 4250 2550
+Connection ~ 3500 2450
+Wire Wire Line
+	3500 2450 3500 2350
+Wire Wire Line
+	3500 2450 3500 2650
+$Comp
+L Device:D_Schottky D3
+U 1 1 5F82A21A
+P 3600 2950
+F 0 "D3" V 3554 3030 50  0000 L CNN
+F 1 "D_Schottky" V 3645 3030 50  0000 L CNN
+F 2 "" H 3600 2950 50  0001 C CNN
+F 3 "~" H 3600 2950 50  0001 C CNN
+	1    3600 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 2800 3600 2800
+$Comp
+L Device:L L1
+U 1 1 5F82AFB3
+P 3850 2800
+F 0 "L1" V 3669 2800 50  0000 C CNN
+F 1 "100uH" V 3760 2800 50  0000 C CNN
+F 2 "" H 3850 2800 50  0001 C CNN
+F 3 "~" H 3850 2800 50  0001 C CNN
+	1    3850 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 2800 3700 2800
+Connection ~ 3600 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5F82BB1D
+P 3600 3250
+F 0 "#PWR?" H 3600 3000 50  0001 C CNN
+F 1 "GND" H 3605 3077 50  0000 C CNN
+F 2 "" H 3600 3250 50  0001 C CNN
+F 3 "" H 3600 3250 50  0001 C CNN
+	1    3600 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3100 3600 3250
+Wire Wire Line
+	3200 2950 3350 2950
+Wire Wire Line
+	3350 2950 3350 3550
+Wire Wire Line
+	4100 2800 4100 3550
+Wire Wire Line
+	4000 2800 4100 2800
+Wire Wire Line
+	3350 3550 4100 3550
+Wire Wire Line
+	4100 2800 4350 2800
+Connection ~ 4100 2800
+$Comp
+L Device:C C2
+U 1 1 5F82D7D6
+P 4350 3100
+F 0 "C2" H 4465 3146 50  0000 L CNN
+F 1 "1000uF" H 4465 3055 50  0000 L CNN
+F 2 "" H 4388 2950 50  0001 C CNN
+F 3 "~" H 4350 3100 50  0001 C CNN
+	1    4350 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2800 4350 2950
+$Comp
+L power:GND #PWR?
+U 1 1 5F82E079
+P 4350 3400
+F 0 "#PWR?" H 4350 3150 50  0001 C CNN
+F 1 "GND" H 4355 3227 50  0000 C CNN
+F 2 "" H 4350 3400 50  0001 C CNN
+F 3 "" H 4350 3400 50  0001 C CNN
+	1    4350 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3250 4350 3400
+$Comp
+L power:+12V #PWR?
+U 1 1 5F82E98F
+P 4700 2450
+F 0 "#PWR?" H 4700 2300 50  0001 C CNN
+F 1 "+12V" H 4715 2623 50  0000 C CNN
+F 2 "" H 4700 2450 50  0001 C CNN
+F 3 "" H 4700 2450 50  0001 C CNN
+	1    4700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2800 4700 2800
+Wire Wire Line
+	4700 2800 4700 2450
+Connection ~ 4350 2800
+$Comp
+L MRDT_Connectors:Test_Point J2
+U 1 1 5F82F4A8
+P 4850 2950
+F 0 "J2" H 4772 2989 60  0000 R CNN
+F 1 "Test_Point" H 4772 3095 60  0000 R CNN
+F 2 "" H 4850 2900 60  0001 C CNN
+F 3 "" H 4850 2900 60  0001 C CNN
+	1    4850 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 2800 4850 2800
+Wire Wire Line
+	4850 2800 4850 2950
+Connection ~ 4700 2800
+$Comp
+L Device:LED D4
+U 1 1 5F83034C
+P 5200 2800
+F 0 "D4" H 5193 2545 50  0000 C CNN
+F 1 "LED" H 5193 2636 50  0000 C CNN
+F 2 "" H 5200 2800 50  0001 C CNN
+F 3 "~" H 5200 2800 50  0001 C CNN
+	1    5200 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F8316D9
+P 5750 2800
+F 0 "R2" V 5543 2800 50  0000 C CNN
+F 1 "1200" V 5634 2800 50  0000 C CNN
+F 2 "" V 5680 2800 50  0001 C CNN
+F 3 "~" H 5750 2800 50  0001 C CNN
+	1    5750 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F831BE5
+P 6150 3000
+F 0 "#PWR?" H 6150 2750 50  0001 C CNN
+F 1 "GND" H 6155 2827 50  0000 C CNN
+F 2 "" H 6150 3000 50  0001 C CNN
+F 3 "" H 6150 3000 50  0001 C CNN
+	1    6150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2800 5050 2800
+Connection ~ 4850 2800
+Wire Wire Line
+	5350 2800 5600 2800
+Wire Wire Line
+	5900 2800 6150 2800
+Wire Wire Line
+	6150 2800 6150 3000
+Text GLabel 3500 2350 1    50   Input ~ 0
+33.6V
+Text Notes 5100 2750 0    50   ~ 0
+Green
+$EndSCHEMATC
