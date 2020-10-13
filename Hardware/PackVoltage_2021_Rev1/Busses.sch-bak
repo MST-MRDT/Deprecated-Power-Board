@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -155,8 +155,6 @@ Connection ~ 2750 1500
 Text Notes 2300 850  0    157  ~ 0
 Motor 1
 Wire Wire Line
-	3250 1850 3500 1850
-Wire Wire Line
 	3500 1850 3500 1450
 $Comp
 L power:GND #PWR?
@@ -263,4 +261,48 @@ F 3 "" H 3800 1850 60  0001 C CNN
 	1    3950 2400
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F846899
+P 3350 2250
+F 0 "D?" H 3343 1995 50  0000 C CNN
+F 1 "LED" H 3343 2086 50  0000 C CNN
+F 2 "" H 3350 2250 50  0001 C CNN
+F 3 "~" H 3350 2250 50  0001 C CNN
+	1    3350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 1850 3350 1850
+Wire Wire Line
+	3350 1850 3350 2100
+Connection ~ 3350 1850
+Wire Wire Line
+	3350 1850 3500 1850
+$Comp
+L Device:R R?
+U 1 1 5F84DEAA
+P 3350 2700
+F 0 "R?" H 3420 2746 50  0000 L CNN
+F 1 "R" H 3420 2655 50  0000 L CNN
+F 2 "" V 3280 2700 50  0001 C CNN
+F 3 "~" H 3350 2700 50  0001 C CNN
+	1    3350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2400 3350 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5F84F08B
+P 3350 2950
+F 0 "#PWR?" H 3350 2700 50  0001 C CNN
+F 1 "GND" H 3355 2777 50  0000 C CNN
+F 2 "" H 3350 2950 50  0001 C CNN
+F 3 "" H 3350 2950 50  0001 C CNN
+	1    3350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2850 3350 2950
 $EndSCHEMATC

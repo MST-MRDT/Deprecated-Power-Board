@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -26,5 +26,17 @@ S 5500 1150 2350 2100
 U 5F7A6A8B
 F0 "Sheet 2: Busses" 158
 F1 "Busses.sch" 158
+$EndSheet
+$Sheet
+S 1600 4250 2700 2200
+U 5F826BA9
+F0 "Sheet 3: Buck" 197
+F1 "Buck.sch" 197
+$EndSheet
+$Sheet
+S 5450 4100 2450 2100
+U 5F83E409
+F0 "Power_IN" 197
+F1 "Power_IN.sch" 197
 $EndSheet
 $EndSCHEMATC

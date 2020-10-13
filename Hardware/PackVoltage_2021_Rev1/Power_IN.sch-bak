@@ -89,6 +89,8 @@ Wire Wire Line
 Connection ~ 3150 3000
 Wire Wire Line
 	3150 3000 3550 3000
+Text GLabel 4450 2600 1    50   Output ~ 0
+PV
 Connection ~ 3550 2700
 $Comp
 L power:GND #PWR?
@@ -170,6 +172,4 @@ Wire Wire Line
 Connection ~ 4350 3000
 Wire Wire Line
 	4350 3000 4650 3000
-Text HLabel 4450 2600 1    50   Output ~ 0
-PV
 $EndSCHEMATC
