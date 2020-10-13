@@ -1,0 +1,276 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7200 6950 0    158  ~ 0
+Sheet 2: Busses
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5F768EE8
+P 3150 1650
+F 0 "Q?" H 3150 1450 50  0000 C CNN
+F 1 "Q_NMOS_DGS" H 3450 1350 50  0000 C CNN
+F 2 "" H 3350 1750 50  0001 C CNN
+F 3 "~" H 3150 1650 50  0001 C CNN
+	1    3150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F77CED8
+P 2000 2250
+F 0 "#PWR?" H 2000 2000 50  0001 C CNN
+F 1 "GND" H 2005 2077 50  0000 C CNN
+F 2 "" H 2000 2250 50  0001 C CNN
+F 3 "" H 2000 2250 50  0001 C CNN
+	1    2000 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2100 2000 2200
+$Comp
+L Device:Fuse F1
+U 1 1 5F78099C
+P 2650 1250
+F 0 "F1" H 2710 1296 50  0000 L CNN
+F 1 "25" H 2710 1205 50  0000 L CNN
+F 2 "" V 2580 1250 50  0001 C CNN
+F 3 "~" H 2650 1250 50  0001 C CNN
+	1    2650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F78141C
+P 1100 1500
+F 0 "R1" V 1000 1500 50  0000 C CNN
+F 1 "5.1k" V 1100 1500 50  0000 C CNN
+F 2 "" V 1030 1500 50  0001 C CNN
+F 3 "~" H 1100 1500 50  0001 C CNN
+	1    1100 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 1800 2950 1800
+Wire Wire Line
+	2000 2200 2750 2200
+Wire Wire Line
+	2750 2200 2750 2100
+Connection ~ 2000 2200
+Wire Wire Line
+	2000 2200 2000 2250
+Wire Wire Line
+	1250 1650 1400 1650
+Wire Wire Line
+	1250 1500 1400 1500
+$Comp
+L Device:C_Small C1
+U 1 1 5F7BBB24
+P 1400 2000
+F 0 "C1" H 1492 2046 50  0000 L CNN
+F 1 "0.1uF" H 1492 1955 50  0000 L CNN
+F 2 "" H 1400 2000 50  0001 C CNN
+F 3 "~" H 1400 2000 50  0001 C CNN
+	1    1400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1800 1400 1900
+Wire Wire Line
+	1400 2100 2000 2100
+$Comp
+L Device:C_Small C?
+U 1 1 5F7BDEAC
+P 2750 2000
+F 0 "C?" H 2842 2046 50  0000 L CNN
+F 1 "10uF" H 2842 1955 50  0000 L CNN
+F 2 "" H 2750 2000 50  0001 C CNN
+F 3 "~" H 2750 2000 50  0001 C CNN
+	1    2750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1500 2750 1650
+Wire Wire Line
+	2550 1500 2650 1500
+Wire Wire Line
+	2550 1650 2750 1650
+Connection ~ 2750 1650
+Wire Wire Line
+	2750 1650 2750 1900
+Wire Wire Line
+	2650 1400 2650 1500
+Connection ~ 2650 1500
+Wire Wire Line
+	2650 1500 2750 1500
+Wire Wire Line
+	2500 1100 2650 1100
+Wire Wire Line
+	2950 1800 2950 1650
+Wire Wire Line
+	3250 1450 2750 1450
+Wire Wire Line
+	2750 1450 2750 1500
+Connection ~ 2750 1500
+Text Notes 2300 850  0    157  ~ 0
+Motor 1
+Wire Wire Line
+	3500 1850 3500 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5F7C96EE
+P 6500 1850
+F 0 "#PWR?" H 6500 1600 50  0001 C CNN
+F 1 "GND" H 6505 1677 50  0000 C CNN
+F 2 "" H 6500 1850 50  0001 C CNN
+F 3 "" H 6500 1850 50  0001 C CNN
+	1    6500 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1850 6500 1850
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 4 1 5F7C7DC2
+P 5900 1400
+F 0 "Conn?" H 6108 1787 60  0000 C CNN
+F 1 "AndersonPP" H 6108 1681 60  0000 C CNN
+F 2 "" H 5750 850 60  0001 C CNN
+F 3 "" H 5750 850 60  0001 C CNN
+	4    5900 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1950 4050 1950
+Connection ~ 3850 1950
+Wire Wire Line
+	3850 1950 3850 2000
+Wire Wire Line
+	3700 1450 4050 1450
+Connection ~ 3700 1450
+Wire Wire Line
+	3700 1450 3700 1550
+Wire Wire Line
+	3500 1450 3700 1450
+Wire Wire Line
+	3700 1950 3850 1950
+Wire Wire Line
+	3700 1850 3700 1950
+Wire Wire Line
+	4050 1950 4050 1650
+$Comp
+L Device:R R3
+U 1 1 5F7BF294
+P 3700 1700
+F 0 "R3" V 3600 1650 50  0000 L CNN
+F 1 "0.05" V 3700 1600 50  0000 L CNN
+F 2 "" V 3630 1700 50  0001 C CNN
+F 3 "https://riedon.com/media/pdf/PFS35.pdf" H 3700 1700 50  0001 C CNN
+	1    3700 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 1550 2    50   Output ~ 0
+Current_Sensor_M1
+Wire Wire Line
+	4250 1850 4400 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5F77250D
+P 4400 1850
+F 0 "#PWR?" H 4400 1600 50  0001 C CNN
+F 1 "GND" H 4405 1677 50  0000 C CNN
+F 2 "" H 4400 1850 50  0001 C CNN
+F 3 "" H 4400 1850 50  0001 C CNN
+	1    4400 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5F7C63CA
+P 5900 1950
+F 0 "Conn?" H 6250 2300 60  0000 R CNN
+F 1 "AndersonPP" H 6400 2200 60  0000 R CNN
+F 2 "" H 5750 1400 60  0001 C CNN
+F 3 "" H 5750 1400 60  0001 C CNN
+	1    5900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F846899
+P 3650 2150
+F 0 "D?" H 3650 2250 50  0000 C CNN
+F 1 "LED" H 3650 2350 50  0000 C CNN
+F 2 "" H 3650 2150 50  0001 C CNN
+F 3 "~" H 3650 2150 50  0001 C CNN
+	1    3650 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3250 2150 3500 2150
+$Comp
+L Device:R R2
+U 1 1 5F84DEAA
+P 4100 2150
+F 0 "R2" V 4000 2100 50  0000 L CNN
+F 1 "3300" V 4100 2050 50  0000 L CNN
+F 2 "" V 4030 2150 50  0001 C CNN
+F 3 "~" H 4100 2150 50  0001 C CNN
+	1    4100 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 2150 3950 2150
+Wire Wire Line
+	4250 2150 4350 2150
+Text HLabel 2500 1100 0    50   Input ~ 0
+PV
+$Comp
+L MRDT_ICs:INA281 U2
+U 1 1 5F8DF453
+P 4250 1550
+F 0 "U2" H 4450 1400 50  0000 L CNN
+F 1 "INA281" H 4350 1300 50  0000 L CNN
+F 2 "" H 4500 1750 50  0001 C CNN
+F 3 "" H 4500 1750 50  0001 C CNN
+	1    4250 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_ICs:LT1910 U1
+U 1 1 5F8E1128
+P 1600 1900
+F 0 "U1" H 1975 2587 60  0000 C CNN
+F 1 "LT1910" H 1975 2481 60  0000 C CNN
+F 2 "" H 1600 1900 60  0001 C CNN
+F 3 "" H 1600 1900 60  0001 C CNN
+	1    1600 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 2100
+Text HLabel 4250 1200 1    50   Input ~ 0
+5V
+Text HLabel 850  1500 0    50   Input ~ 0
+5V
+Wire Wire Line
+	850  1500 950  1500
+Wire Wire Line
+	4250 1200 4250 1250
+Wire Wire Line
+	4650 1550 4750 1550
+Text HLabel 1250 1650 0    50   Input ~ 0
+Driver_M1
+Wire Wire Line
+	3250 1850 3500 1850
+$EndSCHEMATC

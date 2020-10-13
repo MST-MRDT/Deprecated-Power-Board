@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U1
 U 2 1 5F7739FC
 P 2300 2150
-F 0 "U?" H 2331 3427 60  0000 C CNN
+F 0 "U1" H 2331 3427 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 2331 3321 60  0000 C CNN
 F 2 "" H 2300 2150 60  0001 C CNN
 F 3 "" H 2300 2150 60  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 2300 2150 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U1
 U 1 1 5F776678
 P 1700 2150
-F 0 "U?" H 1650 2000 60  0000 L CNN
+F 0 "U1" H 1650 2000 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 1300 1850 60  0000 L CNN
 F 2 "" H 1700 2150 60  0001 C CNN
 F 3 "" H 1700 2150 60  0001 C CNN
@@ -68,10 +68,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 2000 2500 2000
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U1
 U 3 1 5F782FEC
 P 5200 2150
-F 0 "U?" H 5100 1950 60  0000 L CNN
+F 0 "U1" H 5100 1950 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 4700 1800 60  0000 L CNN
 F 2 "" H 5200 2150 60  0001 C CNN
 F 3 "" H 5200 2150 60  0001 C CNN
@@ -79,10 +79,10 @@ F 3 "" H 5200 2150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U1
 U 4 1 5F7858A1
 P 5850 2150
-F 0 "U?" H 5881 3427 60  0000 C CNN
+F 0 "U1" H 5881 3427 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 5881 3321 60  0000 C CNN
 F 2 "" H 5850 2150 60  0001 C CNN
 F 3 "" H 5850 2150 60  0001 C CNN
@@ -90,10 +90,10 @@ F 3 "" H 5850 2150 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U1
 U 5 1 5F78B804
 P 1700 4550
-F 0 "U?" H 1700 4450 60  0000 L CNN
+F 0 "U1" H 1700 4450 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 1200 4300 60  0000 L CNN
 F 2 "" H 1700 4550 60  0001 C CNN
 F 3 "" H 1700 4550 60  0001 C CNN
@@ -101,10 +101,10 @@ F 3 "" H 1700 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U1
 U 6 1 5F78DDF8
 P 2300 4550
-F 0 "U?" H 2331 5827 60  0000 C CNN
+F 0 "U1" H 2331 5827 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 2331 5721 60  0000 C CNN
 F 2 "" H 2300 4550 60  0001 C CNN
 F 3 "" H 2300 4550 60  0001 C CNN
@@ -112,10 +112,10 @@ F 3 "" H 2300 4550 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U1
 U 7 1 5F78FF89
 P 5050 4450
-F 0 "U?" H 4950 4300 60  0000 L CNN
+F 0 "U1" H 4950 4300 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 4550 4200 60  0000 L CNN
 F 2 "" H 5050 4450 60  0001 C CNN
 F 3 "" H 5050 4450 60  0001 C CNN
@@ -123,10 +123,10 @@ F 3 "" H 5050 4450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U1
 U 8 1 5F79167F
 P 5750 4450
-F 0 "U?" H 5781 5727 60  0000 C CNN
+F 0 "U1" H 5781 5727 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 5781 5621 60  0000 C CNN
 F 2 "" H 5750 4450 60  0001 C CNN
 F 3 "" H 5750 4450 60  0001 C CNN
@@ -134,23 +134,10 @@ F 3 "" H 5750 4450 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5F7A0454
-P 1250 1200
-F 0 "#PWR?" H 1250 1050 50  0001 C CNN
-F 1 "+3V3" H 1265 1373 50  0000 C CNN
-F 2 "" H 1250 1200 50  0001 C CNN
-F 3 "" H 1250 1200 50  0001 C CNN
-	1    1250 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 1200 1500 1200
-$Comp
-L power:GND #PWR?
+L power:GND #PWR012
 U 1 1 5F7A24D9
 P 2800 1150
-F 0 "#PWR?" H 2800 900 50  0001 C CNN
+F 0 "#PWR012" H 2800 900 50  0001 C CNN
 F 1 "GND" H 2805 977 50  0000 C CNN
 F 2 "" H 2800 1150 50  0001 C CNN
 F 3 "" H 2800 1150 50  0001 C CNN
@@ -164,10 +151,10 @@ Wire Wire Line
 Wire Wire Line
 	2650 1150 2800 1150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR013
 U 1 1 5F7A423F
 P 2800 3550
-F 0 "#PWR?" H 2800 3300 50  0001 C CNN
+F 0 "#PWR013" H 2800 3300 50  0001 C CNN
 F 1 "GND" H 2805 3377 50  0000 C CNN
 F 2 "" H 2800 3550 50  0001 C CNN
 F 3 "" H 2800 3550 50  0001 C CNN
@@ -181,10 +168,10 @@ Wire Wire Line
 Wire Wire Line
 	2650 3550 2800 3550
 $Comp
-L power:GND #PWR?
+L power:GND #PWR014
 U 1 1 5F7A4B62
 P 6250 3350
-F 0 "#PWR?" H 6250 3100 50  0001 C CNN
+F 0 "#PWR014" H 6250 3100 50  0001 C CNN
 F 1 "GND" H 6255 3177 50  0000 C CNN
 F 2 "" H 6250 3350 50  0001 C CNN
 F 3 "" H 6250 3350 50  0001 C CNN
@@ -198,10 +185,10 @@ Wire Wire Line
 Wire Wire Line
 	6100 3350 6250 3350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR015
 U 1 1 5F7A5110
 P 6350 1050
-F 0 "#PWR?" H 6350 800 50  0001 C CNN
+F 0 "#PWR015" H 6350 800 50  0001 C CNN
 F 1 "GND" H 6355 877 50  0000 C CNN
 F 2 "" H 6350 1050 50  0001 C CNN
 F 3 "" H 6350 1050 50  0001 C CNN
@@ -214,89 +201,16 @@ Wire Wire Line
 	6200 1200 6200 1050
 Wire Wire Line
 	6200 1050 6350 1050
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5F7A5C46
-P 1250 3600
-F 0 "#PWR?" H 1250 3450 50  0001 C CNN
-F 1 "+3V3" H 1265 3773 50  0000 C CNN
-F 2 "" H 1250 3600 50  0001 C CNN
-F 3 "" H 1250 3600 50  0001 C CNN
-	1    1250 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 3600 1500 3600
-$Comp
-L MRDT_Connectors:Molex_SL_10 Conn?
-U 1 1 5F87B945
-P 8150 2050
-F 0 "Conn?" H 8278 2608 60  0000 L CNN
-F 1 "Molex_SL_10" H 8278 2502 60  0000 L CNN
-F 2 "" H 8150 2550 60  0001 C CNN
-F 3 "" H 8150 2550 60  0001 C CNN
-	1    8150 2050
-	1    0    0    -1  
-$EndComp
-Text GLabel 7850 1100 0    50   Output ~ 0
-Camera_CTL
 Wire Wire Line
 	7950 1100 7850 1100
 Wire Wire Line
 	7950 1200 7850 1200
-Text GLabel 7850 1200 0    50   Output ~ 0
-NavBoard_CTL
-Text GLabel 7850 1300 0    50   Output ~ 0
-Extra_CTL
 Wire Wire Line
 	7950 1400 7850 1400
-Text GLabel 7950 2550 0    50   Output ~ 0
-Drive_HighSense
 Wire Wire Line
 	7950 1500 7850 1500
 Wire Wire Line
-	7950 1300 7850 1300
-Text GLabel 7850 1400 0    50   Output ~ 0
-Gimbal_CTL
-Text GLabel 7950 2250 0    50   Output ~ 0
-Aux_Mount_HighSense
-Wire Wire Line
 	7950 1600 7850 1600
-Text GLabel 7950 2350 0    50   Output ~ 0
-Multimedia_HighSense
-Wire Wire Line
-	7950 1700 7850 1700
-Text GLabel 7950 2450 0    50   Output ~ 0
-Extra_LowSense
-Wire Wire Line
-	7950 1800 7850 1800
-Text GLabel 7850 1500 0    50   Output ~ 0
-Aux_Mount_CTL
-Wire Wire Line
-	7950 1900 7850 1900
-Text GLabel 7850 1600 0    50   Output ~ 0
-Multimedia_CTL
-Wire Wire Line
-	7950 2000 7850 2000
-$Comp
-L MRDT_Connectors:Molex_SL_04 Conn?
-U 1 1 5F88666D
-P 8150 2600
-F 0 "Conn?" H 8278 2858 60  0000 L CNN
-F 1 "Molex_SL_04" H 8278 2752 60  0000 L CNN
-F 2 "" H 8150 2600 60  0001 C CNN
-F 3 "" H 8150 2600 60  0001 C CNN
-	1    8150 2600
-	1    0    0    -1  
-$EndComp
-Text GLabel 7850 1700 0    50   Output ~ 0
-LowExtra_CTL
-Text GLabel 7850 1800 0    50   Output ~ 0
-ExtraSignal_1
-Text GLabel 7850 1900 0    50   Output ~ 0
-ExtraSignal_2
-Text GLabel 7850 2000 0    50   Output ~ 0
-ExtraSignal_3
 NoConn ~ 5000 1200
 NoConn ~ 5000 1300
 NoConn ~ 5000 1400
@@ -316,27 +230,21 @@ NoConn ~ 6050 1800
 NoConn ~ 6050 1900
 NoConn ~ 6050 2000
 NoConn ~ 6050 2100
-Text GLabel 2600 4200 2    50   Input ~ 0
-ExtraSignal_3
-Text GLabel 1400 4200 0    50   Input ~ 0
+Text GLabel 1400 4200 0    50   Output ~ 0
 Camera_CTL
-Text GLabel 1400 4300 0    50   Input ~ 0
+Text GLabel 1400 4300 0    50   Output ~ 0
 NavBoard_CTL
-Text GLabel 1400 4400 0    50   Input ~ 0
-Extra_CTL
-Text GLabel 1400 4500 0    50   Input ~ 0
+Text GLabel 1400 4500 0    50   Output ~ 0
 Gimbal_CTL
 Wire Wire Line
 	1400 4200 1500 4200
 Wire Wire Line
 	1400 4300 1500 4300
 Wire Wire Line
-	1400 4400 1500 4400
-Wire Wire Line
 	1400 4500 1500 4500
-Text GLabel 2600 4400 2    50   Input ~ 0
+Text GLabel 2600 4400 2    50   Output ~ 0
 Aux_Mount_CTL
-Text GLabel 2600 4500 2    50   Input ~ 0
+Text GLabel 2600 4500 2    50   Output ~ 0
 Multimedia_CTL
 Text GLabel 2600 3800 2    50   Input ~ 0
 Aux_Mount_HighSense
@@ -358,20 +266,10 @@ Wire Wire Line
 	2500 4400 2600 4400
 Wire Wire Line
 	2500 4500 2600 4500
-Text GLabel 1400 3800 0    50   Input ~ 0
+Text GLabel 1400 3800 0    50   Output ~ 0
 LowExtra_CTL
 Wire Wire Line
 	1500 3800 1400 3800
-Text GLabel 1400 4000 0    50   Input ~ 0
-ExtraSignal_1
-Wire Wire Line
-	1500 4000 1400 4000
-Text GLabel 1400 4100 0    50   Input ~ 0
-ExtraSignal_2
-Wire Wire Line
-	1500 4100 1400 4100
-Wire Wire Line
-	2600 4200 2500 4200
 NoConn ~ 2500 3600
 NoConn ~ 2500 4300
 NoConn ~ 1500 3700
@@ -429,4 +327,72 @@ Text HLabel 2750 1900 2    40   Output ~ 0
 Driver_S1
 Text HLabel 2750 2000 2    40   Output ~ 0
 Driver_T1
+Wire Wire Line
+	7950 1300 7850 1300
+Wire Wire Line
+	7850 1700 7950 1700
+Wire Wire Line
+	7850 1950 7950 1950
+Wire Wire Line
+	7850 2050 7950 2050
+Wire Wire Line
+	7850 2150 7950 2150
+Text GLabel 7850 2150 0    50   Output ~ 0
+Extra_LowSense
+Text GLabel 7850 2050 0    50   Output ~ 0
+Multimedia_HighSense
+Text GLabel 7850 1950 0    50   Output ~ 0
+Aux_Mount_HighSense
+Text GLabel 7850 2250 0    50   Output ~ 0
+Drive_HighSense
+NoConn ~ 1500 4000
+NoConn ~ 1500 4100
+NoConn ~ 1500 4400
+NoConn ~ 2500 4200
+Text HLabel 1350 1200 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	1500 1200 1350 1200
+Text HLabel 1350 3600 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	1500 3600 1350 3600
+$Comp
+L MRDT_Connectors:Molex_SL_07 Conn9
+U 1 1 5F8C10A1
+P 8150 1750
+F 0 "Conn9" H 8278 2158 60  0000 L CNN
+F 1 "Molex_SL_07" H 8278 2052 60  0000 L CNN
+F 2 "" H 8150 1950 60  0001 C CNN
+F 3 "" H 8150 1950 60  0001 C CNN
+	1    8150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn10
+U 1 1 5F8C2CF6
+P 8150 2400
+F 0 "Conn10" H 8278 2708 60  0000 L CNN
+F 1 "Molex_SL_05" H 8278 2602 60  0000 L CNN
+F 2 "" H 8150 2400 60  0001 C CNN
+F 3 "" H 8150 2400 60  0001 C CNN
+	1    8150 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2250 7950 2250
+Wire Wire Line
+	7850 2350 7950 2350
+Text GLabel 7850 1100 0    50   Input ~ 0
+Camera_CTL
+Text GLabel 7850 1200 0    50   Input ~ 0
+NavBoard_CTL
+Text GLabel 7850 1300 0    50   Input ~ 0
+Gimbal_CTL
+Text GLabel 7850 1400 0    50   Input ~ 0
+Aux_Mount_CTL
+Text GLabel 7850 1500 0    50   Input ~ 0
+Multimedia_CTL
+Text GLabel 7850 1600 0    50   Input ~ 0
+LowExtra_CTL
 $EndSCHEMATC
