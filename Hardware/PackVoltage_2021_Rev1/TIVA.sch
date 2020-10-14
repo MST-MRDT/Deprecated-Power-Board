@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -134,10 +134,10 @@ F 3 "" H 5750 4450 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L power:GND #PWR015
 U 1 1 5F7A24D9
 P 2800 1150
-F 0 "#PWR012" H 2800 900 50  0001 C CNN
+F 0 "#PWR015" H 2800 900 50  0001 C CNN
 F 1 "GND" H 2805 977 50  0000 C CNN
 F 2 "" H 2800 1150 50  0001 C CNN
 F 3 "" H 2800 1150 50  0001 C CNN
@@ -151,10 +151,10 @@ Wire Wire Line
 Wire Wire Line
 	2650 1150 2800 1150
 $Comp
-L power:GND #PWR013
+L power:GND #PWR048
 U 1 1 5F7A423F
 P 2800 3550
-F 0 "#PWR013" H 2800 3300 50  0001 C CNN
+F 0 "#PWR048" H 2800 3300 50  0001 C CNN
 F 1 "GND" H 2805 3377 50  0000 C CNN
 F 2 "" H 2800 3550 50  0001 C CNN
 F 3 "" H 2800 3550 50  0001 C CNN
@@ -168,10 +168,10 @@ Wire Wire Line
 Wire Wire Line
 	2650 3550 2800 3550
 $Comp
-L power:GND #PWR014
+L power:GND #PWR049
 U 1 1 5F7A4B62
 P 6250 3350
-F 0 "#PWR014" H 6250 3100 50  0001 C CNN
+F 0 "#PWR049" H 6250 3100 50  0001 C CNN
 F 1 "GND" H 6255 3177 50  0000 C CNN
 F 2 "" H 6250 3350 50  0001 C CNN
 F 3 "" H 6250 3350 50  0001 C CNN
@@ -185,10 +185,10 @@ Wire Wire Line
 Wire Wire Line
 	6100 3350 6250 3350
 $Comp
-L power:GND #PWR015
+L power:GND #PWR062
 U 1 1 5F7A5110
 P 6350 1050
-F 0 "#PWR015" H 6350 800 50  0001 C CNN
+F 0 "#PWR062" H 6350 800 50  0001 C CNN
 F 1 "GND" H 6355 877 50  0000 C CNN
 F 2 "" H 6350 1050 50  0001 C CNN
 F 3 "" H 6350 1050 50  0001 C CNN
@@ -201,16 +201,6 @@ Wire Wire Line
 	6200 1200 6200 1050
 Wire Wire Line
 	6200 1050 6350 1050
-Wire Wire Line
-	7950 1100 7850 1100
-Wire Wire Line
-	7950 1200 7850 1200
-Wire Wire Line
-	7950 1400 7850 1400
-Wire Wire Line
-	7950 1500 7850 1500
-Wire Wire Line
-	7950 1600 7850 1600
 NoConn ~ 5000 1200
 NoConn ~ 5000 1300
 NoConn ~ 5000 1400
@@ -225,35 +215,15 @@ NoConn ~ 6050 1300
 NoConn ~ 6050 1400
 NoConn ~ 6050 1500
 NoConn ~ 6050 1600
-NoConn ~ 6050 1700
-NoConn ~ 6050 1800
 NoConn ~ 6050 1900
 NoConn ~ 6050 2000
 NoConn ~ 6050 2100
-Text GLabel 1400 4200 0    50   Output ~ 0
-Camera_CTL
-Text GLabel 1400 4300 0    50   Output ~ 0
-NavBoard_CTL
-Text GLabel 1400 4500 0    50   Output ~ 0
-Gimbal_CTL
 Wire Wire Line
 	1400 4200 1500 4200
 Wire Wire Line
 	1400 4300 1500 4300
 Wire Wire Line
 	1400 4500 1500 4500
-Text GLabel 2600 4400 2    50   Output ~ 0
-Aux_Mount_CTL
-Text GLabel 2600 4500 2    50   Output ~ 0
-Multimedia_CTL
-Text GLabel 2600 3800 2    50   Input ~ 0
-Aux_Mount_HighSense
-Text GLabel 2600 3900 2    50   Input ~ 0
-Multimedia_HighSense
-Text GLabel 2600 4000 2    50   Input ~ 0
-Extra_LowSense
-Text GLabel 2600 4100 2    50   Input ~ 0
-Drive_HighSense
 Wire Wire Line
 	2500 3800 2600 3800
 Wire Wire Line
@@ -266,8 +236,6 @@ Wire Wire Line
 	2500 4400 2600 4400
 Wire Wire Line
 	2500 4500 2600 4500
-Text GLabel 1400 3800 0    50   Output ~ 0
-LowExtra_CTL
 Wire Wire Line
 	1500 3800 1400 3800
 NoConn ~ 2500 3600
@@ -327,24 +295,6 @@ Text HLabel 2750 1900 2    40   Output ~ 0
 Driver_S1
 Text HLabel 2750 2000 2    40   Output ~ 0
 Driver_T1
-Wire Wire Line
-	7950 1300 7850 1300
-Wire Wire Line
-	7850 1700 7950 1700
-Wire Wire Line
-	7850 1950 7950 1950
-Wire Wire Line
-	7850 2050 7950 2050
-Wire Wire Line
-	7850 2150 7950 2150
-Text GLabel 7850 2150 0    50   Output ~ 0
-Extra_LowSense
-Text GLabel 7850 2050 0    50   Output ~ 0
-Multimedia_HighSense
-Text GLabel 7850 1950 0    50   Output ~ 0
-Aux_Mount_HighSense
-Text GLabel 7850 2250 0    50   Output ~ 0
-Drive_HighSense
 NoConn ~ 1500 4000
 NoConn ~ 1500 4100
 NoConn ~ 1500 4400
@@ -357,42 +307,32 @@ Text HLabel 1350 3600 1    50   Input ~ 0
 3V3
 Wire Wire Line
 	1500 3600 1350 3600
-$Comp
-L MRDT_Connectors:Molex_SL_07 Conn9
-U 1 1 5F8C10A1
-P 8150 1750
-F 0 "Conn9" H 8278 2158 60  0000 L CNN
-F 1 "Molex_SL_07" H 8278 2052 60  0000 L CNN
-F 2 "" H 8150 1950 60  0001 C CNN
-F 3 "" H 8150 1950 60  0001 C CNN
-	1    8150 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_05 Conn10
-U 1 1 5F8C2CF6
-P 8150 2400
-F 0 "Conn10" H 8278 2708 60  0000 L CNN
-F 1 "Molex_SL_05" H 8278 2602 60  0000 L CNN
-F 2 "" H 8150 2400 60  0001 C CNN
-F 3 "" H 8150 2400 60  0001 C CNN
-	1    8150 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7850 2250 7950 2250
-Wire Wire Line
-	7850 2350 7950 2350
-Text GLabel 7850 1100 0    50   Input ~ 0
-Camera_CTL
-Text GLabel 7850 1200 0    50   Input ~ 0
-NavBoard_CTL
-Text GLabel 7850 1300 0    50   Input ~ 0
-Gimbal_CTL
-Text GLabel 7850 1400 0    50   Input ~ 0
-Aux_Mount_CTL
-Text GLabel 7850 1500 0    50   Input ~ 0
-Multimedia_CTL
-Text GLabel 7850 1600 0    50   Input ~ 0
+Text HLabel 1400 3800 0    50   Output ~ 0
 LowExtra_CTL
+Text HLabel 1400 4200 0    50   Output ~ 0
+Camera_CTL
+Text HLabel 1400 4300 0    50   Output ~ 0
+NavBoard_CTL
+Text HLabel 1400 4500 0    50   Output ~ 0
+Gimbal_CTL
+Text HLabel 2600 3800 2    50   Input ~ 0
+Aux_Mount_HighSense
+Text HLabel 2600 3900 2    50   Input ~ 0
+Multimedia_HighSense
+Text HLabel 2600 4000 2    50   Input ~ 0
+Extra_LowSense
+Text HLabel 2600 4100 2    50   Input ~ 0
+Drive_HighSense
+Text HLabel 2600 4400 2    50   Output ~ 0
+Aux_Mount_CTL
+Text HLabel 2600 4500 2    50   Output ~ 0
+Multimedia_CTL
+Wire Wire Line
+	6050 1700 6150 1700
+Wire Wire Line
+	6050 1800 6150 1800
+Text HLabel 6150 1700 2    50   Input ~ 0
+Current_Sensor_E5
+Text HLabel 6150 1800 2    50   Output ~ 0
+Driver_E5
 $EndSCHEMATC

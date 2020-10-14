@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -1075,4 +1075,269 @@ Text HLabel 3300 6300 2    50   Output ~ 0
 Anderson_M3
 Text HLabel 8700 2150 2    50   Output ~ 0
 Anderson_M4
+$Comp
+L Device:Q_NMOS_DGS Q9
+U 1 1 5F880747
+P 8350 3600
+AR Path="/5F7A6A8B/5F880747" Ref="Q9"  Part="1" 
+AR Path="/5F8EFCC9/5F880747" Ref="Q?"  Part="1" 
+F 0 "Q9" H 8350 3400 50  0000 C CNN
+F 1 "Q_NMOS_DGS" H 8650 3300 50  0000 C CNN
+F 2 "" H 8550 3700 50  0001 C CNN
+F 3 "~" H 8350 3600 50  0001 C CNN
+	1    8350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR063
+U 1 1 5F88074D
+P 7200 4200
+AR Path="/5F7A6A8B/5F88074D" Ref="#PWR063"  Part="1" 
+AR Path="/5F8EFCC9/5F88074D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR063" H 7200 3950 50  0001 C CNN
+F 1 "GND" H 7205 4027 50  0000 C CNN
+F 2 "" H 7200 4200 50  0001 C CNN
+F 3 "" H 7200 4200 50  0001 C CNN
+	1    7200 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4050 7200 4150
+$Comp
+L Device:Fuse F9
+U 1 1 5F880754
+P 7850 3200
+AR Path="/5F7A6A8B/5F880754" Ref="F9"  Part="1" 
+AR Path="/5F8EFCC9/5F880754" Ref="F?"  Part="1" 
+F 0 "F9" H 7910 3246 50  0000 L CNN
+F 1 "25" H 7910 3155 50  0000 L CNN
+F 2 "" V 7780 3200 50  0001 C CNN
+F 3 "~" H 7850 3200 50  0001 C CNN
+	1    7850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5F88075A
+P 6300 3450
+AR Path="/5F7A6A8B/5F88075A" Ref="R28"  Part="1" 
+AR Path="/5F8EFCC9/5F88075A" Ref="R?"  Part="1" 
+F 0 "R28" V 6200 3450 50  0000 C CNN
+F 1 "5.1k" V 6300 3450 50  0000 C CNN
+F 2 "" V 6230 3450 50  0001 C CNN
+F 3 "~" H 6300 3450 50  0001 C CNN
+	1    6300 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 3750 8150 3750
+Wire Wire Line
+	7200 4150 7950 4150
+Wire Wire Line
+	7950 4150 7950 4050
+Connection ~ 7200 4150
+Wire Wire Line
+	7200 4150 7200 4200
+Wire Wire Line
+	6450 3600 6600 3600
+Wire Wire Line
+	6450 3450 6600 3450
+$Comp
+L Device:C_Small C27
+U 1 1 5F880767
+P 6600 3950
+AR Path="/5F7A6A8B/5F880767" Ref="C27"  Part="1" 
+AR Path="/5F8EFCC9/5F880767" Ref="C?"  Part="1" 
+F 0 "C27" H 6692 3996 50  0000 L CNN
+F 1 "0.1uF" H 6692 3905 50  0000 L CNN
+F 2 "" H 6600 3950 50  0001 C CNN
+F 3 "~" H 6600 3950 50  0001 C CNN
+	1    6600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3750 6600 3850
+Wire Wire Line
+	6600 4050 7200 4050
+$Comp
+L Device:C_Small C28
+U 1 1 5F88076F
+P 7950 3950
+AR Path="/5F7A6A8B/5F88076F" Ref="C28"  Part="1" 
+AR Path="/5F8EFCC9/5F88076F" Ref="C?"  Part="1" 
+F 0 "C28" H 8042 3996 50  0000 L CNN
+F 1 "10uF" H 8042 3905 50  0000 L CNN
+F 2 "" H 7950 3950 50  0001 C CNN
+F 3 "~" H 7950 3950 50  0001 C CNN
+	1    7950 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3450 7950 3600
+Wire Wire Line
+	7750 3450 7850 3450
+Wire Wire Line
+	7750 3600 7950 3600
+Connection ~ 7950 3600
+Wire Wire Line
+	7950 3600 7950 3850
+Wire Wire Line
+	7850 3350 7850 3450
+Connection ~ 7850 3450
+Wire Wire Line
+	7850 3450 7950 3450
+Wire Wire Line
+	7700 3050 7850 3050
+Wire Wire Line
+	8150 3750 8150 3600
+Wire Wire Line
+	8450 3400 7950 3400
+Wire Wire Line
+	7950 3400 7950 3450
+Connection ~ 7950 3450
+Text Notes 7500 2800 0    157  ~ 0
+Extra
+Wire Wire Line
+	8700 3800 8700 3400
+Wire Wire Line
+	8900 3400 9250 3400
+Connection ~ 8900 3400
+Wire Wire Line
+	8900 3400 8900 3500
+Wire Wire Line
+	8700 3400 8900 3400
+Wire Wire Line
+	8900 3800 8900 3900
+Wire Wire Line
+	9250 3900 9250 3600
+$Comp
+L Device:R R29
+U 1 1 5F88078A
+P 8900 3650
+AR Path="/5F7A6A8B/5F88078A" Ref="R29"  Part="1" 
+AR Path="/5F8EFCC9/5F88078A" Ref="R?"  Part="1" 
+F 0 "R29" V 8800 3600 50  0000 L CNN
+F 1 "0.05" V 8900 3550 50  0000 L CNN
+F 2 "" V 8830 3650 50  0001 C CNN
+F 3 "https://riedon.com/media/pdf/PFS35.pdf" H 8900 3650 50  0001 C CNN
+	1    8900 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3800 9600 3800
+$Comp
+L power:GND #PWR065
+U 1 1 5F880791
+P 9600 3800
+AR Path="/5F7A6A8B/5F880791" Ref="#PWR065"  Part="1" 
+AR Path="/5F8EFCC9/5F880791" Ref="#PWR?"  Part="1" 
+F 0 "#PWR065" H 9600 3550 50  0001 C CNN
+F 1 "GND" H 9605 3627 50  0000 C CNN
+F 2 "" H 9600 3800 50  0001 C CNN
+F 3 "" H 9600 3800 50  0001 C CNN
+	1    9600 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D17
+U 1 1 5F880797
+P 8850 4250
+AR Path="/5F7A6A8B/5F880797" Ref="D17"  Part="1" 
+AR Path="/5F8EFCC9/5F880797" Ref="D?"  Part="1" 
+F 0 "D17" H 8850 4350 50  0000 C CNN
+F 1 "LED" H 8850 4450 50  0000 C CNN
+F 2 "" H 8850 4250 50  0001 C CNN
+F 3 "~" H 8850 4250 50  0001 C CNN
+	1    8850 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 4250 8700 4250
+$Comp
+L Device:R R30
+U 1 1 5F88079E
+P 9300 4250
+AR Path="/5F7A6A8B/5F88079E" Ref="R30"  Part="1" 
+AR Path="/5F8EFCC9/5F88079E" Ref="R?"  Part="1" 
+F 0 "R30" V 9200 4200 50  0000 L CNN
+F 1 "3300" V 9300 4150 50  0000 L CNN
+F 2 "" V 9230 4250 50  0001 C CNN
+F 3 "~" H 9300 4250 50  0001 C CNN
+	1    9300 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 4250 9150 4250
+Wire Wire Line
+	9450 4250 9550 4250
+Text HLabel 7700 3050 0    50   Input ~ 0
+PV
+$Comp
+L MRDT_ICs:INA281 U22
+U 1 1 5F8807A7
+P 9450 3500
+AR Path="/5F7A6A8B/5F8807A7" Ref="U22"  Part="1" 
+AR Path="/5F8EFCC9/5F8807A7" Ref="U?"  Part="1" 
+F 0 "U22" H 9650 3350 50  0000 L CNN
+F 1 "INA281" H 9550 3250 50  0000 L CNN
+F 2 "" H 9700 3700 50  0001 C CNN
+F 3 "" H 9700 3700 50  0001 C CNN
+	1    9450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_ICs:LT1910 U21
+U 1 1 5F8807AD
+P 6800 3850
+AR Path="/5F7A6A8B/5F8807AD" Ref="U21"  Part="1" 
+AR Path="/5F8EFCC9/5F8807AD" Ref="U?"  Part="1" 
+F 0 "U21" H 7175 4537 60  0000 C CNN
+F 1 "LT1910" H 7175 4431 60  0000 C CNN
+F 2 "" H 6800 3850 60  0001 C CNN
+F 3 "" H 6800 3850 60  0001 C CNN
+	1    6800 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7200 4050
+Text HLabel 9450 3150 1    50   Input ~ 0
+5V
+Text HLabel 6050 3450 0    50   Input ~ 0
+5V
+Wire Wire Line
+	6050 3450 6150 3450
+Wire Wire Line
+	9450 3150 9450 3200
+Wire Wire Line
+	9850 3500 9850 3400
+Text HLabel 6450 3600 0    50   Input ~ 0
+Driver_E5
+Wire Wire Line
+	8450 3800 8700 3800
+$Comp
+L power:GND #PWR064
+U 1 1 5F8807BB
+P 9550 4250
+AR Path="/5F7A6A8B/5F8807BB" Ref="#PWR064"  Part="1" 
+AR Path="/5F8EFCC9/5F8807BB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR064" H 9550 4000 50  0001 C CNN
+F 1 "GND" H 9555 4077 50  0000 C CNN
+F 2 "" H 9550 4250 50  0001 C CNN
+F 3 "" H 9550 4250 50  0001 C CNN
+	1    9550 4250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8450 3800
+Wire Wire Line
+	8900 3900 9250 3900
+Wire Wire Line
+	8450 3800 8450 4050
+Wire Wire Line
+	8450 4050 8700 4050
+Connection ~ 8450 4050
+Wire Wire Line
+	8450 4050 8450 4250
+Text HLabel 9850 3400 1    50   Output ~ 0
+Current_Sensor_E5
+Text HLabel 8700 4050 2    50   Output ~ 0
+Anderson_E5
 $EndSCHEMATC
