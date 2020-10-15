@@ -80,23 +80,23 @@ Wire Wire Line
 	10100 1950 9950 1950
 Text HLabel 1200 2600 0    40   Input ~ 0
 Current_Sensor_R1
-Text HLabel 3850 2100 2    40   Output ~ 0
+Text HLabel 3850 2000 2    40   Output ~ 0
 Driver_M1
-Text HLabel 3850 2200 2    40   Output ~ 0
+Text HLabel 3850 2100 2    40   Output ~ 0
 Driver_M2
-Text HLabel 3850 2300 2    40   Output ~ 0
+Text HLabel 3850 2200 2    40   Output ~ 0
 Driver_M3
 Text HLabel 1200 2900 0    40   Input ~ 0
 Current_Sensor_S1
 Text HLabel 1200 2700 0    40   Input ~ 0
 Current_Sensor_T1
-Text HLabel 1200 2100 0    40   Input ~ 0
+Text HLabel 1200 2000 0    40   Input ~ 0
 Current_Sensor_M1
-Text HLabel 1200 2200 0    40   Input ~ 0
+Text HLabel 1200 2100 0    40   Input ~ 0
 Current_Sensor_M2
-Text HLabel 1200 2300 0    40   Input ~ 0
+Text HLabel 1200 2200 0    40   Input ~ 0
 Current_Sensor_M3
-Text HLabel 1200 2400 0    40   Input ~ 0
+Text HLabel 1200 2300 0    40   Input ~ 0
 Current_Sensor_M4
 Text HLabel 1200 2800 0    40   Input ~ 0
 Current_Sensor_V1
@@ -108,23 +108,23 @@ Text HLabel 3850 2600 2    40   Output ~ 0
 Driver_R1
 Text HLabel 3850 2800 2    40   Output ~ 0
 Driver_V1
-Text HLabel 3850 2400 2    40   Output ~ 0
+Text HLabel 3850 2300 2    40   Output ~ 0
 Driver_M4
-Text HLabel 1050 4650 0    50   Input ~ 0
+Text HLabel 1050 4550 0    50   Input ~ 0
 Driver_M1
-Text HLabel 1050 4750 0    50   Input ~ 0
+Text HLabel 1050 4650 0    50   Input ~ 0
 Driver_M2
-Text HLabel 1050 4850 0    50   Input ~ 0
+Text HLabel 1050 4750 0    50   Input ~ 0
 Driver_M3
-Text HLabel 1050 4950 0    50   Input ~ 0
+Text HLabel 1050 4850 0    50   Input ~ 0
 Driver_M4
-Text HLabel 3400 4650 2    50   Output ~ 0
+Text HLabel 3400 4550 2    50   Output ~ 0
 Current_Sensor_M1
-Text HLabel 3400 4750 2    50   Output ~ 0
+Text HLabel 3400 4650 2    50   Output ~ 0
 Current_Sensor_M2
-Text HLabel 3400 4850 2    50   Output ~ 0
+Text HLabel 3400 4750 2    50   Output ~ 0
 Current_Sensor_M3
-Text HLabel 3400 4950 2    50   Output ~ 0
+Text HLabel 3400 4850 2    50   Output ~ 0
 Current_Sensor_M4
 Text HLabel 9275 950  2    50   Output ~ 0
 12V
@@ -621,17 +621,17 @@ $EndComp
 Wire Wire Line
 	9700 4600 9550 4600
 Text HLabel 9700 4600 2    50   Input ~ 0
-Anderson_E5
-Text HLabel 1050 5050 0    50   Input ~ 0
-Driver_E5
-Text HLabel 3400 5050 2    50   Output ~ 0
-Current_Sensor_E5
+Anderson_M5
+Text HLabel 1050 4950 0    50   Input ~ 0
+Driver_M5
+Text HLabel 3400 4950 2    50   Output ~ 0
+Current_Sensor_M5
 Text HLabel 3400 4000 2    50   Output ~ 0
-Anderson_E5
-Text HLabel 1200 2500 0    40   Input ~ 0
-Current_Sensor_E5
-Text HLabel 3850 2500 2    40   Output ~ 0
-Driver_E5
+Anderson_M5
+Text HLabel 1200 2400 0    40   Input ~ 0
+Current_Sensor_M5
+Text HLabel 3850 2400 2    40   Output ~ 0
+Driver_M5
 Wire Wire Line
 	6225 1100 6125 1100
 Wire Wire Line
@@ -807,33 +807,29 @@ Wire Wire Line
 $Comp
 L MRDT_Drill_Holes:Via GND?
 U 1 1 5F8B7D21
-P 7600 3475
+P 7650 3575
 AR Path="/5F83E409/5F8B7D21" Ref="GND?"  Part="1" 
 AR Path="/5F8B7D21" Ref="GND1"  Part="1" 
-F 0 "GND1" H 7828 3533 60  0000 L CNN
-F 1 "Via" H 7828 3427 60  0000 L CNN
-F 2 "" H 7600 3475 60  0001 C CNN
-F 3 "" H 7600 3475 60  0001 C CNN
-	1    7600 3475
+F 0 "GND1" H 7525 3700 60  0000 L CNN
+F 1 "Via" H 7575 3475 60  0000 L CNN
+F 2 "" H 7650 3575 60  0001 C CNN
+F 3 "" H 7650 3575 60  0001 C CNN
+	1    7650 3575
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F8B7D27
-P 7750 3725
+P 8050 3575
 AR Path="/5F83E409/5F8B7D27" Ref="#PWR?"  Part="1" 
 AR Path="/5F8B7D27" Ref="#PWR012"  Part="1" 
-F 0 "#PWR012" H 7750 3475 50  0001 C CNN
-F 1 "GND" H 7755 3552 50  0000 C CNN
-F 2 "" H 7750 3725 50  0001 C CNN
-F 3 "" H 7750 3725 50  0001 C CNN
-	1    7750 3725
-	1    0    0    -1  
+F 0 "#PWR012" H 8050 3325 50  0001 C CNN
+F 1 "GND" H 8055 3402 50  0000 C CNN
+F 2 "" H 8050 3575 50  0001 C CNN
+F 3 "" H 8050 3575 50  0001 C CNN
+	1    8050 3575
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7600 3475 7750 3475
-Wire Wire Line
-	7750 3475 7750 3725
 $Comp
 L Device:D D?
 U 1 1 5F8B7D2F
@@ -883,32 +879,92 @@ Text HLabel 9900 2925 1    50   Output ~ 0
 PV
 Wire Notes Line
 	7275 475  7275 4050
-Text HLabel 3850 1900 2    39   Output ~ 0
+Text HLabel 3850 1725 2    39   Output ~ 0
 Camera_CTL
-Text HLabel 3850 1800 2    39   Output ~ 0
+Text HLabel 3850 1625 2    39   Output ~ 0
 NavBoard_CTL
-Text HLabel 3850 1700 2    39   Output ~ 0
+Text HLabel 3850 1525 2    39   Output ~ 0
 Gimbal_CTL
-Text HLabel 3850 1600 2    39   Output ~ 0
+Text HLabel 3850 1425 2    39   Output ~ 0
 Aux_Mount_CTL
-Text HLabel 3850 1500 2    39   Output ~ 0
+Text HLabel 3850 1325 2    39   Output ~ 0
 Multimedia_CTL
 Text Notes 5200 1725 2    79   ~ 0
 12V Tiva Pins
 Text Notes 5025 2600 2    79   ~ 0
 PV Tiva Pins
-Text HLabel 3850 1400 2    39   Output ~ 0
+Text HLabel 3850 1225 2    39   Output ~ 0
 LowExtra_CTL
-Text HLabel 1200 1600 0    39   Input ~ 0
+Text HLabel 1200 1425 0    39   Input ~ 0
 Aux_Mount_HighSense
-Text HLabel 1200 1700 0    39   Input ~ 0
+Text HLabel 1200 1525 0    39   Input ~ 0
 Multimedia_HighSense
-Text HLabel 1200 1800 0    39   Input ~ 0
+Text HLabel 1200 1625 0    39   Input ~ 0
 Extra_LowSense
-Text HLabel 1200 1900 0    39   Input ~ 0
+Text HLabel 1200 1725 0    39   Input ~ 0
 Drive_HighSense
 Wire Notes Line
 	7275 4050 10525 4050
 Wire Notes Line
 	475  3250 7275 3250
+Wire Wire Line
+	7650 3575 8050 3575
+$Comp
+L power:GND #PWR?
+U 1 1 5F8BC444
+P 9725 6200
+AR Path="/5F7A6A8B/5F8BC444" Ref="#PWR?"  Part="1" 
+AR Path="/5F8EFCC9/5F8BC444" Ref="#PWR?"  Part="1" 
+AR Path="/5F8BC444" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9725 5950 50  0001 C CNN
+F 1 "GND" H 9730 6027 50  0000 C CNN
+F 2 "" H 9725 6200 50  0001 C CNN
+F 3 "" H 9725 6200 50  0001 C CNN
+	1    9725 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9525 6200 9725 6200
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 4 1 5F8BC44B
+P 9125 5850
+AR Path="/5F7A6A8B/5F8BC44B" Ref="Conn?"  Part="4" 
+AR Path="/5F8EFCC9/5F8BC44B" Ref="Conn?"  Part="4" 
+AR Path="/5F8BC44B" Ref="Conn?"  Part="4" 
+F 0 "Conn?" H 9333 6237 60  0000 C CNN
+F 1 "AndersonPP" H 9333 6131 60  0000 C CNN
+F 2 "" H 8975 5300 60  0001 C CNN
+F 3 "" H 8975 5300 60  0001 C CNN
+	4    9125 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5F8BC451
+P 9125 6300
+AR Path="/5F7A6A8B/5F8BC451" Ref="Conn?"  Part="1" 
+AR Path="/5F8EFCC9/5F8BC451" Ref="Conn?"  Part="1" 
+AR Path="/5F8BC451" Ref="Conn?"  Part="1" 
+F 0 "Conn?" H 9475 6650 60  0000 R CNN
+F 1 "AndersonPP" H 9625 6550 60  0000 R CNN
+F 2 "" H 8975 5750 60  0001 C CNN
+F 3 "" H 8975 5750 60  0001 C CNN
+	1    9125 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9675 5750 9525 5750
+Text HLabel 9675 5750 2    50   Input ~ 0
+Anderson_E6
+Text HLabel 3400 5050 2    50   Output ~ 0
+Current_Sensor_E6
+Text HLabel 1050 5050 0    50   Input ~ 0
+Driver_E6
+Text HLabel 3400 4100 2    50   Output ~ 0
+Anderson_E6
+Text HLabel 1200 2500 0    40   Input ~ 0
+Current_Sensor_E6
+Text HLabel 3850 2500 2    40   Output ~ 0
+Driver_E6
 $EndSCHEMATC
