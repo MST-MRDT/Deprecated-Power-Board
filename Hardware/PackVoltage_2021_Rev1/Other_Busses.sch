@@ -255,14 +255,9 @@ F 3 "" H 4200 2300 50  0001 C CNN
 $EndComp
 Connection ~ 3100 1850
 Wire Wire Line
-	3550 1950 3900 1950
+	3550 1950 3750 1950
 Wire Wire Line
-	3100 1850 3100 2100
-Wire Wire Line
-	3100 2100 3350 2100
-Connection ~ 3100 2100
-Wire Wire Line
-	3100 2100 3100 2300
+	3750 2100 4000 2100
 Text HLabel 4500 1450 1    50   Output ~ 0
 Current_Sensor_R1
 $Comp
@@ -518,14 +513,9 @@ F 3 "" H 4150 4300 50  0001 C CNN
 $EndComp
 Connection ~ 3050 3850
 Wire Wire Line
-	3500 3950 3850 3950
+	3500 3950 3700 3950
 Wire Wire Line
-	3050 3850 3050 4100
-Wire Wire Line
-	3050 4100 3300 4100
-Connection ~ 3050 4100
-Wire Wire Line
-	3050 4100 3050 4300
+	3700 4100 3950 4100
 Text HLabel 4450 3450 1    50   Output ~ 0
 Current_Sensor_T1
 $Comp
@@ -781,14 +771,9 @@ F 3 "" H 4150 6500 50  0001 C CNN
 $EndComp
 Connection ~ 3050 6050
 Wire Wire Line
-	3500 6150 3850 6150
+	3500 6150 3700 6150
 Wire Wire Line
-	3050 6050 3050 6300
-Wire Wire Line
-	3050 6300 3300 6300
-Connection ~ 3050 6300
-Wire Wire Line
-	3050 6300 3050 6500
+	3700 6300 3950 6300
 Text HLabel 4450 5650 1    50   Output ~ 0
 Current_Sensor_V1
 $Comp
@@ -1044,14 +1029,9 @@ F 3 "" H 9550 2350 50  0001 C CNN
 $EndComp
 Connection ~ 8450 1900
 Wire Wire Line
-	8900 2000 9250 2000
+	8900 2000 9100 2000
 Wire Wire Line
-	8450 1900 8450 2150
-Wire Wire Line
-	8450 2150 8700 2150
-Connection ~ 8450 2150
-Wire Wire Line
-	8450 2150 8450 2350
+	9100 2150 9350 2150
 Text HLabel 9850 1500 1    50   Output ~ 0
 Current_Sensor_S1
 $Comp
@@ -1067,13 +1047,13 @@ F 3 "~" H 2500 1250 50  0001 C CNN
 	1    2500 1250
 	1    0    0    -1  
 $EndComp
-Text HLabel 3350 2100 2    50   Output ~ 0
+Text HLabel 4000 2100 2    50   Output ~ 0
 Anderson_R1
-Text HLabel 3300 4100 2    50   Output ~ 0
+Text HLabel 3950 4100 2    50   Output ~ 0
 Anderson_T1
-Text HLabel 3300 6300 2    50   Output ~ 0
+Text HLabel 3950 6300 2    50   Output ~ 0
 Anderson_V1
-Text HLabel 8700 2150 2    50   Output ~ 0
+Text HLabel 9350 2150 2    50   Output ~ 0
 Anderson_S1
 $Comp
 L Device:Q_NMOS_DGS Q?
@@ -1328,16 +1308,46 @@ F 3 "" H 9550 4400 50  0001 C CNN
 $EndComp
 Connection ~ 8450 3950
 Wire Wire Line
-	8900 4050 9250 4050
+	8900 4050 9100 4050
 Wire Wire Line
-	8450 3950 8450 4200
-Wire Wire Line
-	8450 4200 8700 4200
-Connection ~ 8450 4200
-Wire Wire Line
-	8450 4200 8450 4400
+	9100 4200 9350 4200
 Text HLabel 9850 3550 1    50   Output ~ 0
 Current_Sensor_A1
-Text HLabel 8700 4200 2    50   Output ~ 0
+Text HLabel 9350 4200 2    50   Output ~ 0
 Anderson_A1
+Wire Wire Line
+	3100 1850 3100 2300
+Wire Wire Line
+	3750 2100 3750 1950
+Connection ~ 3750 1950
+Wire Wire Line
+	3750 1950 3900 1950
+Wire Wire Line
+	3050 3850 3050 4300
+Wire Wire Line
+	3700 4100 3700 3950
+Connection ~ 3700 3950
+Wire Wire Line
+	3700 3950 3850 3950
+Wire Wire Line
+	3050 6050 3050 6500
+Wire Wire Line
+	3700 6300 3700 6150
+Connection ~ 3700 6150
+Wire Wire Line
+	3700 6150 3850 6150
+Wire Wire Line
+	8450 3950 8450 4400
+Wire Wire Line
+	9100 4200 9100 4050
+Connection ~ 9100 4050
+Wire Wire Line
+	9100 4050 9250 4050
+Wire Wire Line
+	8450 1900 8450 2350
+Wire Wire Line
+	9100 2150 9100 2000
+Connection ~ 9100 2000
+Wire Wire Line
+	9100 2000 9250 2000
 $EndSCHEMATC

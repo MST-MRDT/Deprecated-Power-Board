@@ -16,12 +16,6 @@ $EndDescr
 Text Notes 6725 7200 0    197  ~ 0
 Pack Voltage Board
 $Sheet
-S 1200 850  2650 2100
-U 5F74F238
-F0 "TIVA" 157
-F1 "TIVA.sch" 157
-$EndSheet
-$Sheet
 S 1050 3550 2350 1550
 U 5F7A6A8B
 F0 "Motor_Busses" 158
@@ -841,13 +835,13 @@ Text Notes 5200 1625 2    79   ~ 0
 12V Tiva Pins
 Text Notes 5025 2600 2    79   ~ 0
 PV Tiva Pins
-Text HLabel 1200 1525 0    39   Input ~ 0
+Text HLabel 1200 1500 0    39   Input ~ 0
 AuxMountSense
-Text HLabel 1200 1625 0    39   Input ~ 0
+Text HLabel 1200 1600 0    39   Input ~ 0
 MultimediaSense
-Text HLabel 1200 1725 0    39   Input ~ 0
+Text HLabel 1200 1700 0    39   Input ~ 0
 LowCurrentSense
-Text HLabel 1200 1450 0    39   Input ~ 0
+Text HLabel 1200 1400 0    39   Input ~ 0
 DriveSense
 Wire Notes Line
 	7275 4050 10525 4050
@@ -943,4 +937,10 @@ Wire Wire Line
 Wire Wire Line
 	6075 1950 6200 1950
 NoConn ~ 6200 1550
+$Sheet
+S 1200 850  2650 2100
+U 5F74F238
+F0 "TIVA" 157
+F1 "TIVA.sch" 157
+$EndSheet
 $EndSCHEMATC
