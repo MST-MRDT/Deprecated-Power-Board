@@ -338,7 +338,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 2000 6150 2000
 Text HLabel 6150 1800 2    50   Input ~ 0
-Current_Sensor_E6
+Current_Sensor_A1
 Text HLabel 6150 2000 2    50   Output ~ 0
-Driver_E6
+Driver_A1
 $EndSCHEMATC

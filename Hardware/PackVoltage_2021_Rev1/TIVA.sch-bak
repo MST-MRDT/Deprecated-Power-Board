@@ -215,8 +215,6 @@ NoConn ~ 6050 1300
 NoConn ~ 6050 1400
 NoConn ~ 6050 1500
 NoConn ~ 6050 1600
-NoConn ~ 6050 1900
-NoConn ~ 6050 2000
 NoConn ~ 6050 2100
 Wire Wire Line
 	1400 4200 1500 4200
@@ -330,9 +328,17 @@ Multimedia_CTL
 Wire Wire Line
 	6050 1700 6150 1700
 Wire Wire Line
-	6050 1800 6150 1800
+	6050 1900 6150 1900
 Text HLabel 6150 1700 2    50   Input ~ 0
-Current_Sensor_E5
-Text HLabel 6150 1800 2    50   Output ~ 0
-Driver_E5
+Current_Sensor_M5
+Text HLabel 6150 1900 2    50   Output ~ 0
+Driver_M5
+Wire Wire Line
+	6050 1800 6150 1800
+Wire Wire Line
+	6050 2000 6150 2000
+Text HLabel 6150 1800 2    50   Input ~ 0
+Current_Sensor_E6
+Text HLabel 6150 2000 2    50   Output ~ 0
+Driver_E6
 $EndSCHEMATC

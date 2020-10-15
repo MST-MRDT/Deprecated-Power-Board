@@ -1196,7 +1196,7 @@ Wire Wire Line
 	7950 3400 7950 3450
 Connection ~ 7950 3450
 Text Notes 7500 2800 0    157  ~ 0
-Extra
+Motor 5
 Wire Wire Line
 	8700 3800 8700 3400
 Wire Wire Line
@@ -1310,7 +1310,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 3500 9850 3400
 Text HLabel 6450 3600 0    50   Input ~ 0
-Driver_E5
+Driver_M5
 Wire Wire Line
 	8450 3800 8700 3800
 $Comp
@@ -1337,7 +1337,272 @@ Connection ~ 8450 4050
 Wire Wire Line
 	8450 4050 8450 4250
 Text HLabel 9850 3400 1    50   Output ~ 0
-Current_Sensor_E5
+Current_Sensor_M5
 Text HLabel 8700 4050 2    50   Output ~ 0
-Anderson_E5
+Anderson_M5
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5F8AE4AE
+P 8325 5600
+AR Path="/5F7A6A8B/5F8AE4AE" Ref="Q?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE4AE" Ref="Q?"  Part="1" 
+F 0 "Q?" H 8325 5400 50  0000 C CNN
+F 1 "Q_NMOS_DGS" H 8625 5300 50  0000 C CNN
+F 2 "" H 8525 5700 50  0001 C CNN
+F 3 "~" H 8325 5600 50  0001 C CNN
+	1    8325 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8AE4B4
+P 7175 6200
+AR Path="/5F7A6A8B/5F8AE4B4" Ref="#PWR?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE4B4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7175 5950 50  0001 C CNN
+F 1 "GND" H 7180 6027 50  0000 C CNN
+F 2 "" H 7175 6200 50  0001 C CNN
+F 3 "" H 7175 6200 50  0001 C CNN
+	1    7175 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7175 6050 7175 6150
+$Comp
+L Device:Fuse F?
+U 1 1 5F8AE4BB
+P 7825 5200
+AR Path="/5F7A6A8B/5F8AE4BB" Ref="F?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE4BB" Ref="F?"  Part="1" 
+F 0 "F?" H 7885 5246 50  0000 L CNN
+F 1 "25" H 7885 5155 50  0000 L CNN
+F 2 "" V 7755 5200 50  0001 C CNN
+F 3 "~" H 7825 5200 50  0001 C CNN
+	1    7825 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8AE4C1
+P 6275 5450
+AR Path="/5F7A6A8B/5F8AE4C1" Ref="R?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE4C1" Ref="R?"  Part="1" 
+F 0 "R?" V 6175 5450 50  0000 C CNN
+F 1 "5.1k" V 6275 5450 50  0000 C CNN
+F 2 "" V 6205 5450 50  0001 C CNN
+F 3 "~" H 6275 5450 50  0001 C CNN
+	1    6275 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7725 5750 8125 5750
+Wire Wire Line
+	7175 6150 7925 6150
+Wire Wire Line
+	7925 6150 7925 6050
+Connection ~ 7175 6150
+Wire Wire Line
+	7175 6150 7175 6200
+Wire Wire Line
+	6425 5600 6575 5600
+Wire Wire Line
+	6425 5450 6575 5450
+$Comp
+L Device:C_Small C?
+U 1 1 5F8AE4CE
+P 6575 5950
+AR Path="/5F7A6A8B/5F8AE4CE" Ref="C?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE4CE" Ref="C?"  Part="1" 
+F 0 "C?" H 6667 5996 50  0000 L CNN
+F 1 "0.1uF" H 6667 5905 50  0000 L CNN
+F 2 "" H 6575 5950 50  0001 C CNN
+F 3 "~" H 6575 5950 50  0001 C CNN
+	1    6575 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6575 5750 6575 5850
+Wire Wire Line
+	6575 6050 7175 6050
+$Comp
+L Device:C_Small C?
+U 1 1 5F8AE4D6
+P 7925 5950
+AR Path="/5F7A6A8B/5F8AE4D6" Ref="C?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE4D6" Ref="C?"  Part="1" 
+F 0 "C?" H 8017 5996 50  0000 L CNN
+F 1 "10uF" H 8017 5905 50  0000 L CNN
+F 2 "" H 7925 5950 50  0001 C CNN
+F 3 "~" H 7925 5950 50  0001 C CNN
+	1    7925 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 5450 7925 5600
+Wire Wire Line
+	7725 5450 7825 5450
+Wire Wire Line
+	7725 5600 7925 5600
+Connection ~ 7925 5600
+Wire Wire Line
+	7925 5600 7925 5850
+Wire Wire Line
+	7825 5350 7825 5450
+Connection ~ 7825 5450
+Wire Wire Line
+	7825 5450 7925 5450
+Wire Wire Line
+	7675 5050 7825 5050
+Wire Wire Line
+	8125 5750 8125 5600
+Wire Wire Line
+	8425 5400 7925 5400
+Wire Wire Line
+	7925 5400 7925 5450
+Connection ~ 7925 5450
+Text Notes 7475 4800 0    157  ~ 0
+Extra
+Wire Wire Line
+	8675 5800 8675 5400
+Wire Wire Line
+	8875 5400 9225 5400
+Connection ~ 8875 5400
+Wire Wire Line
+	8875 5400 8875 5500
+Wire Wire Line
+	8675 5400 8875 5400
+Wire Wire Line
+	8875 5800 8875 5900
+Wire Wire Line
+	9225 5900 9225 5600
+$Comp
+L Device:R R?
+U 1 1 5F8AE4F1
+P 8875 5650
+AR Path="/5F7A6A8B/5F8AE4F1" Ref="R?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE4F1" Ref="R?"  Part="1" 
+F 0 "R?" V 8775 5600 50  0000 L CNN
+F 1 "0.05" V 8875 5550 50  0000 L CNN
+F 2 "" V 8805 5650 50  0001 C CNN
+F 3 "https://riedon.com/media/pdf/PFS35.pdf" H 8875 5650 50  0001 C CNN
+	1    8875 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9425 5800 9575 5800
+$Comp
+L power:GND #PWR?
+U 1 1 5F8AE4F8
+P 9575 5800
+AR Path="/5F7A6A8B/5F8AE4F8" Ref="#PWR?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE4F8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9575 5550 50  0001 C CNN
+F 1 "GND" H 9580 5627 50  0000 C CNN
+F 2 "" H 9575 5800 50  0001 C CNN
+F 3 "" H 9575 5800 50  0001 C CNN
+	1    9575 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F8AE4FE
+P 8825 6250
+AR Path="/5F7A6A8B/5F8AE4FE" Ref="D?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE4FE" Ref="D?"  Part="1" 
+F 0 "D?" H 8825 6350 50  0000 C CNN
+F 1 "LED" H 8825 6450 50  0000 C CNN
+F 2 "" H 8825 6250 50  0001 C CNN
+F 3 "~" H 8825 6250 50  0001 C CNN
+	1    8825 6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8425 6250 8675 6250
+$Comp
+L Device:R R?
+U 1 1 5F8AE505
+P 9275 6250
+AR Path="/5F7A6A8B/5F8AE505" Ref="R?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE505" Ref="R?"  Part="1" 
+F 0 "R?" V 9175 6200 50  0000 L CNN
+F 1 "3300" V 9275 6150 50  0000 L CNN
+F 2 "" V 9205 6250 50  0001 C CNN
+F 3 "~" H 9275 6250 50  0001 C CNN
+	1    9275 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8975 6250 9125 6250
+Wire Wire Line
+	9425 6250 9525 6250
+Text HLabel 7675 5050 0    50   Input ~ 0
+PV
+$Comp
+L MRDT_ICs:INA281 U?
+U 1 1 5F8AE50E
+P 9425 5500
+AR Path="/5F7A6A8B/5F8AE50E" Ref="U?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE50E" Ref="U?"  Part="1" 
+F 0 "U?" H 9625 5350 50  0000 L CNN
+F 1 "INA281" H 9525 5250 50  0000 L CNN
+F 2 "" H 9675 5700 50  0001 C CNN
+F 3 "" H 9675 5700 50  0001 C CNN
+	1    9425 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 5F8AE514
+P 6775 5850
+AR Path="/5F7A6A8B/5F8AE514" Ref="U?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE514" Ref="U?"  Part="1" 
+F 0 "U?" H 7150 6537 60  0000 C CNN
+F 1 "LT1910" H 7150 6431 60  0000 C CNN
+F 2 "" H 6775 5850 60  0001 C CNN
+F 3 "" H 6775 5850 60  0001 C CNN
+	1    6775 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7175 6050
+Text HLabel 9425 5150 1    50   Input ~ 0
+5V
+Text HLabel 6025 5450 0    50   Input ~ 0
+5V
+Wire Wire Line
+	6025 5450 6125 5450
+Wire Wire Line
+	9425 5150 9425 5200
+Wire Wire Line
+	9825 5500 9825 5400
+Text HLabel 6425 5600 0    50   Input ~ 0
+Driver_E6
+Wire Wire Line
+	8425 5800 8675 5800
+$Comp
+L power:GND #PWR?
+U 1 1 5F8AE522
+P 9525 6250
+AR Path="/5F7A6A8B/5F8AE522" Ref="#PWR?"  Part="1" 
+AR Path="/5F8EFCC9/5F8AE522" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9525 6000 50  0001 C CNN
+F 1 "GND" H 9530 6077 50  0000 C CNN
+F 2 "" H 9525 6250 50  0001 C CNN
+F 3 "" H 9525 6250 50  0001 C CNN
+	1    9525 6250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8425 5800
+Wire Wire Line
+	8875 5900 9225 5900
+Wire Wire Line
+	8425 5800 8425 6050
+Wire Wire Line
+	8425 6050 8675 6050
+Connection ~ 8425 6050
+Wire Wire Line
+	8425 6050 8425 6250
+Text HLabel 9825 5400 1    50   Output ~ 0
+Current_Sensor_E6
+Text HLabel 8675 6050 2    50   Output ~ 0
+Anderson_E6
 $EndSCHEMATC
