@@ -234,8 +234,6 @@ Wire Wire Line
 	2500 4400 2600 4400
 Wire Wire Line
 	2500 4500 2600 4500
-Wire Wire Line
-	1500 3800 1400 3800
 NoConn ~ 2500 3600
 NoConn ~ 2500 4300
 NoConn ~ 1500 3700
@@ -305,26 +303,24 @@ Text HLabel 1350 3600 1    50   Input ~ 0
 3V3
 Wire Wire Line
 	1500 3600 1350 3600
-Text HLabel 1400 3800 0    50   Output ~ 0
-LowExtra_CTL
 Text HLabel 1400 4200 0    50   Output ~ 0
-Camera_CTL
+CameraCTL
 Text HLabel 1400 4300 0    50   Output ~ 0
-NavBoard_CTL
+NavBoardCTL
 Text HLabel 1400 4500 0    50   Output ~ 0
-Gimbal_CTL
+GimbalCTL
 Text HLabel 2600 3800 2    50   Input ~ 0
-Aux_Mount_HighSense
+AuxMountSense
 Text HLabel 2600 3900 2    50   Input ~ 0
-Multimedia_HighSense
+MultimediaSense
 Text HLabel 2600 4000 2    50   Input ~ 0
-Extra_LowSense
+LowCurrentSense
 Text HLabel 2600 4100 2    50   Input ~ 0
-Drive_HighSense
+DriveSense
 Text HLabel 2600 4400 2    50   Output ~ 0
-Aux_Mount_CTL
+AuxMountCTL
 Text HLabel 2600 4500 2    50   Output ~ 0
-Multimedia_CTL
+MultimediaCTL
 Wire Wire Line
 	6050 1700 6150 1700
 Wire Wire Line
@@ -341,4 +337,5 @@ Text HLabel 6150 1800 2    50   Input ~ 0
 Current_Sensor_A1
 Text HLabel 6150 2000 2    50   Output ~ 0
 Driver_A1
+NoConn ~ 1500 3800
 $EndSCHEMATC

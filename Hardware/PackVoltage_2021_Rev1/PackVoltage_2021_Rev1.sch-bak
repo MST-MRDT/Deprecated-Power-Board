@@ -78,7 +78,7 @@ Wire Wire Line
 	10100 1800 10100 1950
 Wire Wire Line
 	10100 1950 9950 1950
-Text HLabel 1200 2600 0    40   Input ~ 0
+Text HLabel 1200 2500 0    40   Input ~ 0
 Current_Sensor_R1
 Text HLabel 3850 2000 2    40   Output ~ 0
 Driver_M1
@@ -86,9 +86,9 @@ Text HLabel 3850 2100 2    40   Output ~ 0
 Driver_M2
 Text HLabel 3850 2200 2    40   Output ~ 0
 Driver_M3
-Text HLabel 1200 2900 0    40   Input ~ 0
+Text HLabel 1200 2800 0    40   Input ~ 0
 Current_Sensor_S1
-Text HLabel 1200 2700 0    40   Input ~ 0
+Text HLabel 1200 2600 0    40   Input ~ 0
 Current_Sensor_T1
 Text HLabel 1200 2000 0    40   Input ~ 0
 Current_Sensor_M1
@@ -98,33 +98,33 @@ Text HLabel 1200 2200 0    40   Input ~ 0
 Current_Sensor_M3
 Text HLabel 1200 2300 0    40   Input ~ 0
 Current_Sensor_M4
-Text HLabel 1200 2800 0    40   Input ~ 0
+Text HLabel 1200 2700 0    40   Input ~ 0
 Current_Sensor_V1
-Text HLabel 3850 2900 2    40   Output ~ 0
-Driver_S1
-Text HLabel 3850 2700 2    40   Output ~ 0
-Driver_T1
-Text HLabel 3850 2600 2    40   Output ~ 0
-Driver_R1
 Text HLabel 3850 2800 2    40   Output ~ 0
+Driver_S1
+Text HLabel 3850 2600 2    40   Output ~ 0
+Driver_T1
+Text HLabel 3850 2500 2    40   Output ~ 0
+Driver_R1
+Text HLabel 3850 2700 2    40   Output ~ 0
 Driver_V1
 Text HLabel 3850 2300 2    40   Output ~ 0
 Driver_M4
-Text HLabel 1050 4550 0    50   Input ~ 0
-Driver_M1
 Text HLabel 1050 4650 0    50   Input ~ 0
-Driver_M2
+Driver_M1
 Text HLabel 1050 4750 0    50   Input ~ 0
-Driver_M3
+Driver_M2
 Text HLabel 1050 4850 0    50   Input ~ 0
+Driver_M3
+Text HLabel 1050 4950 0    50   Input ~ 0
 Driver_M4
-Text HLabel 3400 4550 2    50   Output ~ 0
-Current_Sensor_M1
 Text HLabel 3400 4650 2    50   Output ~ 0
-Current_Sensor_M2
+Current_Sensor_M1
 Text HLabel 3400 4750 2    50   Output ~ 0
-Current_Sensor_M3
+Current_Sensor_M2
 Text HLabel 3400 4850 2    50   Output ~ 0
+Current_Sensor_M3
+Text HLabel 3400 4950 2    50   Output ~ 0
 Current_Sensor_M4
 Text HLabel 9275 950  2    50   Output ~ 0
 12V
@@ -142,21 +142,21 @@ Text HLabel 7575 950  0    50   Input ~ 0
 PV
 Text HLabel 1200 900  0    39   Input ~ 0
 3V3
-Text HLabel 1050 7000 0    50   Input ~ 0
-Driver_S1
 Text HLabel 1050 6900 0    50   Input ~ 0
+Driver_S1
+Text HLabel 1050 6800 0    50   Input ~ 0
 Driver_T1
-Text HLabel 1050 7200 0    50   Input ~ 0
-Driver_R1
 Text HLabel 1050 7100 0    50   Input ~ 0
+Driver_R1
+Text HLabel 1050 7000 0    50   Input ~ 0
 Driver_V1
-Text HLabel 3400 7100 2    50   Output ~ 0
-Current_Sensor_R1
 Text HLabel 3400 7000 2    50   Output ~ 0
-Current_Sensor_S1
+Current_Sensor_R1
 Text HLabel 3400 6900 2    50   Output ~ 0
+Current_Sensor_S1
+Text HLabel 3400 6800 2    50   Output ~ 0
 Current_Sensor_T1
-Text HLabel 3400 7200 2    50   Output ~ 0
+Text HLabel 3400 7100 2    50   Output ~ 0
 Current_Sensor_V1
 $Sheet
 S 1050 5700 2350 1550
@@ -622,9 +622,9 @@ Wire Wire Line
 	9700 4600 9550 4600
 Text HLabel 9700 4600 2    50   Input ~ 0
 Anderson_M5
-Text HLabel 1050 4950 0    50   Input ~ 0
+Text HLabel 1050 5050 0    50   Input ~ 0
 Driver_M5
-Text HLabel 3400 4950 2    50   Output ~ 0
+Text HLabel 3400 5050 2    50   Output ~ 0
 Current_Sensor_M5
 Text HLabel 3400 4000 2    50   Output ~ 0
 Anderson_M5
@@ -956,15 +956,15 @@ $EndComp
 Wire Wire Line
 	9675 5750 9525 5750
 Text HLabel 9675 5750 2    50   Input ~ 0
-Anderson_E6
-Text HLabel 3400 5050 2    50   Output ~ 0
-Current_Sensor_E6
-Text HLabel 1050 5050 0    50   Input ~ 0
-Driver_E6
-Text HLabel 3400 4100 2    50   Output ~ 0
-Anderson_E6
-Text HLabel 1200 2500 0    40   Input ~ 0
-Current_Sensor_E6
-Text HLabel 3850 2500 2    40   Output ~ 0
-Driver_E6
+Anderson_A1
+Text HLabel 3400 7200 2    50   Output ~ 0
+Current_Sensor_A1
+Text HLabel 1050 7200 0    50   Input ~ 0
+Driver_A1
+Text HLabel 3400 6150 2    50   Output ~ 0
+Anderson_A1
+Text HLabel 1200 2900 0    40   Input ~ 0
+Current_Sensor_A1
+Text HLabel 3850 2900 2    40   Output ~ 0
+Driver_A1
 $EndSCHEMATC

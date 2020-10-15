@@ -632,76 +632,24 @@ Text HLabel 1200 2400 0    40   Input ~ 0
 Current_Sensor_M5
 Text HLabel 3850 2400 2    40   Output ~ 0
 Driver_M5
-Wire Wire Line
-	6225 1100 6125 1100
-Wire Wire Line
-	6225 1200 6125 1200
-Wire Wire Line
-	6225 1400 6125 1400
-Wire Wire Line
-	6225 1500 6125 1500
-Wire Wire Line
-	6225 1600 6125 1600
-Wire Wire Line
-	6225 1300 6125 1300
-Wire Wire Line
-	6125 1700 6225 1700
-Wire Wire Line
-	6125 1950 6225 1950
-Wire Wire Line
-	6125 2050 6225 2050
-Wire Wire Line
-	6125 2150 6225 2150
-$Comp
-L MRDT_Connectors:Molex_SL_07 Conn?
-U 1 1 5F8A0EC8
-P 6425 1750
-AR Path="/5F74F238/5F8A0EC8" Ref="Conn?"  Part="1" 
-AR Path="/5F8A0EC8" Ref="Conn9"  Part="1" 
-F 0 "Conn9" H 6553 2158 60  0000 L CNN
-F 1 "Molex_SL_07" H 6553 2052 60  0000 L CNN
-F 2 "" H 6425 1950 60  0001 C CNN
-F 3 "" H 6425 1950 60  0001 C CNN
-	1    6425 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_05 Conn?
-U 1 1 5F8A0ECE
-P 6425 2400
-AR Path="/5F74F238/5F8A0ECE" Ref="Conn?"  Part="1" 
-AR Path="/5F8A0ECE" Ref="Conn10"  Part="1" 
-F 0 "Conn10" H 6553 2708 60  0000 L CNN
-F 1 "Molex_SL_05" H 6553 2602 60  0000 L CNN
-F 2 "" H 6425 2400 60  0001 C CNN
-F 3 "" H 6425 2400 60  0001 C CNN
-	1    6425 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6125 2250 6225 2250
-Wire Wire Line
-	6125 2350 6225 2350
-Text HLabel 6125 1100 0    50   Input ~ 0
-Camera_CTL
-Text HLabel 6125 1200 0    50   Input ~ 0
-NavBoard_CTL
-Text HLabel 6125 1300 0    50   Input ~ 0
-Gimbal_CTL
-Text HLabel 6125 1400 0    50   Input ~ 0
-Aux_Mount_CTL
-Text HLabel 6125 1500 0    50   Input ~ 0
-Multimedia_CTL
-Text HLabel 6125 1600 0    50   Input ~ 0
-LowExtra_CTL
-Text HLabel 6125 1950 0    50   Output ~ 0
-Aux_Mount_HighSense
-Text HLabel 6125 2050 0    50   Output ~ 0
-Multimedia_HighSense
-Text HLabel 6125 2150 0    50   Output ~ 0
-Extra_LowSense
-Text HLabel 6125 2250 0    50   Output ~ 0
-Drive_HighSense
+Text HLabel 6075 1850 0    50   Input ~ 0
+CameraCTL
+Text HLabel 6075 1750 0    50   Input ~ 0
+NavBoardCTL
+Text HLabel 6075 1650 0    50   Input ~ 0
+GimbalCTL
+Text HLabel 6075 2050 0    50   Input ~ 0
+AuxMountCTL
+Text HLabel 6075 1950 0    50   Input ~ 0
+MultimediaCTL
+Text HLabel 6075 1250 0    50   Output ~ 0
+AuxMountSense
+Text HLabel 6075 1350 0    50   Output ~ 0
+MultimediaSense
+Text HLabel 6075 1450 0    50   Output ~ 0
+LowCurrentSense
+Text HLabel 6075 1150 0    50   Output ~ 0
+DriveSense
 $Comp
 L MRDT_Drill_Holes:BATT_PWR_VIA V?
 U 1 1 5F8B7CEE
@@ -880,29 +828,27 @@ PV
 Wire Notes Line
 	7275 475  7275 4050
 Text HLabel 3850 1725 2    39   Output ~ 0
-Camera_CTL
+CameraCTL
 Text HLabel 3850 1625 2    39   Output ~ 0
-NavBoard_CTL
+NavBoardCTL
 Text HLabel 3850 1525 2    39   Output ~ 0
-Gimbal_CTL
+GimbalCTL
 Text HLabel 3850 1425 2    39   Output ~ 0
-Aux_Mount_CTL
+AuxMountCTL
 Text HLabel 3850 1325 2    39   Output ~ 0
-Multimedia_CTL
-Text Notes 5200 1725 2    79   ~ 0
+MultimediaCTL
+Text Notes 5200 1625 2    79   ~ 0
 12V Tiva Pins
 Text Notes 5025 2600 2    79   ~ 0
 PV Tiva Pins
-Text HLabel 3850 1225 2    39   Output ~ 0
-LowExtra_CTL
-Text HLabel 1200 1425 0    39   Input ~ 0
-Aux_Mount_HighSense
 Text HLabel 1200 1525 0    39   Input ~ 0
-Multimedia_HighSense
+AuxMountSense
 Text HLabel 1200 1625 0    39   Input ~ 0
-Extra_LowSense
+MultimediaSense
 Text HLabel 1200 1725 0    39   Input ~ 0
-Drive_HighSense
+LowCurrentSense
+Text HLabel 1200 1450 0    39   Input ~ 0
+DriveSense
 Wire Notes Line
 	7275 4050 10525 4050
 Wire Notes Line
@@ -967,4 +913,34 @@ Text HLabel 1200 2900 0    40   Input ~ 0
 Current_Sensor_A1
 Text HLabel 3850 2900 2    40   Output ~ 0
 Driver_A1
+$Comp
+L MRDT_Connectors:Molex_SL_10 Conn?
+U 1 1 5F87D729
+P 6400 2100
+F 0 "Conn?" H 6528 2658 60  0000 L CNN
+F 1 "Molex_SL_10" H 6528 2552 60  0000 L CNN
+F 2 "" H 6400 2600 60  0001 C CNN
+F 3 "" H 6400 2600 60  0001 C CNN
+	1    6400 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6075 1150 6200 1150
+Wire Wire Line
+	6075 1250 6200 1250
+Wire Wire Line
+	6075 1350 6200 1350
+Wire Wire Line
+	6075 1450 6200 1450
+Wire Wire Line
+	6075 1850 6200 1850
+Wire Wire Line
+	6075 1750 6200 1750
+Wire Wire Line
+	6075 1650 6200 1650
+Wire Wire Line
+	6075 2050 6200 2050
+Wire Wire Line
+	6075 1950 6200 1950
+NoConn ~ 6200 1550
 $EndSCHEMATC
