@@ -81,7 +81,7 @@ Driver_M2
 Text HLabel 3850 2200 2    40   Output ~ 0
 Driver_M3
 Text HLabel 1200 2800 0    40   Input ~ 0
-Current_Sensor_S1
+Current_Sensor_D1
 Text HLabel 1200 2600 0    40   Input ~ 0
 Current_Sensor_T1
 Text HLabel 1200 2000 0    40   Input ~ 0
@@ -95,7 +95,7 @@ Current_Sensor_M4
 Text HLabel 1200 2700 0    40   Input ~ 0
 Current_Sensor_V1
 Text HLabel 3850 2800 2    40   Output ~ 0
-Driver_S1
+Driver_D1
 Text HLabel 3850 2600 2    40   Output ~ 0
 Driver_T1
 Text HLabel 3850 2500 2    40   Output ~ 0
@@ -137,7 +137,7 @@ PV
 Text HLabel 1200 900  0    39   Input ~ 0
 3V3
 Text HLabel 1050 6900 0    50   Input ~ 0
-Driver_S1
+Driver_D1
 Text HLabel 1050 6800 0    50   Input ~ 0
 Driver_T1
 Text HLabel 1050 7100 0    50   Input ~ 0
@@ -147,7 +147,7 @@ Driver_V1
 Text HLabel 3400 7000 2    50   Output ~ 0
 Current_Sensor_R1
 Text HLabel 3400 6900 2    50   Output ~ 0
-Current_Sensor_S1
+Current_Sensor_D1
 Text HLabel 3400 6800 2    50   Output ~ 0
 Current_Sensor_T1
 Text HLabel 3400 7100 2    50   Output ~ 0
@@ -541,7 +541,7 @@ Anderson_T1
 Text HLabel 7400 5750 2    50   Input ~ 0
 Anderson_V1
 Text HLabel 8550 5750 2    50   Input ~ 0
-Anderson_S1
+Anderson_D1
 Text HLabel 3400 3600 2    50   Output ~ 0
 Anderson_M1
 Text HLabel 3400 3700 2    50   Output ~ 0
@@ -557,7 +557,7 @@ Anderson_T1
 Text HLabel 3400 5950 2    50   Output ~ 0
 Anderson_V1
 Text HLabel 3400 6050 2    50   Output ~ 0
-Anderson_S1
+Anderson_D1
 Text HLabel 1050 3600 0    50   Input ~ 0
 PV
 Text HLabel 1050 3700 0    50   Input ~ 0
@@ -615,17 +615,17 @@ $EndComp
 Wire Wire Line
 	9700 4600 9550 4600
 Text HLabel 9700 4600 2    50   Input ~ 0
-Anderson_M5
+Anderson_S1
 Text HLabel 1050 5050 0    50   Input ~ 0
-Driver_M5
+Driver_S1
 Text HLabel 3400 5050 2    50   Output ~ 0
-Current_Sensor_M5
+Current_Sensor_S1
 Text HLabel 3400 4000 2    50   Output ~ 0
-Anderson_M5
+Anderson_S1
 Text HLabel 1200 2400 0    40   Input ~ 0
-Current_Sensor_M5
+Current_Sensor_S1
 Text HLabel 3850 2400 2    40   Output ~ 0
-Driver_M5
+Driver_S1
 Text HLabel 6075 1850 0    50   Input ~ 0
 CameraCTL
 Text HLabel 6075 1750 0    50   Input ~ 0
@@ -908,10 +908,10 @@ Current_Sensor_A1
 Text HLabel 3850 2900 2    40   Output ~ 0
 Driver_A1
 $Comp
-L MRDT_Connectors:Molex_SL_10 Conn?
+L MRDT_Connectors:Molex_SL_10 Conn1
 U 1 1 5F87D729
 P 6400 2100
-F 0 "Conn?" H 6528 2658 60  0000 L CNN
+F 0 "Conn1" H 6528 2658 60  0000 L CNN
 F 1 "Molex_SL_10" H 6528 2552 60  0000 L CNN
 F 2 "" H 6400 2600 60  0001 C CNN
 F 3 "" H 6400 2600 60  0001 C CNN
