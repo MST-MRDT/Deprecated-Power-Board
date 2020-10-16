@@ -163,17 +163,6 @@ F 3 "" H 3250 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3250 1800 3250 1950
-$Comp
-L power:+12V #PWR042
-U 1 1 5F82E98F
-P 3600 1000
-F 0 "#PWR042" H 3600 850 50  0001 C CNN
-F 1 "+12V" H 3615 1173 50  0000 C CNN
-F 2 "" H 3600 1000 50  0001 C CNN
-F 3 "" H 3600 1000 50  0001 C CNN
-	1    3600 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3250 1350 3600 1350
 Wire Wire Line
@@ -463,17 +452,6 @@ F 3 "" H 2400 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR044
-U 1 1 5F87265E
-P 3600 4150
-F 0 "#PWR044" H 3600 4000 50  0001 C CNN
-F 1 "+5V" H 3615 4323 50  0000 C CNN
-F 2 "" H 3600 4150 50  0001 C CNN
-F 3 "" H 3600 4150 50  0001 C CNN
-	1    3600 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L MRDT_Devices:LM2576D2TR4 U11
 U 1 1 5F874FF1
 P 1600 3000
@@ -696,21 +674,16 @@ F 3 "" H 2400 2600 50  0001 C CNN
 	1    2400 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR043
-U 1 1 5F8789F3
-P 3600 2600
-F 0 "#PWR043" H 3600 2450 50  0001 C CNN
-F 1 "+3V3" H 3615 2773 50  0000 C CNN
-F 2 "" H 3600 2600 50  0001 C CNN
-F 3 "" H 3600 2600 50  0001 C CNN
-	1    3600 2600
-	1    0    0    -1  
-$EndComp
 Text HLabel 2400 900  1    50   Input ~ 0
 PV
 Connection ~ 2400 2600
 Connection ~ 2400 4150
 Text Notes 7150 6950 0    157  ~ 0
 Bucks
+Text HLabel 3600 1000 1    50   Output ~ 0
+12V
+Text HLabel 3600 4150 1    50   Output ~ 0
+5V
+Text HLabel 3600 2600 1    50   Output ~ 0
+3V3
 $EndSCHEMATC

@@ -325,10 +325,6 @@ Wire Wire Line
 	6050 1700 6150 1700
 Wire Wire Line
 	6050 1900 6150 1900
-Text HLabel 6150 1700 2    50   Input ~ 0
-Current_Sensor_M5
-Text HLabel 6150 1900 2    50   Output ~ 0
-Driver_M5
 Wire Wire Line
 	6050 1800 6150 1800
 Wire Wire Line
@@ -338,4 +334,8 @@ Current_Sensor_A1
 Text HLabel 6150 2000 2    50   Output ~ 0
 Driver_A1
 NoConn ~ 1500 3800
+Text HLabel 6150 1900 2    50   Output ~ 0
+Driver_D1
+Text HLabel 6150 1700 2    50   Input ~ 0
+Current_Sensor_D1
 $EndSCHEMATC
