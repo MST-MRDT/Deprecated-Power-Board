@@ -612,7 +612,7 @@ F 1 "GND" H 8055 3402 50  0000 C CNN
 F 2 "" H 8050 3575 50  0001 C CNN
 F 3 "" H 8050 3575 50  0001 C CNN
 	1    8050 3575
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
@@ -920,7 +920,7 @@ CameraCTL
 Text Label 6075 1950 2    50   ~ 0
 MultimediaCTL
 Text Label 6075 2050 2    50   ~ 0
-AuxMountCTL
+AuxCTL
 Text Label 7450 950  2    50   ~ 0
 PV
 Wire Wire Line

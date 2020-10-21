@@ -18,145 +18,59 @@ Pack Voltage Board
 $Sheet
 S 1050 3550 2350 1550
 U 5F7A6A8B
-F0 "Motor_Busses" 158
-F1 "Motor_Busses.sch" 158
+F0 "Motor_Busses" 157
+F1 "Motor_Busses.sch" 157
+F2 "PV" I L 1050 3600 50 
+F3 "5V" I L 1050 3700 50 
+F4 "Driver_M1" I L 1050 4650 50 
+F5 "Current_Sensor_M1" O R 3400 4650 50 
+F6 "Driver_M2" I L 1050 4750 50 
+F7 "Current_Sensor_M2" O R 3400 4750 50 
+F8 "Driver_M3" I L 1050 4850 50 
+F9 "Current_Sensor_M3" O R 3400 4850 50 
+F10 "Driver_M4" I L 1050 4950 50 
+F11 "Current_Sensor_M4" O R 3400 4950 50 
+F12 "Anderson_M1" O R 3400 3600 50 
+F13 "Anderson_M2" O R 3400 3700 50 
+F14 "Anderson_M3" O R 3400 3800 50 
+F15 "Anderson_M4" O R 3400 3900 50 
+F16 "Driver_S1" I L 1050 5050 50 
+F17 "Current_Sensor_S1" O R 3400 5050 50 
+F18 "Anderson_S1" O R 3400 4000 50 
 $EndSheet
-$Comp
-L power:+12V #PWR07
-U 1 1 5F87A2B9
-P 10100 1050
-F 0 "#PWR07" H 10100 900 50  0001 C CNN
-F 1 "+12V" H 10100 1200 50  0000 C CNN
-F 2 "" H 10100 1050 50  0001 C CNN
-F 3 "" H 10100 1050 50  0001 C CNN
-	1    10100 1050
-	1    0    0    -1  
-$EndComp
-Text HLabel 10000 1150 0    50   Input ~ 0
-12V
-Wire Wire Line
-	10100 1050 10100 1150
-Wire Wire Line
-	10100 1150 10000 1150
-$Comp
-L power:+5V #PWR08
-U 1 1 5F87A60E
-P 10100 1450
-F 0 "#PWR08" H 10100 1300 50  0001 C CNN
-F 1 "+5V" H 10115 1623 50  0000 C CNN
-F 2 "" H 10100 1450 50  0001 C CNN
-F 3 "" H 10100 1450 50  0001 C CNN
-	1    10100 1450
-	1    0    0    -1  
-$EndComp
-Text HLabel 9950 1550 0    50   Input ~ 0
-5V
-Wire Wire Line
-	10100 1450 10100 1550
-Wire Wire Line
-	10100 1550 9950 1550
-$Comp
-L power:+3V3 #PWR09
-U 1 1 5F87AB1A
-P 10100 1800
-F 0 "#PWR09" H 10100 1650 50  0001 C CNN
-F 1 "+3V3" H 10115 1973 50  0000 C CNN
-F 2 "" H 10100 1800 50  0001 C CNN
-F 3 "" H 10100 1800 50  0001 C CNN
-	1    10100 1800
-	1    0    0    -1  
-$EndComp
-Text HLabel 9950 1950 0    50   Input ~ 0
-3V3
-Wire Wire Line
-	10100 1800 10100 1950
-Wire Wire Line
-	10100 1950 9950 1950
-Text HLabel 1200 2500 0    40   Input ~ 0
-Current_Sensor_R1
-Text HLabel 3850 2000 2    40   Output ~ 0
-Driver_M1
-Text HLabel 3850 2100 2    40   Output ~ 0
-Driver_M2
-Text HLabel 3850 2200 2    40   Output ~ 0
-Driver_M3
-Text HLabel 1200 2800 0    40   Input ~ 0
-Current_Sensor_D1
-Text HLabel 1200 2600 0    40   Input ~ 0
-Current_Sensor_T1
-Text HLabel 1200 2000 0    40   Input ~ 0
-Current_Sensor_M1
-Text HLabel 1200 2100 0    40   Input ~ 0
-Current_Sensor_M2
-Text HLabel 1200 2200 0    40   Input ~ 0
-Current_Sensor_M3
-Text HLabel 1200 2300 0    40   Input ~ 0
-Current_Sensor_M4
-Text HLabel 1200 2700 0    40   Input ~ 0
-Current_Sensor_V1
-Text HLabel 3850 2800 2    40   Output ~ 0
-Driver_D1
-Text HLabel 3850 2600 2    40   Output ~ 0
-Driver_T1
-Text HLabel 3850 2500 2    40   Output ~ 0
-Driver_R1
-Text HLabel 3850 2700 2    40   Output ~ 0
-Driver_V1
-Text HLabel 3850 2300 2    40   Output ~ 0
-Driver_M4
-Text HLabel 1050 4650 0    50   Input ~ 0
-Driver_M1
-Text HLabel 1050 4750 0    50   Input ~ 0
-Driver_M2
-Text HLabel 1050 4850 0    50   Input ~ 0
-Driver_M3
-Text HLabel 1050 4950 0    50   Input ~ 0
-Driver_M4
-Text HLabel 3400 4650 2    50   Output ~ 0
-Current_Sensor_M1
-Text HLabel 3400 4750 2    50   Output ~ 0
-Current_Sensor_M2
-Text HLabel 3400 4850 2    50   Output ~ 0
-Current_Sensor_M3
-Text HLabel 3400 4950 2    50   Output ~ 0
-Current_Sensor_M4
-Text HLabel 9275 950  2    50   Output ~ 0
-12V
-Text HLabel 9275 1050 2    50   Output ~ 0
-5V
-Text HLabel 9275 1150 2    50   Output ~ 0
-3V3
 $Sheet
-S 7575 800  1700 1400
+S 7550 800  1700 1400
 U 5F826BA9
 F0 "Bucks" 157
 F1 "Buck.sch" 157
+F2 "PV" I L 7550 950 50 
+F3 "12V" O R 9250 950 50 
+F4 "5V" O R 9250 1050 50 
+F5 "3V3" O R 9250 1150 50 
 $EndSheet
-Text HLabel 7575 950  0    50   Input ~ 0
-PV
-Text HLabel 1200 900  0    39   Input ~ 0
-3V3
-Text HLabel 1050 6900 0    50   Input ~ 0
-Driver_D1
-Text HLabel 1050 6800 0    50   Input ~ 0
-Driver_T1
-Text HLabel 1050 7100 0    50   Input ~ 0
-Driver_R1
-Text HLabel 1050 7000 0    50   Input ~ 0
-Driver_V1
-Text HLabel 3400 7000 2    50   Output ~ 0
-Current_Sensor_R1
-Text HLabel 3400 6900 2    50   Output ~ 0
-Current_Sensor_D1
-Text HLabel 3400 6800 2    50   Output ~ 0
-Current_Sensor_T1
-Text HLabel 3400 7100 2    50   Output ~ 0
-Current_Sensor_V1
 $Sheet
 S 1050 5700 2350 1550
 U 5F8EFCC9
 F0 "Other Busses" 158
 F1 "Other_Busses.sch" 158
+F2 "PV" I L 1050 5750 50 
+F3 "5V" I L 1050 5850 50 
+F4 "Driver_R1" I L 1050 7000 50 
+F5 "Current_Sensor_R1" O R 3400 7000 50 
+F6 "12V" I L 1050 5950 50 
+F7 "Driver_T1" I L 1050 6800 50 
+F8 "Current_Sensor_T1" O R 3400 6800 50 
+F9 "Driver_V1" I L 1050 7100 50 
+F10 "Current_Sensor_V1" O R 3400 7100 50 
+F11 "Driver_D1" I L 1050 6900 50 
+F12 "Current_Sensor_D1" O R 3400 6900 50 
+F13 "Anderson_R1" O R 3400 5950 50 
+F14 "Anderson_T1" O R 3400 5750 50 
+F15 "Anderson_V1" O R 3400 6050 50 
+F16 "Anderson_D1" O R 3400 5850 50 
+F17 "Driver_A1" I L 1050 7200 50 
+F18 "Current_Sensor_A1" O R 3400 7200 50 
+F19 "Anderson_A1" O R 3400 6150 50 
 $EndSheet
 $Comp
 L power:GND #PWR?
@@ -342,14 +256,6 @@ F 3 "" H 5550 4150 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	6100 5050 6300 5050
-Text HLabel 5100 4600 2    50   Input ~ 0
-Anderson_M1
-Text HLabel 6250 4600 2    50   Input ~ 0
-Anderson_M2
-Text HLabel 7400 4600 2    50   Input ~ 0
-Anderson_M3
-Text HLabel 8550 4600 2    50   Input ~ 0
-Anderson_M4
 $Comp
 L power:GND #PWR?
 U 1 1 5F9A178C
@@ -534,40 +440,6 @@ F 3 "" H 7850 5750 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	8550 5750 8400 5750
-Text HLabel 5100 5750 2    50   Input ~ 0
-Anderson_R1
-Text HLabel 6250 5750 2    50   Input ~ 0
-Anderson_T1
-Text HLabel 7400 5750 2    50   Input ~ 0
-Anderson_V1
-Text HLabel 8550 5750 2    50   Input ~ 0
-Anderson_D1
-Text HLabel 3400 3600 2    50   Output ~ 0
-Anderson_M1
-Text HLabel 3400 3700 2    50   Output ~ 0
-Anderson_M2
-Text HLabel 3400 3800 2    50   Output ~ 0
-Anderson_M3
-Text HLabel 3400 3900 2    50   Output ~ 0
-Anderson_M4
-Text HLabel 3400 5750 2    50   Output ~ 0
-Anderson_R1
-Text HLabel 3400 5850 2    50   Output ~ 0
-Anderson_T1
-Text HLabel 3400 5950 2    50   Output ~ 0
-Anderson_V1
-Text HLabel 3400 6050 2    50   Output ~ 0
-Anderson_D1
-Text HLabel 1050 3600 0    50   Input ~ 0
-PV
-Text HLabel 1050 3700 0    50   Input ~ 0
-5V
-Text HLabel 1050 5750 0    50   Input ~ 0
-PV
-Text HLabel 1050 5850 0    50   Input ~ 0
-12V
-Text HLabel 1050 5950 0    50   Input ~ 0
-5V
 $Comp
 L power:GND #PWR?
 U 1 1 5F888F4D
@@ -614,36 +486,6 @@ F 3 "" H 9000 4600 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	9700 4600 9550 4600
-Text HLabel 9700 4600 2    50   Input ~ 0
-Anderson_S1
-Text HLabel 1050 5050 0    50   Input ~ 0
-Driver_S1
-Text HLabel 3400 5050 2    50   Output ~ 0
-Current_Sensor_S1
-Text HLabel 3400 4000 2    50   Output ~ 0
-Anderson_S1
-Text HLabel 1200 2400 0    40   Input ~ 0
-Current_Sensor_S1
-Text HLabel 3850 2400 2    40   Output ~ 0
-Driver_S1
-Text HLabel 6075 1850 0    50   Input ~ 0
-CameraCTL
-Text HLabel 6075 1750 0    50   Input ~ 0
-NavBoardCTL
-Text HLabel 6075 1650 0    50   Input ~ 0
-GimbalCTL
-Text HLabel 6075 2050 0    50   Input ~ 0
-AuxMountCTL
-Text HLabel 6075 1950 0    50   Input ~ 0
-MultimediaCTL
-Text HLabel 6075 1250 0    50   Output ~ 0
-AuxMountSense
-Text HLabel 6075 1350 0    50   Output ~ 0
-MultimediaSense
-Text HLabel 6075 1450 0    50   Output ~ 0
-LowCurrentSense
-Text HLabel 6075 1150 0    50   Output ~ 0
-DriveSense
 $Comp
 L MRDT_Drill_Holes:BATT_PWR_VIA V?
 U 1 1 5F8B7CEE
@@ -817,32 +659,12 @@ Wire Wire Line
 Connection ~ 9800 3325
 Wire Wire Line
 	9800 3325 10100 3325
-Text HLabel 9900 2925 1    50   Output ~ 0
-PV
 Wire Notes Line
 	7275 475  7275 4050
-Text HLabel 3850 1725 2    39   Output ~ 0
-CameraCTL
-Text HLabel 3850 1625 2    39   Output ~ 0
-NavBoardCTL
-Text HLabel 3850 1525 2    39   Output ~ 0
-GimbalCTL
-Text HLabel 3850 1425 2    39   Output ~ 0
-AuxMountCTL
-Text HLabel 3850 1325 2    39   Output ~ 0
-MultimediaCTL
 Text Notes 5200 1625 2    79   ~ 0
 12V Tiva Pins
 Text Notes 5025 2600 2    79   ~ 0
 PV Tiva Pins
-Text HLabel 1200 1500 0    39   Input ~ 0
-AuxMountSense
-Text HLabel 1200 1600 0    39   Input ~ 0
-MultimediaSense
-Text HLabel 1200 1700 0    39   Input ~ 0
-LowCurrentSense
-Text HLabel 1200 1400 0    39   Input ~ 0
-DriveSense
 Wire Notes Line
 	7275 4050 10525 4050
 Wire Notes Line
@@ -895,18 +717,6 @@ F 3 "" H 8975 5750 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	9675 5750 9525 5750
-Text HLabel 9675 5750 2    50   Input ~ 0
-Anderson_A1
-Text HLabel 3400 7200 2    50   Output ~ 0
-Current_Sensor_A1
-Text HLabel 1050 7200 0    50   Input ~ 0
-Driver_A1
-Text HLabel 3400 6150 2    50   Output ~ 0
-Anderson_A1
-Text HLabel 1200 2900 0    40   Input ~ 0
-Current_Sensor_A1
-Text HLabel 3850 2900 2    40   Output ~ 0
-Driver_A1
 $Comp
 L MRDT_Connectors:Molex_SL_10 Conn1
 U 1 1 5F87D729
@@ -942,5 +752,402 @@ S 1200 850  2650 2100
 U 5F74F238
 F0 "TIVA" 157
 F1 "TIVA.sch" 157
+F2 "Current_Sensor_R1" I L 1200 2500 50 
+F3 "Driver_M1" O R 3850 2000 50 
+F4 "Driver_M2" O R 3850 2100 50 
+F5 "Driver_M3" O R 3850 2200 50 
+F6 "Current_Sensor_S1" I L 1200 2400 50 
+F7 "Current_Sensor_T1" I L 1200 2600 50 
+F8 "Driver_M4" O R 3850 2300 50 
+F9 "Driver_V1" O R 3850 2700 50 
+F10 "Driver_R1" O R 3850 2500 50 
+F11 "Current_Sensor_M1" I L 1200 2000 50 
+F12 "Current_Sensor_M2" I L 1200 2100 50 
+F13 "Current_Sensor_M3" I L 1200 2200 50 
+F14 "Current_Sensor_M4" I L 1200 2300 50 
+F15 "Current_Sensor_V1" I L 1200 2700 50 
+F16 "Driver_S1" O R 3850 2400 50 
+F17 "Driver_T1" O R 3850 2600 50 
+F18 "3V3" I L 1200 900 50 
+F19 "CameraCTL" O R 3850 1750 50 
+F20 "NavBoardCTL" O R 3850 1650 50 
+F21 "GimbalCTL" O R 3850 1550 50 
+F22 "AuxMountSense" I L 1200 1500 50 
+F23 "MultimediaSense" I L 1200 1600 50 
+F24 "LowCurrentSense" I L 1200 1700 50 
+F25 "DriveSense" I L 1200 1400 50 
+F26 "AuxMountCTL" O R 3850 1450 50 
+F27 "MultimediaCTL" O R 3850 1350 50 
+F28 "Current_Sensor_A1" I L 1200 2900 50 
+F29 "Driver_A1" O R 3850 2900 50 
+F30 "Driver_D1" O R 3850 2800 50 
+F31 "Current_Sensor_D1" I L 1200 2800 50 
 $EndSheet
+Text Label 1100 1400 2    39   ~ 0
+DriveSense
+Text Label 1100 1500 2    39   ~ 0
+AuxMountSense
+Text Label 1100 1600 2    39   ~ 0
+MultimediaSense
+Text Label 1100 1700 2    39   ~ 0
+LowCurrentSense
+Text Label 1100 2000 2    40   ~ 0
+Current_Sensor_M1
+Text Label 1100 2100 2    40   ~ 0
+Current_Sensor_M2
+Text Label 1100 2200 2    40   ~ 0
+Current_Sensor_M3
+Text Label 1100 2300 2    40   ~ 0
+Current_Sensor_M4
+Text Label 1100 2400 2    40   ~ 0
+Current_Sensor_S1
+Text Label 1100 2500 2    40   ~ 0
+Current_Sensor_R1
+Text Label 1100 2600 2    40   ~ 0
+Current_Sensor_T1
+Text Label 1100 2700 2    40   ~ 0
+Current_Sensor_V1
+Text Label 1100 2800 2    40   ~ 0
+Current_Sensor_D1
+Text Label 1100 2900 2    40   ~ 0
+Current_Sensor_A1
+Wire Wire Line
+	1100 2900 1200 2900
+Wire Wire Line
+	1100 2800 1200 2800
+Wire Wire Line
+	1200 2700 1100 2700
+Wire Wire Line
+	1100 2600 1200 2600
+Wire Wire Line
+	1100 2500 1200 2500
+Wire Wire Line
+	1200 2400 1100 2400
+Wire Wire Line
+	1100 2300 1200 2300
+Wire Wire Line
+	1200 2200 1100 2200
+Wire Wire Line
+	1100 2100 1200 2100
+Wire Wire Line
+	1200 2000 1100 2000
+Wire Wire Line
+	1100 1700 1200 1700
+Wire Wire Line
+	1100 1600 1200 1600
+Wire Wire Line
+	1200 1500 1100 1500
+Wire Wire Line
+	1100 1400 1200 1400
+Wire Wire Line
+	1100 900  1200 900 
+Text Label 1100 900  2    39   ~ 0
+3V3
+Wire Wire Line
+	3850 1350 3950 1350
+Wire Wire Line
+	3950 1450 3850 1450
+Wire Wire Line
+	3850 1550 3950 1550
+Wire Wire Line
+	3950 1650 3850 1650
+Wire Wire Line
+	3850 1750 3950 1750
+Wire Wire Line
+	3850 2000 3950 2000
+Wire Wire Line
+	3950 2100 3850 2100
+Wire Wire Line
+	3850 2200 3950 2200
+Wire Wire Line
+	3950 2300 3850 2300
+Wire Wire Line
+	3850 2400 3950 2400
+Wire Wire Line
+	3950 2500 3850 2500
+Wire Wire Line
+	3850 2600 3950 2600
+Wire Wire Line
+	3950 2700 3850 2700
+Wire Wire Line
+	3850 2800 3950 2800
+Wire Wire Line
+	3950 2900 3850 2900
+Text Label 3950 1350 0    39   ~ 0
+MultimediaCTL
+Text Label 3950 1450 0    39   ~ 0
+AuxMountCTL
+Text Label 3950 1550 0    39   ~ 0
+GimbalCTL
+Text Label 3950 1650 0    39   ~ 0
+NavBoardCTL
+Text Label 3950 1750 0    39   ~ 0
+CameraCTL
+Text Label 3950 2000 0    40   ~ 0
+Driver_M1
+Text Label 3950 2100 0    40   ~ 0
+Driver_M2
+Text Label 3950 2200 0    40   ~ 0
+Driver_M3
+Text Label 3950 2300 0    40   ~ 0
+Driver_M4
+Text Label 3950 2400 0    40   ~ 0
+Driver_S1
+Text Label 3950 2500 0    40   ~ 0
+Driver_R1
+Text Label 3950 2600 0    40   ~ 0
+Driver_T1
+Text Label 3950 2700 0    40   ~ 0
+Driver_V1
+Text Label 3950 2800 0    40   ~ 0
+Driver_D1
+Text Label 3950 2900 0    40   ~ 0
+Driver_A1
+Text Label 6075 1150 2    50   ~ 0
+DriveSense
+Text Label 6075 1250 2    50   ~ 0
+AuxMountSense
+Text Label 6075 1350 2    50   ~ 0
+MultimediaSense
+Text Label 6075 1450 2    50   ~ 0
+LowCurrentSense
+Text Label 6075 1650 2    50   ~ 0
+GimbalCTL
+Text Label 6075 1750 2    50   ~ 0
+NavBoardCTL
+Text Label 6075 1850 2    50   ~ 0
+CameraCTL
+Text Label 6075 1950 2    50   ~ 0
+MultimediaCTL
+Text Label 6075 2050 2    50   ~ 0
+AuxMountCTL
+Text Label 7450 950  2    50   ~ 0
+PV
+Wire Wire Line
+	7450 950  7550 950 
+Wire Wire Line
+	9350 950  9250 950 
+Wire Wire Line
+	9350 1050 9250 1050
+Wire Wire Line
+	9350 1150 9250 1150
+Text Label 9350 950  0    50   ~ 0
+12V
+Text Label 9350 1050 0    50   ~ 0
+5V
+Text Label 9350 1150 0    50   ~ 0
+3V3
+Text Label 9900 2925 1    50   ~ 0
+PV
+Text Label 950  3600 2    50   ~ 0
+PV
+Text Label 950  3700 2    50   ~ 0
+5V
+Text Label 950  4650 2    50   ~ 0
+Driver_M1
+Text Label 950  4750 2    50   ~ 0
+Driver_M2
+Text Label 950  4850 2    50   ~ 0
+Driver_M3
+Text Label 950  4950 2    50   ~ 0
+Driver_M4
+Text Label 950  5050 2    50   ~ 0
+Driver_S1
+Wire Wire Line
+	950  3600 1050 3600
+Wire Wire Line
+	1050 3700 950  3700
+Wire Wire Line
+	950  4650 1050 4650
+Wire Wire Line
+	1050 4750 950  4750
+Wire Wire Line
+	950  4850 1050 4850
+Wire Wire Line
+	1050 4950 950  4950
+Wire Wire Line
+	950  5050 1050 5050
+Text Label 3500 3600 0    50   ~ 0
+Anderson_M1
+Text Label 3500 3700 0    50   ~ 0
+Anderson_M2
+Text Label 3500 3800 0    50   ~ 0
+Anderson_M3
+Text Label 3500 3900 0    50   ~ 0
+Anderson_M4
+Text Label 3500 4000 0    50   ~ 0
+Anderson_S1
+Text Label 3500 4650 0    50   ~ 0
+Current_Sensor_M1
+Text Label 3500 4750 0    50   ~ 0
+Current_Sensor_M2
+Text Label 3500 4850 0    50   ~ 0
+Current_Sensor_M3
+Text Label 3500 4950 0    50   ~ 0
+Current_Sensor_M4
+Text Label 3500 5050 0    50   ~ 0
+Current_Sensor_S1
+Wire Wire Line
+	3400 3600 3500 3600
+Wire Wire Line
+	3500 3700 3400 3700
+Wire Wire Line
+	3500 3800 3400 3800
+Wire Wire Line
+	3400 3900 3500 3900
+Wire Wire Line
+	3500 4000 3400 4000
+Wire Wire Line
+	3400 4650 3500 4650
+Wire Wire Line
+	3500 4750 3400 4750
+Wire Wire Line
+	3400 4850 3500 4850
+Wire Wire Line
+	3500 4950 3400 4950
+Wire Wire Line
+	3400 5050 3500 5050
+Text Label 5100 4600 0    50   ~ 0
+Anderson_M1
+Text Label 6250 4600 0    50   ~ 0
+Anderson_M2
+Text Label 7400 4600 0    50   ~ 0
+Anderson_M3
+Text Label 8550 4600 0    50   ~ 0
+Anderson_M4
+Text Label 9700 4600 0    50   ~ 0
+Anderson_S1
+Text Label 5100 5750 0    50   ~ 0
+Anderson_R1
+Text Label 6250 5750 0    50   ~ 0
+Anderson_T1
+Text Label 7400 5750 0    50   ~ 0
+Anderson_V1
+Text Label 8550 5750 0    50   ~ 0
+Anderson_D1
+Text Label 9675 5750 0    50   ~ 0
+Anderson_A1
+Text Label 950  5750 2    50   ~ 0
+PV
+Text Label 950  5850 2    50   ~ 0
+5V
+Wire Wire Line
+	950  5750 1050 5750
+Wire Wire Line
+	1050 5850 950  5850
+Text Label 950  5950 2    50   ~ 0
+12V
+Wire Wire Line
+	950  5950 1050 5950
+Text Label 950  6800 2    50   ~ 0
+Driver_T1
+Text Label 950  6900 2    50   ~ 0
+Driver_D1
+Text Label 950  7000 2    50   ~ 0
+Driver_R1
+Text Label 950  7100 2    50   ~ 0
+Driver_V1
+Text Label 950  7200 2    50   ~ 0
+Driver_A1
+Wire Wire Line
+	950  6800 1050 6800
+Wire Wire Line
+	1050 6900 950  6900
+Wire Wire Line
+	950  7000 1050 7000
+Wire Wire Line
+	1050 7100 950  7100
+Wire Wire Line
+	950  7200 1050 7200
+Text Label 3500 5750 0    50   ~ 0
+Anderson_T1
+Text Label 3500 5850 0    50   ~ 0
+Anderson_D1
+Text Label 3500 5950 0    50   ~ 0
+Anderson_R1
+Text Label 3500 6050 0    50   ~ 0
+Anderson_V1
+Text Label 3500 6150 0    50   ~ 0
+Anderson_A1
+Wire Wire Line
+	3400 5750 3500 5750
+Wire Wire Line
+	3500 5850 3400 5850
+Wire Wire Line
+	3500 5950 3400 5950
+Wire Wire Line
+	3400 6050 3500 6050
+Wire Wire Line
+	3500 6150 3400 6150
+Text Label 3500 6800 0    50   ~ 0
+Current_Sensor_T1
+Text Label 3500 6900 0    50   ~ 0
+Current_Sensor_D1
+Text Label 3500 7000 0    50   ~ 0
+Current_Sensor_R1
+Text Label 3500 7100 0    50   ~ 0
+Current_Sensor_V1
+Text Label 3500 7200 0    50   ~ 0
+Current_Sensor_A1
+Wire Wire Line
+	3500 6800 3400 6800
+Wire Wire Line
+	3500 6900 3400 6900
+Wire Wire Line
+	3500 7000 3400 7000
+Wire Wire Line
+	3500 7100 3400 7100
+Wire Wire Line
+	3500 7200 3400 7200
+Text Label 9950 1950 2    50   ~ 0
+3V3
+Text Label 9950 1550 2    50   ~ 0
+5V
+Text Label 10000 1150 2    50   ~ 0
+12V
+Wire Wire Line
+	10100 1950 9950 1950
+Wire Wire Line
+	10100 1800 10100 1950
+$Comp
+L power:+3V3 #PWR09
+U 1 1 5F87AB1A
+P 10100 1800
+F 0 "#PWR09" H 10100 1650 50  0001 C CNN
+F 1 "+3V3" H 10115 1973 50  0000 C CNN
+F 2 "" H 10100 1800 50  0001 C CNN
+F 3 "" H 10100 1800 50  0001 C CNN
+	1    10100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 1550 9950 1550
+Wire Wire Line
+	10100 1450 10100 1550
+$Comp
+L power:+5V #PWR08
+U 1 1 5F87A60E
+P 10100 1450
+F 0 "#PWR08" H 10100 1300 50  0001 C CNN
+F 1 "+5V" H 10115 1623 50  0000 C CNN
+F 2 "" H 10100 1450 50  0001 C CNN
+F 3 "" H 10100 1450 50  0001 C CNN
+	1    10100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 1150 10000 1150
+Wire Wire Line
+	10100 1050 10100 1150
+$Comp
+L power:+12V #PWR07
+U 1 1 5F87A2B9
+P 10100 1050
+F 0 "#PWR07" H 10100 900 50  0001 C CNN
+F 1 "+12V" H 10100 1200 50  0000 C CNN
+F 2 "" H 10100 1050 50  0001 C CNN
+F 3 "" H 10100 1050 50  0001 C CNN
+	1    10100 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
