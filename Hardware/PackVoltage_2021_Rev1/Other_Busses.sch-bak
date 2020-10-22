@@ -163,7 +163,7 @@ F 1 "GND" H 4255 1677 50  0000 C CNN
 F 2 "" H 4250 1850 50  0001 C CNN
 F 3 "" H 4250 1850 50  0001 C CNN
 	1    4250 1850
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
@@ -251,7 +251,7 @@ F 1 "GND" H 4205 2127 50  0000 C CNN
 F 2 "" H 4200 2300 50  0001 C CNN
 F 3 "" H 4200 2300 50  0001 C CNN
 	1    4200 2300
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 Connection ~ 3100 1850
 Wire Wire Line
@@ -421,7 +421,7 @@ F 1 "GND" H 4205 3677 50  0000 C CNN
 F 2 "" H 4200 3850 50  0001 C CNN
 F 3 "" H 4200 3850 50  0001 C CNN
 	1    4200 3850
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
@@ -509,7 +509,7 @@ F 1 "GND" H 4155 4127 50  0000 C CNN
 F 2 "" H 4150 4300 50  0001 C CNN
 F 3 "" H 4150 4300 50  0001 C CNN
 	1    4150 4300
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 Connection ~ 3050 3850
 Wire Wire Line
@@ -679,7 +679,7 @@ F 1 "GND" H 4205 5877 50  0000 C CNN
 F 2 "" H 4200 6050 50  0001 C CNN
 F 3 "" H 4200 6050 50  0001 C CNN
 	1    4200 6050
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
@@ -767,7 +767,7 @@ F 1 "GND" H 4155 6327 50  0000 C CNN
 F 2 "" H 4150 6500 50  0001 C CNN
 F 3 "" H 4150 6500 50  0001 C CNN
 	1    4150 6500
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 Connection ~ 3050 6050
 Wire Wire Line
@@ -937,7 +937,7 @@ F 1 "GND" H 9600 1750 50  0000 C CNN
 F 2 "" H 9600 1900 50  0001 C CNN
 F 3 "" H 9600 1900 50  0001 C CNN
 	1    9600 1900
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
@@ -1025,7 +1025,7 @@ F 1 "GND" H 9555 2177 50  0000 C CNN
 F 2 "" H 9550 2350 50  0001 C CNN
 F 3 "" H 9550 2350 50  0001 C CNN
 	1    9550 2350
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 Connection ~ 8450 1900
 Wire Wire Line
@@ -1216,7 +1216,7 @@ F 1 "GND" H 9600 3800 50  0000 C CNN
 F 2 "" H 9600 3950 50  0001 C CNN
 F 3 "" H 9600 3950 50  0001 C CNN
 	1    9600 3950
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
@@ -1304,7 +1304,7 @@ F 1 "GND" H 9555 4227 50  0000 C CNN
 F 2 "" H 9550 4400 50  0001 C CNN
 F 3 "" H 9550 4400 50  0001 C CNN
 	1    9550 4400
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 Connection ~ 8450 3950
 Wire Wire Line
