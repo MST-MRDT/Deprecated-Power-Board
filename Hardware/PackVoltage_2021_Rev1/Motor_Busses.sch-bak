@@ -210,7 +210,7 @@ Wire Wire Line
 	3650 2300 3800 2300
 Wire Wire Line
 	4100 2300 4200 2300
-Text HLabel 2350 1100 0    50   Input ~ 0
+Text HLabel 2350 1100 1    50   Input ~ 0
 PV
 $Comp
 L MRDT_ICs:INA281 U7
@@ -241,14 +241,10 @@ $EndComp
 Connection ~ 1850 2100
 Text HLabel 4100 1200 1    50   Input ~ 0
 5V
-Text HLabel 700  1500 0    50   Input ~ 0
-5V
 Wire Wire Line
 	700  1500 800  1500
 Wire Wire Line
 	4100 1200 4100 1250
-Wire Wire Line
-	4500 1550 4500 1450
 Text HLabel 1100 1650 0    50   Input ~ 0
 Driver_M1
 Wire Wire Line
@@ -271,7 +267,7 @@ Wire Wire Line
 	3550 1950 3750 1950
 Wire Wire Line
 	3750 2100 4000 2100
-Text HLabel 4500 1450 1    50   Output ~ 0
+Text HLabel 4600 1550 2    50   Output ~ 0
 Current_Sensor_M1
 $Comp
 L Device:Q_NMOS_DGS Q1
@@ -468,7 +464,7 @@ Wire Wire Line
 	3600 4300 3750 4300
 Wire Wire Line
 	4050 4300 4150 4300
-Text HLabel 2300 3100 0    50   Input ~ 0
+Text HLabel 2300 3100 1    50   Input ~ 0
 PV
 $Comp
 L MRDT_ICs:INA281 U5
@@ -499,14 +495,10 @@ $EndComp
 Connection ~ 1800 4100
 Text HLabel 4050 3200 1    50   Input ~ 0
 5V
-Text HLabel 650  3500 0    50   Input ~ 0
-5V
 Wire Wire Line
 	650  3500 750  3500
 Wire Wire Line
 	4050 3200 4050 3250
-Wire Wire Line
-	4450 3550 4450 3450
 Text HLabel 1050 3650 0    50   Input ~ 0
 Driver_M2
 Wire Wire Line
@@ -529,7 +521,7 @@ Wire Wire Line
 	3500 3950 3700 3950
 Wire Wire Line
 	3700 4100 3950 4100
-Text HLabel 4450 3450 1    50   Output ~ 0
+Text HLabel 4550 3550 2    50   Output ~ 0
 Current_Sensor_M2
 $Comp
 L Device:Q_NMOS_DGS Q2
@@ -726,7 +718,7 @@ Wire Wire Line
 	3600 6500 3750 6500
 Wire Wire Line
 	4050 6500 4150 6500
-Text HLabel 2300 5300 0    50   Input ~ 0
+Text HLabel 2300 5300 1    50   Input ~ 0
 PV
 $Comp
 L MRDT_ICs:INA281 U6
@@ -757,14 +749,10 @@ $EndComp
 Connection ~ 1800 6300
 Text HLabel 4050 5400 1    50   Input ~ 0
 5V
-Text HLabel 650  5700 0    50   Input ~ 0
-5V
 Wire Wire Line
 	650  5700 750  5700
 Wire Wire Line
 	4050 5400 4050 5450
-Wire Wire Line
-	4450 5750 4450 5650
 Text HLabel 1050 5850 0    50   Input ~ 0
 Driver_M3
 Wire Wire Line
@@ -787,7 +775,7 @@ Wire Wire Line
 	3500 6150 3700 6150
 Wire Wire Line
 	3700 6300 3950 6300
-Text HLabel 4450 5650 1    50   Output ~ 0
+Text HLabel 4550 5750 2    50   Output ~ 0
 Current_Sensor_M3
 $Comp
 L Device:Q_NMOS_DGS Q4
@@ -984,7 +972,7 @@ Wire Wire Line
 	9000 2350 9150 2350
 Wire Wire Line
 	9450 2350 9550 2350
-Text HLabel 7700 1150 0    50   Input ~ 0
+Text HLabel 7700 1150 1    50   Input ~ 0
 PV
 $Comp
 L MRDT_ICs:INA281 U9
@@ -1015,14 +1003,10 @@ $EndComp
 Connection ~ 7200 2150
 Text HLabel 9450 1250 1    50   Input ~ 0
 5V
-Text HLabel 6050 1550 0    50   Input ~ 0
-5V
 Wire Wire Line
 	6050 1550 6150 1550
 Wire Wire Line
 	9450 1250 9450 1300
-Wire Wire Line
-	9850 1600 9850 1500
 Text HLabel 6450 1700 0    50   Input ~ 0
 Driver_M4
 Wire Wire Line
@@ -1045,8 +1029,6 @@ Wire Wire Line
 	8900 2000 9100 2000
 Wire Wire Line
 	9100 2150 9350 2150
-Text HLabel 9850 1500 1    50   Output ~ 0
-Current_Sensor_M4
 Text HLabel 4000 2100 2    50   Output ~ 0
 Anderson_M1
 Text HLabel 3950 4100 2    50   Output ~ 0
@@ -1250,7 +1232,7 @@ Wire Wire Line
 	9000 4250 9150 4250
 Wire Wire Line
 	9450 4250 9550 4250
-Text HLabel 7700 3050 0    50   Input ~ 0
+Text HLabel 7700 3050 1    50   Input ~ 0
 PV
 $Comp
 L MRDT_ICs:INA281 U11
@@ -1281,14 +1263,12 @@ $EndComp
 Connection ~ 7200 4050
 Text HLabel 9450 3150 1    50   Input ~ 0
 5V
-Text HLabel 6050 3450 0    50   Input ~ 0
+Text HLabel 6050 3100 1    50   Input ~ 0
 5V
 Wire Wire Line
 	6050 3450 6150 3450
 Wire Wire Line
 	9450 3150 9450 3200
-Wire Wire Line
-	9850 3500 9850 3400
 Text HLabel 6450 3600 0    50   Input ~ 0
 Driver_S1
 Wire Wire Line
@@ -1311,7 +1291,7 @@ Wire Wire Line
 	8900 3900 9100 3900
 Wire Wire Line
 	9100 4050 9350 4050
-Text HLabel 9850 3400 1    50   Output ~ 0
+Text HLabel 9950 3500 2    50   Output ~ 0
 Current_Sensor_S1
 Text HLabel 9350 4050 2    50   Output ~ 0
 Anderson_S1
@@ -1350,4 +1330,34 @@ Wire Wire Line
 Connection ~ 9100 2000
 Wire Wire Line
 	9100 2000 9250 2000
+Text HLabel 9950 1600 2    50   Output ~ 0
+Current_Sensor_M4
+Wire Wire Line
+	4450 5750 4550 5750
+Wire Wire Line
+	4450 3550 4550 3550
+Wire Wire Line
+	4600 1550 4500 1550
+Wire Wire Line
+	9850 3500 9950 3500
+Wire Wire Line
+	9850 1600 9950 1600
+Wire Wire Line
+	6050 3100 6050 3450
+Text HLabel 6050 1200 1    50   Input ~ 0
+5V
+Wire Wire Line
+	6050 1200 6050 1550
+Text HLabel 700  1150 1    50   Input ~ 0
+5V
+Wire Wire Line
+	700  1150 700  1500
+Text HLabel 650  3150 1    50   Input ~ 0
+5V
+Wire Wire Line
+	650  3150 650  3500
+Text HLabel 650  5350 1    50   Input ~ 0
+5V
+Wire Wire Line
+	650  5350 650  5700
 $EndSCHEMATC

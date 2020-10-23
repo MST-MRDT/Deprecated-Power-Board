@@ -746,43 +746,6 @@ Wire Wire Line
 	6075 2050 6200 2050
 Wire Wire Line
 	6075 1950 6200 1950
-NoConn ~ 6200 1550
-$Sheet
-S 1200 850  2650 2100
-U 5F74F238
-F0 "TIVA" 157
-F1 "TIVA.sch" 157
-F2 "Current_Sensor_R1" I L 1200 2500 50 
-F3 "Driver_M1" O R 3850 2000 50 
-F4 "Driver_M2" O R 3850 2100 50 
-F5 "Driver_M3" O R 3850 2200 50 
-F6 "Current_Sensor_S1" I L 1200 2400 50 
-F7 "Current_Sensor_T1" I L 1200 2600 50 
-F8 "Driver_M4" O R 3850 2300 50 
-F9 "Driver_V1" O R 3850 2700 50 
-F10 "Driver_R1" O R 3850 2500 50 
-F11 "Current_Sensor_M1" I L 1200 2000 50 
-F12 "Current_Sensor_M2" I L 1200 2100 50 
-F13 "Current_Sensor_M3" I L 1200 2200 50 
-F14 "Current_Sensor_M4" I L 1200 2300 50 
-F15 "Current_Sensor_V1" I L 1200 2700 50 
-F16 "Driver_S1" O R 3850 2400 50 
-F17 "Driver_T1" O R 3850 2600 50 
-F18 "3V3" I L 1200 900 50 
-F19 "CameraCTL" O R 3850 1750 50 
-F20 "NavBoardCTL" O R 3850 1650 50 
-F21 "GimbalCTL" O R 3850 1550 50 
-F22 "AuxMountSense" I L 1200 1500 50 
-F23 "MultimediaSense" I L 1200 1600 50 
-F24 "LowCurrentSense" I L 1200 1700 50 
-F25 "DriveSense" I L 1200 1400 50 
-F26 "AuxMountCTL" O R 3850 1450 50 
-F27 "MultimediaCTL" O R 3850 1350 50 
-F28 "Current_Sensor_A1" I L 1200 2900 50 
-F29 "Driver_A1" O R 3850 2900 50 
-F30 "Driver_D1" O R 3850 2800 50 
-F31 "Current_Sensor_D1" I L 1200 2800 50 
-$EndSheet
 Text Label 1100 1400 2    39   ~ 0
 DriveSense
 Text Label 1100 1500 2    39   ~ 0
@@ -844,16 +807,6 @@ Wire Wire Line
 Text Label 1100 900  2    39   ~ 0
 3V3
 Wire Wire Line
-	3850 1350 3950 1350
-Wire Wire Line
-	3950 1450 3850 1450
-Wire Wire Line
-	3850 1550 3950 1550
-Wire Wire Line
-	3950 1650 3850 1650
-Wire Wire Line
-	3850 1750 3950 1750
-Wire Wire Line
 	3850 2000 3950 2000
 Wire Wire Line
 	3950 2100 3850 2100
@@ -873,16 +826,6 @@ Wire Wire Line
 	3850 2800 3950 2800
 Wire Wire Line
 	3950 2900 3850 2900
-Text Label 3950 1350 0    39   ~ 0
-MultimediaCTL
-Text Label 3950 1450 0    39   ~ 0
-AuxMountCTL
-Text Label 3950 1550 0    39   ~ 0
-GimbalCTL
-Text Label 3950 1650 0    39   ~ 0
-NavBoardCTL
-Text Label 3950 1750 0    39   ~ 0
-CameraCTL
 Text Label 3950 2000 0    40   ~ 0
 Driver_M1
 Text Label 3950 2100 0    40   ~ 0
@@ -1150,4 +1093,69 @@ F 3 "" H 10100 1050 50  0001 C CNN
 	1    10100 1050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6075 1550 6200 1550
+Text Label 6075 1550 2    50   ~ 0
+ExtraCTL
+Text Label 3950 1750 0    39   ~ 0
+CameraCTL
+Text Label 3950 1650 0    39   ~ 0
+NavBoardCTL
+Text Label 3950 1550 0    39   ~ 0
+GimbalCTL
+Text Label 3950 1450 0    39   ~ 0
+AuxMountCTL
+Text Label 3950 1350 0    39   ~ 0
+MultimediaCTL
+Wire Wire Line
+	3850 1750 3950 1750
+Wire Wire Line
+	3950 1650 3850 1650
+Wire Wire Line
+	3850 1550 3950 1550
+Wire Wire Line
+	3950 1450 3850 1450
+Wire Wire Line
+	3850 1350 3950 1350
+Text Label 3950 1250 0    50   ~ 0
+ExtraCTL
+Wire Wire Line
+	3850 1250 3950 1250
+$Sheet
+S 1200 850  2650 2100
+U 5F74F238
+F0 "TIVA" 157
+F1 "TIVA.sch" 157
+F2 "Current_Sensor_R1" I L 1200 2500 50 
+F3 "Driver_M1" O R 3850 2000 50 
+F4 "Driver_M2" O R 3850 2100 50 
+F5 "Driver_M3" O R 3850 2200 50 
+F6 "Current_Sensor_S1" I L 1200 2400 50 
+F7 "Current_Sensor_T1" I L 1200 2600 50 
+F8 "Driver_M4" O R 3850 2300 50 
+F9 "Driver_V1" O R 3850 2700 50 
+F10 "Driver_R1" O R 3850 2500 50 
+F11 "Current_Sensor_M1" I L 1200 2000 50 
+F12 "Current_Sensor_M2" I L 1200 2100 50 
+F13 "Current_Sensor_M3" I L 1200 2200 50 
+F14 "Current_Sensor_M4" I L 1200 2300 50 
+F15 "Current_Sensor_V1" I L 1200 2700 50 
+F16 "Driver_S1" O R 3850 2400 50 
+F17 "Driver_T1" O R 3850 2600 50 
+F18 "3V3" I L 1200 900 50 
+F19 "CameraCTL" O R 3850 1750 50 
+F20 "NavBoardCTL" O R 3850 1650 50 
+F21 "GimbalCTL" O R 3850 1550 50 
+F22 "AuxMountSense" I L 1200 1500 50 
+F23 "MultimediaSense" I L 1200 1600 50 
+F24 "LowCurrentSense" I L 1200 1700 50 
+F25 "DriveSense" I L 1200 1400 50 
+F26 "AuxMountCTL" O R 3850 1450 50 
+F27 "MultimediaCTL" O R 3850 1350 50 
+F28 "Current_Sensor_A1" I L 1200 2900 50 
+F29 "Driver_A1" O R 3850 2900 50 
+F30 "Driver_D1" O R 3850 2800 50 
+F31 "Current_Sensor_D1" I L 1200 2800 50 
+F32 "ExtraCTL" O R 3850 1250 50 
+$EndSheet
 $EndSCHEMATC

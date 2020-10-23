@@ -126,8 +126,6 @@ Text Notes 2150 850  0    157  ~ 0
 Rockets
 Wire Wire Line
 	3350 1850 3350 1450
-Wire Wire Line
-	3550 1450 3900 1450
 Connection ~ 3550 1450
 Wire Wire Line
 	3550 1450 3550 1550
@@ -150,8 +148,6 @@ F 3 "https://riedon.com/media/pdf/PFS35.pdf" H 3550 1700 50  0001 C CNN
 	1    3550 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4100 1850 4250 1850
 $Comp
 L power:GND #PWR?
 U 1 1 5F9AF78A
@@ -197,21 +193,8 @@ Wire Wire Line
 	3650 2300 3800 2300
 Wire Wire Line
 	4100 2300 4200 2300
-Text HLabel 2350 1100 0    50   Input ~ 0
+Text HLabel 2350 1100 1    50   Input ~ 0
 PV
-$Comp
-L MRDT_ICs:INA281 U?
-U 1 1 5F9AF7BB
-P 4100 1550
-AR Path="/5F7A6A8B/5F9AF7BB" Ref="U?"  Part="1" 
-AR Path="/5F8EFCC9/5F9AF7BB" Ref="U18"  Part="1" 
-F 0 "U18" H 4200 1850 50  0000 L CNN
-F 1 "INA281" H 4150 1750 50  0000 L CNN
-F 2 "" H 4350 1750 50  0001 C CNN
-F 3 "" H 4350 1750 50  0001 C CNN
-	1    4100 1550
-	1    0    0    -1  
-$EndComp
 $Comp
 L MRDT_ICs:LT1910 U?
 U 1 1 5F8E1128
@@ -228,14 +211,10 @@ $EndComp
 Connection ~ 1850 2100
 Text HLabel 4100 1200 1    50   Input ~ 0
 5V
-Text HLabel 700  1500 0    50   Input ~ 0
-5V
 Wire Wire Line
 	700  1500 800  1500
 Wire Wire Line
 	4100 1200 4100 1250
-Wire Wire Line
-	4500 1550 4500 1450
 Text HLabel 1100 1650 0    50   Input ~ 0
 Driver_R1
 Wire Wire Line
@@ -258,8 +237,6 @@ Wire Wire Line
 	3550 1950 3750 1950
 Wire Wire Line
 	3750 2100 4000 2100
-Text HLabel 4500 1450 1    50   Output ~ 0
-Current_Sensor_R1
 $Comp
 L Device:Q_NMOS_DGS Q?
 U 1 1 5F9AF794
@@ -455,7 +432,7 @@ Wire Wire Line
 	3600 4300 3750 4300
 Wire Wire Line
 	4050 4300 4150 4300
-Text HLabel 2300 3100 0    50   Input ~ 0
+Text HLabel 2300 3100 1    50   Input ~ 0
 12V
 $Comp
 L MRDT_ICs:INA281 U?
@@ -486,14 +463,10 @@ $EndComp
 Connection ~ 1800 4100
 Text HLabel 4050 3200 1    50   Input ~ 0
 5V
-Text HLabel 650  3500 0    50   Input ~ 0
-5V
 Wire Wire Line
 	650  3500 750  3500
 Wire Wire Line
 	4050 3200 4050 3250
-Wire Wire Line
-	4450 3550 4450 3450
 Text HLabel 1050 3650 0    50   Input ~ 0
 Driver_T1
 Wire Wire Line
@@ -516,7 +489,7 @@ Wire Wire Line
 	3500 3950 3700 3950
 Wire Wire Line
 	3700 4100 3950 4100
-Text HLabel 4450 3450 1    50   Output ~ 0
+Text HLabel 4550 3550 2    50   Output ~ 0
 Current_Sensor_T1
 $Comp
 L Device:Q_NMOS_DGS Q?
@@ -713,7 +686,7 @@ Wire Wire Line
 	3600 6500 3750 6500
 Wire Wire Line
 	4050 6500 4150 6500
-Text HLabel 2300 5300 0    50   Input ~ 0
+Text HLabel 2300 5300 1    50   Input ~ 0
 PV
 $Comp
 L MRDT_ICs:INA281 U?
@@ -744,14 +717,10 @@ $EndComp
 Connection ~ 1800 6300
 Text HLabel 4050 5400 1    50   Input ~ 0
 5V
-Text HLabel 650  5700 0    50   Input ~ 0
-5V
 Wire Wire Line
 	650  5700 750  5700
 Wire Wire Line
 	4050 5400 4050 5450
-Wire Wire Line
-	4450 5750 4450 5650
 Text HLabel 1050 5850 0    50   Input ~ 0
 Driver_V1
 Wire Wire Line
@@ -774,7 +743,7 @@ Wire Wire Line
 	3500 6150 3700 6150
 Wire Wire Line
 	3700 6300 3950 6300
-Text HLabel 4450 5650 1    50   Output ~ 0
+Text HLabel 4550 5750 2    50   Output ~ 0
 Current_Sensor_V1
 $Comp
 L Device:Q_NMOS_DGS Q?
@@ -971,7 +940,7 @@ Wire Wire Line
 	9000 2350 9150 2350
 Wire Wire Line
 	9450 2350 9550 2350
-Text HLabel 7700 1150 0    50   Input ~ 0
+Text HLabel 7700 1150 1    50   Input ~ 0
 PV
 $Comp
 L MRDT_ICs:INA281 U?
@@ -1002,14 +971,10 @@ $EndComp
 Connection ~ 7200 2150
 Text HLabel 9450 1250 1    50   Input ~ 0
 5V
-Text HLabel 6050 1550 0    50   Input ~ 0
-5V
 Wire Wire Line
 	6050 1550 6150 1550
 Wire Wire Line
 	9450 1250 9450 1300
-Wire Wire Line
-	9850 1600 9850 1500
 Text HLabel 6450 1700 0    50   Input ~ 0
 Driver_D1
 Wire Wire Line
@@ -1032,7 +997,7 @@ Wire Wire Line
 	8900 2000 9100 2000
 Wire Wire Line
 	9100 2150 9350 2150
-Text HLabel 9850 1500 1    50   Output ~ 0
+Text HLabel 9950 1600 2    50   Output ~ 0
 Current_Sensor_D1
 $Comp
 L Device:Fuse F?
@@ -1250,7 +1215,7 @@ Wire Wire Line
 	9000 4400 9150 4400
 Wire Wire Line
 	9450 4400 9550 4400
-Text HLabel 7700 3200 0    50   Input ~ 0
+Text HLabel 7700 3200 1    50   Input ~ 0
 PV
 $Comp
 L MRDT_ICs:INA281 U?
@@ -1281,14 +1246,10 @@ $EndComp
 Connection ~ 7200 4200
 Text HLabel 9450 3300 1    50   Input ~ 0
 5V
-Text HLabel 6050 3600 0    50   Input ~ 0
-5V
 Wire Wire Line
 	6050 3600 6150 3600
 Wire Wire Line
 	9450 3300 9450 3350
-Wire Wire Line
-	9850 3650 9850 3550
 Text HLabel 6450 3750 0    50   Input ~ 0
 Driver_A1
 Wire Wire Line
@@ -1311,7 +1272,7 @@ Wire Wire Line
 	8900 4050 9100 4050
 Wire Wire Line
 	9100 4200 9350 4200
-Text HLabel 9850 3550 1    50   Output ~ 0
+Text HLabel 9950 3650 2    50   Output ~ 0
 Current_Sensor_A1
 Text HLabel 9350 4200 2    50   Output ~ 0
 Anderson_A1
@@ -1350,4 +1311,53 @@ Wire Wire Line
 Connection ~ 9100 2000
 Wire Wire Line
 	9100 2000 9250 2000
+Text HLabel 700  1150 1    50   Input ~ 0
+5V
+Wire Wire Line
+	700  1150 700  1500
+Text HLabel 650  3150 1    50   Input ~ 0
+5V
+Wire Wire Line
+	650  3150 650  3500
+Text HLabel 650  5350 1    50   Input ~ 0
+5V
+Wire Wire Line
+	650  5350 650  5700
+Text HLabel 6050 3250 1    50   Input ~ 0
+5V
+Wire Wire Line
+	6050 3250 6050 3600
+Text HLabel 6050 1200 1    50   Input ~ 0
+5V
+Wire Wire Line
+	6050 1200 6050 1550
+Wire Wire Line
+	4100 1850 4250 1850
+Text HLabel 4600 1550 2    50   Output ~ 0
+Current_Sensor_R1
+Wire Wire Line
+	3550 1450 3900 1450
+$Comp
+L MRDT_ICs:INA281 U?
+U 1 1 5F9AF7BB
+P 4100 1550
+AR Path="/5F7A6A8B/5F9AF7BB" Ref="U?"  Part="1" 
+AR Path="/5F8EFCC9/5F9AF7BB" Ref="U18"  Part="1" 
+F 0 "U18" H 4200 1850 50  0000 L CNN
+F 1 "INA281" H 4150 1750 50  0000 L CNN
+F 2 "" H 4350 1750 50  0001 C CNN
+F 3 "" H 4350 1750 50  0001 C CNN
+	1    4100 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1550 4600 1550
+Wire Wire Line
+	9950 1600 9850 1600
+Wire Wire Line
+	9850 3650 9950 3650
+Wire Wire Line
+	4450 5750 4550 5750
+Wire Wire Line
+	4450 3550 4550 3550
 $EndSCHEMATC
