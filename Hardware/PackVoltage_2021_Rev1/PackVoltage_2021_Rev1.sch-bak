@@ -96,7 +96,7 @@ AR Path="/5F7A6A8B/5F94335D" Ref="Conn?"  Part="4"
 AR Path="/5F8EFCC9/5F94335D" Ref="Conn?"  Part="4" 
 AR Path="/5F94335D" Ref="Conn1"  Part="4" 
 F 0 "Conn1" H 4758 5087 60  0000 C CNN
-F 1 "AndersonPP" H 4758 4981 60  0000 C CNN
+F 1 "Motor 1" H 4758 4981 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4400 4150 60  0001 C CNN
 F 3 "" H 4400 4150 60  0001 C CNN
 	4    4550 4700
@@ -110,7 +110,7 @@ AR Path="/5F7A6A8B/5F943363" Ref="Conn?"  Part="1"
 AR Path="/5F8EFCC9/5F943363" Ref="Conn?"  Part="1" 
 AR Path="/5F943363" Ref="Conn1"  Part="1" 
 F 0 "Conn1" H 4900 5500 60  0000 R CNN
-F 1 "AndersonPP" H 5050 5400 60  0000 R CNN
+F 1 "Motor 1" H 5050 5400 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4400 4600 60  0001 C CNN
 F 3 "" H 4400 4600 60  0001 C CNN
 	1    4550 5150
@@ -156,7 +156,7 @@ AR Path="/5F7A6A8B/5F943377" Ref="Conn?"  Part="4"
 AR Path="/5F8EFCC9/5F943377" Ref="Conn?"  Part="4" 
 AR Path="/5F943377" Ref="Conn7"  Part="4" 
 F 0 "Conn7" H 7058 5087 60  0000 C CNN
-F 1 "AndersonPP" H 7058 4981 60  0000 C CNN
+F 1 "Motor 3" H 7058 4981 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6700 4150 60  0001 C CNN
 F 3 "" H 6700 4150 60  0001 C CNN
 	4    6850 4700
@@ -170,7 +170,7 @@ AR Path="/5F7A6A8B/5F94337D" Ref="Conn?"  Part="1"
 AR Path="/5F8EFCC9/5F94337D" Ref="Conn?"  Part="1" 
 AR Path="/5F94337D" Ref="Conn7"  Part="1" 
 F 0 "Conn7" H 7200 5500 60  0000 R CNN
-F 1 "AndersonPP" H 7350 5400 60  0000 R CNN
+F 1 "Motor 3" H 7350 5400 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6700 4600 60  0001 C CNN
 F 3 "" H 6700 4600 60  0001 C CNN
 	1    6850 5150
@@ -202,7 +202,7 @@ AR Path="/5F7A6A8B/5F94338B" Ref="Conn?"  Part="4"
 AR Path="/5F8EFCC9/5F94338B" Ref="Conn?"  Part="4" 
 AR Path="/5F94338B" Ref="Conn9"  Part="4" 
 F 0 "Conn9" H 8208 5087 60  0000 C CNN
-F 1 "AndersonPP" H 8208 4981 60  0000 C CNN
+F 1 "Motor 4" H 8208 4981 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7850 4150 60  0001 C CNN
 F 3 "" H 7850 4150 60  0001 C CNN
 	4    8000 4700
@@ -216,7 +216,7 @@ AR Path="/5F7A6A8B/5F943391" Ref="Conn?"  Part="1"
 AR Path="/5F8EFCC9/5F943391" Ref="Conn?"  Part="1" 
 AR Path="/5F943391" Ref="Conn9"  Part="1" 
 F 0 "Conn9" H 8350 5500 60  0000 R CNN
-F 1 "AndersonPP" H 8500 5400 60  0000 R CNN
+F 1 "Motor 4" H 8500 5400 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7850 4600 60  0001 C CNN
 F 3 "" H 7850 4600 60  0001 C CNN
 	1    8000 5150
@@ -234,7 +234,7 @@ AR Path="/5F7A6A8B/5F943399" Ref="Conn?"  Part="1"
 AR Path="/5F8EFCC9/5F943399" Ref="Conn?"  Part="1" 
 AR Path="/5F943399" Ref="Conn3"  Part="1" 
 F 0 "Conn3" H 6050 5500 60  0000 R CNN
-F 1 "AndersonPP" H 6200 5400 60  0000 R CNN
+F 1 "Motor 2" H 6200 5400 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5550 4600 60  0001 C CNN
 F 3 "" H 5550 4600 60  0001 C CNN
 	1    5700 5150
@@ -248,7 +248,7 @@ AR Path="/5F7A6A8B/5F94339F" Ref="Conn?"  Part="4"
 AR Path="/5F8EFCC9/5F94339F" Ref="Conn?"  Part="4" 
 AR Path="/5F94339F" Ref="Conn3"  Part="4" 
 F 0 "Conn3" H 5908 5087 60  0000 C CNN
-F 1 "AndersonPP" H 5908 4981 60  0000 C CNN
+F 1 "Motor 2" H 5908 4981 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5550 4150 60  0001 C CNN
 F 3 "" H 5550 4150 60  0001 C CNN
 	4    5700 4700
@@ -280,7 +280,7 @@ AR Path="/5F7A6A8B/5F9A1793" Ref="Conn?"  Part="4"
 AR Path="/5F8EFCC9/5F9A1793" Ref="Conn?"  Part="4" 
 AR Path="/5F9A1793" Ref="Conn2"  Part="4" 
 F 0 "Conn2" H 4758 6237 60  0000 C CNN
-F 1 "AndersonPP" H 4758 6131 60  0000 C CNN
+F 1 "Rockets" H 4758 6131 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4400 5300 60  0001 C CNN
 F 3 "" H 4400 5300 60  0001 C CNN
 	4    4550 5850
@@ -294,7 +294,7 @@ AR Path="/5F7A6A8B/5F9A1799" Ref="Conn?"  Part="1"
 AR Path="/5F8EFCC9/5F9A1799" Ref="Conn?"  Part="1" 
 AR Path="/5F9A1799" Ref="Conn2"  Part="1" 
 F 0 "Conn2" H 4900 6650 60  0000 R CNN
-F 1 "AndersonPP" H 5050 6550 60  0000 R CNN
+F 1 "Rockets" H 5050 6550 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4400 5750 60  0001 C CNN
 F 3 "" H 4400 5750 60  0001 C CNN
 	1    4550 6300
@@ -326,7 +326,7 @@ AR Path="/5F7A6A8B/5F9A17A7" Ref="Conn?"  Part="4"
 AR Path="/5F8EFCC9/5F9A17A7" Ref="Conn?"  Part="4" 
 AR Path="/5F9A17A7" Ref="Conn4"  Part="4" 
 F 0 "Conn4" H 5908 6237 60  0000 C CNN
-F 1 "AndersonPP" H 5908 6131 60  0000 C CNN
+F 1 "12 V" H 5908 6131 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5550 5300 60  0001 C CNN
 F 3 "" H 5550 5300 60  0001 C CNN
 	4    5700 5850
@@ -340,7 +340,7 @@ AR Path="/5F7A6A8B/5F9A17AD" Ref="Conn?"  Part="1"
 AR Path="/5F8EFCC9/5F9A17AD" Ref="Conn?"  Part="1" 
 AR Path="/5F9A17AD" Ref="Conn4"  Part="1" 
 F 0 "Conn4" H 6050 6650 60  0000 R CNN
-F 1 "AndersonPP" H 6200 6550 60  0000 R CNN
+F 1 "12 V" H 6200 6550 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5550 5750 60  0001 C CNN
 F 3 "" H 5550 5750 60  0001 C CNN
 	1    5700 6300
@@ -372,7 +372,7 @@ AR Path="/5F7A6A8B/5F9A17BB" Ref="Conn?"  Part="4"
 AR Path="/5F8EFCC9/5F9A17BB" Ref="Conn?"  Part="4" 
 AR Path="/5F9A17BB" Ref="Conn8"  Part="4" 
 F 0 "Conn8" H 7058 6237 60  0000 C CNN
-F 1 "AndersonPP" H 7058 6131 60  0000 C CNN
+F 1 "Vaccum" H 7058 6131 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6700 5300 60  0001 C CNN
 F 3 "" H 6700 5300 60  0001 C CNN
 	4    6850 5850
@@ -386,7 +386,7 @@ AR Path="/5F7A6A8B/5F9A17C1" Ref="Conn?"  Part="1"
 AR Path="/5F8EFCC9/5F9A17C1" Ref="Conn?"  Part="1" 
 AR Path="/5F9A17C1" Ref="Conn8"  Part="1" 
 F 0 "Conn8" H 7200 6650 60  0000 R CNN
-F 1 "AndersonPP" H 7350 6550 60  0000 R CNN
+F 1 "Vaccum" H 7350 6550 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6700 5750 60  0001 C CNN
 F 3 "" H 6700 5750 60  0001 C CNN
 	1    6850 6300
@@ -418,7 +418,7 @@ AR Path="/5F7A6A8B/5F9A17CF" Ref="Conn?"  Part="4"
 AR Path="/5F8EFCC9/5F9A17CF" Ref="Conn?"  Part="4" 
 AR Path="/5F9A17CF" Ref="Conn10"  Part="4" 
 F 0 "Conn10" H 8208 6237 60  0000 C CNN
-F 1 "AndersonPP" H 8208 6131 60  0000 C CNN
+F 1 "Driveboard" H 8208 6131 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7850 5300 60  0001 C CNN
 F 3 "" H 7850 5300 60  0001 C CNN
 	4    8000 5850
@@ -432,7 +432,7 @@ AR Path="/5F7A6A8B/5F9A17D5" Ref="Conn?"  Part="1"
 AR Path="/5F8EFCC9/5F9A17D5" Ref="Conn?"  Part="1" 
 AR Path="/5F9A17D5" Ref="Conn10"  Part="1" 
 F 0 "Conn10" H 8350 6650 60  0000 R CNN
-F 1 "AndersonPP" H 8500 6550 60  0000 R CNN
+F 1 "Driveboard" H 8500 6550 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7850 5750 60  0001 C CNN
 F 3 "" H 7850 5750 60  0001 C CNN
 	1    8000 6300
@@ -464,7 +464,7 @@ AR Path="/5F7A6A8B/5F888F54" Ref="Conn?"  Part="4"
 AR Path="/5F8EFCC9/5F888F54" Ref="Conn?"  Part="4" 
 AR Path="/5F888F54" Ref="Conn12"  Part="4" 
 F 0 "Conn12" H 9358 5087 60  0000 C CNN
-F 1 "AndersonPP" H 9358 4981 60  0000 C CNN
+F 1 "Spare" H 9358 4981 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9000 4150 60  0001 C CNN
 F 3 "" H 9000 4150 60  0001 C CNN
 	4    9150 4700
@@ -478,7 +478,7 @@ AR Path="/5F7A6A8B/5F888F5A" Ref="Conn?"  Part="1"
 AR Path="/5F8EFCC9/5F888F5A" Ref="Conn?"  Part="1" 
 AR Path="/5F888F5A" Ref="Conn12"  Part="1" 
 F 0 "Conn12" H 9500 5500 60  0000 R CNN
-F 1 "AndersonPP" H 9650 5400 60  0000 R CNN
+F 1 "Spare" H 9650 5400 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9000 4600 60  0001 C CNN
 F 3 "" H 9000 4600 60  0001 C CNN
 	1    9150 5150
@@ -507,7 +507,7 @@ AR Path="/5F83E409/5F8B7CF4" Ref="C?"  Part="1"
 AR Path="/5F8B7CF4" Ref="C1"  Part="1" 
 F 0 "C1" H 7915 3221 50  0000 L CNN
 F 1 "470uF" H 7915 3130 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7800 3175 50  0001 C CNN
+F 2 "" H 7800 3175 50  0001 C CNN
 F 3 "~" H 7800 3175 50  0001 C CNN
 	1    7800 3175
 	1    0    0    -1  
@@ -520,7 +520,7 @@ AR Path="/5F83E409/5F8B7CFA" Ref="C?"  Part="1"
 AR Path="/5F8B7CFA" Ref="C2"  Part="1" 
 F 0 "C2" H 8315 3221 50  0000 L CNN
 F 1 "470uF" H 8315 3130 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8200 3175 50  0001 C CNN
+F 2 "" H 8200 3175 50  0001 C CNN
 F 3 "~" H 8200 3175 50  0001 C CNN
 	1    8200 3175
 	1    0    0    -1  
@@ -533,7 +533,7 @@ AR Path="/5F83E409/5F8B7D00" Ref="C?"  Part="1"
 AR Path="/5F8B7D00" Ref="C3"  Part="1" 
 F 0 "C3" H 8715 3221 50  0000 L CNN
 F 1 "470uF" H 8715 3130 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8600 3175 50  0001 C CNN
+F 2 "" H 8600 3175 50  0001 C CNN
 F 3 "~" H 8600 3175 50  0001 C CNN
 	1    8600 3175
 	1    0    0    -1  
@@ -546,7 +546,7 @@ AR Path="/5F83E409/5F8B7D06" Ref="C?"  Part="1"
 AR Path="/5F8B7D06" Ref="C4"  Part="1" 
 F 0 "C4" H 9115 3221 50  0000 L CNN
 F 1 "470uF" H 9115 3130 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9000 3175 50  0001 C CNN
+F 2 "" H 9000 3175 50  0001 C CNN
 F 3 "~" H 9000 3175 50  0001 C CNN
 	1    9000 3175
 	1    0    0    -1  
@@ -695,7 +695,7 @@ AR Path="/5F7A6A8B/5F8BC44B" Ref="Conn?"  Part="4"
 AR Path="/5F8EFCC9/5F8BC44B" Ref="Conn?"  Part="4" 
 AR Path="/5F8BC44B" Ref="Conn11"  Part="4" 
 F 0 "Conn11" H 9333 6237 60  0000 C CNN
-F 1 "AndersonPP" H 9333 6131 60  0000 C CNN
+F 1 "Auxiliary" H 9333 6131 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 8975 5300 60  0001 C CNN
 F 3 "" H 8975 5300 60  0001 C CNN
 	4    9125 5850
@@ -709,7 +709,7 @@ AR Path="/5F7A6A8B/5F8BC451" Ref="Conn?"  Part="1"
 AR Path="/5F8EFCC9/5F8BC451" Ref="Conn?"  Part="1" 
 AR Path="/5F8BC451" Ref="Conn11"  Part="1" 
 F 0 "Conn11" H 9475 6650 60  0000 R CNN
-F 1 "AndersonPP" H 9625 6550 60  0000 R CNN
+F 1 "Auxiliary" H 9625 6550 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 8975 5750 60  0001 C CNN
 F 3 "" H 8975 5750 60  0001 C CNN
 	1    9125 6300
