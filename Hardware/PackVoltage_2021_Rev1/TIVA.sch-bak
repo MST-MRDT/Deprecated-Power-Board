@@ -291,7 +291,6 @@ Driver_S1
 Text HLabel 2750 2000 2    40   Output ~ 0
 Driver_T1
 NoConn ~ 1500 4000
-NoConn ~ 1500 4100
 NoConn ~ 2500 4200
 Text HLabel 1350 1200 1    50   Input ~ 0
 3V3
@@ -344,4 +343,8 @@ Text HLabel 1400 3700 0    50   Input ~ 0
 GimbalSense
 Wire Wire Line
 	1400 3700 1500 3700
+Text HLabel 1400 4100 0    50   Output ~ 0
+DriveCTL
+Wire Wire Line
+	1400 4100 1500 4100
 $EndSCHEMATC
