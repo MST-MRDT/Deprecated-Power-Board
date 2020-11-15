@@ -88,20 +88,6 @@ F 3 "" H 5150 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4950 5050 5150 5050
-$Comp
-L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 5F943363
-P 4550 5150
-AR Path="/5F7A6A8B/5F943363" Ref="Conn?"  Part="1" 
-AR Path="/5F8EFCC9/5F943363" Ref="Conn?"  Part="1" 
-AR Path="/5F943363" Ref="Conn1"  Part="1" 
-F 0 "Conn1" H 4900 5500 60  0000 R CNN
-F 1 "Motor 1" H 5050 5400 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4400 4600 60  0001 C CNN
-F 3 "" H 4400 4600 60  0001 C CNN
-	1    4550 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5100 4600 4950 4600
 $Comp
@@ -134,20 +120,6 @@ F 3 "" H 7450 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7250 5050 7450 5050
-$Comp
-L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 5F94337D
-P 6850 5150
-AR Path="/5F7A6A8B/5F94337D" Ref="Conn?"  Part="1" 
-AR Path="/5F8EFCC9/5F94337D" Ref="Conn?"  Part="1" 
-AR Path="/5F94337D" Ref="Conn7"  Part="1" 
-F 0 "Conn7" H 7200 5500 60  0000 R CNN
-F 1 "Motor 3" H 7350 5400 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6700 4600 60  0001 C CNN
-F 3 "" H 6700 4600 60  0001 C CNN
-	1    6850 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7400 4600 7250 4600
 $Comp
@@ -166,38 +138,10 @@ F 3 "" H 8600 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8400 5050 8600 5050
-$Comp
-L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 5F943391
-P 8000 5150
-AR Path="/5F7A6A8B/5F943391" Ref="Conn?"  Part="1" 
-AR Path="/5F8EFCC9/5F943391" Ref="Conn?"  Part="1" 
-AR Path="/5F943391" Ref="Conn9"  Part="1" 
-F 0 "Conn9" H 8350 5500 60  0000 R CNN
-F 1 "Motor 4" H 8500 5400 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7850 4600 60  0001 C CNN
-F 3 "" H 7850 4600 60  0001 C CNN
-	1    8000 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8550 4600 8400 4600
 Wire Wire Line
 	6250 4600 6100 4600
-$Comp
-L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 5F943399
-P 5700 5150
-AR Path="/5F7A6A8B/5F943399" Ref="Conn?"  Part="1" 
-AR Path="/5F8EFCC9/5F943399" Ref="Conn?"  Part="1" 
-AR Path="/5F943399" Ref="Conn3"  Part="1" 
-F 0 "Conn3" H 6050 5500 60  0000 R CNN
-F 1 "Motor 2" H 6200 5400 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5550 4600 60  0001 C CNN
-F 3 "" H 5550 4600 60  0001 C CNN
-	1    5700 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 5050 6300 5050
 $Comp
@@ -216,20 +160,6 @@ F 3 "" H 5200 6450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 6450 5200 6450
-$Comp
-L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 5F9A1799
-P 4600 6550
-AR Path="/5F7A6A8B/5F9A1799" Ref="Conn?"  Part="1" 
-AR Path="/5F8EFCC9/5F9A1799" Ref="Conn?"  Part="1" 
-AR Path="/5F9A1799" Ref="Conn2"  Part="1" 
-F 0 "Conn2" H 4950 6900 60  0000 R CNN
-F 1 "Rockets" H 5100 6800 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4450 6000 60  0001 C CNN
-F 3 "" H 4450 6000 60  0001 C CNN
-	1    4600 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 6000 5000 6000
 $Comp
@@ -248,20 +178,6 @@ F 3 "" H 6350 6450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6150 6450 6350 6450
-$Comp
-L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 5F9A17AD
-P 5750 6550
-AR Path="/5F7A6A8B/5F9A17AD" Ref="Conn?"  Part="1" 
-AR Path="/5F8EFCC9/5F9A17AD" Ref="Conn?"  Part="1" 
-AR Path="/5F9A17AD" Ref="Conn4"  Part="1" 
-F 0 "Conn4" H 6100 6900 60  0000 R CNN
-F 1 "12V" H 6250 6800 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5600 6000 60  0001 C CNN
-F 3 "" H 5600 6000 60  0001 C CNN
-	1    5750 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 6000 6150 6000
 $Comp
@@ -280,20 +196,6 @@ F 3 "" H 7500 6450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7300 6450 7500 6450
-$Comp
-L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 5F9A17C1
-P 6900 6550
-AR Path="/5F7A6A8B/5F9A17C1" Ref="Conn?"  Part="1" 
-AR Path="/5F8EFCC9/5F9A17C1" Ref="Conn?"  Part="1" 
-AR Path="/5F9A17C1" Ref="Conn8"  Part="1" 
-F 0 "Conn8" H 7250 6900 60  0000 R CNN
-F 1 "Vacuum" H 7400 6800 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6750 6000 60  0001 C CNN
-F 3 "" H 6750 6000 60  0001 C CNN
-	1    6900 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 6000 7300 6000
 $Comp
@@ -312,20 +214,6 @@ F 3 "" H 8650 6450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8450 6450 8650 6450
-$Comp
-L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 5F9A17D5
-P 8050 6550
-AR Path="/5F7A6A8B/5F9A17D5" Ref="Conn?"  Part="1" 
-AR Path="/5F8EFCC9/5F9A17D5" Ref="Conn?"  Part="1" 
-AR Path="/5F9A17D5" Ref="Conn10"  Part="1" 
-F 0 "Conn10" H 8400 6900 60  0000 R CNN
-F 1 "Driveboard" H 8550 6800 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7900 6000 60  0001 C CNN
-F 3 "" H 7900 6000 60  0001 C CNN
-	1    8050 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8600 6000 8450 6000
 $Comp
@@ -367,7 +255,7 @@ AR Path="/5F83E409/5F8B7CF4" Ref="C?"  Part="1"
 AR Path="/5F8B7CF4" Ref="C1"  Part="1" 
 F 0 "C1" H 7915 3221 50  0000 L CNN
 F 1 "470uF" H 7915 3130 50  0000 L CNN
-F 2 "footprints:UCL1V471MNL1GS" H 7800 3175 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 7800 3175 50  0001 C CNN
 F 3 "~" H 7800 3175 50  0001 C CNN
 	1    7800 3175
 	1    0    0    -1  
@@ -380,7 +268,7 @@ AR Path="/5F83E409/5F8B7CFA" Ref="C?"  Part="1"
 AR Path="/5F8B7CFA" Ref="C2"  Part="1" 
 F 0 "C2" H 8315 3221 50  0000 L CNN
 F 1 "470uF" H 8315 3130 50  0000 L CNN
-F 2 "footprints:UCL1V471MNL1GS" H 8200 3175 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 8200 3175 50  0001 C CNN
 F 3 "~" H 8200 3175 50  0001 C CNN
 	1    8200 3175
 	1    0    0    -1  
@@ -393,7 +281,7 @@ AR Path="/5F83E409/5F8B7D00" Ref="C?"  Part="1"
 AR Path="/5F8B7D00" Ref="C3"  Part="1" 
 F 0 "C3" H 8715 3221 50  0000 L CNN
 F 1 "470uF" H 8715 3130 50  0000 L CNN
-F 2 "footprints:UCL1V471MNL1GS" H 8600 3175 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 8600 3175 50  0001 C CNN
 F 3 "~" H 8600 3175 50  0001 C CNN
 	1    8600 3175
 	1    0    0    -1  
@@ -406,7 +294,7 @@ AR Path="/5F83E409/5F8B7D06" Ref="C?"  Part="1"
 AR Path="/5F8B7D06" Ref="C4"  Part="1" 
 F 0 "C4" H 9115 3221 50  0000 L CNN
 F 1 "470uF" H 9115 3130 50  0000 L CNN
-F 2 "footprints:UCL1V471MNL1GS" H 9000 3175 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 9000 3175 50  0001 C CNN
 F 3 "~" H 9000 3175 50  0001 C CNN
 	1    9000 3175
 	1    0    0    -1  
@@ -547,20 +435,6 @@ F 3 "" H 9775 6450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9575 6450 9775 6450
-$Comp
-L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 5F8BC451
-P 9175 6550
-AR Path="/5F7A6A8B/5F8BC451" Ref="Conn?"  Part="1" 
-AR Path="/5F8EFCC9/5F8BC451" Ref="Conn?"  Part="1" 
-AR Path="/5F8BC451" Ref="Conn11"  Part="1" 
-F 0 "Conn11" H 9525 6900 60  0000 R CNN
-F 1 "Auxillary" H 9675 6800 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9025 6000 60  0001 C CNN
-F 3 "" H 9025 6000 60  0001 C CNN
-	1    9175 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6075 1850 6200 1850
 Wire Wire Line
@@ -793,8 +667,6 @@ Text Label 7450 6000 0    50   ~ 0
 Anderson_V1
 Text Label 8600 6000 0    50   ~ 0
 Anderson_D1
-Text Label 9750 6000 0    50   ~ 0
-Anderson_A1
 Text Label 950  5750 2    50   ~ 0
 PV
 Text Label 950  5850 2    50   ~ 0
@@ -1033,50 +905,6 @@ DriveCTL
 Wire Wire Line
 	3850 1700 3950 1700
 $Comp
-L MRDT_Connectors:AndersonPP Conn1
-U 3 1 5FBF4E9E
-P 4550 4700
-F 0 "Conn1" H 4758 5087 60  0000 C CNN
-F 1 "Motor 1" H 4758 4981 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4400 4150 60  0001 C CNN
-F 3 "" H 4400 4150 60  0001 C CNN
-	3    4550 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn3
-U 3 1 5FC08125
-P 5700 4700
-F 0 "Conn3" H 5908 5087 60  0000 C CNN
-F 1 "Motor 2" H 5908 4981 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5550 4150 60  0001 C CNN
-F 3 "" H 5550 4150 60  0001 C CNN
-	3    5700 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn7
-U 3 1 5FC1116D
-P 6850 4700
-F 0 "Conn7" H 7058 5087 60  0000 C CNN
-F 1 "Motor 3" H 7058 4981 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6700 4150 60  0001 C CNN
-F 3 "" H 6700 4150 60  0001 C CNN
-	3    6850 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn9
-U 3 1 5FC1A3E4
-P 8000 4700
-F 0 "Conn9" H 8208 5087 60  0000 C CNN
-F 1 "Motor 4" H 8208 4981 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7850 4150 60  0001 C CNN
-F 3 "" H 7850 4150 60  0001 C CNN
-	3    8000 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 5F888F5A
 P 9150 5150
@@ -1085,77 +913,279 @@ AR Path="/5F8EFCC9/5F888F5A" Ref="Conn?"  Part="1"
 AR Path="/5F888F5A" Ref="Conn12"  Part="1" 
 F 0 "Conn12" H 9500 5500 60  0000 R CNN
 F 1 "Spare" H 9650 5400 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9000 4600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 9000 4600 60  0001 C CNN
 F 3 "" H 9000 4600 60  0001 C CNN
 	1    9150 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn12
-U 3 1 5FC23425
-P 9150 4700
-F 0 "Conn12" H 9358 5087 60  0000 C CNN
-F 1 "Spare" H 9358 4981 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9000 4150 60  0001 C CNN
-F 3 "" H 9000 4150 60  0001 C CNN
-	3    9150 4700
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 1 1 5F8BC451
+P 9175 6550
+AR Path="/5F7A6A8B/5F8BC451" Ref="Conn?"  Part="1" 
+AR Path="/5F8EFCC9/5F8BC451" Ref="Conn?"  Part="1" 
+AR Path="/5F8BC451" Ref="Conn11"  Part="1" 
+F 0 "Conn11" H 9525 6900 60  0000 R CNN
+F 1 "Auxiliary" H 9675 6800 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 9025 6000 60  0001 C CNN
+F 3 "" H 9025 6000 60  0001 C CNN
+	1    9175 6550
+	1    0    0    -1  
+$EndComp
+Text Label 9725 6000 0    50   ~ 0
+Anderson_A1
+Wire Wire Line
+	9725 6000 9575 6000
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 4 1 5F8BC44B
+P 9175 6100
+AR Path="/5F7A6A8B/5F8BC44B" Ref="Conn?"  Part="4" 
+AR Path="/5F8EFCC9/5F8BC44B" Ref="Conn?"  Part="4" 
+AR Path="/5F8BC44B" Ref="Conn11"  Part="4" 
+F 0 "Conn11" H 9383 6487 60  0000 C CNN
+F 1 "Auxiliary" H 9383 6381 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 9025 5550 60  0001 C CNN
+F 3 "" H 9025 5550 60  0001 C CNN
+	4    9175 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn2
-U 3 1 5FC36B00
-P 4600 6100
-F 0 "Conn2" H 4808 6487 60  0000 C CNN
-F 1 "Rockets" H 4808 6381 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4450 5550 60  0001 C CNN
-F 3 "" H 4450 5550 60  0001 C CNN
-	3    4600 6100
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 1 1 5F9A17D5
+P 8050 6550
+AR Path="/5F7A6A8B/5F9A17D5" Ref="Conn?"  Part="1" 
+AR Path="/5F8EFCC9/5F9A17D5" Ref="Conn?"  Part="1" 
+AR Path="/5F9A17D5" Ref="Conn10"  Part="1" 
+F 0 "Conn10" H 8400 6900 60  0000 R CNN
+F 1 "Driveboard" H 8550 6800 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 7900 6000 60  0001 C CNN
+F 3 "" H 7900 6000 60  0001 C CNN
+	1    8050 6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn4
-U 3 1 5FC409D9
-P 5750 6100
-F 0 "Conn4" H 5958 6487 60  0000 C CNN
-F 1 "12V" H 5958 6381 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5600 5550 60  0001 C CNN
-F 3 "" H 5600 5550 60  0001 C CNN
-	3    5750 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn8
-U 3 1 5FC49BDE
-P 6900 6100
-F 0 "Conn8" H 7108 6487 60  0000 C CNN
-F 1 "Vacuum" H 7108 6381 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6750 5550 60  0001 C CNN
-F 3 "" H 6750 5550 60  0001 C CNN
-	3    6900 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn10
-U 3 1 5FC52D29
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 4 1 5F9A17CF
 P 8050 6100
+AR Path="/5F7A6A8B/5F9A17CF" Ref="Conn?"  Part="4" 
+AR Path="/5F8EFCC9/5F9A17CF" Ref="Conn?"  Part="4" 
+AR Path="/5F9A17CF" Ref="Conn10"  Part="4" 
 F 0 "Conn10" H 8258 6487 60  0000 C CNN
 F 1 "Driveboard" H 8258 6381 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7900 5550 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 7900 5550 60  0001 C CNN
 F 3 "" H 7900 5550 60  0001 C CNN
-	3    8050 6100
+	4    8050 6100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9575 6000 9750 6000
 $Comp
-L MRDT_Connectors:AndersonPP Conn11
-U 3 1 5FC77555
-P 9175 6100
-F 0 "Conn11" H 9383 6487 60  0000 C CNN
-F 1 "Auxillary" H 9383 6381 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9025 5550 60  0001 C CNN
-F 3 "" H 9025 5550 60  0001 C CNN
-	3    9175 6100
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 1 1 5F9A17C1
+P 6900 6550
+AR Path="/5F7A6A8B/5F9A17C1" Ref="Conn?"  Part="1" 
+AR Path="/5F8EFCC9/5F9A17C1" Ref="Conn?"  Part="1" 
+AR Path="/5F9A17C1" Ref="Conn8"  Part="1" 
+F 0 "Conn8" H 7250 6900 60  0000 R CNN
+F 1 "Vaccum" H 7400 6800 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 6750 6000 60  0001 C CNN
+F 3 "" H 6750 6000 60  0001 C CNN
+	1    6900 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 4 1 5F9A17BB
+P 6900 6100
+AR Path="/5F7A6A8B/5F9A17BB" Ref="Conn?"  Part="4" 
+AR Path="/5F8EFCC9/5F9A17BB" Ref="Conn?"  Part="4" 
+AR Path="/5F9A17BB" Ref="Conn8"  Part="4" 
+F 0 "Conn8" H 7108 6487 60  0000 C CNN
+F 1 "Vaccum" H 7108 6381 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 6750 5550 60  0001 C CNN
+F 3 "" H 6750 5550 60  0001 C CNN
+	4    6900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 1 1 5F9A17AD
+P 5750 6550
+AR Path="/5F7A6A8B/5F9A17AD" Ref="Conn?"  Part="1" 
+AR Path="/5F8EFCC9/5F9A17AD" Ref="Conn?"  Part="1" 
+AR Path="/5F9A17AD" Ref="Conn4"  Part="1" 
+F 0 "Conn4" H 6100 6900 60  0000 R CNN
+F 1 "12 V" H 6250 6800 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 5600 6000 60  0001 C CNN
+F 3 "" H 5600 6000 60  0001 C CNN
+	1    5750 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 4 1 5F9A17A7
+P 5750 6100
+AR Path="/5F7A6A8B/5F9A17A7" Ref="Conn?"  Part="4" 
+AR Path="/5F8EFCC9/5F9A17A7" Ref="Conn?"  Part="4" 
+AR Path="/5F9A17A7" Ref="Conn4"  Part="4" 
+F 0 "Conn4" H 5958 6487 60  0000 C CNN
+F 1 "12 V" H 5958 6381 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 5600 5550 60  0001 C CNN
+F 3 "" H 5600 5550 60  0001 C CNN
+	4    5750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 1 1 5F9A1799
+P 4600 6550
+AR Path="/5F7A6A8B/5F9A1799" Ref="Conn?"  Part="1" 
+AR Path="/5F8EFCC9/5F9A1799" Ref="Conn?"  Part="1" 
+AR Path="/5F9A1799" Ref="Conn2"  Part="1" 
+F 0 "Conn2" H 4950 6900 60  0000 R CNN
+F 1 "Rockets" H 5100 6800 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4450 6000 60  0001 C CNN
+F 3 "" H 4450 6000 60  0001 C CNN
+	1    4600 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 4 1 5F9A1793
+P 4600 6100
+AR Path="/5F7A6A8B/5F9A1793" Ref="Conn?"  Part="4" 
+AR Path="/5F8EFCC9/5F9A1793" Ref="Conn?"  Part="4" 
+AR Path="/5F9A1793" Ref="Conn2"  Part="4" 
+F 0 "Conn2" H 4808 6487 60  0000 C CNN
+F 1 "Rockets" H 4808 6381 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4450 5550 60  0001 C CNN
+F 3 "" H 4450 5550 60  0001 C CNN
+	4    4600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 4 1 5F888F54
+P 9150 4700
+AR Path="/5F7A6A8B/5F888F54" Ref="Conn?"  Part="4" 
+AR Path="/5F8EFCC9/5F888F54" Ref="Conn?"  Part="4" 
+AR Path="/5F888F54" Ref="Conn12"  Part="4" 
+F 0 "Conn12" H 9358 5087 60  0000 C CNN
+F 1 "Spare" H 9358 4981 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 9000 4150 60  0001 C CNN
+F 3 "" H 9000 4150 60  0001 C CNN
+	4    9150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 1 1 5F943391
+P 8000 5150
+AR Path="/5F7A6A8B/5F943391" Ref="Conn?"  Part="1" 
+AR Path="/5F8EFCC9/5F943391" Ref="Conn?"  Part="1" 
+AR Path="/5F943391" Ref="Conn9"  Part="1" 
+F 0 "Conn9" H 8350 5500 60  0000 R CNN
+F 1 "Motor 4" H 8500 5400 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 7850 4600 60  0001 C CNN
+F 3 "" H 7850 4600 60  0001 C CNN
+	1    8000 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 4 1 5F94338B
+P 8000 4700
+AR Path="/5F7A6A8B/5F94338B" Ref="Conn?"  Part="4" 
+AR Path="/5F8EFCC9/5F94338B" Ref="Conn?"  Part="4" 
+AR Path="/5F94338B" Ref="Conn9"  Part="4" 
+F 0 "Conn9" H 8208 5087 60  0000 C CNN
+F 1 "Motor 4" H 8208 4981 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 7850 4150 60  0001 C CNN
+F 3 "" H 7850 4150 60  0001 C CNN
+	4    8000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 1 1 5F94337D
+P 6850 5150
+AR Path="/5F7A6A8B/5F94337D" Ref="Conn?"  Part="1" 
+AR Path="/5F8EFCC9/5F94337D" Ref="Conn?"  Part="1" 
+AR Path="/5F94337D" Ref="Conn7"  Part="1" 
+F 0 "Conn7" H 7200 5500 60  0000 R CNN
+F 1 "Motor 3" H 7350 5400 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 6700 4600 60  0001 C CNN
+F 3 "" H 6700 4600 60  0001 C CNN
+	1    6850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 1 1 5F943399
+P 5700 5150
+AR Path="/5F7A6A8B/5F943399" Ref="Conn?"  Part="1" 
+AR Path="/5F8EFCC9/5F943399" Ref="Conn?"  Part="1" 
+AR Path="/5F943399" Ref="Conn3"  Part="1" 
+F 0 "Conn3" H 6050 5500 60  0000 R CNN
+F 1 "Motor 2" H 6200 5400 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 5550 4600 60  0001 C CNN
+F 3 "" H 5550 4600 60  0001 C CNN
+	1    5700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 4 1 5F943377
+P 6850 4700
+AR Path="/5F7A6A8B/5F943377" Ref="Conn?"  Part="4" 
+AR Path="/5F8EFCC9/5F943377" Ref="Conn?"  Part="4" 
+AR Path="/5F943377" Ref="Conn7"  Part="4" 
+F 0 "Conn7" H 7058 5087 60  0000 C CNN
+F 1 "Motor 3" H 7058 4981 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 6700 4150 60  0001 C CNN
+F 3 "" H 6700 4150 60  0001 C CNN
+	4    6850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 4 1 5F94339F
+P 5700 4700
+AR Path="/5F7A6A8B/5F94339F" Ref="Conn?"  Part="4" 
+AR Path="/5F8EFCC9/5F94339F" Ref="Conn?"  Part="4" 
+AR Path="/5F94339F" Ref="Conn3"  Part="4" 
+F 0 "Conn3" H 5908 5087 60  0000 C CNN
+F 1 "Motor 2" H 5908 4981 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 5550 4150 60  0001 C CNN
+F 3 "" H 5550 4150 60  0001 C CNN
+	4    5700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 1 1 5F943363
+P 4550 5150
+AR Path="/5F7A6A8B/5F943363" Ref="Conn?"  Part="1" 
+AR Path="/5F8EFCC9/5F943363" Ref="Conn?"  Part="1" 
+AR Path="/5F943363" Ref="Conn1"  Part="1" 
+F 0 "Conn1" H 4900 5500 60  0000 R CNN
+F 1 "Motor 1" H 5050 5400 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4400 4600 60  0001 C CNN
+F 3 "" H 4400 4600 60  0001 C CNN
+	1    4550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 4 1 5F94335D
+P 4550 4700
+AR Path="/5F7A6A8B/5F94335D" Ref="Conn?"  Part="4" 
+AR Path="/5F8EFCC9/5F94335D" Ref="Conn?"  Part="4" 
+AR Path="/5F94335D" Ref="Conn1"  Part="4" 
+F 0 "Conn1" H 4758 5087 60  0000 C CNN
+F 1 "Motor 1" H 4758 4981 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4400 4150 60  0001 C CNN
+F 3 "" H 4400 4150 60  0001 C CNN
+	4    4550 4700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
