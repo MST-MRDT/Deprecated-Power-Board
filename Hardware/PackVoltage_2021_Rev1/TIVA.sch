@@ -201,9 +201,6 @@ Wire Wire Line
 	6200 1200 6200 1050
 Wire Wire Line
 	6200 1050 6350 1050
-NoConn ~ 5000 1200
-NoConn ~ 5000 1300
-NoConn ~ 5000 1400
 NoConn ~ 5000 1500
 NoConn ~ 5000 1600
 NoConn ~ 5000 1700
@@ -228,8 +225,6 @@ Wire Wire Line
 	2500 3900 2600 3900
 Wire Wire Line
 	2500 4000 2600 4000
-Wire Wire Line
-	2500 4100 2600 4100
 Wire Wire Line
 	2500 4400 2600 4400
 Wire Wire Line
@@ -312,8 +307,6 @@ Text HLabel 2600 3900 2    50   Input ~ 0
 MultimediaSense
 Text HLabel 2600 4000 2    50   Input ~ 0
 LowCurrentSense
-Text HLabel 2600 4100 2    50   Input ~ 0
-DriveSense
 Text HLabel 2600 4400 2    50   Output ~ 0
 AuxMountCTL
 Text HLabel 2600 4500 2    50   Output ~ 0
@@ -343,8 +336,18 @@ Text HLabel 1400 3700 0    50   Input ~ 0
 GimbalSense
 Wire Wire Line
 	1400 3700 1500 3700
-Text HLabel 1400 4100 0    50   Output ~ 0
-DriveCTL
+NoConn ~ 2500 4100
 Wire Wire Line
-	1400 4100 1500 4100
+	5000 1200 4900 1200
+Wire Wire Line
+	5000 1300 4900 1300
+Wire Wire Line
+	5000 1400 4900 1400
+Text HLabel 4900 1200 0    50   Output ~ 0
+GimbalLogCTL
+Text HLabel 4900 1300 0    50   Output ~ 0
+AuxLogCTL
+Text HLabel 4900 1400 0    50   Output ~ 0
+MultimediaLogCTL
+NoConn ~ 1500 4100
 $EndSCHEMATC
