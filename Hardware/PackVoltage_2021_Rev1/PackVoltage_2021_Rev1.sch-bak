@@ -436,17 +436,15 @@ $EndComp
 Wire Wire Line
 	9575 6450 9775 6450
 Wire Wire Line
-	6075 1850 6200 1850
+	6075 1575 6200 1575
 Wire Wire Line
-	6075 1750 6200 1750
+	6075 1475 6200 1475
 Wire Wire Line
-	6075 1650 6200 1650
+	6075 1375 6200 1375
 Wire Wire Line
-	6075 2050 6200 2050
+	6075 1275 6200 1275
 Wire Wire Line
-	6075 1950 6200 1950
-Text Label 1100 1400 2    39   ~ 0
-DriveSense
+	6075 1175 6200 1175
 Text Label 1100 1500 2    39   ~ 0
 AuxMountSense
 Text Label 1100 1600 2    39   ~ 0
@@ -500,8 +498,6 @@ Wire Wire Line
 Wire Wire Line
 	1200 1500 1100 1500
 Wire Wire Line
-	1100 1400 1200 1400
-Wire Wire Line
 	1100 900  1200 900 
 Text Label 1100 900  2    39   ~ 0
 3V3
@@ -545,24 +541,22 @@ Text Label 3950 2800 0    40   ~ 0
 Driver_D1
 Text Label 3950 2900 0    40   ~ 0
 Driver_A1
-Text Label 6075 875  2    50   ~ 0
-DriveSense
-Text Label 6075 975  2    50   ~ 0
-AuxMountSense
-Text Label 6075 1075 2    50   ~ 0
-MultimediaSense
-Text Label 6075 1175 2    50   ~ 0
-LowCurrentSense
-Text Label 6075 1650 2    50   ~ 0
-GimbalCTL
-Text Label 6075 1750 2    50   ~ 0
-NavBoardCTL
-Text Label 6075 1850 2    50   ~ 0
-CameraCTL
-Text Label 6075 1950 2    50   ~ 0
-MultimediaCTL
 Text Label 6075 2050 2    50   ~ 0
-AuxCTL
+AuxMountSense
+Text Label 6075 2150 2    50   ~ 0
+MultimediaSense
+Text Label 6075 2250 2    50   ~ 0
+LowCurrentSense
+Text Label 6075 1375 2    50   ~ 0
+GimbalActCTL
+Text Label 6075 1475 2    50   ~ 0
+NavBoardCTL
+Text Label 6075 1575 2    50   ~ 0
+CameraCTL
+Text Label 6075 1175 2    50   ~ 0
+MultimediaActCTL
+Text Label 6075 1275 2    50   ~ 0
+AuxActCTL
 Text Label 7450 950  2    50   ~ 0
 PV
 Wire Wire Line
@@ -791,119 +785,53 @@ F 3 "" H 10100 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6075 1550 6200 1550
-Text Label 6075 1550 2    50   ~ 0
+	6075 1675 6200 1675
+Text Label 6075 1675 2    50   ~ 0
 ExtraCTL
-Text Label 3950 1600 0    39   ~ 0
-CameraCTL
-Text Label 3950 1500 0    39   ~ 0
-NavBoardCTL
 Text Label 3950 1400 0    39   ~ 0
-GimbalCTL
+CameraCTL
 Text Label 3950 1300 0    39   ~ 0
-AuxMountCTL
+NavBoardCTL
 Text Label 3950 1200 0    39   ~ 0
-MultimediaCTL
-Wire Wire Line
-	3850 1600 3950 1600
-Wire Wire Line
-	3950 1500 3850 1500
+GimbalActCTL
+Text Label 3950 1100 0    39   ~ 0
+AuxActCTL
+Text Label 3950 1000 0    39   ~ 0
+MultimediaActCTL
 Wire Wire Line
 	3850 1400 3950 1400
 Wire Wire Line
 	3950 1300 3850 1300
 Wire Wire Line
 	3850 1200 3950 1200
-Text Label 3950 1100 0    50   ~ 0
+Wire Wire Line
+	3950 1100 3850 1100
+Wire Wire Line
+	3850 1000 3950 1000
+Text Label 3950 900  0    39   ~ 0
 ExtraCTL
 Wire Wire Line
-	3850 1100 3950 1100
-$Sheet
-S 1200 850  2650 2100
-U 5F74F238
-F0 "TIVA" 157
-F1 "TIVA.sch" 157
-F2 "Current_Sensor_R1" I L 1200 2500 50 
-F3 "Driver_M1" O R 3850 2000 50 
-F4 "Driver_M2" O R 3850 2100 50 
-F5 "Driver_M3" O R 3850 2200 50 
-F6 "Current_Sensor_S1" I L 1200 2400 50 
-F7 "Current_Sensor_T1" I L 1200 2600 50 
-F8 "Driver_M4" O R 3850 2300 50 
-F9 "Driver_V1" O R 3850 2700 50 
-F10 "Driver_R1" O R 3850 2500 50 
-F11 "Current_Sensor_M1" I L 1200 2000 50 
-F12 "Current_Sensor_M2" I L 1200 2100 50 
-F13 "Current_Sensor_M3" I L 1200 2200 50 
-F14 "Current_Sensor_M4" I L 1200 2300 50 
-F15 "Current_Sensor_V1" I L 1200 2700 50 
-F16 "Driver_S1" O R 3850 2400 50 
-F17 "Driver_T1" O R 3850 2600 50 
-F18 "3V3" I L 1200 900 50 
-F19 "CameraCTL" O R 3850 1600 50 
-F20 "NavBoardCTL" O R 3850 1500 50 
-F21 "GimbalCTL" O R 3850 1400 50 
-F22 "AuxMountSense" I L 1200 1500 50 
-F23 "MultimediaSense" I L 1200 1600 50 
-F24 "LowCurrentSense" I L 1200 1700 50 
-F25 "DriveSense" I L 1200 1400 50 
-F26 "AuxMountCTL" O R 3850 1300 50 
-F27 "MultimediaCTL" O R 3850 1200 50 
-F28 "Current_Sensor_A1" I L 1200 2900 50 
-F29 "Driver_A1" O R 3850 2900 50 
-F30 "Driver_D1" O R 3850 2800 50 
-F31 "Current_Sensor_D1" I L 1200 2800 50 
-F32 "ExtraCTL" O R 3850 1100 50 
-F33 "GimbalSense" I L 1200 1300 50 
-$EndSheet
-$Comp
-L PackVoltage_2021_Rev1-rescue:Molex_SL_05-MRDT_Connectors Conn5
-U 1 1 5F97C917
-P 6400 1325
-F 0 "Conn5" H 6528 1633 60  0000 L CNN
-F 1 "Molex_SL_05" H 6528 1527 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 6400 1325 60  0001 C CNN
-F 3 "" H 6400 1325 60  0001 C CNN
-	1    6400 1325
-	1    0    0    -1  
-$EndComp
-$Comp
-L PackVoltage_2021_Rev1-rescue:Molex_SL_07-MRDT_Connectors Conn6
-U 1 1 5F97D136
-P 6400 2200
-F 0 "Conn6" H 6528 2608 60  0000 L CNN
-F 1 "Molex_SL_07" H 6528 2502 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_07_Horizontal" H 6400 2400 60  0001 C CNN
-F 3 "" H 6400 2400 60  0001 C CNN
-	1    6400 2200
-	1    0    0    -1  
-$EndComp
+	3850 900  3950 900 
 Wire Wire Line
-	6075 1175 6200 1175
+	6075 2250 6200 2250
 Wire Wire Line
-	6075 1075 6200 1075
+	6075 2150 6200 2150
 Wire Wire Line
-	6075 975  6200 975 
+	6075 2050 6200 2050
 Wire Wire Line
 	6075 875  6200 875 
 Wire Wire Line
-	6050 1275 6200 1275
-Text Label 6050 1275 2    50   ~ 0
+	6050 2350 6200 2350
+Text Label 6050 2350 2    50   ~ 0
 GimbalSense
 Text Label 1100 1300 2    39   ~ 0
 GimbalSense
 Wire Wire Line
 	1100 1300 1200 1300
-Text Label 6050 2150 2    50   ~ 0
-DriveCTL
+Text Label 3950 1500 0    39   ~ 0
+MultimediaLogCTL
 Wire Wire Line
-	6050 2150 6200 2150
-Text Label 3950 1700 0    39   ~ 0
-DriveCTL
-Text HLabel 3850 1700 0    50   Input ~ 0
-DriveCTL
-Wire Wire Line
-	3850 1700 3950 1700
+	3850 1500 3950 1500
 $Comp
 L PackVoltage_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 5F888F5A
@@ -1188,4 +1116,86 @@ F 3 "" H 4400 4150 60  0001 C CNN
 	4    4550 4700
 	1    0    0    -1  
 $EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_10 Conn5
+U 1 1 5FBAADEF
+P 6400 1825
+F 0 "Conn5" H 6528 2383 60  0000 L CNN
+F 1 "Molex_SL_10" H 6528 2277 60  0000 L CNN
+F 2 "" H 6400 2325 60  0001 C CNN
+F 3 "" H 6400 2325 60  0001 C CNN
+	1    6400 1825
+	1    0    0    -1  
+$EndComp
+Text Label 6075 875  2    50   ~ 0
+MultimediaLogCTL
+Wire Wire Line
+	6200 975  6050 975 
+Text Label 6050 975  2    50   ~ 0
+AuxLogCTL
+Wire Wire Line
+	6200 1075 6050 1075
+Text Label 6050 1075 2    50   ~ 0
+GimbalLogCTL
+$Comp
+L MRDT_Connectors:Molex_SL_04 Conn?
+U 1 1 5FC464FD
+P 6400 2400
+F 0 "Conn?" H 6528 2658 60  0000 L CNN
+F 1 "Molex_SL_04" H 6528 2552 60  0000 L CNN
+F 2 "" H 6400 2400 60  0001 C CNN
+F 3 "" H 6400 2400 60  0001 C CNN
+	1    6400 2400
+	1    0    0    -1  
+$EndComp
+Text HLabel 3850 1500 0    50   Input ~ 0
+MultimediaLogCTL
+Wire Wire Line
+	3850 1600 3950 1600
+Wire Wire Line
+	3850 1700 3950 1700
+Text Label 3950 1600 0    39   ~ 0
+AuxLogCTL
+Text Label 3950 1700 0    39   ~ 0
+GimbalLogCTL
+$Sheet
+S 1200 850  2650 2100
+U 5F74F238
+F0 "TIVA" 157
+F1 "TIVA.sch" 157
+F2 "Current_Sensor_R1" I L 1200 2500 50 
+F3 "Driver_M1" O R 3850 2000 50 
+F4 "Driver_M2" O R 3850 2100 50 
+F5 "Driver_M3" O R 3850 2200 50 
+F6 "Current_Sensor_S1" I L 1200 2400 50 
+F7 "Current_Sensor_T1" I L 1200 2600 50 
+F8 "Driver_M4" O R 3850 2300 50 
+F9 "Driver_V1" O R 3850 2700 50 
+F10 "Driver_R1" O R 3850 2500 50 
+F11 "Current_Sensor_M1" I L 1200 2000 50 
+F12 "Current_Sensor_M2" I L 1200 2100 50 
+F13 "Current_Sensor_M3" I L 1200 2200 50 
+F14 "Current_Sensor_M4" I L 1200 2300 50 
+F15 "Current_Sensor_V1" I L 1200 2700 50 
+F16 "Driver_S1" O R 3850 2400 50 
+F17 "Driver_T1" O R 3850 2600 50 
+F18 "3V3" I L 1200 900 50 
+F19 "CameraCTL" O R 3850 1400 50 
+F20 "NavBoardCTL" O R 3850 1300 50 
+F21 "GimbalCTL" O R 3850 1200 50 
+F22 "AuxMountSense" I L 1200 1500 50 
+F23 "MultimediaSense" I L 1200 1600 50 
+F24 "LowCurrentSense" I L 1200 1700 50 
+F25 "AuxMountCTL" O R 3850 1100 50 
+F26 "MultimediaCTL" O R 3850 1000 50 
+F27 "Current_Sensor_A1" I L 1200 2900 50 
+F28 "Driver_A1" O R 3850 2900 50 
+F29 "Driver_D1" O R 3850 2800 50 
+F30 "Current_Sensor_D1" I L 1200 2800 50 
+F31 "ExtraCTL" O R 3850 900 50 
+F32 "GimbalSense" I L 1200 1300 50 
+F33 "GimbalLogCTL" O R 3850 1700 50 
+F34 "AuxLogCTL" O R 3850 1600 50 
+$EndSheet
+NoConn ~ 6200 1775
 $EndSCHEMATC

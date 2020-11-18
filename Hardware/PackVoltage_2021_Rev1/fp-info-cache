@@ -1,4 +1,4 @@
-18884497241144231
+18886156623382781
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48746,6 +48746,13 @@ Ceramic Resomator/Filter Murata DSS6, http://cdn-reichelt.de/documents/datenblat
 THT ceramic resonator filter DSS6
 0
 3
+3
+Custom
+LFPAK56_MOSFET
+LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
+LFPAK56 SOT-669 Power-SO8
+0
+18
 3
 Diode_SMD
 D_0201_0603Metric
