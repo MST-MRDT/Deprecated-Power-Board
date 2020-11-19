@@ -443,8 +443,6 @@ Wire Wire Line
 	6075 1375 6200 1375
 Wire Wire Line
 	6075 1275 6200 1275
-Wire Wire Line
-	6075 1175 6200 1175
 Text Label 1100 1500 2    39   ~ 0
 AuxMountSense
 Text Label 1100 1600 2    39   ~ 0
@@ -553,9 +551,9 @@ Text Label 6075 1475 2    50   ~ 0
 NavBoardCTL
 Text Label 6075 1575 2    50   ~ 0
 CameraCTL
-Text Label 6075 1175 2    50   ~ 0
+Text Label 6050 975  2    50   ~ 0
 MultimediaActCTL
-Text Label 6075 1275 2    50   ~ 0
+Text Label 6050 1175 2    50   ~ 0
 AuxActCTL
 Text Label 7450 950  2    50   ~ 0
 PV
@@ -1131,11 +1129,11 @@ Text Label 6075 875  2    50   ~ 0
 MultimediaLogCTL
 Wire Wire Line
 	6200 975  6050 975 
-Text Label 6050 975  2    50   ~ 0
+Text Label 6050 1075 2    50   ~ 0
 AuxLogCTL
 Wire Wire Line
 	6200 1075 6050 1075
-Text Label 6050 1075 2    50   ~ 0
+Text Label 6075 1275 2    50   ~ 0
 GimbalLogCTL
 $Comp
 L MRDT_Connectors:Molex_SL_04 Conn6
@@ -1196,8 +1194,18 @@ F31 "ExtraCTL" O R 3850 900 50
 F32 "GimbalSense" I L 1200 1300 50 
 F33 "GimbalLogCTL" O R 3850 1700 50 
 F34 "AuxLogCTL" O R 3850 1600 50 
+F35 "DriveCTL" O R 3850 1800 50 
 $EndSheet
-NoConn ~ 6200 1775
 NoConn ~ 2100 -2125
 NoConn ~ 11350 -2400
+Wire Wire Line
+	6200 1175 6050 1175
+Wire Wire Line
+	6200 1775 6075 1775
+Text Label 6075 1775 2    50   ~ 0
+DriveCTL
+Wire Wire Line
+	3850 1800 3975 1800
+Text Label 3975 1800 0    50   ~ 0
+DriveCTL
 $EndSCHEMATC
