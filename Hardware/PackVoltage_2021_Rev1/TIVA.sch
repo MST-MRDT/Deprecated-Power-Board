@@ -230,7 +230,6 @@ Wire Wire Line
 Wire Wire Line
 	2500 4500 2600 4500
 NoConn ~ 2500 3600
-NoConn ~ 2500 4300
 NoConn ~ 1500 3900
 NoConn ~ 4850 3500
 NoConn ~ 4850 3600
@@ -350,4 +349,8 @@ AuxLogCTL
 Text HLabel 4900 1400 0    50   Output ~ 0
 MultimediaLogCTL
 NoConn ~ 1500 4100
+Text HLabel 2600 4300 2    50   Output ~ 0
+DriveCTL
+Wire Wire Line
+	2600 4300 2500 4300
 $EndSCHEMATC
