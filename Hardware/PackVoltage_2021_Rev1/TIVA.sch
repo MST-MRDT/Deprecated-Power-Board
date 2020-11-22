@@ -123,17 +123,6 @@ F 3 "" H 5050 4450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PackVoltage_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U24
-U 8 1 5F79167F
-P 5750 4450
-F 0 "U24" H 5781 5727 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 5781 5621 60  0000 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_TOP" H 5750 4450 60  0001 C CNN
-F 3 "" H 5750 4450 60  0001 C CNN
-	8    5750 4450
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR063
 U 1 1 5F7A24D9
 P 2800 1150
@@ -201,18 +190,6 @@ Wire Wire Line
 	6200 1200 6200 1050
 Wire Wire Line
 	6200 1050 6350 1050
-NoConn ~ 5000 1500
-NoConn ~ 5000 1600
-NoConn ~ 5000 1700
-NoConn ~ 5000 1800
-NoConn ~ 5000 1900
-NoConn ~ 5000 2000
-NoConn ~ 5000 2100
-NoConn ~ 6050 1300
-NoConn ~ 6050 1400
-NoConn ~ 6050 1500
-NoConn ~ 6050 1600
-NoConn ~ 6050 2100
 Wire Wire Line
 	1400 4200 1500 4200
 Wire Wire Line
@@ -230,62 +207,39 @@ Wire Wire Line
 Wire Wire Line
 	2500 4500 2600 4500
 NoConn ~ 2500 3600
-NoConn ~ 1500 3900
-NoConn ~ 4850 3500
-NoConn ~ 4850 3600
-NoConn ~ 4850 3700
-NoConn ~ 4850 3800
-NoConn ~ 4850 3900
-NoConn ~ 4850 4000
-NoConn ~ 4850 4100
-NoConn ~ 4850 4200
-NoConn ~ 4850 4300
-NoConn ~ 4850 4400
-NoConn ~ 5950 3600
-NoConn ~ 5950 3700
-NoConn ~ 5950 3800
-NoConn ~ 5950 3900
-NoConn ~ 5950 4000
-NoConn ~ 5950 4100
-NoConn ~ 5950 4200
-NoConn ~ 5950 4300
-NoConn ~ 5950 4400
 NoConn ~ 2500 1200
-NoConn ~ 2500 2100
-Text HLabel 1250 1300 0    40   Input ~ 0
+Text HLabel 1400 4100 0    40   Input ~ 0
 Current_Sensor_R1
-Text HLabel 1250 1400 0    40   Output ~ 0
-Driver_M1
-Text HLabel 1250 1500 0    40   Output ~ 0
-Driver_M2
-Text HLabel 1250 1600 0    40   Output ~ 0
-Driver_M3
-Text HLabel 1250 1700 0    40   Input ~ 0
-Current_Sensor_S1
-Text HLabel 1250 1800 0    40   Input ~ 0
-Current_Sensor_T1
 Text HLabel 1250 1900 0    40   Output ~ 0
+Driver_M1
+Text HLabel 1250 1600 0    40   Output ~ 0
+Driver_M2
+Text HLabel 2750 1900 2    40   Output ~ 0
+Driver_M3
+Text HLabel 1250 1300 0    40   Input ~ 0
+Current_Sensor_S1
+Text HLabel 1400 4000 0    40   Input ~ 0
+Current_Sensor_T1
+Text HLabel 2750 1600 2    40   Output ~ 0
 Driver_M4
-Text HLabel 1250 2000 0    40   Output ~ 0
+Text HLabel 4900 1700 0    40   Output ~ 0
 Driver_V1
-Text HLabel 1250 2100 0    40   Output ~ 0
+Text HLabel 1400 4200 0    40   Output ~ 0
 Driver_R1
-Text HLabel 2750 1400 2    40   Input ~ 0
+Text HLabel 1250 1800 0    40   Input ~ 0
 Current_Sensor_M1
-Text HLabel 2750 1500 2    40   Input ~ 0
+Text HLabel 1250 1700 0    40   Input ~ 0
 Current_Sensor_M2
-Text HLabel 2750 1600 2    40   Input ~ 0
+Text HLabel 2750 1800 2    40   Input ~ 0
 Current_Sensor_M3
 Text HLabel 2750 1700 2    40   Input ~ 0
 Current_Sensor_M4
-Text HLabel 2750 1800 2    40   Input ~ 0
+Text HLabel 6150 1700 2    40   Input ~ 0
 Current_Sensor_V1
-Text HLabel 2750 1900 2    40   Output ~ 0
+Text HLabel 1250 1400 0    40   Output ~ 0
 Driver_S1
-Text HLabel 2750 2000 2    40   Output ~ 0
+Text HLabel 1400 3900 0    40   Output ~ 0
 Driver_T1
-NoConn ~ 1500 4000
-NoConn ~ 2500 4200
 Text HLabel 1350 1200 1    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -294,22 +248,14 @@ Text HLabel 1350 3600 1    50   Input ~ 0
 3V3
 Wire Wire Line
 	1500 3600 1350 3600
-Text HLabel 1400 4200 0    50   Output ~ 0
+Text HLabel 6050 4400 2    39   Output ~ 0
 CameraCTL
-Text HLabel 1400 4300 0    50   Output ~ 0
-NavBoardCTL
-Text HLabel 1400 4500 0    50   Output ~ 0
-GimbalCTL
-Text HLabel 2600 3800 2    50   Input ~ 0
+Text HLabel 2600 4300 2    39   Input ~ 0
 AuxMountSense
-Text HLabel 2600 3900 2    50   Input ~ 0
+Text HLabel 2600 4200 2    39   Input ~ 0
 MultimediaSense
-Text HLabel 2600 4000 2    50   Input ~ 0
+Text HLabel 2600 4100 2    39   Input ~ 0
 LowCurrentSense
-Text HLabel 2600 4400 2    50   Output ~ 0
-AuxMountCTL
-Text HLabel 2600 4500 2    50   Output ~ 0
-MultimediaCTL
 Wire Wire Line
 	6050 1700 6150 1700
 Wire Wire Line
@@ -318,39 +264,165 @@ Wire Wire Line
 	6050 1800 6150 1800
 Wire Wire Line
 	6050 2000 6150 2000
-Text HLabel 6150 1800 2    50   Input ~ 0
+Text HLabel 6150 1800 2    39   Input ~ 0
 Current_Sensor_A1
-Text HLabel 6150 2000 2    50   Output ~ 0
+Text HLabel 4900 1800 0    39   Output ~ 0
 Driver_A1
-NoConn ~ 1500 3800
-Text HLabel 6150 1900 2    50   Output ~ 0
+Text HLabel 2750 1500 2    39   Output ~ 0
 Driver_D1
-Text HLabel 6150 1700 2    50   Input ~ 0
+Text HLabel 2750 1400 2    39   Input ~ 0
 Current_Sensor_D1
-Text HLabel 1400 4400 0    50   Output ~ 0
+Text HLabel 6050 4300 2    39   Output ~ 0
 ExtraCTL
 Wire Wire Line
 	1500 4400 1400 4400
-Text HLabel 1400 3700 0    50   Input ~ 0
+Text HLabel 2600 4000 2    39   Input ~ 0
 GimbalSense
 Wire Wire Line
 	1400 3700 1500 3700
-NoConn ~ 2500 4100
 Wire Wire Line
 	5000 1200 4900 1200
 Wire Wire Line
 	5000 1300 4900 1300
 Wire Wire Line
 	5000 1400 4900 1400
-Text HLabel 4900 1200 0    50   Output ~ 0
-GimbalLogCTL
-Text HLabel 4900 1300 0    50   Output ~ 0
-AuxLogCTL
-Text HLabel 4900 1400 0    50   Output ~ 0
-MultimediaLogCTL
-NoConn ~ 1500 4100
-Text HLabel 2600 4300 2    50   Output ~ 0
+Text HLabel 6050 4200 2    39   Output ~ 0
 DriveCTL
 Wire Wire Line
 	2600 4300 2500 4300
+Wire Wire Line
+	6050 1300 6150 1300
+Wire Wire Line
+	6050 1500 6150 1500
+Wire Wire Line
+	6050 1400 6150 1400
+Wire Wire Line
+	6050 2100 6150 2100
+Wire Wire Line
+	4900 1900 5000 1900
+Wire Wire Line
+	4900 2100 5000 2100
+Wire Wire Line
+	4900 2000 5000 2000
+Wire Wire Line
+	4900 1500 5000 1500
+Wire Wire Line
+	4900 1700 5000 1700
+Wire Wire Line
+	4900 1600 5000 1600
+Wire Wire Line
+	4900 1800 5000 1800
+Wire Wire Line
+	2500 2100 2750 2100
+Wire Wire Line
+	1400 3800 1500 3800
+Wire Wire Line
+	1400 3900 1500 3900
+Wire Wire Line
+	1400 4100 1500 4100
+Wire Wire Line
+	1500 4000 1400 4000
+Wire Wire Line
+	2500 4100 2600 4100
+Wire Wire Line
+	2500 4200 2600 4200
+Wire Wire Line
+	4850 3500 4750 3500
+Wire Wire Line
+	4850 3600 4750 3600
+Wire Wire Line
+	4850 3700 4750 3700
+Wire Wire Line
+	4750 4200 4850 4200
+Wire Wire Line
+	4750 4400 4850 4400
+Wire Wire Line
+	4750 4300 4850 4300
+Wire Wire Line
+	4750 3800 4850 3800
+Wire Wire Line
+	4750 4000 4850 4000
+Wire Wire Line
+	4750 3900 4850 3900
+Wire Wire Line
+	4750 4100 4850 4100
+Wire Wire Line
+	6050 3600 5950 3600
+Wire Wire Line
+	6050 3700 5950 3700
+Wire Wire Line
+	6050 3800 5950 3800
+Wire Wire Line
+	5950 4300 6050 4300
+Wire Wire Line
+	5950 4400 6050 4400
+Wire Wire Line
+	5950 4100 6050 4100
+Wire Wire Line
+	5950 4000 6050 4000
+Wire Wire Line
+	5950 4200 6050 4200
+NoConn ~ 6050 1600
+NoConn ~ 5950 3900
+NoConn ~ 1250 1500
+NoConn ~ 1250 2000
+NoConn ~ 1250 2100
+NoConn ~ 2750 2000
+NoConn ~ 2750 2100
+NoConn ~ 2600 3800
+NoConn ~ 2600 3900
+NoConn ~ 2600 4400
+NoConn ~ 2600 4500
+NoConn ~ 1400 4500
+NoConn ~ 1400 4400
+NoConn ~ 1400 4300
+NoConn ~ 1400 3800
+NoConn ~ 1400 3700
+NoConn ~ 6050 4100
+NoConn ~ 6050 4000
+NoConn ~ 6050 3800
+NoConn ~ 6050 3700
+NoConn ~ 6050 3600
+NoConn ~ 4750 3500
+NoConn ~ 4750 3600
+NoConn ~ 4900 2100
+NoConn ~ 4900 2000
+NoConn ~ 4900 1900
+NoConn ~ 4900 1600
+NoConn ~ 4900 1500
+NoConn ~ 4900 1400
+NoConn ~ 4900 1300
+NoConn ~ 4900 1200
+NoConn ~ 6150 1300
+NoConn ~ 6150 1400
+NoConn ~ 6150 1500
+NoConn ~ 6150 1900
+NoConn ~ 6150 2000
+NoConn ~ 6150 2100
+NoConn ~ 4750 4300
+Text HLabel 4750 3700 0    39   Output ~ 0
+MultimediaLogCTL
+Text HLabel 4750 3900 0    39   Output ~ 0
+AuxLogCTL
+Text HLabel 4750 4100 0    39   Output ~ 0
+GimbalLogCTL
+Text HLabel 4750 3800 0    39   Output ~ 0
+MultimediaActCTL
+Text HLabel 4750 4000 0    39   Output ~ 0
+AuxActCTL
+Text HLabel 4750 4200 0    39   Output ~ 0
+GimbalActCTL
+Text HLabel 4750 4400 0    39   Output ~ 0
+NavBoardCTL
+$Comp
+L PackVoltage_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U24
+U 8 1 5F79167F
+P 5750 4450
+F 0 "U24" H 5781 5727 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 5781 5621 60  0000 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_TOP" H 5750 4450 60  0001 C CNN
+F 3 "" H 5750 4450 60  0001 C CNN
+	8    5750 4450
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
