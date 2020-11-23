@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Leebo\OneDrive\Documents\GitHub\PackVoltage_Hardware\Hardware\PackVoltage_2021_Rev1\PackVoltage_2021_Rev1.sch)
-    (date "11/21/2020 5:37:21 PM")
+    (date "11/22/2020 10:32:09 PM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -622,7 +622,7 @@
       (tstamp 5FAC272F))
     (comp (ref U13)
       (value OKI-78SR-5_1.5-W36-C)
-      (footprint Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical)
+      (footprint MRDT_Devices:OKI_Horizontal)
       (datasheet https://power.murata.com/data/power/oki-78sr.pdf)
       (libsource (lib Converter_DCDC) (part OKI-78SR-5_1.5-W36-C) (description "1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical"))
       (sheetpath (names /Bucks/) (tstamps /5F826BA9/))
@@ -671,7 +671,7 @@
       (tstamp 5FB85208))
     (comp (ref U12)
       (value OKI-78SR-3.3_1.5-W36-C)
-      (footprint Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical)
+      (footprint MRDT_Devices:OKI_Horizontal)
       (datasheet https://power.murata.com/data/power/oki-78sr.pdf)
       (libsource (lib Converter_DCDC) (part OKI-78SR-3.3_1.5-W36-C) (description "1.5A Step-Down DC/DC-Regulator, 7-36V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical"))
       (sheetpath (names /Bucks/) (tstamps /5F826BA9/))

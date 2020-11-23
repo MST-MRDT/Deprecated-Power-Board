@@ -364,7 +364,7 @@ U 1 1 5FB659A1
 P 2125 2975
 F 0 "U13" H 2125 3217 50  0000 C CNN
 F 1 "OKI-78SR-5_1.5-W36-C" H 2125 3126 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 2175 2725 50  0001 L CIN
+F 2 "MRDT_Devices:OKI_Horizontal" H 2175 2725 50  0001 L CIN
 F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 2125 2975 50  0001 C CNN
 	1    2125 2975
 	1    0    0    -1  
@@ -541,7 +541,7 @@ U 1 1 5FBCC116
 P 1925 4375
 F 0 "U12" H 1925 4617 50  0000 C CNN
 F 1 "OKI-78SR-3.3_1.5-W36-C" H 1925 4526 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 1975 4125 50  0001 L CIN
+F 2 "MRDT_Devices:OKI_Horizontal" H 1975 4125 50  0001 L CIN
 F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 1925 4375 50  0001 C CNN
 	1    1925 4375
 	1    0    0    -1  
