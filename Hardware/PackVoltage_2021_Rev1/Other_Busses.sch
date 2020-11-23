@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -407,7 +407,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 4300 4150 4300
 Text HLabel 2300 3100 1    50   Input ~ 0
-12V
+PV
 $Comp
 L PackVoltage_2021_Rev1-rescue:INA281-MRDT_ICs U?
 U 1 1 5F9AF79E

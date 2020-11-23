@@ -39,16 +39,6 @@ F17 "Current_Sensor_S1" O R 3400 5050 50
 F18 "Anderson_S1" O R 3400 4000 50 
 $EndSheet
 $Sheet
-S 7550 800  1700 1400
-U 5F826BA9
-F0 "Bucks" 157
-F1 "Buck.sch" 157
-F2 "PV" I L 7550 950 50 
-F3 "12V" O R 9250 950 50 
-F4 "5V" O R 9250 1050 50 
-F5 "3V3" O R 9250 1150 50 
-$EndSheet
-$Sheet
 S 1050 5700 2350 1550
 U 5F8EFCC9
 F0 "Other Busses" 158
@@ -57,20 +47,19 @@ F2 "PV" I L 1050 5750 50
 F3 "5V" I L 1050 5850 50 
 F4 "Driver_R1" I L 1050 7000 50 
 F5 "Current_Sensor_R1" O R 3400 7000 50 
-F6 "12V" I L 1050 5950 50 
-F7 "Driver_T1" I L 1050 6800 50 
-F8 "Current_Sensor_T1" O R 3400 6800 50 
-F9 "Driver_V1" I L 1050 7100 50 
-F10 "Current_Sensor_V1" O R 3400 7100 50 
-F11 "Driver_D1" I L 1050 6900 50 
-F12 "Current_Sensor_D1" O R 3400 6900 50 
-F13 "Anderson_R1" O R 3400 5950 50 
-F14 "Anderson_T1" O R 3400 5750 50 
-F15 "Anderson_V1" O R 3400 6050 50 
-F16 "Anderson_D1" O R 3400 5850 50 
-F17 "Driver_A1" I L 1050 7200 50 
-F18 "Current_Sensor_A1" O R 3400 7200 50 
-F19 "Anderson_A1" O R 3400 6150 50 
+F6 "Driver_T1" I L 1050 6800 50 
+F7 "Current_Sensor_T1" O R 3400 6800 50 
+F8 "Driver_V1" I L 1050 7100 50 
+F9 "Current_Sensor_V1" O R 3400 7100 50 
+F10 "Driver_D1" I L 1050 6900 50 
+F11 "Current_Sensor_D1" O R 3400 6900 50 
+F12 "Anderson_R1" O R 3400 5950 50 
+F13 "Anderson_T1" O R 3400 5750 50 
+F14 "Anderson_V1" O R 3400 6050 50 
+F15 "Anderson_D1" O R 3400 5850 50 
+F16 "Driver_A1" I L 1050 7200 50 
+F17 "Current_Sensor_A1" O R 3400 7200 50 
+F18 "Anderson_A1" O R 3400 6150 50 
 $EndSheet
 $Comp
 L power:GND #PWR?
@@ -560,13 +549,9 @@ PV
 Wire Wire Line
 	7450 950  7550 950 
 Wire Wire Line
-	9350 950  9250 950 
-Wire Wire Line
 	9350 1050 9250 1050
 Wire Wire Line
 	9350 1150 9250 1150
-Text Label 9350 950  0    50   ~ 0
-12V
 Text Label 9350 1050 0    50   ~ 0
 5V
 Text Label 9350 1150 0    50   ~ 0
@@ -667,10 +652,6 @@ Wire Wire Line
 	950  5750 1050 5750
 Wire Wire Line
 	1050 5850 950  5850
-Text Label 950  5950 2    50   ~ 0
-12V
-Wire Wire Line
-	950  5950 1050 5950
 Text Label 950  6800 2    50   ~ 0
 Driver_T1
 Text Label 950  6900 2    50   ~ 0
@@ -735,8 +716,6 @@ Text Label 9950 1950 2    50   ~ 0
 3V3
 Text Label 9950 1550 2    50   ~ 0
 5V
-Text Label 10000 1150 2    50   ~ 0
-12V
 Wire Wire Line
 	10100 1950 9950 1950
 Wire Wire Line
@@ -765,21 +744,6 @@ F 1 "+5V" H 10115 1623 50  0000 C CNN
 F 2 "" H 10100 1450 50  0001 C CNN
 F 3 "" H 10100 1450 50  0001 C CNN
 	1    10100 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 1150 10000 1150
-Wire Wire Line
-	10100 1050 10100 1150
-$Comp
-L power:+12V #PWR012
-U 1 1 5F87A2B9
-P 10100 1050
-F 0 "#PWR012" H 10100 900 50  0001 C CNN
-F 1 "+12V" H 10100 1200 50  0000 C CNN
-F 2 "" H 10100 1050 50  0001 C CNN
-F 3 "" H 10100 1050 50  0001 C CNN
-	1    10100 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1206,5 +1170,14 @@ F33 "GimbalLogCTL" O R 3850 1700 50
 F34 "AuxLogCTL" O R 3850 1600 50 
 F35 "DriveCTL" O R 3850 1800 50 
 F36 "MultimediaLogCTL" O R 3850 1500 50 
+$EndSheet
+$Sheet
+S 7550 800  1700 1400
+U 5F826BA9
+F0 "Bucks" 157
+F1 "Buck.sch" 157
+F2 "PV" I L 7550 950 50 
+F3 "5V" O R 9250 1050 50 
+F4 "3V3" O R 9250 1150 50 
 $EndSheet
 $EndSCHEMATC
