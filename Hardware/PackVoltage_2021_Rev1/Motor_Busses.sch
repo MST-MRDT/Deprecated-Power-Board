@@ -158,7 +158,7 @@ AR Path="/5F7A6A8B/5F7BF294" Ref="R6"  Part="1"
 AR Path="/5F8EFCC9/5F7BF294" Ref="R?"  Part="1" 
 F 0 "R6" V 3450 1650 50  0000 L CNN
 F 1 "0.05" V 3550 1600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2_TabPin1" V 3480 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 3480 1700 50  0001 C CNN
 F 3 "https://riedon.com/media/pdf/PFS35.pdf" H 3550 1700 50  0001 C CNN
 	1    3550 1700
 	1    0    0    -1  
@@ -412,7 +412,7 @@ AR Path="/5F7A6A8B/5F89EDC6" Ref="R4"  Part="1"
 AR Path="/5F8EFCC9/5F89EDC6" Ref="R?"  Part="1" 
 F 0 "R4" V 3400 3650 50  0000 L CNN
 F 1 "0.05" V 3500 3600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2_TabPin1" V 3430 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 3430 3700 50  0001 C CNN
 F 3 "https://riedon.com/media/pdf/PFS35.pdf" H 3500 3700 50  0001 C CNN
 	1    3500 3700
 	1    0    0    -1  
@@ -653,7 +653,7 @@ AR Path="/5F7A6A8B/5F9AF7A7" Ref="R5"  Part="1"
 AR Path="/5F8EFCC9/5F9AF7A7" Ref="R?"  Part="1" 
 F 0 "R5" V 3400 5850 50  0000 L CNN
 F 1 "0.05" V 3500 5800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2_TabPin1" V 3430 5900 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 3430 5900 50  0001 C CNN
 F 3 "https://riedon.com/media/pdf/PFS35.pdf" H 3500 5900 50  0001 C CNN
 	1    3500 5900
 	1    0    0    -1  
@@ -907,7 +907,7 @@ AR Path="/5F7A6A8B/5F9AF7B4" Ref="R12"  Part="1"
 AR Path="/5F8EFCC9/5F9AF7B4" Ref="R?"  Part="1" 
 F 0 "R12" V 8800 1700 50  0000 L CNN
 F 1 "0.05" V 8900 1650 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2_TabPin1" V 8830 1750 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 8830 1750 50  0001 C CNN
 F 3 "https://riedon.com/media/pdf/PFS35.pdf" H 8900 1750 50  0001 C CNN
 	1    8900 1750
 	1    0    0    -1  
@@ -1167,7 +1167,7 @@ AR Path="/5F7A6A8B/5F88078A" Ref="R13"  Part="1"
 AR Path="/5F8EFCC9/5F88078A" Ref="R?"  Part="1" 
 F 0 "R13" V 8800 3600 50  0000 L CNN
 F 1 "0.05" V 8900 3550 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2_TabPin1" V 8830 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 8830 3650 50  0001 C CNN
 F 3 "https://riedon.com/media/pdf/PFS35.pdf" H 8900 3650 50  0001 C CNN
 	1    8900 3650
 	1    0    0    -1  
