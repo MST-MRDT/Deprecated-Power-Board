@@ -1099,17 +1099,6 @@ Wire Wire Line
 	6175 1875 6025 1875
 Text Label 6050 2075 2    50   ~ 0
 GimbalLogCTL
-$Comp
-L MRDT_Connectors:Molex_SL_04 Conn6
-U 1 1 5FC464FD
-P 6375 1350
-F 0 "Conn6" H 6503 1608 60  0000 L CNN
-F 1 "Molex_SL_04" H 6503 1502 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 6375 1350 60  0001 C CNN
-F 3 "" H 6375 1350 60  0001 C CNN
-	1    6375 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 1600 3950 1600
 Wire Wire Line
@@ -1170,6 +1159,7 @@ F33 "GimbalLogCTL" O R 3850 1700 50
 F34 "AuxLogCTL" O R 3850 1600 50 
 F35 "DriveCTL" O R 3850 1800 50 
 F36 "MultimediaLogCTL" O R 3850 1500 50 
+F37 "BuckCTL" O R 3850 1900 50 
 $EndSheet
 $Sheet
 S 7550 800  1700 1400
@@ -1180,4 +1170,23 @@ F2 "PV" I L 7550 950 50
 F3 "5V" O R 9250 1050 50 
 F4 "3V3" O R 9250 1150 50 
 $EndSheet
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn6
+U 1 1 5FCEA5B7
+P 6375 1450
+F 0 "Conn6" H 6503 1758 60  0000 L CNN
+F 1 "Molex_SL_05" H 6503 1652 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 6375 1450 60  0001 C CNN
+F 3 "" H 6375 1450 60  0001 C CNN
+	1    6375 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 1400 6025 1400
+Text Label 6025 1400 2    50   ~ 0
+BuckCTL
+Text Label 3950 1900 0    39   ~ 0
+BuckCTL
+Wire Wire Line
+	3950 1900 3850 1900
 $EndSCHEMATC

@@ -372,7 +372,6 @@ NoConn ~ 2750 2100
 NoConn ~ 2600 3800
 NoConn ~ 2600 3900
 NoConn ~ 2600 4400
-NoConn ~ 2600 4500
 NoConn ~ 1400 4500
 NoConn ~ 1400 4400
 NoConn ~ 1400 4300
@@ -425,4 +424,6 @@ F 3 "" H 5750 4450 60  0001 C CNN
 	8    5750 4450
 	-1   0    0    -1  
 $EndComp
+Text HLabel 2600 4500 2    39   Output ~ 0
+BuckCTL
 $EndSCHEMATC
