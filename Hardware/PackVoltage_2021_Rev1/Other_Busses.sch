@@ -872,35 +872,33 @@ $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5F8B2B79
-P 9300 2350
+P 9575 2375
 AR Path="/5F7A6A8B/5F8B2B79" Ref="D?"  Part="1" 
 AR Path="/5F8EFCC9/5F8B2B79" Ref="D17"  Part="1" 
-F 0 "D17" H 9300 2450 50  0000 C CNN
-F 1 "LED" H 9300 2550 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9300 2350 50  0001 C CNN
-F 3 "~" H 9300 2350 50  0001 C CNN
-	1    9300 2350
+F 0 "D17" H 9575 2475 50  0000 C CNN
+F 1 "LED" H 9575 2575 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9575 2375 50  0001 C CNN
+F 3 "~" H 9575 2375 50  0001 C CNN
+	1    9575 2375
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8450 2350 8700 2350
 $Comp
 L Device:R R?
 U 1 1 5F9AF7B7
-P 8850 2350
+P 9125 2375
 AR Path="/5F7A6A8B/5F9AF7B7" Ref="R?"  Part="1" 
 AR Path="/5F8EFCC9/5F9AF7B7" Ref="R32"  Part="1" 
-F 0 "R32" V 8750 2300 50  0000 L CNN
-F 1 "3300" V 8850 2250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8780 2350 50  0001 C CNN
-F 3 "~" H 8850 2350 50  0001 C CNN
-	1    8850 2350
+F 0 "R32" V 9025 2325 50  0000 L CNN
+F 1 "3300" V 9125 2275 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9055 2375 50  0001 C CNN
+F 3 "~" H 9125 2375 50  0001 C CNN
+	1    9125 2375
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9000 2350 9150 2350
+	9275 2375 9425 2375
 Wire Wire Line
-	9450 2350 9550 2350
+	9725 2375 9825 2375
 Text HLabel 7700 1150 1    50   Input ~ 0
 PV
 $Comp
@@ -943,21 +941,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5F9AF7BA
-P 9550 2350
+P 9825 2375
 AR Path="/5F7A6A8B/5F9AF7BA" Ref="#PWR?"  Part="1" 
 AR Path="/5F8EFCC9/5F9AF7BA" Ref="#PWR059"  Part="1" 
-F 0 "#PWR059" H 9550 2100 50  0001 C CNN
-F 1 "GND" H 9555 2177 50  0000 C CNN
-F 2 "" H 9550 2350 50  0001 C CNN
-F 3 "" H 9550 2350 50  0001 C CNN
-	1    9550 2350
+F 0 "#PWR059" H 9825 2125 50  0001 C CNN
+F 1 "GND" H 9830 2202 50  0000 C CNN
+F 2 "" H 9825 2375 50  0001 C CNN
+F 3 "" H 9825 2375 50  0001 C CNN
+	1    9825 2375
 	1    0    0    -1  
 $EndComp
-Connection ~ 8450 1900
-Wire Wire Line
-	8900 2000 9100 2000
-Wire Wire Line
-	9100 2150 9350 2150
 Text HLabel 9950 1600 2    50   Output ~ 0
 Current_Sensor_D1
 $Comp
@@ -979,7 +972,7 @@ Text HLabel 3950 4100 2    50   Output ~ 0
 Anderson_T1
 Text HLabel 3950 6300 2    50   Output ~ 0
 Anderson_V1
-Text HLabel 9350 2150 2    50   Output ~ 0
+Text HLabel 9625 2175 2    50   Output ~ 0
 Anderson_D1
 $Comp
 L Device:Q_NMOS_DGS Q?
@@ -1179,19 +1172,6 @@ Wire Wire Line
 Text HLabel 7700 3200 1    50   Input ~ 0
 PV
 $Comp
-L PackVoltage_2021_Rev1-rescue:INA281-MRDT_ICs U?
-U 1 1 5F8E4246
-P 9450 3650
-AR Path="/5F7A6A8B/5F8E4246" Ref="U?"  Part="1" 
-AR Path="/5F8EFCC9/5F8E4246" Ref="U23"  Part="1" 
-F 0 "U23" H 9550 3950 50  0000 L CNN
-F 1 "INA281" H 9500 3850 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 9700 3850 50  0001 C CNN
-F 3 "" H 9700 3850 50  0001 C CNN
-	1    9450 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L PackVoltage_2021_Rev1-rescue:LT1910-MRDT_ICs U?
 U 1 1 5F8E424C
 P 6800 4000
@@ -1228,7 +1208,6 @@ F 3 "" H 9550 4400 50  0001 C CNN
 	1    9550 4400
 	1    0    0    -1  
 $EndComp
-Connection ~ 8450 3950
 Wire Wire Line
 	8900 4050 9100 4050
 Wire Wire Line
@@ -1259,19 +1238,10 @@ Connection ~ 3700 6150
 Wire Wire Line
 	3700 6150 3850 6150
 Wire Wire Line
-	8450 3950 8450 4400
-Wire Wire Line
 	9100 4200 9100 4050
 Connection ~ 9100 4050
 Wire Wire Line
 	9100 4050 9250 4050
-Wire Wire Line
-	8450 1900 8450 2350
-Wire Wire Line
-	9100 2150 9100 2000
-Connection ~ 9100 2000
-Wire Wire Line
-	9100 2000 9250 2000
 Text HLabel 700  1150 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -1360,4 +1330,32 @@ F 3 "~" H 3450 6500 50  0001 C CNN
 	1    3450 6500
 	0    -1   -1   0   
 $EndComp
+$Comp
+L PackVoltage_2021_Rev1-rescue:INA281-MRDT_ICs U?
+U 1 1 5F8E4246
+P 9450 3650
+AR Path="/5F7A6A8B/5F8E4246" Ref="U?"  Part="1" 
+AR Path="/5F8EFCC9/5F8E4246" Ref="U23"  Part="1" 
+F 0 "U23" H 9550 3950 50  0000 L CNN
+F 1 "INA281" H 9500 3850 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 9700 3850 50  0001 C CNN
+F 3 "" H 9700 3850 50  0001 C CNN
+	1    9450 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8450 3950
+Wire Wire Line
+	8450 3950 8450 4400
+Wire Wire Line
+	8900 2175 8900 2375
+Wire Wire Line
+	8900 2375 8975 2375
+Wire Wire Line
+	8900 2175 9625 2175
+Wire Wire Line
+	8900 2000 9250 2000
+Wire Wire Line
+	8900 2000 8900 2175
+Connection ~ 8900 2000
+Connection ~ 8900 2175
 $EndSCHEMATC
