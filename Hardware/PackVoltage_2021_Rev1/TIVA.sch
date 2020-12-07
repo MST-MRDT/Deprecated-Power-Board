@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2650 2950 3    39   Output ~ 0
+Text HLabel 2850 4575 1    39   Output ~ 0
 BuckCTL
 $Comp
 L PackVoltage_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U24
@@ -26,21 +26,21 @@ F 3 "" H 2800 5575 60  0001 C CNN
 	8    2800 5575
 	0    1    -1   0   
 $EndComp
-Text HLabel 2850 4575 1    39   Output ~ 0
+Text HLabel 3750 4575 1    39   Output ~ 0
 NavBoardCTL
-Text HLabel 3050 4575 1    39   Output ~ 0
-GimbalActCTL
-Text HLabel 3250 4575 1    39   Output ~ 0
-AuxActCTL
-Text HLabel 3450 4575 1    39   Output ~ 0
-MultimediaActCTL
-Text HLabel 3150 4575 1    39   Output ~ 0
-GimbalLogCTL
-Text HLabel 3350 4575 1    39   Output ~ 0
-AuxLogCTL
 Text HLabel 3550 4575 1    39   Output ~ 0
+GimbalActCTL
+Text HLabel 3350 4575 1    39   Output ~ 0
+AuxActCTL
+Text HLabel 3150 4575 1    39   Output ~ 0
+MultimediaActCTL
+Text HLabel 3450 4575 1    39   Output ~ 0
+GimbalLogCTL
+Text HLabel 3250 4575 1    39   Output ~ 0
+AuxLogCTL
+Text HLabel 3050 4575 1    39   Output ~ 0
 MultimediaLogCTL
-NoConn ~ 2950 4575
+NoConn ~ 3650 4575
 NoConn ~ 5100 5600
 NoConn ~ 5200 5600
 NoConn ~ 5300 5600
@@ -55,8 +55,7 @@ NoConn ~ 5600 4350
 NoConn ~ 5300 4350
 NoConn ~ 5200 4350
 NoConn ~ 5100 4350
-NoConn ~ 3650 4575
-NoConn ~ 3750 4575
+NoConn ~ 2950 4575
 NoConn ~ 3650 5875
 NoConn ~ 3550 5875
 NoConn ~ 3450 5875
@@ -94,25 +93,25 @@ Wire Wire Line
 Wire Wire Line
 	3650 5875 3650 5775
 Wire Wire Line
-	3150 4575 3150 4675
-Wire Wire Line
-	3350 4575 3350 4675
+	3450 4575 3450 4675
 Wire Wire Line
 	3250 4575 3250 4675
 Wire Wire Line
-	3450 4575 3450 4675
+	3350 4575 3350 4675
 Wire Wire Line
-	2950 4575 2950 4675
+	3150 4575 3150 4675
 Wire Wire Line
-	2850 4575 2850 4675
+	3650 4575 3650 4675
 Wire Wire Line
-	3050 4575 3050 4675
+	3750 4575 3750 4675
 Wire Wire Line
-	3550 4675 3550 4575
+	3550 4575 3550 4675
 Wire Wire Line
-	3650 4675 3650 4575
+	3050 4675 3050 4575
 Wire Wire Line
-	3750 4675 3750 4575
+	2950 4675 2950 4575
+Wire Wire Line
+	2850 4675 2850 4575
 Wire Wire Line
 	2950 2850 2950 2950
 Wire Wire Line
@@ -151,7 +150,7 @@ Wire Wire Line
 	5900 5500 5900 5600
 Wire Wire Line
 	2850 2950 2850 2850
-Text HLabel 3050 5875 3    39   Output ~ 0
+Text HLabel 2850 5875 3    39   Output ~ 0
 DriveCTL
 Wire Wire Line
 	5800 4450 5800 4350
@@ -161,7 +160,7 @@ Wire Wire Line
 	6000 4450 6000 4350
 Wire Wire Line
 	3450 1750 3450 1850
-Text HLabel 3150 2950 3    39   Input ~ 0
+Text HLabel 2850 2950 3    39   Input ~ 0
 GimbalSense
 Wire Wire Line
 	2750 1850 2750 1750
@@ -183,13 +182,13 @@ Wire Wire Line
 	5300 5500 5300 5600
 Wire Wire Line
 	5500 5500 5500 5600
-Text HLabel 3050 2950 3    39   Input ~ 0
-LowCurrentSense
 Text HLabel 2950 2950 3    39   Input ~ 0
+LowCurrentSense
+Text HLabel 3050 2950 3    39   Input ~ 0
 MultimediaSense
-Text HLabel 2850 2950 3    39   Input ~ 0
+Text HLabel 3150 2950 3    39   Input ~ 0
 AuxMountSense
-Text HLabel 2850 5875 3    39   Output ~ 0
+Text HLabel 3050 5875 3    39   Output ~ 0
 CameraCTL
 Wire Wire Line
 	3550 1850 3550 1700
@@ -426,4 +425,5 @@ F 3 "" H 5000 2650 60  0001 C CNN
 	2    5000 2650
 	0    1    -1   0   
 $EndComp
+NoConn ~ 2650 2950
 $EndSCHEMATC

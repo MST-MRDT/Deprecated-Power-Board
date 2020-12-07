@@ -358,23 +358,10 @@ P 9350 3175
 AR Path="/5F83E409/5F8B7D2F" Ref="D?"  Part="1" 
 AR Path="/5F8B7D2F" Ref="D1"  Part="1" 
 F 0 "D1" V 9304 3255 50  0000 L CNN
-F 1 "D" V 9395 3255 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9350 3175 50  0001 C CNN
+F 1 "1.5KE36A+" V 9395 3255 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P5.08mm_Vertical_KathodeUp" H 9350 3175 50  0001 C CNN
 F 3 "~" H 9350 3175 50  0001 C CNN
 	1    9350 3175
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5F8B7D35
-P 9800 3175
-AR Path="/5F83E409/5F8B7D35" Ref="D?"  Part="1" 
-AR Path="/5F8B7D35" Ref="D2"  Part="1" 
-F 0 "D2" V 9754 3255 50  0000 L CNN
-F 1 "D" V 9845 3255 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9800 3175 50  0001 C CNN
-F 3 "~" H 9800 3175 50  0001 C CNN
-	1    9800 3175
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -383,19 +370,9 @@ Wire Wire Line
 	9900 2925 9900 3025
 Connection ~ 9350 3025
 Wire Wire Line
-	9350 3025 9800 3025
-Connection ~ 9800 3025
-Wire Wire Line
-	9800 3025 9900 3025
-Wire Wire Line
 	9000 3325 9350 3325
 Connection ~ 9000 3325
 Connection ~ 9350 3325
-Wire Wire Line
-	9350 3325 9800 3325
-Connection ~ 9800 3325
-Wire Wire Line
-	9800 3325 10100 3325
 Wire Notes Line
 	7275 475  7275 4050
 Text Notes 5200 1625 2    79   ~ 0
@@ -1189,4 +1166,27 @@ Text Label 3950 1900 0    39   ~ 0
 BuckCTL
 Wire Wire Line
 	3950 1900 3850 1900
+Connection ~ 9800 3325
+Wire Wire Line
+	9800 3325 10100 3325
+Wire Wire Line
+	9350 3325 9800 3325
+Connection ~ 9800 3025
+Wire Wire Line
+	9800 3025 9900 3025
+Wire Wire Line
+	9350 3025 9800 3025
+$Comp
+L Device:D D?
+U 1 1 5F8B7D35
+P 9800 3175
+AR Path="/5F83E409/5F8B7D35" Ref="D?"  Part="1" 
+AR Path="/5F8B7D35" Ref="D2"  Part="1" 
+F 0 "D2" V 9754 3255 50  0000 L CNN
+F 1 "1.5KE36A+" V 9845 3255 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P5.08mm_Vertical_KathodeUp" H 9800 3175 50  0001 C CNN
+F 3 "~" H 9800 3175 50  0001 C CNN
+	1    9800 3175
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
