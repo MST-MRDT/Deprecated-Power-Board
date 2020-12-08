@@ -515,8 +515,6 @@ Text Label 6050 2175 2    50   ~ 0
 GimbalActCTL
 Text Label 6050 2275 2    50   ~ 0
 NavBoardCTL
-Text Label 6050 2375 2    50   ~ 0
-CameraCTL
 Text Label 6025 1775 2    50   ~ 0
 MultimediaActCTL
 Text Label 6025 1975 2    50   ~ 0
@@ -1189,4 +1187,6 @@ F 3 "~" H 9800 3175 50  0001 C CNN
 	1    9800 3175
 	0    1    1    0   
 $EndComp
+Text Label 6050 2375 2    50   ~ 0
+CameraCTL
 $EndSCHEMATC
