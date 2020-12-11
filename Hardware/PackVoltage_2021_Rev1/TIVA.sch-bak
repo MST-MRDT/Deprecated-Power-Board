@@ -43,8 +43,6 @@ MultimediaLogCTL
 NoConn ~ 2950 4575
 NoConn ~ 5100 5600
 NoConn ~ 5200 5600
-NoConn ~ 5300 5600
-NoConn ~ 5700 5600
 NoConn ~ 5800 5600
 NoConn ~ 5900 5600
 NoConn ~ 6000 4350
@@ -61,13 +59,10 @@ NoConn ~ 3550 5875
 NoConn ~ 3450 5875
 NoConn ~ 3250 5875
 NoConn ~ 3150 5875
-NoConn ~ 3450 1750
-NoConn ~ 3350 1750
 NoConn ~ 2850 1750
 NoConn ~ 2750 1750
 NoConn ~ 2650 1750
 NoConn ~ 2750 2950
-NoConn ~ 3350 2950
 NoConn ~ 5050 3100
 NoConn ~ 5150 3100
 NoConn ~ 5050 1600
@@ -165,13 +160,13 @@ Wire Wire Line
 	2750 1850 2750 1750
 Text HLabel 2950 5875 3    39   Output ~ 0
 ExtraCTL
-Text HLabel 5750 3100 3    39   Input ~ 0
+Text HLabel 5450 1600 1    39   Input ~ 0
 Current_Sensor_D1
-Text HLabel 5650 3100 3    39   Output ~ 0
+Text HLabel 5550 1600 1    39   Output ~ 0
 Driver_D1
-Text HLabel 5400 4350 1    39   Output ~ 0
+Text HLabel 5550 3100 3    39   Output ~ 0
 Driver_A1
-Text HLabel 5400 5600 3    39   Input ~ 0
+Text HLabel 5450 3100 3    39   Input ~ 0
 Current_Sensor_A1
 Wire Wire Line
 	5200 5500 5200 5600
@@ -197,37 +192,37 @@ Wire Wire Line
 	5950 1850 5950 1700
 Text HLabel 5950 1700 2    50   Input ~ 0
 3V3
-Text HLabel 3250 1750 1    40   Output ~ 0
+Text HLabel 5700 5600 3    40   Output ~ 0
 Driver_T1
 Text HLabel 5750 1600 1    40   Output ~ 0
 Driver_S1
-Text HLabel 5500 5600 3    40   Input ~ 0
+Text HLabel 5650 3100 3    40   Input ~ 0
 Current_Sensor_V1
-Text HLabel 5450 3100 3    40   Input ~ 0
-Current_Sensor_M4
-Text HLabel 5350 3100 3    40   Input ~ 0
-Current_Sensor_M3
-Text HLabel 5450 1600 1    40   Input ~ 0
-Current_Sensor_M2
 Text HLabel 5350 1600 1    40   Input ~ 0
-Current_Sensor_M1
-Text HLabel 2950 1750 1    40   Output ~ 0
-Driver_R1
-Text HLabel 5500 4350 1    40   Output ~ 0
-Driver_V1
-Text HLabel 5550 3100 3    40   Output ~ 0
-Driver_M4
+Current_Sensor_M4
+Text HLabel 3450 1750 1    40   Input ~ 0
+Current_Sensor_M3
 Text HLabel 3150 1750 1    40   Input ~ 0
+Current_Sensor_M2
+Text HLabel 3050 1750 1    40   Input ~ 0
+Current_Sensor_M1
+Text HLabel 5300 5600 3    40   Output ~ 0
+Driver_R1
+Text HLabel 5750 3100 3    40   Output ~ 0
+Driver_V1
+Text HLabel 5250 1600 1    40   Output ~ 0
+Driver_M4
+Text HLabel 5500 5600 3    40   Input ~ 0
 Current_Sensor_T1
 Text HLabel 5850 1600 1    40   Input ~ 0
 Current_Sensor_S1
-Text HLabel 5250 3100 3    40   Output ~ 0
+Text HLabel 3350 1750 1    40   Output ~ 0
 Driver_M3
-Text HLabel 5550 1600 1    40   Output ~ 0
+Text HLabel 3250 1750 1    40   Output ~ 0
 Driver_M2
-Text HLabel 5250 1600 1    40   Output ~ 0
+Text HLabel 2950 1750 1    40   Output ~ 0
 Driver_M1
-Text HLabel 3050 1750 1    40   Input ~ 0
+Text HLabel 5400 5600 3    40   Input ~ 0
 Current_Sensor_R1
 NoConn ~ 5950 2850
 NoConn ~ 3550 2850
@@ -425,4 +420,10 @@ F 3 "" H 5000 2650 60  0001 C CNN
 	0    1    -1   0   
 $EndComp
 NoConn ~ 2650 2950
+NoConn ~ 3250 2950
+NoConn ~ 3350 2950
+NoConn ~ 5350 3100
+NoConn ~ 5250 3100
+NoConn ~ 5500 4350
+NoConn ~ 5400 4350
 $EndSCHEMATC
