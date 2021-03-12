@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 21)
-    (tracks 117)
+    (tracks 110)
     (zones 0)
     (modules 139)
     (nets 151)
@@ -419,9 +419,9 @@
   )
 
   (module MRDT_Drill_Holes:4_40_Hole (layer F.Cu) (tedit 5E263EB1) (tstamp 604C0B7B)
-    (at 172.72 67.818)
+    (at 169.418 63.246)
     (clearance 2.54)
-    (fp_text reference REF** (at -0.00508 0.50508) (layer F.SilkS) hide
+    (fp_text reference REF** (at 0 0.50508) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 4_40_Hole (at -0.00508 -0.49492) (layer F.Fab) hide
@@ -433,7 +433,7 @@
   )
 
   (module MRDT_Drill_Holes:4_40_Hole (layer F.Cu) (tedit 5E263EB1) (tstamp 604C0B7B)
-    (at 168.91 156.718)
+    (at 169.418 156.718)
     (clearance 2.54)
     (fp_text reference REF** (at -0.00508 0.50508) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6292,7 +6292,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5FCF7255)
-    (at 82.437 66.802 180)
+    (at 83.199 66.548 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5F826BA9/5FB85215)
@@ -7116,7 +7116,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B4B45C9) (tstamp 5FCF7221)
-    (at 81.534 63.246 90)
+    (at 82.296 62.992 90)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /5F826BA9/5F87504C)
@@ -7457,7 +7457,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_2.5x2.5mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FCF71B9)
-    (at 81.788 71.374 180)
+    (at 89.916 71.12 180)
     (descr "SMD rectangular pad as test Point, square 2.5mm side length")
     (tags "test point SMD pad rectangle square")
     (path /5F826BA9/5F875043)
@@ -7484,7 +7484,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5FCF718C)
-    (at 82.437 59.944)
+    (at 83.199 59.69)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5F826BA9/5F875052)
@@ -7672,14 +7672,7 @@
   (segment (start 182.626 171.196) (end 190.246 171.196) (width 0.25) (layer F.Cu) (net 9) (status 30))
   (segment (start 192.278 169.164) (end 190.246 171.196) (width 0.25) (layer F.Cu) (net 9) (status 20))
   (segment (start 134.733 9.539) (end 134.747 9.525) (width 0.25) (layer F.Cu) (net 9))
-  (segment (start 100.584 57.912) (end 97.028 61.468) (width 0.25) (layer F.Cu) (net 10))
   (segment (start 96.012 41.402) (end 96.012 56.388) (width 0.25) (layer F.Cu) (net 10))
-  (segment (start 96.774 57.15) (end 96.012 56.388) (width 0.25) (layer F.Cu) (net 10))
-  (segment (start 101.346 61.468) (end 101.346 58.674) (width 0.25) (layer F.Cu) (net 10))
-  (segment (start 97.028 61.468) (end 97.028 68.326) (width 0.25) (layer F.Cu) (net 10))
-  (segment (start 83.312 69.85) (end 81.788 71.374) (width 0.25) (layer F.Cu) (net 10))
-  (segment (start 97.028 68.326) (end 97.028 71.374) (width 0.25) (layer F.Cu) (net 10))
-  (segment (start 81.788 71.374) (end 77.978 75.184) (width 0.25) (layer F.Cu) (net 10))
   (segment (start 87.675601 82.341601) (end 110.545999 82.341601) (width 0.25) (layer F.Cu) (net 10))
   (segment (start 87.122 81.788) (end 87.675601 82.341601) (width 0.25) (layer F.Cu) (net 10))
   (segment (start 110.545999 82.341601) (end 111.76 81.1276) (width 0.25) (layer F.Cu) (net 10))
@@ -7779,8 +7772,8 @@
   (segment (start 76.592926 117.893326) (end 88.9 130.2004) (width 0.25) (layer F.Cu) (net 92) (status 20))
   (segment (start 76.592926 16.371074) (end 76.592926 117.893326) (width 0.25) (layer F.Cu) (net 92))
   (segment (start 81.28 11.684) (end 76.592926 16.371074) (width 0.25) (layer F.Cu) (net 92) (status 10))
-  (segment (start 81.562 62.343) (end 81.534 62.371) (width 0.25) (layer F.Cu) (net 94))
-  (segment (start 81.562 59.944) (end 81.562 62.343) (width 0.25) (layer F.Cu) (net 94))
+  (segment (start 82.324 62.089) (end 82.296 62.117) (width 0.25) (layer F.Cu) (net 94))
+  (segment (start 82.324 59.69) (end 82.324 62.089) (width 0.25) (layer F.Cu) (net 94))
   (segment (start 81.093019 93.640619) (end 111.76 124.3076) (width 0.25) (layer F.Cu) (net 109) (status 20))
   (segment (start 92.964 24.384) (end 92.964 24.468762) (width 0.25) (layer F.Cu) (net 109) (status 30))
   (segment (start 81.093019 36.339743) (end 81.093019 93.640619) (width 0.25) (layer F.Cu) (net 109))
