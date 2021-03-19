@@ -382,19 +382,6 @@ X D2_5 Rese' -200 550 200 R 50 50 8 1 I
 ENDDRAW
 ENDDEF
 #
-# PackVoltage_2021_Rev1-rescue_Test_Point-MRDT_Connectors
-#
-DEF PackVoltage_2021_Rev1-rescue_Test_Point-MRDT_Connectors J 0 40 N N 1 F N
-F0 "J" 50 -50 60 H V C CNN
-F1 "PackVoltage_2021_Rev1-rescue_Test_Point-MRDT_Connectors" 0 250 60 H V C CNN
-F2 "" 0 -50 60 H I C CNN
-F3 "" 0 -50 60 H I C CNN
-DRAW
-C 0 150 50 0 1 0 F
-X ~ 1 0 0 100 U 59 59 1 0 U
-ENDDRAW
-ENDDEF
-#
 # PackVoltage_2021_Rev1-rescue_Via-MRDT_Drill_Holes
 #
 DEF PackVoltage_2021_Rev1-rescue_Via-MRDT_Drill_Holes V 0 40 Y Y 1 F N

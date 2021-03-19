@@ -16,21 +16,6 @@ $EndDescr
 Wire Wire Line
 	3425 2975 3425 2625
 $Comp
-L PackVoltage_2021_Rev1-rescue:Test_Point-MRDT_Connectors J5V1
-U 1 1 5F86ADCC
-P 3575 3125
-F 0 "J5V1" H 3497 3164 60  0000 R CNN
-F 1 "Test_Point" H 3497 3270 60  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 3575 3075 60  0001 C CNN
-F 3 "" H 3575 3075 60  0001 C CNN
-	1    3575 3125
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3425 2975 3575 2975
-Wire Wire Line
-	3575 2975 3575 3125
-$Comp
 L Device:LED D12
 U 1 1 5F86ADD5
 P 4475 2975
@@ -64,9 +49,6 @@ F 3 "" H 4875 3175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3575 2975 3775 2975
-Connection ~ 3575 2975
-Wire Wire Line
 	4075 2975 4325 2975
 Wire Wire Line
 	4625 2975 4875 2975
@@ -74,21 +56,6 @@ Wire Wire Line
 	4875 2975 4875 3175
 Text Notes 3825 2925 0    50   ~ 0
 Green
-$Comp
-L PackVoltage_2021_Rev1-rescue:Test_Point-MRDT_Connectors J3V1
-U 1 1 5F875043
-P 3425 4525
-F 0 "J3V1" H 3347 4564 60  0000 R CNN
-F 1 "Test_Point" H 3347 4670 60  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 3425 4475 60  0001 C CNN
-F 3 "" H 3425 4475 60  0001 C CNN
-	1    3425 4525
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3275 4375 3425 4375
-Wire Wire Line
-	3425 4375 3425 4525
 $Comp
 L Device:LED D13
 U 1 1 5F87504C
@@ -122,9 +89,6 @@ F 3 "" H 4725 4575 50  0001 C CNN
 	1    4725 4575
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3425 4375 3625 4375
-Connection ~ 3425 4375
 Wire Wire Line
 	3925 4375 4175 4375
 Wire Wire Line
@@ -327,4 +291,8 @@ F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 1925 4375 50  0001 C CN
 	1    1925 4375
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3425 2975 3775 2975
+Wire Wire Line
+	3275 4375 3625 4375
 $EndSCHEMATC
