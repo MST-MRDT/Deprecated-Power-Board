@@ -200,7 +200,7 @@ Text HLabel 5650 3100 3    40   Input ~ 0
 Current_Sensor_V1
 Text HLabel 5350 1600 1    40   Input ~ 0
 Current_Sensor_M4
-Text HLabel 3450 1750 1    40   Input ~ 0
+Text HLabel 3350 1750 1    40   Input ~ 0
 Current_Sensor_M3
 Text HLabel 3150 1750 1    40   Input ~ 0
 Current_Sensor_M2
@@ -216,7 +216,7 @@ Text HLabel 5500 5600 3    40   Input ~ 0
 Current_Sensor_T1
 Text HLabel 5850 1600 1    40   Input ~ 0
 Current_Sensor_S1
-Text HLabel 3350 1750 1    40   Output ~ 0
+Text HLabel 3450 1750 1    40   Output ~ 0
 Driver_M3
 Text HLabel 3250 1750 1    40   Output ~ 0
 Driver_M2
