@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3750 4575 1    39   Output ~ 0
-BuckCTL
 $Comp
 L PackVoltage_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U24
 U 8 1 5F79167F
@@ -104,8 +102,6 @@ Wire Wire Line
 	3550 4675 3550 4575
 Wire Wire Line
 	3650 4675 3650 4575
-Wire Wire Line
-	3750 4675 3750 4575
 Wire Wire Line
 	2950 2850 2950 2950
 Wire Wire Line
@@ -200,7 +196,7 @@ Text HLabel 5650 3100 3    40   Input ~ 0
 Current_Sensor_V1
 Text HLabel 5350 1600 1    40   Input ~ 0
 Current_Sensor_M4
-Text HLabel 3350 1750 1    40   Input ~ 0
+Text HLabel 3450 1750 1    40   Input ~ 0
 Current_Sensor_M3
 Text HLabel 3150 1750 1    40   Input ~ 0
 Current_Sensor_M2
@@ -216,7 +212,7 @@ Text HLabel 5500 5600 3    40   Input ~ 0
 Current_Sensor_T1
 Text HLabel 5850 1600 1    40   Input ~ 0
 Current_Sensor_S1
-Text HLabel 3450 1750 1    40   Output ~ 0
+Text HLabel 3350 1750 1    40   Output ~ 0
 Driver_M3
 Text HLabel 3250 1750 1    40   Output ~ 0
 Driver_M2
@@ -426,4 +422,7 @@ NoConn ~ 5350 3100
 NoConn ~ 5250 3100
 NoConn ~ 5500 4350
 NoConn ~ 5400 4350
+Wire Wire Line
+	3750 4675 3750 4575
+NoConn ~ 3750 4575
 $EndSCHEMATC
