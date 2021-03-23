@@ -7548,7 +7548,7 @@
   (gr_text 3.3V (at 77.724 63.5) (layer F.SilkS)
     (effects (font (size 1.524 1.524) (thickness 0.15)))
   )
-  (gr_text "Pack Voltage Board, Rev 1.5\nMars Rover Design Team\nMissouri S&T, 2020\nA.J Lee, Brady Davis" (at 135.128 158.75) (layer F.SilkS)
+  (gr_text "Pack Voltage Board, Rev 2.0\nMars Rover Design Team\nMissouri S&T, 2021\nA.J Lee, Brady Davis" (at 135.128 158.75) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_arc (start 224.536 4.064) (end 228.6 4.064) (angle -90) (layer Edge.Cuts) (width 0.05))
