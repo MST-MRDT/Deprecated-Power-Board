@@ -1,0 +1,330 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3425 2975 3425 2625
+$Comp
+L PackVoltage_2021_Rev1-rescue:Test_Point-MRDT_Connectors J5V1
+U 1 1 5F86ADCC
+P 3575 3125
+F 0 "J5V1" H 3497 3164 60  0000 R CNN
+F 1 "Test_Point" H 3497 3270 60  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 3575 3075 60  0001 C CNN
+F 3 "" H 3575 3075 60  0001 C CNN
+	1    3575 3125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3425 2975 3575 2975
+Wire Wire Line
+	3575 2975 3575 3125
+$Comp
+L Device:LED D12
+U 1 1 5F86ADD5
+P 4475 2975
+F 0 "D12" H 4468 2720 50  0000 C CNN
+F 1 "LED" H 4468 2811 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4475 2975 50  0001 C CNN
+F 3 "~" H 4475 2975 50  0001 C CNN
+	1    4475 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5F86ADDB
+P 3925 2975
+F 0 "R17" V 3825 2975 50  0000 C CNN
+F 1 "510" V 3925 2975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3855 2975 50  0001 C CNN
+F 3 "~" H 3925 2975 50  0001 C CNN
+	1    3925 2975
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR046
+U 1 1 5F86ADE1
+P 4875 3175
+F 0 "#PWR046" H 4875 2925 50  0001 C CNN
+F 1 "GND" H 4880 3002 50  0000 C CNN
+F 2 "" H 4875 3175 50  0001 C CNN
+F 3 "" H 4875 3175 50  0001 C CNN
+	1    4875 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 2975 3775 2975
+Connection ~ 3575 2975
+Wire Wire Line
+	4075 2975 4325 2975
+Wire Wire Line
+	4625 2975 4875 2975
+Wire Wire Line
+	4875 2975 4875 3175
+Text Notes 3825 2925 0    50   ~ 0
+Green
+$Comp
+L PackVoltage_2021_Rev1-rescue:Test_Point-MRDT_Connectors J3V1
+U 1 1 5F875043
+P 3425 4525
+F 0 "J3V1" H 3347 4564 60  0000 R CNN
+F 1 "Test_Point" H 3347 4670 60  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 3425 4475 60  0001 C CNN
+F 3 "" H 3425 4475 60  0001 C CNN
+	1    3425 4525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3275 4375 3425 4375
+Wire Wire Line
+	3425 4375 3425 4525
+$Comp
+L Device:LED D13
+U 1 1 5F87504C
+P 4325 4375
+F 0 "D13" H 4318 4120 50  0000 C CNN
+F 1 "LED" H 4318 4211 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4325 4375 50  0001 C CNN
+F 3 "~" H 4325 4375 50  0001 C CNN
+	1    4325 4375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5F875052
+P 3775 4375
+F 0 "R18" V 3675 4375 50  0000 C CNN
+F 1 "330" V 3775 4375 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3705 4375 50  0001 C CNN
+F 3 "~" H 3775 4375 50  0001 C CNN
+	1    3775 4375
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR047
+U 1 1 5F875058
+P 4725 4575
+F 0 "#PWR047" H 4725 4325 50  0001 C CNN
+F 1 "GND" H 4730 4402 50  0000 C CNN
+F 2 "" H 4725 4575 50  0001 C CNN
+F 3 "" H 4725 4575 50  0001 C CNN
+	1    4725 4575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 4375 3625 4375
+Connection ~ 3425 4375
+Wire Wire Line
+	3925 4375 4175 4375
+Wire Wire Line
+	4475 4375 4725 4375
+Wire Wire Line
+	4725 4375 4725 4575
+Text Notes 3675 4325 0    50   ~ 0
+Green
+Text Notes 7150 6950 0    157  ~ 0
+Bucks
+Text HLabel 3425 2625 1    50   Output ~ 0
+5V
+Text HLabel 3275 4025 1    50   Output ~ 0
+3V3
+$Comp
+L Converter_DCDC:OKI-78SR-5_1.5-W36-C U13
+U 1 1 5FB659A1
+P 2125 2975
+F 0 "U13" H 2125 3217 50  0000 C CNN
+F 1 "OKI-78SR-5_1.5-W36-C" H 2125 3126 50  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 2175 2725 50  0001 L CIN
+F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 2125 2975 50  0001 C CNN
+	1    2125 2975
+	1    0    0    -1  
+$EndComp
+Text HLabel 1450 2800 1    50   Input ~ 0
+PV
+Wire Wire Line
+	1450 2800 1450 2975
+Wire Wire Line
+	1450 2975 1550 2975
+$Comp
+L Device:CP1 C17
+U 1 1 5FB6CF99
+P 1550 3125
+F 0 "C17" H 1665 3171 50  0000 L CNN
+F 1 "22uF" H 1665 3080 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1550 3125 50  0001 C CNN
+F 3 "~" H 1550 3125 50  0001 C CNN
+	1    1550 3125
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 2975
+Wire Wire Line
+	1550 2975 1825 2975
+Wire Wire Line
+	1550 3275 1550 3475
+Wire Wire Line
+	2125 3275 2125 3475
+Wire Wire Line
+	1550 3475 2125 3475
+Connection ~ 2125 3475
+Wire Wire Line
+	2125 3475 2325 3475
+$Comp
+L Device:C C20
+U 1 1 5FB79574
+P 2575 3125
+F 0 "C20" H 2690 3171 50  0000 L CNN
+F 1 "10uF" H 2690 3080 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2613 2975 50  0001 C CNN
+F 3 "~" H 2575 3125 50  0001 C CNN
+	1    2575 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C32
+U 1 1 5FB7A0E4
+P 3100 3125
+F 0 "C32" H 3215 3171 50  0000 L CNN
+F 1 "47uF" H 3215 3080 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3100 3125 50  0001 C CNN
+F 3 "~" H 3100 3125 50  0001 C CNN
+	1    3100 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 2975 2575 2975
+Connection ~ 2575 2975
+Wire Wire Line
+	2575 2975 3100 2975
+Wire Wire Line
+	2575 3275 2575 3475
+Connection ~ 2575 3475
+Wire Wire Line
+	3100 3275 3100 3475
+Wire Wire Line
+	2575 3475 3100 3475
+$Comp
+L power:GND #PWR033
+U 1 1 5FB83052
+P 2325 3475
+F 0 "#PWR033" H 2325 3225 50  0001 C CNN
+F 1 "GND" H 2330 3302 50  0000 C CNN
+F 2 "" H 2325 3475 50  0001 C CNN
+F 3 "" H 2325 3475 50  0001 C CNN
+	1    2325 3475
+	1    0    0    -1  
+$EndComp
+Connection ~ 2325 3475
+Wire Wire Line
+	2325 3475 2575 3475
+Text HLabel 1250 4200 1    50   Input ~ 0
+PV
+Wire Wire Line
+	1250 4200 1250 4375
+Wire Wire Line
+	1350 4675 1350 4875
+Wire Wire Line
+	1925 4675 1925 4875
+Wire Wire Line
+	1350 4875 1925 4875
+Connection ~ 1925 4875
+Wire Wire Line
+	1925 4875 2125 4875
+$Comp
+L Device:C C19
+U 1 1 5FB85215
+P 2375 4525
+F 0 "C19" H 2490 4571 50  0000 L CNN
+F 1 "10uF" H 2490 4480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2413 4375 50  0001 C CNN
+F 3 "~" H 2375 4525 50  0001 C CNN
+	1    2375 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C31
+U 1 1 5FB8521B
+P 2900 4525
+F 0 "C31" H 3015 4571 50  0000 L CNN
+F 1 "47uF" H 3015 4480 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2900 4525 50  0001 C CNN
+F 3 "~" H 2900 4525 50  0001 C CNN
+	1    2900 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2225 4375 2375 4375
+Connection ~ 2375 4375
+Wire Wire Line
+	2375 4375 2900 4375
+Wire Wire Line
+	2375 4675 2375 4875
+Connection ~ 2375 4875
+Wire Wire Line
+	2900 4675 2900 4875
+Wire Wire Line
+	2375 4875 2900 4875
+$Comp
+L power:GND #PWR032
+U 1 1 5FB85228
+P 2125 4875
+F 0 "#PWR032" H 2125 4625 50  0001 C CNN
+F 1 "GND" H 2130 4702 50  0000 C CNN
+F 2 "" H 2125 4875 50  0001 C CNN
+F 3 "" H 2125 4875 50  0001 C CNN
+	1    2125 4875
+	1    0    0    -1  
+$EndComp
+Connection ~ 2125 4875
+Wire Wire Line
+	2125 4875 2375 4875
+Wire Notes Line
+	5425 5725 5400 5725
+Wire Wire Line
+	1350 4375 1625 4375
+Wire Wire Line
+	1250 4375 1350 4375
+Connection ~ 1350 4375
+$Comp
+L Device:CP1 C16
+U 1 1 5FB85208
+P 1350 4525
+F 0 "C16" H 1465 4571 50  0000 L CNN
+F 1 "22uF" H 1465 4480 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1350 4525 50  0001 C CNN
+F 3 "~" H 1350 4525 50  0001 C CNN
+	1    1350 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 2975 3100 2975
+Connection ~ 3425 2975
+Connection ~ 3100 2975
+Wire Wire Line
+	3275 4375 3275 4025
+Wire Wire Line
+	3275 4375 2900 4375
+Connection ~ 3275 4375
+Connection ~ 2900 4375
+$Comp
+L Converter_DCDC:OKI-78SR-3.3_1.5-W36-C U12
+U 1 1 5FBCC116
+P 1925 4375
+F 0 "U12" H 1925 4617 50  0000 C CNN
+F 1 "OKI-78SR-3.3_1.5-W36-C" H 1925 4526 50  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 1975 4125 50  0001 L CIN
+F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 1925 4375 50  0001 C CNN
+	1    1925 4375
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
