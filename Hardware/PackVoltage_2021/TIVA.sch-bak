@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3750 4575 1    39   Output ~ 0
-BuckCTL
 $Comp
 L PackVoltage_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U24
 U 8 1 5F79167F
@@ -104,8 +102,6 @@ Wire Wire Line
 	3550 4675 3550 4575
 Wire Wire Line
 	3650 4675 3650 4575
-Wire Wire Line
-	3750 4675 3750 4575
 Wire Wire Line
 	2950 2850 2950 2950
 Wire Wire Line
@@ -426,4 +422,7 @@ NoConn ~ 5350 3100
 NoConn ~ 5250 3100
 NoConn ~ 5500 4350
 NoConn ~ 5400 4350
+Wire Wire Line
+	3750 4675 3750 4575
+NoConn ~ 3750 4575
 $EndSCHEMATC
