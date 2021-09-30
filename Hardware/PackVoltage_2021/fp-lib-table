@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name Custom)(type KiCad)(uri C:/Users/Leebo/OneDrive/Documents/GitHub/PackVoltage_Hardware/Libraries/Custom.pretty)(options "")(descr ""))
-  (lib (name Signature)(type KiCad)(uri C:/Users/Leebo/OneDrive/Documents/GitHub/PackVoltage_Hardware/Libraries/Signature.pretty)(options "")(descr ""))
-)
