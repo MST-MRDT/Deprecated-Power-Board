@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:PowerBoard_2022_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -91,7 +92,7 @@ Wire Wire Line
 	3050 1900 3050 1800
 Connection ~ 3050 1800
 Wire Wire Line
-	3050 1800 3350 1800
+	3050 1800 3200 1800
 Wire Wire Line
 	2650 1900 2650 1800
 Connection ~ 2650 1800
@@ -215,7 +216,7 @@ Wire Wire Line
 	3050 3650 3050 3550
 Connection ~ 3050 3550
 Wire Wire Line
-	3050 3550 3350 3550
+	3050 3550 3200 3550
 Wire Wire Line
 	2650 3650 2650 3550
 Connection ~ 2650 3550
@@ -281,6 +282,184 @@ F 1 "OKI-78SR-3.3_1.5-W36-C" H 2200 3701 50  0000 C CNN
 F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 2250 3300 50  0001 L CIN
 F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 2200 3550 50  0001 C CNN
 	1    2200 3550
+	1    0    0    -1  
+$EndComp
+Text HLabel 3200 1600 1    50   Input ~ 0
+5V
+Text HLabel 3200 3350 1    50   Input ~ 0
+3.3V
+Wire Wire Line
+	3200 1600 3200 1800
+Connection ~ 3200 1800
+Wire Wire Line
+	3200 1800 3350 1800
+Wire Wire Line
+	3200 3350 3200 3550
+Connection ~ 3200 3550
+Wire Wire Line
+	3200 3550 3350 3550
+$Comp
+L Converter_DCDC:OKI-78SR-12_1.0-W36-C U?
+U 1 1 6156C173
+P 6250 1800
+F 0 "U?" H 6250 2042 50  0000 C CNN
+F 1 "OKI-78SR-12_1.0-W36-C" H 6250 1951 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 6300 1550 50  0001 L CIN
+F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 6250 1800 50  0001 C CNN
+	1    6250 1800
+	1    0    0    -1  
+$EndComp
+Text HLabel 5400 1600 1    50   Input ~ 0
+PV
+$Comp
+L Device:CP1 C?
+U 1 1 61573A88
+P 5650 2050
+F 0 "C?" H 5765 2096 50  0000 L CNN
+F 1 "22uF" H 5765 2005 50  0000 L CNN
+F 2 "" H 5650 2050 50  0001 C CNN
+F 3 "~" H 5650 2050 50  0001 C CNN
+	1    5650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61573A8E
+P 7100 2050
+F 0 "C?" H 7215 2096 50  0000 L CNN
+F 1 "47uF" H 7215 2005 50  0000 L CNN
+F 2 "" H 7100 2050 50  0001 C CNN
+F 3 "~" H 7100 2050 50  0001 C CNN
+	1    7100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61573A94
+P 6700 2050
+F 0 "C?" H 6815 2096 50  0000 L CNN
+F 1 "10uF" H 6815 2005 50  0000 L CNN
+F 2 "" H 6738 1900 50  0001 C CNN
+F 3 "~" H 6700 2050 50  0001 C CNN
+	1    6700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61573A9A
+P 7550 1800
+F 0 "R?" V 7343 1800 50  0000 C CNN
+F 1 "1000" V 7434 1800 50  0000 C CNN
+F 2 "" V 7480 1800 50  0001 C CNN
+F 3 "~" H 7550 1800 50  0001 C CNN
+	1    7550 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61573AA0
+P 8100 1800
+F 0 "D?" H 8093 1545 50  0000 C CNN
+F 1 "LED" H 8093 1636 50  0000 C CNN
+F 2 "" H 8100 1800 50  0001 C CNN
+F 3 "~" H 8100 1800 50  0001 C CNN
+	1    8100 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 1600 5400 1800
+Wire Wire Line
+	5400 1800 5650 1800
+Wire Wire Line
+	6550 1800 6700 1800
+Wire Wire Line
+	7100 1900 7100 1800
+Connection ~ 7100 1800
+Wire Wire Line
+	7100 1800 7250 1800
+Wire Wire Line
+	6700 1900 6700 1800
+Connection ~ 6700 1800
+Wire Wire Line
+	6700 1800 7100 1800
+Wire Wire Line
+	5650 1900 5650 1800
+Connection ~ 5650 1800
+Wire Wire Line
+	5650 1800 5950 1800
+Wire Wire Line
+	5650 2200 5650 2500
+Wire Wire Line
+	5650 2500 6250 2500
+Wire Wire Line
+	7100 2500 7100 2200
+Wire Wire Line
+	6700 2200 6700 2500
+Connection ~ 6700 2500
+Wire Wire Line
+	6700 2500 7100 2500
+Wire Wire Line
+	6250 2100 6250 2500
+Connection ~ 6250 2500
+Wire Wire Line
+	6250 2500 6700 2500
+$Comp
+L power:GND #PWR?
+U 1 1 61573ABB
+P 6250 2600
+F 0 "#PWR?" H 6250 2350 50  0001 C CNN
+F 1 "GND" H 6255 2427 50  0000 C CNN
+F 2 "" H 6250 2600 50  0001 C CNN
+F 3 "" H 6250 2600 50  0001 C CNN
+	1    6250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61573AC1
+P 8500 1900
+F 0 "#PWR?" H 8500 1650 50  0001 C CNN
+F 1 "GND" H 8505 1727 50  0000 C CNN
+F 2 "" H 8500 1900 50  0001 C CNN
+F 3 "" H 8500 1900 50  0001 C CNN
+	1    8500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1900 8500 1800
+Wire Wire Line
+	8500 1800 8250 1800
+Wire Wire Line
+	7950 1800 7700 1800
+Wire Wire Line
+	6250 2600 6250 2500
+Text HLabel 7250 1600 1    50   Input ~ 0
+12V
+Wire Wire Line
+	7250 1600 7250 1800
+Connection ~ 7250 1800
+Wire Wire Line
+	7250 1800 7400 1800
+$Comp
+L MRDT_Devices:Q36SR12020NRFA VR?
+U 1 1 615E9106
+P 7700 4150
+F 0 "VR?" H 8217 4965 50  0000 C CNN
+F 1 "Q36SR12020NRFA" H 8217 4874 50  0000 C CNN
+F 2 "" H 8000 4950 50  0001 C CNN
+F 3 "" H 8000 4950 50  0001 C CNN
+	1    7700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Devices:Q36SR12020NRFA VR?
+U 1 1 615EA2C8
+P 3000 6450
+F 0 "VR?" H 3517 7265 50  0000 C CNN
+F 1 "Q36SR12020NRFA" H 3517 7174 50  0000 C CNN
+F 2 "" H 3300 7250 50  0001 C CNN
+F 3 "" H 3300 7250 50  0001 C CNN
+	1    3000 6450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
