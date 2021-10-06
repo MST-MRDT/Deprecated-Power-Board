@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -31,12 +31,6 @@ F0 "TIVA" 50
 F1 "TIVA.sch" 50
 $EndSheet
 $Sheet
-S 4800 1150 2850 2200
-U 615D7BA0
-F0 "MOSFETS_12V" 50
-F1 "Mosfet_12V.sch" 50
-$EndSheet
-$Sheet
 S 4800 3700 2650 2100
 U 615E92DD
 F0 "ANDERSONS" 50
@@ -59,5 +53,11 @@ F3 "5V" I L 1450 3800 50
 F4 "Anderson_M1" I L 1450 4900 50 
 F5 "Driver_M1" I R 4050 3750 50 
 F6 "Current_Sensor_M1" I R 4050 4900 50 
+$EndSheet
+$Sheet
+S 4800 1150 2850 2200
+U 615D7BA0
+F0 "12V" 50
+F1 "12V.sch" 50
 $EndSheet
 $EndSCHEMATC
