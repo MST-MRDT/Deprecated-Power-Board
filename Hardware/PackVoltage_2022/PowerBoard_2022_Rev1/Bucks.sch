@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -440,7 +440,7 @@ Connection ~ 7250 1800
 Wire Wire Line
 	7250 1800 7400 1800
 $Comp
-L MRDT_Devices:Q36SR12020NRFA VR?
+L PowerBoard_2022_Rev1-rescue:Q36SR12020NRFA-MRDT_Devices VR?
 U 1 1 615E9106
 P 7200 4000
 F 0 "VR?" H 7717 4815 50  0000 C CNN
@@ -451,7 +451,7 @@ F 3 "" H 7500 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Devices:Q36SR12020NRFA VR?
+L PowerBoard_2022_Rev1-rescue:Q36SR12020NRFA-MRDT_Devices VR?
 U 1 1 615EA2C8
 P 3000 6450
 F 0 "VR?" H 3517 7265 50  0000 C CNN
