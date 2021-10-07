@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 1500 1400 1800 2850
+U 6170B60A
+F0 "Low Current Outputs" 50
+F1 "Low Current Outputs.sch" 50
+$EndSheet
+$Sheet
+S 7550 1500 1650 2700
+U 6170B6A9
+F0 "High Current Outputs" 50
+F1 "High Current Outputs.sch" 50
+$EndSheet
 $EndSCHEMATC

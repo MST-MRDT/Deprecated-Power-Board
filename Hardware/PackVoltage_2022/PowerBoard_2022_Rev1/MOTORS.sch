@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -452,11 +452,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 1500 6250 1500
 Text HLabel 9400 2050 2    50   Input ~ 0
-Anderson_M1
+Anderson_M2
 Text HLabel 6250 1500 0    50   Input ~ 0
-Driver_M1
+Driver_M2
 Text HLabel 9800 1450 2    50   Input ~ 0
-Current_Sensor_M1
+Current_Sensor_M2
 Wire Wire Line
 	6450 2150 7150 2150
 Wire Wire Line
@@ -691,11 +691,11 @@ Wire Wire Line
 Wire Wire Line
 	1500 3100 1200 3100
 Text HLabel 4350 3650 2    50   Input ~ 0
-Anderson_M1
+Anderson_M3
 Text HLabel 1200 3100 0    50   Input ~ 0
-Driver_M1
+Driver_M3
 Text HLabel 4750 3050 2    50   Input ~ 0
-Current_Sensor_M1
+Current_Sensor_M3
 Wire Wire Line
 	1400 3750 2100 3750
 Wire Wire Line
@@ -930,11 +930,11 @@ Wire Wire Line
 Wire Wire Line
 	6600 3150 6300 3150
 Text HLabel 9450 3700 2    50   Input ~ 0
-Anderson_M1
+Anderson_M4
 Text HLabel 6300 3150 0    50   Input ~ 0
-Driver_M1
+Driver_M4
 Text HLabel 9850 3100 2    50   Input ~ 0
-Current_Sensor_M1
+Current_Sensor_M4
 Wire Wire Line
 	6500 3800 7200 3800
 Wire Wire Line
@@ -1169,11 +1169,11 @@ Wire Wire Line
 Wire Wire Line
 	1500 4750 1200 4750
 Text HLabel 4350 5300 2    50   Input ~ 0
-Anderson_M1
+Anderson_M5
 Text HLabel 1200 4750 0    50   Input ~ 0
-Driver_M1
+Driver_M5
 Text HLabel 4750 4700 2    50   Input ~ 0
-Current_Sensor_M1
+Current_Sensor_M5
 Wire Wire Line
 	1400 5400 2100 5400
 Wire Wire Line
@@ -1408,11 +1408,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 6450 1750 6450
 Text HLabel 4900 7000 2    50   Input ~ 0
-Anderson_M1
+Anderson_M7
 Text HLabel 1750 6450 0    50   Input ~ 0
-Driver_M1
+Driver_M7
 Text HLabel 5300 6400 2    50   Input ~ 0
-Current_Sensor_M1
+Current_Sensor_M7
 Wire Wire Line
 	1950 7100 2650 7100
 Wire Wire Line
@@ -1647,11 +1647,11 @@ Wire Wire Line
 Wire Wire Line
 	6650 5150 6350 5150
 Text HLabel 9500 5700 2    50   Input ~ 0
-Anderson_M1
+Anderson_M6
 Text HLabel 6350 5150 0    50   Input ~ 0
-Driver_M1
+Driver_M6
 Text HLabel 9900 5100 2    50   Input ~ 0
-Current_Sensor_M1
+Current_Sensor_M6
 Wire Wire Line
 	6550 5800 7250 5800
 Wire Wire Line
