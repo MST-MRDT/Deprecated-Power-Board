@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_ICs:LT1910 U?
+L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
 U 1 1 619034E0
 P 1750 2150
 AR Path="/615D5992/619034E0" Ref="U?"  Part="1" 
@@ -197,7 +197,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 2600 4150 2700
 $Comp
-L MRDT_ICs:INA281 U?
+L PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U?
 U 1 1 61903531
 P 4300 1850
 AR Path="/615D5992/61903531" Ref="U?"  Part="1" 
@@ -293,7 +293,7 @@ Text HLabel 2850 1300 0    50   Input ~ 0
 Wire Wire Line
 	2850 1350 2850 1300
 $Comp
-L MRDT_ICs:LT1910 U?
+L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
 U 1 1 6191E0EE
 P 6700 2300
 AR Path="/615D5992/6191E0EE" Ref="U?"  Part="1" 
@@ -476,7 +476,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 2750 9100 2850
 $Comp
-L MRDT_ICs:INA281 U?
+L PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U?
 U 1 1 6191E13F
 P 9250 2000
 AR Path="/615D5992/6191E13F" Ref="U?"  Part="1" 

@@ -142,7 +142,7 @@ Wire Wire Line
 Wire Wire Line
 	700  1600 800  1600
 $Comp
-L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
+L MRDT_ICs:LT1910 U?
 U 1 1 6179FA4E
 P 2100 3700
 AR Path="/615D5992/6179FA4E" Ref="U?"  Part="1" 
@@ -325,7 +325,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 1300 2650 1300
 $Comp
-L PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U?
+L MRDT_ICs:INA281 U?
 U 1 1 6179FA9F
 P 1800 1150
 AR Path="/615D5992/6179FA9F" Ref="U?"  Part="1" 
@@ -729,7 +729,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 1350 5200 1350
 $Comp
-L PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U?
+L MRDT_ICs:INA281 U?
 U 1 1 61821673
 P 4350 1200
 AR Path="/615D5992/61821673" Ref="U?"  Part="1" 
@@ -964,7 +964,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 1700 5900 1700
 $Comp
-L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
+L MRDT_ICs:LT1910 U?
 U 1 1 61833025
 P 7200 3800
 AR Path="/615D5992/61833025" Ref="U?"  Part="1" 
@@ -1147,7 +1147,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 1400 7750 1400
 $Comp
-L PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U?
+L MRDT_ICs:INA281 U?
 U 1 1 61833076
 P 6900 1250
 AR Path="/615D5992/61833076" Ref="U?"  Part="1" 
@@ -1382,7 +1382,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 1700 8550 1700
 $Comp
-L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
+L MRDT_ICs:LT1910 U?
 U 1 1 618425F7
 P 9850 3800
 AR Path="/615D5992/618425F7" Ref="U?"  Part="1" 
@@ -1565,7 +1565,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 1400 10400 1400
 $Comp
-L PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U?
+L MRDT_ICs:INA281 U?
 U 1 1 61842648
 P 9550 1250
 AR Path="/615D5992/61842648" Ref="U?"  Part="1" 
@@ -1672,7 +1672,7 @@ Connection ~ 8450 2150
 Wire Wire Line
 	8450 2150 8450 2550
 $Comp
-L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
+L MRDT_ICs:LT1910 U?
 U 1 1 61821622
 P 4650 3750
 AR Path="/615D5992/61821622" Ref="U?"  Part="1" 
@@ -1814,7 +1814,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 6900 1500 6800
 $Comp
-L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
+L MRDT_ICs:LT1910 U?
 U 1 1 618D8D9D
 P 3600 5500
 AR Path="/615D5992/618D8D9D" Ref="U?"  Part="1" 
@@ -1986,7 +1986,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 5050 1200 4950
 $Comp
-L PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U?
+L MRDT_ICs:INA281 U?
 U 1 1 618D8DEE
 P 1050 5800
 AR Path="/615D5992/618D8DEE" Ref="U?"  Part="1" 
