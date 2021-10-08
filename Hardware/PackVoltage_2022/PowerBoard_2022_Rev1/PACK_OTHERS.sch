@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -116,7 +116,7 @@ P 3200 1800
 AR Path="/615D5992/6160E165" Ref="Q?"  Part="1" 
 AR Path="/61609A41/6160E165" Ref="Q?"  Part="1" 
 F 0 "Q?" H 3100 1600 50  0000 L CNN
-F 1 "BUK7M8R0-40EX" H 3050 1500 50  0000 L CNN
+F 1 "BUK7M8R5-40HX" H 3050 1500 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:LFPAK33" H 3400 1725 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 3200 1800 50  0001 L CNN
 	1    3200 1800
@@ -376,19 +376,6 @@ Wire Wire Line
 	8100 1200 8250 1200
 Wire Wire Line
 	8250 1200 8250 1300
-$Comp
-L Transistor_FET:BUK7M8R0-40EX Q?
-U 1 1 61612B40
-P 8650 1900
-AR Path="/615D5992/61612B40" Ref="Q?"  Part="1" 
-AR Path="/61609A41/61612B40" Ref="Q?"  Part="1" 
-F 0 "Q?" H 8550 1700 50  0000 L CNN
-F 1 "BUK7M8R0-40EX" H 8500 1600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 8850 1825 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 8650 1900 50  0001 L CNN
-	1    8650 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8250 1700 8750 1700
 Wire Wire Line
@@ -650,7 +637,7 @@ P 3250 3900
 AR Path="/615D5992/6161A090" Ref="Q?"  Part="1" 
 AR Path="/61609A41/6161A090" Ref="Q?"  Part="1" 
 F 0 "Q?" H 3150 3700 50  0000 L CNN
-F 1 "BUK7M8R0-40EX" H 3100 3600 50  0000 L CNN
+F 1 "BUK7M8R5-40HX" H 3100 3600 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:LFPAK33" H 3450 3825 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 3250 3900 50  0001 L CNN
 	1    3250 3900
@@ -917,7 +904,7 @@ P 8450 4000
 AR Path="/615D5992/616211F5" Ref="Q?"  Part="1" 
 AR Path="/61609A41/616211F5" Ref="Q?"  Part="1" 
 F 0 "Q?" H 8350 3800 50  0000 L CNN
-F 1 "BUK7M8R0-40EX" H 8300 3700 50  0000 L CNN
+F 1 "BUK7M8R5-40HX" H 8300 3700 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:LFPAK33" H 8650 3925 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 8450 4000 50  0001 L CNN
 	1    8450 4000
@@ -1184,7 +1171,7 @@ P 3500 6200
 AR Path="/615D5992/616288D7" Ref="Q?"  Part="1" 
 AR Path="/61609A41/616288D7" Ref="Q?"  Part="1" 
 F 0 "Q?" H 3400 6000 50  0000 L CNN
-F 1 "BUK7M8R0-40EX" H 3350 5900 50  0000 L CNN
+F 1 "BUK7M8R5-40HX" H 3350 5900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:LFPAK33" H 3700 6125 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 3500 6200 50  0001 L CNN
 	1    3500 6200
@@ -1348,4 +1335,17 @@ Wire Wire Line
 Wire Wire Line
 	3750 6000 4000 6000
 Connection ~ 4000 6000
+$Comp
+L Transistor_FET:BUK7M8R0-40EX Q?
+U 1 1 61612B40
+P 8650 1900
+AR Path="/615D5992/61612B40" Ref="Q?"  Part="1" 
+AR Path="/61609A41/61612B40" Ref="Q?"  Part="1" 
+F 0 "Q?" H 8550 1700 50  0000 L CNN
+F 1 "BUK7M8R5-40HX" H 8500 1600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 8850 1825 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 8650 1900 50  0001 L CNN
+	1    8650 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

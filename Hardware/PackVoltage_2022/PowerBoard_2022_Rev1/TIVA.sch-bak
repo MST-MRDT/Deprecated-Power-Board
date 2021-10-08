@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L PowerBoard_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 1 1 6158A6C0
 P 1850 2300
 F 0 "U?" H 1750 2200 60  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "" H 1850 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L PowerBoard_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 3 1 6158D78C
 P 5350 2300
 F 0 "U?" H 5250 2200 60  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "" H 5350 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L PowerBoard_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 5 1 6159114C
 P 1850 4050
 F 0 "U?" H 1750 4000 60  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "" H 1850 4050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L PowerBoard_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 7 1 6159532D
 P 5350 4050
 F 0 "U?" H 5250 3950 60  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "" H 5350 4050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L PowerBoard_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 4 1 6159FCAE
 P 5950 2300
 F 0 "U?" H 5950 3550 60  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 5950 2300 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L PowerBoard_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 6 1 615A50D2
 P 2400 4050
 F 0 "U?" H 2450 5300 60  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "" H 2400 4050 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L PowerBoard_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 8 1 615A8D41
 P 5950 4050
 F 0 "U?" H 5950 5300 60  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "" H 5950 4050 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L PowerBoard_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 2 1 6159A0CA
 P 2400 2300
 F 0 "U?" H 2400 3600 60  0000 C CNN
@@ -101,4 +101,102 @@ F 3 "" H 2400 2300 60  0001 C CNN
 	2    2400 2300
 	-1   0    0    -1  
 $EndComp
+Text HLabel 1550 1350 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	1550 1350 1650 1350
+Text HLabel 1550 3100 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	1550 3100 1650 3100
+$Comp
+L power:GND #PWR?
+U 1 1 61617E3D
+P 3150 3200
+F 0 "#PWR?" H 3150 2950 50  0001 C CNN
+F 1 "GND" H 3155 3027 50  0000 C CNN
+F 2 "" H 3150 3200 50  0001 C CNN
+F 3 "" H 3150 3200 50  0001 C CNN
+	1    3150 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3200 2600 3200
+$Comp
+L power:GND #PWR?
+U 1 1 61619870
+P 3150 1450
+F 0 "#PWR?" H 3150 1200 50  0001 C CNN
+F 1 "GND" H 3155 1277 50  0000 C CNN
+F 2 "" H 3150 1450 50  0001 C CNN
+F 3 "" H 3150 1450 50  0001 C CNN
+	1    3150 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1450 2600 1450
+$Comp
+L power:GND #PWR?
+U 1 1 61619BA9
+P 6700 1350
+F 0 "#PWR?" H 6700 1100 50  0001 C CNN
+F 1 "GND" H 6705 1177 50  0000 C CNN
+F 2 "" H 6700 1350 50  0001 C CNN
+F 3 "" H 6700 1350 50  0001 C CNN
+	1    6700 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1350 6150 1350
+$Comp
+L power:GND #PWR?
+U 1 1 6161A1E2
+P 6700 3100
+F 0 "#PWR?" H 6700 2850 50  0001 C CNN
+F 1 "GND" H 6705 2927 50  0000 C CNN
+F 2 "" H 6700 3100 50  0001 C CNN
+F 3 "" H 6700 3100 50  0001 C CNN
+	1    6700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3100 6150 3100
+NoConn ~ 2600 1350
+NoConn ~ 2600 3100
+Text HLabel 4200 650  0    50   Input ~ 0
+Current_Sensor_M1
+Text HLabel 4200 750  0    50   Input ~ 0
+Current_Sensor_M2
+Text HLabel 4200 850  0    50   Input ~ 0
+Current_Sensor_M3
+Text HLabel 4200 950  0    50   Input ~ 0
+Current_Sensor_M4
+Text HLabel 4200 1050 0    50   Input ~ 0
+Current_Sensor_M5
+Text HLabel 4200 1150 0    50   Input ~ 0
+Current_Sensor_M6
+Text HLabel 4200 1250 0    50   Input ~ 0
+Current_Sensor_M7
+Text HLabel 4200 1350 0    50   Input ~ 0
+Driver_M1
+Text HLabel 4200 1450 0    50   Input ~ 0
+Driver_M2
+Text HLabel 4200 1550 0    50   Input ~ 0
+Driver_M3
+Text HLabel 4200 1650 0    50   Input ~ 0
+Driver_M4
+Text HLabel 4200 1850 0    50   Input ~ 0
+Driver_M6
+Text HLabel 4200 1750 0    50   Input ~ 0
+Driver_M5
+Text HLabel 4200 1950 0    50   Input ~ 0
+Driver_M7
+Text HLabel 4200 2050 0    50   Input ~ 0
+Current_Sensor_POE
+Text HLabel 4200 2150 0    50   Input ~ 0
+Driver_POE
+Text HLabel 4200 2250 0    50   Input ~ 0
+Current_Sensor_BBB
+Text HLabel 4200 2350 0    50   Input ~ 0
+Driver_BBB
 $EndSCHEMATC
