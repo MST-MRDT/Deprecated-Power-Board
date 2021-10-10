@@ -14,69 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 7100 4750 1350 1200
-U 61563C60
-F0 "Bucks" 50
-F1 "Bucks.sch" 50
-F2 "PV" I L 7100 4800 50 
-F3 "5V" I L 7100 4900 50 
-F4 "3.3V" I L 7100 5000 50 
-F5 "12VA" I L 7100 5100 50 
-F6 "12V.1" I L 7100 5250 50 
-F7 "12V.3" I L 7100 5450 50 
-F8 "12V.5" I L 7100 5650 50 
-F9 "12V.7" I L 7100 5850 50 
-F10 "12V.2" I L 7100 5350 50 
-F11 "12V.4" I L 7100 5550 50 
-F12 "12V.6" I L 7100 5750 50 
-$EndSheet
-$Sheet
-S 1650 800  2050 2200
-U 6158A510
-F0 "TIVA" 50
-F1 "TIVA.sch" 50
-F2 "3V3" I R 3700 850 50 
-F3 "Current_Sensor_M1" I L 1650 850 50 
-F4 "Current_Sensor_M2" I L 1650 950 50 
-F5 "Current_Sensor_M3" I L 1650 1050 50 
-F6 "Current_Sensor_M4" I L 1650 1150 50 
-F7 "Current_Sensor_M5" I L 1650 1250 50 
-F8 "Current_Sensor_M6" I L 1650 1350 50 
-F9 "Current_Sensor_M7" I L 1650 1450 50 
-F10 "Driver_M1" I L 1650 1550 50 
-F11 "Driver_M2" I L 1650 1650 50 
-F12 "Driver_M3" I L 1650 1750 50 
-F13 "Driver_M4" I L 1650 1850 50 
-F14 "Driver_M6" I L 1650 2050 50 
-F15 "Driver_M5" I L 1650 1950 50 
-F16 "Driver_M7" I L 1650 2150 50 
-F17 "Current_Sensor_POE" I R 3700 950 50 
-F18 "Driver_POE" I R 3700 2550 50 
-F19 "Current_Sensor_BBB" I R 3700 1050 50 
-F20 "Driver_BBB" I R 3700 2450 50 
-F21 "Current_Sensor_Nav" I R 3700 1150 50 
-F22 "Driver_Nav" I R 3700 2350 50 
-F23 "Current_Sensor_Cam1" I R 3700 1250 50 
-F24 "Driver_Cam1" I L 1650 2300 50 
-F25 "Current_Sensor_Cam2" I R 3700 1350 50 
-F26 "Driver_Cam2" I L 1650 2400 50 
-F27 "Current_Sensor_SciSensor" I R 3700 1450 50 
-F28 "Driver_SciSensor" I L 1650 2500 50 
-F29 "Current_Sensor_Gimbal" I R 3700 1550 50 
-F30 "Driver_Gimbal" I L 1650 2600 50 
-F31 "Current_Sensor_Aux" I R 3700 1650 50 
-F32 "Driver_Aux" I L 1650 2700 50 
-F33 "Driver_Spare" I R 3700 2650 50 
-F34 "Current_Sensor_NetSwitch" I R 3700 2050 50 
-F35 "Driver_NetSwitch" I R 3700 2750 50 
-F36 "Current_Sensor_Multimedia" I R 3700 1950 50 
-F37 "Driver_Multimedia" I R 3700 2850 50 
-F38 "Current_Sensor_Drive" I R 3700 1750 50 
-F39 "Driver_Drive" I L 1650 2900 50 
-F40 "Current_Sensor_SciHeater" I R 3700 1850 50 
-F41 "Driver_SciHeater" I L 1650 2800 50 
-$EndSheet
-$Sheet
 S 7100 3000 1750 1200
 U 615E92DD
 F0 "ANDERSONS" 50
@@ -103,56 +40,21 @@ F20 "Anderson_NetSwitch" I R 8850 3700 50
 F21 "Anderson_Spare" I R 8850 3800 50 
 $EndSheet
 $Sheet
-S 1650 5900 1450 1450
-U 615D5992
-F0 "MOTORS" 50
-F1 "MOTORS.sch" 50
-F2 "PV" I L 1650 5950 50 
-F3 "5V" I L 1650 6050 50 
-F4 "Anderson_M1" I L 1650 7250 50 
-F5 "Driver_M1" I R 3100 5950 50 
-F6 "Current_Sensor_M1" I R 3100 7250 50 
-F7 "Anderson_M2" I L 1650 7150 50 
-F8 "Driver_M2" I R 3100 6050 50 
-F9 "Current_Sensor_M2" I R 3100 7150 50 
-F10 "Anderson_M3" I L 1650 7050 50 
-F11 "Driver_M3" I R 3100 6150 50 
-F12 "Current_Sensor_M3" I R 3100 7050 50 
-F13 "Anderson_M4" I L 1650 6950 50 
-F14 "Driver_M4" I R 3100 6250 50 
-F15 "Current_Sensor_M4" I R 3100 6950 50 
-F16 "Anderson_M5" I L 1650 6850 50 
-F17 "Driver_M5" I R 3100 6350 50 
-F18 "Current_Sensor_M5" I R 3100 6850 50 
-F19 "Anderson_M7" I L 1650 6650 50 
-F20 "Driver_M7" I R 3100 6550 50 
-F21 "Current_Sensor_M7" I R 3100 6650 50 
-F22 "Anderson_M6" I L 1650 6750 50 
-F23 "Driver_M6" I R 3100 6450 50 
-F24 "Current_Sensor_M6" I R 3100 6750 50 
-$EndSheet
-$Sheet
 S 7100 1050 2050 1350
 U 61609A41
 F0 "PACK_OTHERS" 50
 F1 "PACK_OTHERS.sch" 50
 F2 "PV" I L 7100 1100 50 
 F3 "5V" I L 7100 1200 50 
-F4 "Anderson_Drive" I L 7100 2300 50 
-F5 "Driver_Drive" I R 9150 1150 50 
-F6 "Current_Sensor_Drive" I R 9150 2300 50 
-F7 "Anderson_Aux" I L 7100 2200 50 
-F8 "Driver_Aux" I R 9150 1250 50 
-F9 "Current_Sensor_Aux" I R 9150 2200 50 
-F10 "Anderson_SciHeater" I L 7100 2100 50 
-F11 "Driver_SciHeater" I R 9150 1350 50 
-F12 "Current_Sensor_SciHeater" I R 9150 2100 50 
-F13 "Anderson_Multimedia" I L 7100 2000 50 
-F14 "Driver_Multimedia" I R 9150 1450 50 
-F15 "Current_Sensor_Multimedia" I R 9150 2000 50 
-F16 "Anderson_POE" I L 7100 1900 50 
-F17 "Driver_POE" I R 9150 1550 50 
-F18 "Current_Sensor_POE" I R 9150 1900 50 
+F4 "Driver_Aux" I R 9150 1250 50 
+F5 "Current_Sensor_Aux" O R 9150 2200 50 
+F6 "Driver_SciHeater" I R 9150 1350 50 
+F7 "Current_Sensor_SciHeater" O R 9150 2100 50 
+F8 "Driver_POE" I R 9150 1150 50 
+F9 "Current_Sensor_POE" O R 9150 2300 50 
+F10 "Anderson_Aux" O L 7100 2200 50 
+F11 "Anderson_SciHeater" O L 7100 2100 50 
+F12 "Anderson_POE" O L 7100 2300 50 
 $EndSheet
 Text GLabel 7000 4800 0    50   Input ~ 0
 PV
@@ -174,8 +76,6 @@ Text GLabel 7000 4900 0    50   Input ~ 0
 5V
 Text GLabel 7000 5000 0    50   Input ~ 0
 3.3V
-Text GLabel 7000 5250 0    50   Input ~ 0
-12V.1
 Text GLabel 7000 5100 0    50   Input ~ 0
 12VA
 Text GLabel 3750 3450 2    50   Input ~ 0
@@ -198,7 +98,7 @@ Wire Wire Line
 	7000 5250 7100 5250
 Wire Wire Line
 	7100 5100 7000 5100
-Text GLabel 3750 4400 2    50   Input ~ 0
+Text GLabel 3750 5300 2    50   Input ~ 0
 Driver_Nav
 Text GLabel 3750 4500 2    50   Input ~ 0
 Driver_SciSensor
@@ -216,8 +116,6 @@ Text GLabel 3750 5100 2    50   Input ~ 0
 Driver_Aux
 Text GLabel 3750 5200 2    50   Input ~ 0
 Driver_Spare
-Wire Wire Line
-	3750 4400 3650 4400
 Wire Wire Line
 	3650 4500 3750 4500
 Wire Wire Line
@@ -304,48 +202,6 @@ Wire Wire Line
 	1650 5200 1550 5200
 Wire Wire Line
 	1550 5100 1650 5100
-$Sheet
-S 1650 3300 2000 2000
-U 615D7BA0
-F0 "12V" 50
-F1 "12V.sch" 50
-F2 "Anderson_Aux" I L 1650 3400 50 
-F3 "PV" I R 3650 3350 50 
-F4 "5V" I R 3650 3450 50 
-F5 "Anderson_Spare" I L 1650 3500 50 
-F6 "Anderson_Nav" I L 1650 3600 50 
-F7 "Anderson_SciSensor" I L 1650 3700 50 
-F8 "Anderson_BBB" I L 1650 3800 50 
-F9 "Anderson_Cam1" I L 1650 3900 50 
-F10 "Anderson_Cam2" I L 1650 4000 50 
-F11 "Anderson_NetSwitch" I L 1650 4100 50 
-F12 "Anderson_Gimbal" I L 1650 4200 50 
-F13 "Driver_Nav" I R 3650 4400 50 
-F14 "Driver_SciSensor" I R 3650 4500 50 
-F15 "Driver_BBB" I R 3650 4600 50 
-F16 "Driver_Cam1" I R 3650 4700 50 
-F17 "Driver_Cam2" I R 3650 4800 50 
-F18 "Driver_NetSwitch" I R 3650 4900 50 
-F19 "Driver_Gimbal" I R 3650 5000 50 
-F20 "Driver_Aux" I R 3650 5100 50 
-F21 "Driver_Spare" I R 3650 5200 50 
-F22 "Current_Sensor_BBB" I L 1650 4400 50 
-F23 "Current_Sensor_Nav" I L 1650 4500 50 
-F24 "Current_Sensor_SciSensor" I L 1650 4600 50 
-F25 "Current_Sensor_Cam1" I L 1650 4700 50 
-F26 "Current_Sensor_Cam2" I L 1650 4800 50 
-F27 "Current_Sensor_NetSwitch" I L 1650 4900 50 
-F28 "Current_Sensor_Gimbal" I L 1650 5000 50 
-F29 "Current_Sensor_Aux" I L 1650 5100 50 
-F30 "Current_Sensor_Spare" I L 1650 5200 50 
-F31 "12V.1" I R 3650 3550 50 
-F32 "12V.2" I R 3650 3650 50 
-F33 "12V.3" I R 3650 3750 50 
-F34 "12V.4" I R 3650 3850 50 
-F35 "12V.5" I R 3650 3950 50 
-F36 "12V.6" I R 3650 4050 50 
-F37 "12V.7" I R 3650 4150 50 
-$EndSheet
 Text GLabel 1550 3500 0    50   Input ~ 0
 Anderson_Spare
 Text GLabel 8950 3900 2    50   Input ~ 0
@@ -429,19 +285,11 @@ Wire Wire Line
 Wire Wire Line
 	7100 4100 7000 4100
 Text GLabel 7000 2300 0    50   Input ~ 0
-Anderson_Drive
-Text GLabel 7000 1900 0    50   Input ~ 0
 Anderson_POE
-Text GLabel 7000 2000 0    50   Input ~ 0
-Anderson_Multimedia
 Text GLabel 7000 2100 0    50   Input ~ 0
 Anderson_SciHeater
 Wire Wire Line
-	7000 2300 7100 2300
-Wire Wire Line
-	7100 1900 7000 1900
-Wire Wire Line
-	7000 2000 7100 2000
+	7100 2300 7000 2300
 Wire Wire Line
 	7100 2100 7000 2100
 Text GLabel 7000 2200 0    50   Input ~ 0
@@ -504,46 +352,30 @@ Wire Wire Line
 	3100 7150 3200 7150
 Wire Wire Line
 	3200 7250 3100 7250
-Text GLabel 9250 1150 2    50   Input ~ 0
-Driver_Drive
 Text GLabel 9250 1250 2    50   Input ~ 0
 Driver_Aux
-Text GLabel 9250 1450 2    50   Input ~ 0
-Driver_Multimedia
-Text GLabel 9250 1550 2    50   Input ~ 0
+Text GLabel 9250 1150 2    50   Input ~ 0
 Driver_POE
-Wire Wire Line
-	9250 1150 9150 1150
 Wire Wire Line
 	9150 1250 9250 1250
 Wire Wire Line
 	9250 1350 9150 1350
 Wire Wire Line
-	9150 1450 9250 1450
+	9250 1150 9150 1150
 Wire Wire Line
-	9250 1550 9150 1550
-Wire Wire Line
-	9150 1900 9250 1900
-Wire Wire Line
-	9150 2000 9250 2000
+	9150 2300 9250 2300
 Wire Wire Line
 	9150 2100 9250 2100
 Wire Wire Line
 	9150 2200 9250 2200
-Wire Wire Line
-	9150 2300 9250 2300
 Text GLabel 9250 1350 2    50   Input ~ 0
 Driver_SciHeater
-Text GLabel 9250 1900 2    50   Input ~ 0
+Text GLabel 9250 2300 2    50   Input ~ 0
 Current_Sensor_POE
-Text GLabel 9250 2000 2    50   Input ~ 0
-Current_Sensor_Multimedia
 Text GLabel 9250 2100 2    50   Input ~ 0
 Current_Sensor_SciHeater
 Text GLabel 9250 2200 2    50   Input ~ 0
 Current_Sensor_Aux
-Text GLabel 9250 2300 2    50   Input ~ 0
-Current_Sensor_Drive
 Text GLabel 1550 850  0    50   Input ~ 0
 Current_Sensor_M1
 Text GLabel 1550 950  0    50   Input ~ 0
@@ -863,18 +695,6 @@ Wire Wire Line
 	8850 5200 9300 5200
 Connection ~ 8850 5200
 Connection ~ 9300 5200
-Text GLabel 7000 5350 0    50   Input ~ 0
-12V.2
-Text GLabel 7000 5450 0    50   Input ~ 0
-12V.3
-Text GLabel 7000 5550 0    50   Input ~ 0
-12V.4
-Text GLabel 7000 5650 0    50   Input ~ 0
-12V.5
-Text GLabel 7000 5750 0    50   Input ~ 0
-12V.6
-Text GLabel 7000 5850 0    50   Input ~ 0
-12V.7
 Wire Wire Line
 	7000 5350 7100 5350
 Wire Wire Line
@@ -887,22 +707,49 @@ Wire Wire Line
 	7000 5750 7100 5750
 Wire Wire Line
 	7100 5850 7000 5850
-Text GLabel 3750 3550 2    50   Input ~ 0
-12V.1
+$Sheet
+S 7100 4750 1200 1400
+U 61563C60
+F0 "Bucks" 50
+F1 "Bucks.sch" 50
+F2 "PV" I L 7100 4800 50 
+F3 "5V" O L 7100 4900 50 
+F4 "3.3V" O L 7100 5000 50 
+F5 "12VA" O L 7100 5100 50 
+F6 "12VCam1" O L 7100 5250 50 
+F7 "12VSciSensor" O L 7100 5350 50 
+F8 "12VMultimedia" O L 7100 5450 50 
+F9 "12VDrive" O L 7100 5550 50 
+F10 "12VBBB" O L 7100 5650 50 
+F11 "12VNav" O L 7100 5750 50 
+F12 "12VGimbal" O L 7100 5850 50 
+F13 "12VCam2" O L 7100 5950 50 
+F14 "12VNetSwitch" O L 7100 6050 50 
+$EndSheet
+Wire Wire Line
+	7100 5950 7000 5950
+Wire Wire Line
+	7100 6050 7000 6050
+Text GLabel 7000 5250 0    50   Input ~ 0
+12VCam1
+Text GLabel 7000 5350 0    50   Input ~ 0
+12VSciSensor
+Text GLabel 7000 5450 0    50   Input ~ 0
+12VMultimedia
+Text GLabel 7000 5550 0    50   Input ~ 0
+12VDrive
+Text GLabel 7000 5650 0    50   Input ~ 0
+12VBBB
+Text GLabel 7000 5750 0    50   Input ~ 0
+12VNav
+Text GLabel 7000 5850 0    50   Input ~ 0
+12VGimbal
+Text GLabel 7000 5950 0    50   Input ~ 0
+12VCam2
+Text GLabel 7000 6050 0    50   Input ~ 0
+12VNetSwitch
 Wire Wire Line
 	3750 3550 3650 3550
-Text GLabel 3750 3650 2    50   Input ~ 0
-12V.2
-Text GLabel 3750 3750 2    50   Input ~ 0
-12V.3
-Text GLabel 3750 3850 2    50   Input ~ 0
-12V.4
-Text GLabel 3750 3950 2    50   Input ~ 0
-12V.5
-Text GLabel 3750 4050 2    50   Input ~ 0
-12V.6
-Text GLabel 3750 4150 2    50   Input ~ 0
-12V.7
 Wire Wire Line
 	3750 3650 3650 3650
 Wire Wire Line
@@ -915,4 +762,124 @@ Wire Wire Line
 	3750 4050 3650 4050
 Wire Wire Line
 	3650 4150 3750 4150
+Wire Wire Line
+	3650 4250 3750 4250
+Wire Wire Line
+	3650 4350 3750 4350
+Text GLabel 3750 3550 2    50   Input ~ 0
+12VCam1
+Text GLabel 3750 3650 2    50   Input ~ 0
+12VSciSensor
+Text GLabel 3750 3750 2    50   Input ~ 0
+12VMultimedia
+Text GLabel 3750 3850 2    50   Input ~ 0
+12VDrive
+Text GLabel 3750 3950 2    50   Input ~ 0
+12VBBB
+Text GLabel 3750 4050 2    50   Input ~ 0
+12VNav
+Text GLabel 3750 4150 2    50   Input ~ 0
+12VGimbal
+Text GLabel 3750 4250 2    50   Input ~ 0
+12VCam2
+Text GLabel 3750 4350 2    50   Input ~ 0
+12VNetSwitch
+$Sheet
+S 1650 3300 2000 2200
+U 615D7BA0
+F0 "12V" 50
+F1 "12V.sch" 50
+F2 "Anderson_Aux" I L 1650 3400 50 
+F3 "PV" I R 3650 3350 50 
+F4 "5V" I R 3650 3450 50 
+F5 "Anderson_Spare" I L 1650 3500 50 
+F6 "Anderson_Nav" I L 1650 3600 50 
+F7 "Anderson_SciSensor" I L 1650 3700 50 
+F8 "Anderson_BBB" I L 1650 3800 50 
+F9 "Anderson_Cam1" I L 1650 3900 50 
+F10 "Anderson_Cam2" I L 1650 4000 50 
+F11 "Anderson_NetSwitch" I L 1650 4100 50 
+F12 "Anderson_Gimbal" I L 1650 4200 50 
+F13 "Driver_Nav" I R 3650 5300 50 
+F14 "Driver_SciSensor" I R 3650 4500 50 
+F15 "Driver_BBB" I R 3650 4600 50 
+F16 "Driver_Cam1" I R 3650 4700 50 
+F17 "Driver_Cam2" I R 3650 4800 50 
+F18 "Driver_NetSwitch" I R 3650 4900 50 
+F19 "Driver_Gimbal" I R 3650 5000 50 
+F20 "Driver_Aux" I R 3650 5100 50 
+F21 "Driver_Spare" I R 3650 5200 50 
+F22 "Current_Sensor_BBB" I L 1650 4400 50 
+F23 "Current_Sensor_Nav" I L 1650 4500 50 
+F24 "Current_Sensor_SciSensor" I L 1650 4600 50 
+F25 "Current_Sensor_Cam1" I L 1650 4700 50 
+F26 "Current_Sensor_Cam2" I L 1650 4800 50 
+F27 "Current_Sensor_NetSwitch" I L 1650 4900 50 
+F28 "Current_Sensor_Gimbal" I L 1650 5000 50 
+F29 "Current_Sensor_Aux" I L 1650 5100 50 
+F30 "Current_Sensor_Spare" I L 1650 5200 50 
+$EndSheet
+Wire Wire Line
+	3750 5300 3650 5300
+$Sheet
+S 1650 800  2050 2200
+U 6158A510
+F0 "TIVA" 50
+F1 "TIVA.sch" 50
+F2 "3V3" I R 3700 850 50 
+F3 "Current_Sensor_M1" I L 1650 850 50 
+F4 "Current_Sensor_M2" I L 1650 950 50 
+F5 "Current_Sensor_M3" I L 1650 1050 50 
+F6 "Current_Sensor_M4" I L 1650 1150 50 
+F7 "Current_Sensor_M5" I L 1650 1250 50 
+F8 "Current_Sensor_M6" I L 1650 1350 50 
+F9 "Current_Sensor_M7" I L 1650 1450 50 
+F10 "Current_Sensor_POE" I R 3700 950 50 
+F11 "Current_Sensor_BBB" I R 3700 1050 50 
+F12 "Current_Sensor_Nav" I R 3700 1150 50 
+F13 "Current_Sensor_Cam1" I R 3700 1250 50 
+F14 "Current_Sensor_Cam2" I R 3700 1350 50 
+F15 "Current_Sensor_SciSensor" I R 3700 1450 50 
+F16 "Current_Sensor_Gimbal" I R 3700 1550 50 
+F17 "Current_Sensor_Aux" I R 3700 1650 50 
+F18 "Current_Sensor_NetSwitch" I R 3700 2050 50 
+F19 "Current_Sensor_Multimedia" I R 3700 1950 50 
+F20 "Current_Sensor_Drive" I R 3700 1750 50 
+F21 "Current_Sensor_SciHeater" I R 3700 1850 50 
+F22 "Driver_M1" O L 1650 1550 50 
+F23 "Driver_M2" O L 1650 1650 50 
+F24 "Driver_M3" O L 1650 1750 50 
+F25 "Driver_M4" O L 1650 1850 50 
+F26 "Driver_M6" O L 1650 2050 50 
+F27 "Driver_M5" O L 1650 1950 50 
+F28 "Driver_M7" O L 1650 2150 50 
+F29 "Driver_POE" O R 3700 2550 50 
+F30 "Driver_BBB" O R 3700 2450 50 
+F31 "Driver_Nav" O R 3700 2350 50 
+F32 "Driver_Cam1" O L 1650 2300 50 
+F33 "Driver_Cam2" O L 1650 2400 50 
+F34 "Driver_SciSensor" O L 1650 2500 50 
+F35 "Driver_Gimbal" O L 1650 2600 50 
+F36 "Driver_Aux" O L 1650 2700 50 
+F37 "Driver_Spare" O R 3700 2650 50 
+F38 "Driver_NetSwitch" O R 3700 2750 50 
+F39 "Driver_Multimedia" O R 3700 2850 50 
+F40 "Driver_Drive" O L 1650 2900 50 
+F41 "Driver_SciHeater" O L 1650 2800 50 
+$EndSheet
+$Sheet
+S 1650 5900 1450 1450
+U 615D5992
+F0 "MOTORS" 50
+F1 "MOTORS.sch" 50
+F2 "PV" I L 1650 5950 50 
+F3 "5V" I L 1650 6050 50 
+F4 "Anderson_M1" I L 1650 7250 50 
+F5 "Anderson_M2" I L 1650 7150 50 
+F6 "Anderson_M3" I L 1650 7050 50 
+F7 "Anderson_M4" I L 1650 6950 50 
+F8 "Anderson_M5" I L 1650 6850 50 
+F9 "Anderson_M7" I L 1650 6650 50 
+F10 "Anderson_M6" I L 1650 6750 50 
+$EndSheet
 $EndSCHEMATC

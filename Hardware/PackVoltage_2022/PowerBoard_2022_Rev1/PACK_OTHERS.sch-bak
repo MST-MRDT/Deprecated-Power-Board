@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -13,273 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
-U 1 1 6160E138
-P 1700 2000
-AR Path="/615D5992/6160E138" Ref="U?"  Part="1" 
-AR Path="/61609A41/6160E138" Ref="U?"  Part="1" 
-F 0 "U?" H 2075 2687 60  0000 C CNN
-F 1 "LT1910" H 2075 2581 60  0000 C CNN
-F 2 "" H 1700 2000 60  0001 C CNN
-F 3 "" H 1700 2000 60  0001 C CNN
-	1    1700 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6160E13E
-P 1050 1600
-AR Path="/615D5992/6160E13E" Ref="R?"  Part="1" 
-AR Path="/61609A41/6160E13E" Ref="R?"  Part="1" 
-F 0 "R?" V 950 1600 50  0000 C CNN
-F 1 "5.1k" V 1050 1600 50  0000 C CNN
-F 2 "" V 980 1600 50  0001 C CNN
-F 3 "~" H 1050 1600 50  0001 C CNN
-	1    1050 1600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1200 1600 1500 1600
-$Comp
-L power:+5V #PWR?
-U 1 1 6160E145
-P 800 1350
-AR Path="/615D5992/6160E145" Ref="#PWR?"  Part="1" 
-AR Path="/61609A41/6160E145" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 800 1200 50  0001 C CNN
-F 1 "+5V" H 815 1523 50  0000 C CNN
-F 2 "" H 800 1350 50  0001 C CNN
-F 3 "" H 800 1350 50  0001 C CNN
-	1    800  1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	800  1350 800  1600
-Wire Wire Line
-	800  1600 900  1600
-$Comp
-L Device:C C?
-U 1 1 6160E14D
-P 1400 2250
-AR Path="/615D5992/6160E14D" Ref="C?"  Part="1" 
-AR Path="/61609A41/6160E14D" Ref="C?"  Part="1" 
-F 0 "C?" H 1515 2296 50  0000 L CNN
-F 1 "0.1uF" H 1515 2205 50  0000 L CNN
-F 2 "" H 1438 2100 50  0001 C CNN
-F 3 "~" H 1400 2250 50  0001 C CNN
-	1    1400 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 2100 1400 1900
-Wire Wire Line
-	1400 1900 1500 1900
-$Comp
-L power:GND #PWR?
-U 1 1 6160E155
-P 2100 2400
-AR Path="/615D5992/6160E155" Ref="#PWR?"  Part="1" 
-AR Path="/61609A41/6160E155" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2100 2150 50  0001 C CNN
-F 1 "GND" H 2105 2227 50  0000 C CNN
-F 2 "" H 2100 2400 50  0001 C CNN
-F 3 "" H 2100 2400 50  0001 C CNN
-	1    2100 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Fuse F?
-U 1 1 6160E15B
-P 2800 1350
-AR Path="/615D5992/6160E15B" Ref="F?"  Part="1" 
-AR Path="/61609A41/6160E15B" Ref="F?"  Part="1" 
-F 0 "F?" V 2650 1300 50  0000 L CNN
-F 1 "20" V 2800 1300 50  0000 L CNN
-F 2 "" V 2730 1350 50  0001 C CNN
-F 3 "~" H 2800 1350 50  0001 C CNN
-	1    2800 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 1600 2800 1600
-Text HLabel 2650 1100 1    50   Input ~ 0
-PV
-Wire Wire Line
-	2650 1100 2800 1100
-Wire Wire Line
-	2800 1100 2800 1200
-$Comp
-L Transistor_FET:BUK7M8R0-40EX Q?
-U 1 1 6160E165
-P 3200 1800
-AR Path="/615D5992/6160E165" Ref="Q?"  Part="1" 
-AR Path="/61609A41/6160E165" Ref="Q?"  Part="1" 
-F 0 "Q?" H 3100 1600 50  0000 L CNN
-F 1 "BUK7M8R0-40EX" H 3050 1500 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 3400 1725 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 3200 1800 50  0001 L CNN
-	1    3200 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 1600 3300 1600
-Wire Wire Line
-	2800 1500 2800 1600
-Connection ~ 2800 1600
-Wire Wire Line
-	2650 1750 2800 1750
-Wire Wire Line
-	2800 1750 2800 1600
-Wire Wire Line
-	2650 1900 3000 1900
-Wire Wire Line
-	3000 1900 3000 1800
-$Comp
-L Device:C C?
-U 1 1 6160E172
-P 2800 2150
-AR Path="/615D5992/6160E172" Ref="C?"  Part="1" 
-AR Path="/61609A41/6160E172" Ref="C?"  Part="1" 
-F 0 "C?" H 2915 2196 50  0000 L CNN
-F 1 "10uF" H 2915 2105 50  0000 L CNN
-F 2 "" H 2838 2000 50  0001 C CNN
-F 3 "~" H 2800 2150 50  0001 C CNN
-	1    2800 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6160E178
-P 3450 2450
-AR Path="/615D5992/6160E178" Ref="R?"  Part="1" 
-AR Path="/61609A41/6160E178" Ref="R?"  Part="1" 
-F 0 "R?" V 3350 2450 50  0000 C CNN
-F 1 "3300" V 3450 2450 50  0000 C CNN
-F 2 "" V 3380 2450 50  0001 C CNN
-F 3 "~" H 3450 2450 50  0001 C CNN
-	1    3450 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 6160E17E
-P 3850 2450
-AR Path="/615D5992/6160E17E" Ref="D?"  Part="1" 
-AR Path="/61609A41/6160E17E" Ref="D?"  Part="1" 
-F 0 "D?" H 3850 2550 50  0000 C CNN
-F 1 "LED" H 3850 2650 50  0000 C CNN
-F 2 "" H 3850 2450 50  0001 C CNN
-F 3 "~" H 3850 2450 50  0001 C CNN
-	1    3850 2450
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6160E184
-P 4100 2550
-AR Path="/615D5992/6160E184" Ref="#PWR?"  Part="1" 
-AR Path="/61609A41/6160E184" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4100 2300 50  0001 C CNN
-F 1 "GND" H 4105 2377 50  0000 C CNN
-F 2 "" H 4100 2550 50  0001 C CNN
-F 3 "" H 4100 2550 50  0001 C CNN
-	1    4100 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 2450 4100 2450
-Wire Wire Line
-	4100 2450 4100 2550
-$Comp
-L PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U?
-U 1 1 6160E18C
-P 4250 1700
-AR Path="/615D5992/6160E18C" Ref="U?"  Part="1" 
-AR Path="/61609A41/6160E18C" Ref="U?"  Part="1" 
-F 0 "U?" H 4550 2050 50  0000 L CNN
-F 1 "INA281" H 4450 1950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4500 1900 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 4500 1900 50  0001 C CNN
-	1    4250 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6160E192
-P 3700 1900
-AR Path="/615D5992/6160E192" Ref="R?"  Part="1" 
-AR Path="/61609A41/6160E192" Ref="R?"  Part="1" 
-F 0 "R?" H 3770 1946 50  0000 L CNN
-F 1 "0.0025" V 3700 1800 50  0000 L CNN
-F 2 "" V 3630 1900 50  0001 C CNN
-F 3 "~" H 3700 1900 50  0001 C CNN
-	1    3700 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 1750 3700 1600
-Wire Wire Line
-	3700 1600 4050 1600
-$Comp
-L power:GND #PWR?
-U 1 1 6160E19A
-P 4250 2050
-AR Path="/615D5992/6160E19A" Ref="#PWR?"  Part="1" 
-AR Path="/61609A41/6160E19A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4250 1800 50  0001 C CNN
-F 1 "GND" H 4255 1877 50  0000 C CNN
-F 2 "" H 4250 2050 50  0001 C CNN
-F 3 "" H 4250 2050 50  0001 C CNN
-	1    4250 2050
-	1    0    0    -1  
-$EndComp
-Text HLabel 4250 1200 1    50   Input ~ 0
-5V
-Wire Wire Line
-	4250 1200 4250 1400
-Wire Wire Line
-	1500 1750 1200 1750
-Text HLabel 4350 2300 2    50   Input ~ 0
-Anderson_Drive
-Text HLabel 1200 1750 0    50   Input ~ 0
-Driver_Drive
-Text HLabel 4750 1700 2    50   Input ~ 0
-Current_Sensor_Drive
-Wire Wire Line
-	1400 2400 2100 2400
-Wire Wire Line
-	2800 2400 2800 2300
-Connection ~ 2100 2400
-Wire Wire Line
-	2100 2400 2800 2400
-Wire Wire Line
-	2100 2400 2100 2200
-Wire Wire Line
-	2800 2000 2800 1750
-Connection ~ 2800 1750
-Wire Wire Line
-	4250 2050 4250 2000
-Wire Wire Line
-	3700 2300 4350 2300
-Wire Wire Line
-	3700 2050 3700 2300
-Wire Wire Line
-	3300 2000 3300 2050
-Wire Wire Line
-	3600 2450 3700 2450
-Wire Wire Line
-	3300 2050 3450 2050
-Wire Wire Line
-	3450 2050 3450 1600
-Connection ~ 3300 2050
-Wire Wire Line
-	3300 2050 3300 2450
-Wire Wire Line
-	4650 1700 4750 1700
-Wire Wire Line
-	3450 1600 3700 1600
-Connection ~ 3700 1600
 $Comp
 L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
 U 1 1 61612B13
@@ -376,19 +109,6 @@ Wire Wire Line
 	8100 1200 8250 1200
 Wire Wire Line
 	8250 1200 8250 1300
-$Comp
-L Transistor_FET:BUK7M8R0-40EX Q?
-U 1 1 61612B40
-P 8650 1900
-AR Path="/615D5992/61612B40" Ref="Q?"  Part="1" 
-AR Path="/61609A41/61612B40" Ref="Q?"  Part="1" 
-F 0 "Q?" H 8550 1700 50  0000 L CNN
-F 1 "BUK7M8R0-40EX" H 8500 1600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 8850 1825 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 8650 1900 50  0001 L CNN
-	1    8650 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8250 1700 8750 1700
 Wire Wire Line
@@ -507,11 +227,11 @@ Wire Wire Line
 	9700 1300 9700 1500
 Wire Wire Line
 	6950 1850 6650 1850
-Text HLabel 9800 2400 2    50   Input ~ 0
+Text HLabel 9800 2400 2    50   Output ~ 0
 Anderson_Aux
 Text HLabel 6650 1850 0    50   Input ~ 0
 Driver_Aux
-Text HLabel 10200 1800 2    50   Input ~ 0
+Text HLabel 10200 1800 2    50   Output ~ 0
 Current_Sensor_Aux
 Wire Wire Line
 	6850 2500 7550 2500
@@ -530,7 +250,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 2400 9800 2400
 Wire Wire Line
-	9150 2150 9150 2400
+	9150 2150 9150 2250
 Wire Wire Line
 	8750 2100 8750 2150
 Wire Wire Line
@@ -650,7 +370,7 @@ P 3250 3900
 AR Path="/615D5992/6161A090" Ref="Q?"  Part="1" 
 AR Path="/61609A41/6161A090" Ref="Q?"  Part="1" 
 F 0 "Q?" H 3150 3700 50  0000 L CNN
-F 1 "BUK7M8R0-40EX" H 3100 3600 50  0000 L CNN
+F 1 "BUK7M8R5-40HX" H 3100 3600 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:LFPAK33" H 3450 3825 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 3250 3900 50  0001 L CNN
 	1    3250 3900
@@ -774,11 +494,11 @@ Wire Wire Line
 	4300 3300 4300 3500
 Wire Wire Line
 	1550 3850 1250 3850
-Text HLabel 4400 4400 2    50   Input ~ 0
+Text HLabel 4400 4400 2    50   Output ~ 0
 Anderson_SciHeater
 Text HLabel 1250 3850 0    50   Input ~ 0
 Driver_SciHeater
-Text HLabel 4800 3800 2    50   Input ~ 0
+Text HLabel 4800 3800 2    50   Output ~ 0
 Current_Sensor_SciHeater
 Wire Wire Line
 	1450 4500 2150 4500
@@ -797,7 +517,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 4400 4400 4400
 Wire Wire Line
-	3750 4150 3750 4400
+	3750 4150 3750 4200
 Wire Wire Line
 	3350 4100 3350 4150
 Wire Wire Line
@@ -814,273 +534,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 3700 3750 3700
 Connection ~ 3750 3700
-$Comp
-L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
-U 1 1 616211C8
-P 6950 4200
-AR Path="/615D5992/616211C8" Ref="U?"  Part="1" 
-AR Path="/61609A41/616211C8" Ref="U?"  Part="1" 
-F 0 "U?" H 7325 4887 60  0000 C CNN
-F 1 "LT1910" H 7325 4781 60  0000 C CNN
-F 2 "" H 6950 4200 60  0001 C CNN
-F 3 "" H 6950 4200 60  0001 C CNN
-	1    6950 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 616211CE
-P 6300 3800
-AR Path="/615D5992/616211CE" Ref="R?"  Part="1" 
-AR Path="/61609A41/616211CE" Ref="R?"  Part="1" 
-F 0 "R?" V 6200 3800 50  0000 C CNN
-F 1 "5.1k" V 6300 3800 50  0000 C CNN
-F 2 "" V 6230 3800 50  0001 C CNN
-F 3 "~" H 6300 3800 50  0001 C CNN
-	1    6300 3800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6450 3800 6750 3800
-$Comp
-L power:+5V #PWR?
-U 1 1 616211D5
-P 6050 3550
-AR Path="/615D5992/616211D5" Ref="#PWR?"  Part="1" 
-AR Path="/61609A41/616211D5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6050 3400 50  0001 C CNN
-F 1 "+5V" H 6065 3723 50  0000 C CNN
-F 2 "" H 6050 3550 50  0001 C CNN
-F 3 "" H 6050 3550 50  0001 C CNN
-	1    6050 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 3550 6050 3800
-Wire Wire Line
-	6050 3800 6150 3800
-$Comp
-L Device:C C?
-U 1 1 616211DD
-P 6650 4450
-AR Path="/615D5992/616211DD" Ref="C?"  Part="1" 
-AR Path="/61609A41/616211DD" Ref="C?"  Part="1" 
-F 0 "C?" H 6765 4496 50  0000 L CNN
-F 1 "0.1uF" H 6765 4405 50  0000 L CNN
-F 2 "" H 6688 4300 50  0001 C CNN
-F 3 "~" H 6650 4450 50  0001 C CNN
-	1    6650 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6650 4300 6650 4100
-Wire Wire Line
-	6650 4100 6750 4100
-$Comp
-L power:GND #PWR?
-U 1 1 616211E5
-P 7350 4600
-AR Path="/615D5992/616211E5" Ref="#PWR?"  Part="1" 
-AR Path="/61609A41/616211E5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7350 4350 50  0001 C CNN
-F 1 "GND" H 7355 4427 50  0000 C CNN
-F 2 "" H 7350 4600 50  0001 C CNN
-F 3 "" H 7350 4600 50  0001 C CNN
-	1    7350 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Fuse F?
-U 1 1 616211EB
-P 8050 3550
-AR Path="/615D5992/616211EB" Ref="F?"  Part="1" 
-AR Path="/61609A41/616211EB" Ref="F?"  Part="1" 
-F 0 "F?" V 7900 3500 50  0000 L CNN
-F 1 "20" V 8050 3500 50  0000 L CNN
-F 2 "" V 7980 3550 50  0001 C CNN
-F 3 "~" H 8050 3550 50  0001 C CNN
-	1    8050 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7900 3800 8050 3800
-Text HLabel 7900 3300 1    50   Input ~ 0
-PV
-Wire Wire Line
-	7900 3300 8050 3300
-Wire Wire Line
-	8050 3300 8050 3400
-$Comp
-L Transistor_FET:BUK7M8R0-40EX Q?
-U 1 1 616211F5
-P 8450 4000
-AR Path="/615D5992/616211F5" Ref="Q?"  Part="1" 
-AR Path="/61609A41/616211F5" Ref="Q?"  Part="1" 
-F 0 "Q?" H 8350 3800 50  0000 L CNN
-F 1 "BUK7M8R0-40EX" H 8300 3700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 8650 3925 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 8450 4000 50  0001 L CNN
-	1    8450 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 3800 8550 3800
-Wire Wire Line
-	8050 3700 8050 3800
-Connection ~ 8050 3800
-Wire Wire Line
-	7900 3950 8050 3950
-Wire Wire Line
-	8050 3950 8050 3800
-Wire Wire Line
-	7900 4100 8250 4100
-Wire Wire Line
-	8250 4100 8250 4000
-$Comp
-L Device:C C?
-U 1 1 61621202
-P 8050 4350
-AR Path="/615D5992/61621202" Ref="C?"  Part="1" 
-AR Path="/61609A41/61621202" Ref="C?"  Part="1" 
-F 0 "C?" H 8165 4396 50  0000 L CNN
-F 1 "10uF" H 8165 4305 50  0000 L CNN
-F 2 "" H 8088 4200 50  0001 C CNN
-F 3 "~" H 8050 4350 50  0001 C CNN
-	1    8050 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61621208
-P 8700 4650
-AR Path="/615D5992/61621208" Ref="R?"  Part="1" 
-AR Path="/61609A41/61621208" Ref="R?"  Part="1" 
-F 0 "R?" V 8600 4650 50  0000 C CNN
-F 1 "3300" V 8700 4650 50  0000 C CNN
-F 2 "" V 8630 4650 50  0001 C CNN
-F 3 "~" H 8700 4650 50  0001 C CNN
-	1    8700 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 6162120E
-P 9100 4650
-AR Path="/615D5992/6162120E" Ref="D?"  Part="1" 
-AR Path="/61609A41/6162120E" Ref="D?"  Part="1" 
-F 0 "D?" H 9100 4750 50  0000 C CNN
-F 1 "LED" H 9100 4850 50  0000 C CNN
-F 2 "" H 9100 4650 50  0001 C CNN
-F 3 "~" H 9100 4650 50  0001 C CNN
-	1    9100 4650
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61621214
-P 9350 4750
-AR Path="/615D5992/61621214" Ref="#PWR?"  Part="1" 
-AR Path="/61609A41/61621214" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9350 4500 50  0001 C CNN
-F 1 "GND" H 9355 4577 50  0000 C CNN
-F 2 "" H 9350 4750 50  0001 C CNN
-F 3 "" H 9350 4750 50  0001 C CNN
-	1    9350 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9250 4650 9350 4650
-Wire Wire Line
-	9350 4650 9350 4750
-$Comp
-L PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U?
-U 1 1 6162121C
-P 9500 3900
-AR Path="/615D5992/6162121C" Ref="U?"  Part="1" 
-AR Path="/61609A41/6162121C" Ref="U?"  Part="1" 
-F 0 "U?" H 9800 4250 50  0000 L CNN
-F 1 "INA281" H 9700 4150 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9750 4100 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 9750 4100 50  0001 C CNN
-	1    9500 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61621222
-P 8950 4100
-AR Path="/615D5992/61621222" Ref="R?"  Part="1" 
-AR Path="/61609A41/61621222" Ref="R?"  Part="1" 
-F 0 "R?" H 9020 4146 50  0000 L CNN
-F 1 "0.0025" V 8950 4000 50  0000 L CNN
-F 2 "" V 8880 4100 50  0001 C CNN
-F 3 "~" H 8950 4100 50  0001 C CNN
-	1    8950 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 3950 8950 3800
-Wire Wire Line
-	8950 3800 9300 3800
-$Comp
-L power:GND #PWR?
-U 1 1 6162122A
-P 9500 4250
-AR Path="/615D5992/6162122A" Ref="#PWR?"  Part="1" 
-AR Path="/61609A41/6162122A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9500 4000 50  0001 C CNN
-F 1 "GND" H 9505 4077 50  0000 C CNN
-F 2 "" H 9500 4250 50  0001 C CNN
-F 3 "" H 9500 4250 50  0001 C CNN
-	1    9500 4250
-	1    0    0    -1  
-$EndComp
-Text HLabel 9500 3400 1    50   Input ~ 0
-5V
-Wire Wire Line
-	9500 3400 9500 3600
-Wire Wire Line
-	6750 3950 6450 3950
-Text HLabel 9600 4500 2    50   Input ~ 0
-Anderson_Multimedia
-Text HLabel 6450 3950 0    50   Input ~ 0
-Driver_Multimedia
-Text HLabel 10000 3900 2    50   Input ~ 0
-Current_Sensor_Multimedia
-Wire Wire Line
-	6650 4600 7350 4600
-Wire Wire Line
-	8050 4600 8050 4500
-Connection ~ 7350 4600
-Wire Wire Line
-	7350 4600 8050 4600
-Wire Wire Line
-	7350 4600 7350 4400
-Wire Wire Line
-	8050 4200 8050 3950
-Connection ~ 8050 3950
-Wire Wire Line
-	9500 4250 9500 4200
-Wire Wire Line
-	8950 4500 9600 4500
-Wire Wire Line
-	8950 4250 8950 4500
-Wire Wire Line
-	8550 4200 8550 4250
-Wire Wire Line
-	8850 4650 8950 4650
-Wire Wire Line
-	8550 4250 8700 4250
-Wire Wire Line
-	8700 4250 8700 3800
-Connection ~ 8550 4250
-Wire Wire Line
-	8550 4250 8550 4650
-Wire Wire Line
-	9900 3900 10000 3900
-Wire Wire Line
-	8700 3800 8950 3800
-Connection ~ 8950 3800
 $Comp
 L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
 U 1 1 616288AA
@@ -1184,7 +637,7 @@ P 3500 6200
 AR Path="/615D5992/616288D7" Ref="Q?"  Part="1" 
 AR Path="/61609A41/616288D7" Ref="Q?"  Part="1" 
 F 0 "Q?" H 3400 6000 50  0000 L CNN
-F 1 "BUK7M8R0-40EX" H 3350 5900 50  0000 L CNN
+F 1 "BUK7M8R5-40HX" H 3350 5900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:LFPAK33" H 3700 6125 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 3500 6200 50  0001 L CNN
 	1    3500 6200
@@ -1308,11 +761,11 @@ Wire Wire Line
 	4550 5600 4550 5800
 Wire Wire Line
 	1800 6150 1500 6150
-Text HLabel 4650 6700 2    50   Input ~ 0
+Text HLabel 4650 6700 2    50   Output ~ 0
 Anderson_POE
 Text HLabel 1500 6150 0    50   Input ~ 0
 Driver_POE
-Text HLabel 5050 6100 2    50   Input ~ 0
+Text HLabel 5050 6100 2    50   Output ~ 0
 Current_Sensor_POE
 Wire Wire Line
 	1700 6800 2400 6800
@@ -1331,7 +784,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 6700 4650 6700
 Wire Wire Line
-	4000 6450 4000 6700
+	4000 6450 4000 6500
 Wire Wire Line
 	3600 6400 3600 6450
 Wire Wire Line
@@ -1348,4 +801,38 @@ Wire Wire Line
 Wire Wire Line
 	3750 6000 4000 6000
 Connection ~ 4000 6000
+$Comp
+L Transistor_FET:BUK7M8R0-40EX Q?
+U 1 1 61612B40
+P 8650 1900
+AR Path="/615D5992/61612B40" Ref="Q?"  Part="1" 
+AR Path="/61609A41/61612B40" Ref="Q?"  Part="1" 
+F 0 "Q?" H 8550 1700 50  0000 L CNN
+F 1 "BUK7M8R5-40HX" H 8500 1600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 8850 1825 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 8650 1900 50  0001 L CNN
+	1    8650 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3900 4100 4200
+Wire Wire Line
+	4350 6200 4350 6500
+Wire Wire Line
+	4350 6500 4000 6500
+Connection ~ 4000 6500
+Wire Wire Line
+	4000 6500 4000 6700
+Wire Wire Line
+	4100 4200 3750 4200
+Connection ~ 3750 4200
+Wire Wire Line
+	3750 4200 3750 4400
+Wire Wire Line
+	9500 1900 9500 2250
+Wire Wire Line
+	9500 2250 9150 2250
+Connection ~ 9150 2250
+Wire Wire Line
+	9150 2250 9150 2400
 $EndSCHEMATC

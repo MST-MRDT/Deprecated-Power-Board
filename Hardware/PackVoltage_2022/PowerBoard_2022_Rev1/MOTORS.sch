@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -212,11 +212,11 @@ Wire Wire Line
 	4150 850  4150 1050
 Wire Wire Line
 	1400 1400 1100 1400
-Text HLabel 4250 1950 2    50   Input ~ 0
+Text HLabel 4250 1950 2    50   Output ~ 0
 Anderson_M1
 Text HLabel 1100 1400 0    50   Input ~ 0
 Driver_M1
-Text HLabel 4650 1350 2    50   Input ~ 0
+Text HLabel 4650 1350 2    50   Output ~ 0
 Current_Sensor_M1
 Wire Wire Line
 	1300 2050 2000 2050
@@ -235,7 +235,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 1950 4250 1950
 Wire Wire Line
-	3600 1700 3600 1950
+	3600 1700 3600 1800
 Wire Wire Line
 	3200 1650 3200 1700
 Wire Wire Line
@@ -451,11 +451,11 @@ Wire Wire Line
 	9300 950  9300 1150
 Wire Wire Line
 	6550 1500 6250 1500
-Text HLabel 9400 2050 2    50   Input ~ 0
+Text HLabel 9400 2050 2    50   Output ~ 0
 Anderson_M2
 Text HLabel 6250 1500 0    50   Input ~ 0
 Driver_M2
-Text HLabel 9800 1450 2    50   Input ~ 0
+Text HLabel 9800 1450 2    50   Output ~ 0
 Current_Sensor_M2
 Wire Wire Line
 	6450 2150 7150 2150
@@ -474,7 +474,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 2050 9400 2050
 Wire Wire Line
-	8750 1800 8750 2050
+	8750 1800 8750 1900
 Wire Wire Line
 	8350 1750 8350 1800
 Wire Wire Line
@@ -690,11 +690,11 @@ Wire Wire Line
 	4250 2550 4250 2750
 Wire Wire Line
 	1500 3100 1200 3100
-Text HLabel 4350 3650 2    50   Input ~ 0
+Text HLabel 4350 3650 2    50   Output ~ 0
 Anderson_M3
 Text HLabel 1200 3100 0    50   Input ~ 0
 Driver_M3
-Text HLabel 4750 3050 2    50   Input ~ 0
+Text HLabel 4750 3050 2    50   Output ~ 0
 Current_Sensor_M3
 Wire Wire Line
 	1400 3750 2100 3750
@@ -713,7 +713,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 3650 4350 3650
 Wire Wire Line
-	3700 3400 3700 3650
+	3700 3400 3700 3500
 Wire Wire Line
 	3300 3350 3300 3400
 Wire Wire Line
@@ -929,11 +929,11 @@ Wire Wire Line
 	9350 2600 9350 2800
 Wire Wire Line
 	6600 3150 6300 3150
-Text HLabel 9450 3700 2    50   Input ~ 0
+Text HLabel 9450 3700 2    50   Output ~ 0
 Anderson_M4
 Text HLabel 6300 3150 0    50   Input ~ 0
 Driver_M4
-Text HLabel 9850 3100 2    50   Input ~ 0
+Text HLabel 9850 3100 2    50   Output ~ 0
 Current_Sensor_M4
 Wire Wire Line
 	6500 3800 7200 3800
@@ -952,7 +952,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 3700 9450 3700
 Wire Wire Line
-	8800 3450 8800 3700
+	8800 3450 8800 3500
 Wire Wire Line
 	8400 3400 8400 3450
 Wire Wire Line
@@ -1168,11 +1168,11 @@ Wire Wire Line
 	4250 4200 4250 4400
 Wire Wire Line
 	1500 4750 1200 4750
-Text HLabel 4350 5300 2    50   Input ~ 0
+Text HLabel 4350 5300 2    50   Output ~ 0
 Anderson_M5
 Text HLabel 1200 4750 0    50   Input ~ 0
 Driver_M5
-Text HLabel 4750 4700 2    50   Input ~ 0
+Text HLabel 4750 4700 2    50   Output ~ 0
 Current_Sensor_M5
 Wire Wire Line
 	1400 5400 2100 5400
@@ -1191,7 +1191,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 5300 4350 5300
 Wire Wire Line
-	3700 5050 3700 5300
+	3700 5050 3700 5100
 Wire Wire Line
 	3300 5000 3300 5050
 Wire Wire Line
@@ -1407,11 +1407,11 @@ Wire Wire Line
 	4800 5900 4800 6100
 Wire Wire Line
 	2050 6450 1750 6450
-Text HLabel 4900 7000 2    50   Input ~ 0
+Text HLabel 4900 7000 2    50   Output ~ 0
 Anderson_M7
 Text HLabel 1750 6450 0    50   Input ~ 0
 Driver_M7
-Text HLabel 5300 6400 2    50   Input ~ 0
+Text HLabel 5300 6400 2    50   Output ~ 0
 Current_Sensor_M7
 Wire Wire Line
 	1950 7100 2650 7100
@@ -1430,7 +1430,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 7000 4900 7000
 Wire Wire Line
-	4250 6750 4250 7000
+	4250 6750 4250 6850
 Wire Wire Line
 	3850 6700 3850 6750
 Wire Wire Line
@@ -1646,11 +1646,11 @@ Wire Wire Line
 	9400 4600 9400 4800
 Wire Wire Line
 	6650 5150 6350 5150
-Text HLabel 9500 5700 2    50   Input ~ 0
+Text HLabel 9500 5700 2    50   Output ~ 0
 Anderson_M6
 Text HLabel 6350 5150 0    50   Input ~ 0
 Driver_M6
-Text HLabel 9900 5100 2    50   Input ~ 0
+Text HLabel 9900 5100 2    50   Output ~ 0
 Current_Sensor_M6
 Wire Wire Line
 	6550 5800 7250 5800
@@ -1669,7 +1669,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 5700 9500 5700
 Wire Wire Line
-	8850 5450 8850 5700
+	8850 5450 8850 5550
 Wire Wire Line
 	8450 5400 8450 5450
 Wire Wire Line
@@ -1686,4 +1686,53 @@ Wire Wire Line
 Wire Wire Line
 	8600 5000 8850 5000
 Connection ~ 8850 5000
+Wire Wire Line
+	9200 5200 9200 5550
+Wire Wire Line
+	9200 5550 8850 5550
+Connection ~ 8850 5550
+Wire Wire Line
+	8850 5550 8850 5700
+Wire Wire Line
+	9150 3200 9150 3500
+Wire Wire Line
+	9150 3500 8800 3500
+Connection ~ 8800 3500
+Wire Wire Line
+	8800 3500 8800 3700
+Wire Wire Line
+	9100 1550 9100 1900
+Wire Wire Line
+	9100 1900 8750 1900
+Connection ~ 8750 1900
+Wire Wire Line
+	8750 1900 8750 2050
+Wire Wire Line
+	3950 1450 3950 1800
+Wire Wire Line
+	3950 1800 3600 1800
+Connection ~ 3600 1800
+Wire Wire Line
+	3600 1800 3600 1950
+Wire Wire Line
+	4050 3150 4050 3500
+Wire Wire Line
+	4050 3500 3700 3500
+Connection ~ 3700 3500
+Wire Wire Line
+	3700 3500 3700 3650
+Wire Wire Line
+	4600 6500 4600 6850
+Wire Wire Line
+	4600 6850 4250 6850
+Connection ~ 4250 6850
+Wire Wire Line
+	4250 6850 4250 7000
+Wire Wire Line
+	4050 4800 4050 5100
+Wire Wire Line
+	4050 5100 3700 5100
+Connection ~ 3700 5100
+Wire Wire Line
+	3700 5100 3700 5300
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
@@ -164,69 +164,69 @@ Text HLabel 2700 1750 2    50   Input ~ 0
 Current_Sensor_M6
 Text HLabel 2700 1850 2    50   Input ~ 0
 Current_Sensor_M7
-Text HLabel 1550 1550 0    50   Input ~ 0
+Text HLabel 1550 1550 0    50   Output ~ 0
 Driver_M1
-Text HLabel 1550 1650 0    50   Input ~ 0
+Text HLabel 1550 1650 0    50   Output ~ 0
 Driver_M2
-Text HLabel 1550 1750 0    50   Input ~ 0
+Text HLabel 1550 1750 0    50   Output ~ 0
 Driver_M3
-Text HLabel 1550 2050 0    50   Input ~ 0
+Text HLabel 1550 2050 0    50   Output ~ 0
 Driver_M4
-Text HLabel 1550 3400 0    50   Input ~ 0
+Text HLabel 1550 3400 0    50   Output ~ 0
 Driver_M6
-Text HLabel 1550 3300 0    50   Input ~ 0
+Text HLabel 1550 3300 0    50   Output ~ 0
 Driver_M5
-Text HLabel 1550 3700 0    50   Input ~ 0
+Text HLabel 1550 3700 0    50   Output ~ 0
 Driver_M7
 Text HLabel 1550 3600 0    50   Input ~ 0
 Current_Sensor_POE
-Text HLabel 1550 3800 0    50   Input ~ 0
+Text HLabel 1550 3800 0    50   Output ~ 0
 Driver_POE
 Text HLabel 2700 1950 2    50   Input ~ 0
 Current_Sensor_BBB
-Text HLabel 1550 3900 0    50   Input ~ 0
+Text HLabel 1550 3900 0    50   Output ~ 0
 Driver_BBB
 Text HLabel 6250 1950 2    50   Input ~ 0
 Current_Sensor_Nav
-Text HLabel 1550 4000 0    50   Input ~ 0
+Text HLabel 1550 4000 0    50   Output ~ 0
 Driver_Nav
 Text HLabel 2700 3300 2    50   Input ~ 0
 Current_Sensor_Cam1
-Text HLabel 5050 1350 0    50   Input ~ 0
+Text HLabel 5050 1350 0    50   Output ~ 0
 Driver_Cam1
 Text HLabel 2700 3500 2    50   Input ~ 0
 Current_Sensor_Cam2
-Text HLabel 5050 1450 0    50   Input ~ 0
+Text HLabel 5050 1450 0    50   Output ~ 0
 Driver_Cam2
 Text HLabel 2700 3700 2    50   Input ~ 0
 Current_Sensor_SciSensor
-Text HLabel 5050 1550 0    50   Input ~ 0
+Text HLabel 5050 1550 0    50   Output ~ 0
 Driver_SciSensor
 Text HLabel 6250 1850 2    50   Input ~ 0
 Current_Sensor_Gimbal
-Text HLabel 5050 1650 0    50   Input ~ 0
+Text HLabel 5050 1650 0    50   Output ~ 0
 Driver_Gimbal
 Text HLabel 2700 3600 2    50   Input ~ 0
 Current_Sensor_Aux
-Text HLabel 5050 1750 0    50   Input ~ 0
+Text HLabel 5050 1750 0    50   Output ~ 0
 Driver_Aux
-Text HLabel 5050 1850 0    50   Input ~ 0
+Text HLabel 5050 1850 0    50   Output ~ 0
 Driver_Spare
 Text HLabel 2700 3400 2    50   Input ~ 0
 Current_Sensor_NetSwitch
-Text HLabel 5050 1950 0    50   Input ~ 0
+Text HLabel 5050 1950 0    50   Output ~ 0
 Driver_NetSwitch
 Text HLabel 1550 3500 0    50   Input ~ 0
 Current_Sensor_Multimedia
-Text HLabel 5050 2050 0    50   Input ~ 0
+Text HLabel 5050 2050 0    50   Output ~ 0
 Driver_Multimedia
 Text HLabel 2700 3800 2    50   Input ~ 0
 Current_Sensor_Drive
-Text HLabel 5050 2150 0    50   Input ~ 0
+Text HLabel 5050 2150 0    50   Output ~ 0
 Driver_Drive
 Text HLabel 1550 3200 0    50   Input ~ 0
 Current_Sensor_SciHeater
-Text HLabel 5050 2250 0    50   Input ~ 0
+Text HLabel 5050 2250 0    50   Output ~ 0
 Driver_SciHeater
 Wire Wire Line
 	3150 1450 2600 1450

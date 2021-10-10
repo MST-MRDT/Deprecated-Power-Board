@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -267,7 +267,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 2450 4400 2450
 Wire Wire Line
-	3750 2200 3750 2450
+	3750 2200 3750 2300
 Wire Wire Line
 	3350 2150 3350 2200
 Wire Wire Line
@@ -546,7 +546,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 2600 9350 2600
 Wire Wire Line
-	8700 2350 8700 2600
+	8700 2350 8700 2450
 Wire Wire Line
 	8300 2300 8300 2350
 Wire Wire Line
@@ -571,4 +571,18 @@ Text HLabel 7800 1450 0    50   Input ~ 0
 12VA
 Wire Wire Line
 	7800 1500 7800 1450
+Wire Wire Line
+	4100 1950 4100 2300
+Wire Wire Line
+	4100 2300 3750 2300
+Connection ~ 3750 2300
+Wire Wire Line
+	3750 2300 3750 2450
+Wire Wire Line
+	9050 2100 9050 2450
+Wire Wire Line
+	9050 2450 8700 2450
+Connection ~ 8700 2450
+Wire Wire Line
+	8700 2450 8700 2600
 $EndSCHEMATC

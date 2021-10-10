@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
@@ -118,23 +118,10 @@ F 1 "GND" H 3155 3027 50  0000 C CNN
 F 2 "" H 3150 3200 50  0001 C CNN
 F 3 "" H 3150 3200 50  0001 C CNN
 	1    3150 3200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3150 3200 2600 3200
-$Comp
-L power:GND #PWR?
-U 1 1 61619870
-P 3150 1450
-F 0 "#PWR?" H 3150 1200 50  0001 C CNN
-F 1 "GND" H 3155 1277 50  0000 C CNN
-F 2 "" H 3150 1450 50  0001 C CNN
-F 3 "" H 3150 1450 50  0001 C CNN
-	1    3150 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 1450 2600 1450
 $Comp
 L power:GND #PWR?
 U 1 1 61619BA9
@@ -163,40 +150,206 @@ Wire Wire Line
 	6700 3100 6150 3100
 NoConn ~ 2600 1350
 NoConn ~ 2600 3100
-Text HLabel 4200 650  0    50   Input ~ 0
+Text HLabel 1550 1450 0    50   Input ~ 0
 Current_Sensor_M1
-Text HLabel 4200 750  0    50   Input ~ 0
+Text HLabel 1550 1850 0    50   Input ~ 0
 Current_Sensor_M2
-Text HLabel 4200 850  0    50   Input ~ 0
+Text HLabel 1550 1950 0    50   Input ~ 0
 Current_Sensor_M3
-Text HLabel 4200 950  0    50   Input ~ 0
+Text HLabel 2700 1550 2    50   Input ~ 0
 Current_Sensor_M4
-Text HLabel 4200 1050 0    50   Input ~ 0
+Text HLabel 2700 1650 2    50   Input ~ 0
 Current_Sensor_M5
-Text HLabel 4200 1150 0    50   Input ~ 0
+Text HLabel 2700 1750 2    50   Input ~ 0
 Current_Sensor_M6
-Text HLabel 4200 1250 0    50   Input ~ 0
+Text HLabel 2700 1850 2    50   Input ~ 0
 Current_Sensor_M7
-Text HLabel 4200 1350 0    50   Input ~ 0
+Text HLabel 1550 1550 0    50   Output ~ 0
 Driver_M1
-Text HLabel 4200 1450 0    50   Input ~ 0
+Text HLabel 1550 1650 0    50   Output ~ 0
 Driver_M2
-Text HLabel 4200 1550 0    50   Input ~ 0
+Text HLabel 1550 1750 0    50   Output ~ 0
 Driver_M3
-Text HLabel 4200 1650 0    50   Input ~ 0
+Text HLabel 1550 2050 0    50   Output ~ 0
 Driver_M4
-Text HLabel 4200 1850 0    50   Input ~ 0
+Text HLabel 1550 3400 0    50   Output ~ 0
 Driver_M6
-Text HLabel 4200 1750 0    50   Input ~ 0
+Text HLabel 1550 3300 0    50   Output ~ 0
 Driver_M5
-Text HLabel 4200 1950 0    50   Input ~ 0
+Text HLabel 1550 3700 0    50   Output ~ 0
 Driver_M7
-Text HLabel 4200 2050 0    50   Input ~ 0
+Text HLabel 1550 3600 0    50   Input ~ 0
 Current_Sensor_POE
-Text HLabel 4200 2150 0    50   Input ~ 0
+Text HLabel 1550 3800 0    50   Output ~ 0
 Driver_POE
-Text HLabel 4200 2250 0    50   Input ~ 0
+Text HLabel 2700 1950 2    50   Input ~ 0
 Current_Sensor_BBB
-Text HLabel 4200 2350 0    50   Input ~ 0
+Text HLabel 1550 3900 0    50   Output ~ 0
 Driver_BBB
+Text HLabel 6250 1950 2    50   Input ~ 0
+Current_Sensor_Nav
+Text HLabel 1550 4000 0    50   Output ~ 0
+Driver_Nav
+Text HLabel 2700 3300 2    50   Input ~ 0
+Current_Sensor_Cam1
+Text HLabel 5050 1350 0    50   Output ~ 0
+Driver_Cam1
+Text HLabel 2700 3500 2    50   Input ~ 0
+Current_Sensor_Cam2
+Text HLabel 5050 1450 0    50   Output ~ 0
+Driver_Cam2
+Text HLabel 2700 3700 2    50   Input ~ 0
+Current_Sensor_SciSensor
+Text HLabel 5050 1550 0    50   Output ~ 0
+Driver_SciSensor
+Text HLabel 6250 1850 2    50   Input ~ 0
+Current_Sensor_Gimbal
+Text HLabel 5050 1650 0    50   Output ~ 0
+Driver_Gimbal
+Text HLabel 2700 3600 2    50   Input ~ 0
+Current_Sensor_Aux
+Text HLabel 5050 1750 0    50   Output ~ 0
+Driver_Aux
+Text HLabel 5050 1850 0    50   Output ~ 0
+Driver_Spare
+Text HLabel 2700 3400 2    50   Input ~ 0
+Current_Sensor_NetSwitch
+Text HLabel 5050 1950 0    50   Output ~ 0
+Driver_NetSwitch
+Text HLabel 1550 3500 0    50   Input ~ 0
+Current_Sensor_Multimedia
+Text HLabel 5050 2050 0    50   Output ~ 0
+Driver_Multimedia
+Text HLabel 2700 3800 2    50   Input ~ 0
+Current_Sensor_Drive
+Text HLabel 5050 2150 0    50   Output ~ 0
+Driver_Drive
+Text HLabel 1550 3200 0    50   Input ~ 0
+Current_Sensor_SciHeater
+Text HLabel 5050 2250 0    50   Output ~ 0
+Driver_SciHeater
+Wire Wire Line
+	3150 1450 2600 1450
+$Comp
+L power:GND #PWR?
+U 1 1 61619870
+P 3150 1450
+F 0 "#PWR?" H 3150 1200 50  0001 C CNN
+F 1 "GND" H 3155 1277 50  0000 C CNN
+F 2 "" H 3150 1450 50  0001 C CNN
+F 3 "" H 3150 1450 50  0001 C CNN
+	1    3150 1450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1550 1450 1650 1450
+Wire Wire Line
+	1550 1550 1650 1550
+Wire Wire Line
+	1650 1650 1550 1650
+Wire Wire Line
+	1550 1750 1650 1750
+Wire Wire Line
+	1650 1850 1550 1850
+Wire Wire Line
+	1550 1950 1650 1950
+Wire Wire Line
+	1650 2050 1550 2050
+Wire Wire Line
+	2600 1550 2700 1550
+Wire Wire Line
+	2700 1650 2600 1650
+Wire Wire Line
+	2600 1750 2700 1750
+Wire Wire Line
+	2700 1850 2600 1850
+Wire Wire Line
+	1550 4000 1650 4000
+Wire Wire Line
+	1650 3900 1550 3900
+Wire Wire Line
+	1550 3800 1650 3800
+Wire Wire Line
+	1650 3700 1550 3700
+Wire Wire Line
+	1550 3600 1650 3600
+Wire Wire Line
+	1650 3500 1550 3500
+Wire Wire Line
+	1550 3400 1650 3400
+Wire Wire Line
+	1650 3300 1550 3300
+Wire Wire Line
+	1550 3200 1650 3200
+Wire Wire Line
+	5150 1350 5050 1350
+Wire Wire Line
+	5050 1450 5150 1450
+Wire Wire Line
+	5150 1550 5050 1550
+Wire Wire Line
+	5050 1650 5150 1650
+Wire Wire Line
+	5150 1750 5050 1750
+Wire Wire Line
+	5050 1850 5150 1850
+Wire Wire Line
+	5150 1950 5050 1950
+Wire Wire Line
+	5050 2050 5150 2050
+Wire Wire Line
+	5150 2150 5050 2150
+Wire Wire Line
+	5050 2250 5150 2250
+Wire Wire Line
+	2600 3300 2700 3300
+Wire Wire Line
+	2700 3400 2600 3400
+Wire Wire Line
+	2600 3500 2700 3500
+Wire Wire Line
+	2700 3600 2600 3600
+Wire Wire Line
+	2600 3700 2700 3700
+Wire Wire Line
+	2600 3800 2700 3800
+Wire Wire Line
+	6250 1850 6150 1850
+Wire Wire Line
+	6150 1950 6250 1950
+Wire Wire Line
+	2700 1950 2600 1950
+NoConn ~ 1650 2150
+NoConn ~ 1650 2250
+NoConn ~ 2600 2250
+NoConn ~ 2600 2150
+NoConn ~ 2600 2050
+NoConn ~ 2600 3900
+NoConn ~ 2600 4000
+NoConn ~ 6150 1450
+NoConn ~ 6150 1550
+NoConn ~ 6150 1650
+NoConn ~ 6150 1750
+NoConn ~ 6150 2050
+NoConn ~ 6150 2150
+NoConn ~ 6150 2250
+NoConn ~ 6150 3200
+NoConn ~ 6150 3300
+NoConn ~ 6150 3400
+NoConn ~ 5150 3100
+NoConn ~ 5150 3200
+NoConn ~ 5150 3300
+NoConn ~ 5150 3400
+NoConn ~ 5150 3500
+NoConn ~ 5150 3600
+NoConn ~ 5150 3700
+NoConn ~ 5150 3800
+NoConn ~ 5150 3900
+NoConn ~ 5150 4000
+NoConn ~ 6150 4000
+NoConn ~ 6150 3900
+NoConn ~ 6150 3800
+NoConn ~ 6150 3700
+NoConn ~ 6150 3600
+NoConn ~ 6150 3500
 $EndSCHEMATC

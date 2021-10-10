@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -13,41 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1600 2250 1900 1900
-U 6172F88A
-F0 "Low Current Out Two" 50
-F1 "Low Current Out Two.sch" 50
-F2 "Anderson_BBB" I L 1600 2600 50 
-F3 "Driver_BBB" I R 3500 2350 50 
-F4 "Current_Sensor_BBB" I R 3500 3100 50 
-F5 "5V" I L 1600 2300 50 
-F6 "Anderson_Cam1" I L 1600 2700 50 
-F7 "Driver_Cam1" I R 3500 2450 50 
-F8 "Current_Sensor_Cam1" I R 3500 3200 50 
-F9 "Anderson_Cam2" I L 1600 2800 50 
-F10 "Driver_Cam2" I R 3500 2550 50 
-F11 "Current_Sensor_Cam2" I R 3500 3300 50 
-F12 "Anderson_NetSwitch" I L 1600 2900 50 
-F13 "Driver_NetSwitch" I R 3500 2650 50 
-F14 "Current_Sensor_NetSwitch" I R 3500 3400 50 
-F15 "Anderson_Gimbal" I L 1600 3000 50 
-F16 "Driver_Gimbal" I R 3500 2750 50 
-F17 "Current_Sensor_Gimbal" I R 3500 3500 50 
-F18 "Anderson_SciSensor" I L 1600 3200 50 
-F19 "Driver_SciSensor" I R 3500 2950 50 
-F20 "Current_Sensor_SciSensor" I R 3500 3750 50 
-F21 "Anderson_Nav" I L 1600 3100 50 
-F22 "Driver_Nav" I R 3500 2850 50 
-F23 "Current_Sensor_Nav" I R 3500 3650 50 
-F24 "12V.1" I L 1600 3450 50 
-F25 "12V.2" I L 1600 3550 50 
-F26 "12V.3" I L 1600 3650 50 
-F27 "12V.4" I L 1600 3750 50 
-F28 "12V.7" I L 1600 4050 50 
-F29 "12V.6" I L 1600 3950 50 
-F30 "12V.5" I L 1600 3850 50 
-$EndSheet
 Text HLabel 5400 1500 0    50   Input ~ 0
 Anderson_Aux
 Wire Wire Line
@@ -164,20 +129,6 @@ Text HLabel 3650 2950 2    50   Input ~ 0
 Driver_SciSensor
 Text HLabel 3650 2850 2    50   Input ~ 0
 Driver_Nav
-Text HLabel 1500 3450 0    50   Input ~ 0
-12V.1
-Text HLabel 1500 3550 0    50   Input ~ 0
-12V.2
-Text HLabel 1500 3650 0    50   Input ~ 0
-12V.3
-Text HLabel 1500 3750 0    50   Input ~ 0
-12V.4
-Text HLabel 1500 3850 0    50   Input ~ 0
-12V.5
-Text HLabel 1500 3950 0    50   Input ~ 0
-12V.6
-Text HLabel 1500 4050 0    50   Input ~ 0
-12V.7
 Wire Wire Line
 	1500 3450 1600 3450
 Wire Wire Line
@@ -209,5 +160,33 @@ F6 "12VA" I R 7050 1600 50
 F7 "Anderson_Spare" I L 5500 1600 50 
 F8 "Driver_Spare" I L 5500 2100 50 
 F9 "Current_Sensor_Spare" I R 7050 2100 50 
+$EndSheet
+$Sheet
+S 1600 2250 1900 1900
+U 6172F88A
+F0 "Low Current Out Two" 50
+F1 "Low Current Out Two.sch" 50
+F2 "Anderson_BBB" I L 1600 2600 50 
+F3 "Driver_BBB" I R 3500 2350 50 
+F4 "Current_Sensor_BBB" I R 3500 3100 50 
+F5 "5V" I L 1600 2300 50 
+F6 "Anderson_Cam1" I L 1600 2700 50 
+F7 "Driver_Cam1" I R 3500 2450 50 
+F8 "Current_Sensor_Cam1" I R 3500 3200 50 
+F9 "Anderson_Cam2" I L 1600 2800 50 
+F10 "Driver_Cam2" I R 3500 2550 50 
+F11 "Current_Sensor_Cam2" I R 3500 3300 50 
+F12 "Anderson_NetSwitch" I L 1600 2900 50 
+F13 "Driver_NetSwitch" I R 3500 2650 50 
+F14 "Current_Sensor_NetSwitch" I R 3500 3400 50 
+F15 "Anderson_Gimbal" I L 1600 3000 50 
+F16 "Driver_Gimbal" I R 3500 2750 50 
+F17 "Current_Sensor_Gimbal" I R 3500 3500 50 
+F18 "Anderson_SciSensor" I L 1600 3200 50 
+F19 "Driver_SciSensor" I R 3500 2950 50 
+F20 "Current_Sensor_SciSensor" I R 3500 3750 50 
+F21 "Anderson_Nav" I L 1600 3100 50 
+F22 "Driver_Nav" I R 3500 2850 50 
+F23 "Current_Sensor_Nav" I R 3500 3650 50 
 $EndSheet
 $EndSCHEMATC
