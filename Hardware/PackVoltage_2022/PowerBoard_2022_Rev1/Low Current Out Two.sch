@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -158,7 +158,7 @@ AR Path="/615D5992/6179FA8B" Ref="R?"  Part="1"
 AR Path="/615D7BA0/6170B60A/6179FA8B" Ref="R?"  Part="1" 
 AR Path="/615D7BA0/6172F88A/6179FA8B" Ref="R?"  Part="1" 
 F 0 "R?" V 3250 3600 50  0000 C CNN
-F 1 "3300" V 3350 3600 50  0000 C CNN
+F 1 "330" V 3350 3600 50  0000 C CNN
 F 2 "" V 3280 3600 50  0001 C CNN
 F 3 "~" H 3350 3600 50  0001 C CNN
 	1    3350 3600
@@ -203,8 +203,8 @@ P 4150 2850
 AR Path="/615D5992/6179FA9F" Ref="U?"  Part="1" 
 AR Path="/615D7BA0/6170B60A/6179FA9F" Ref="U?"  Part="1" 
 AR Path="/615D7BA0/6172F88A/6179FA9F" Ref="U?"  Part="1" 
-F 0 "U?" H 4450 3200 50  0000 L CNN
-F 1 "INA281" H 4350 3100 50  0000 L CNN
+F 0 "U?" H 4500 3050 50  0000 L CNN
+F 1 "INA281" H 4400 2950 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4400 3050 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 4400 3050 50  0001 C CNN
 	1    4150 2850
@@ -244,11 +244,11 @@ F 3 "" H 4150 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1400 2900 1100 2900
-Text HLabel 4250 3450 3    50   Input ~ 0
+Text HLabel 4250 3450 3    50   Output ~ 0
 Anderson_BBB
 Text HLabel 1100 2900 3    50   Input ~ 0
 Driver_BBB
-Text HLabel 4650 2850 3    50   Input ~ 0
+Text HLabel 4650 2850 3    50   Output ~ 0
 Current_Sensor_BBB
 Wire Wire Line
 	1300 3550 2000 3550
@@ -419,7 +419,7 @@ AR Path="/615D5992/6182165F" Ref="R?"  Part="1"
 AR Path="/615D7BA0/6170B60A/6182165F" Ref="R?"  Part="1" 
 AR Path="/615D7BA0/6172F88A/6182165F" Ref="R?"  Part="1" 
 F 0 "R?" V 3250 5300 50  0000 C CNN
-F 1 "3300" V 3350 5300 50  0000 C CNN
+F 1 "330" V 3350 5300 50  0000 C CNN
 F 2 "" V 3280 5300 50  0001 C CNN
 F 3 "~" H 3350 5300 50  0001 C CNN
 	1    3350 5300
@@ -505,11 +505,11 @@ F 3 "" H 4150 4900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1400 4600 1100 4600
-Text HLabel 4250 5150 3    50   Input ~ 0
+Text HLabel 4250 5150 3    50   Output ~ 0
 Anderson_Cam1
 Text HLabel 1100 4600 3    50   Input ~ 0
 Driver_Cam1
-Text HLabel 4650 4550 3    50   Input ~ 0
+Text HLabel 4650 4550 3    50   Output ~ 0
 Current_Sensor_Cam1
 Wire Wire Line
 	1300 5250 2000 5250
@@ -694,7 +694,7 @@ AR Path="/615D5992/61833062" Ref="R?"  Part="1"
 AR Path="/615D7BA0/6170B60A/61833062" Ref="R?"  Part="1" 
 AR Path="/615D7BA0/6172F88A/61833062" Ref="R?"  Part="1" 
 F 0 "R?" V 3250 1950 50  0000 C CNN
-F 1 "3300" V 3350 1950 50  0000 C CNN
+F 1 "330" V 3350 1950 50  0000 C CNN
 F 2 "" V 3280 1950 50  0001 C CNN
 F 3 "~" H 3350 1950 50  0001 C CNN
 	1    3350 1950
@@ -780,11 +780,11 @@ F 3 "" H 4150 1550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1400 1250 1100 1250
-Text HLabel 4250 1800 3    50   Input ~ 0
+Text HLabel 4250 1800 3    50   Output ~ 0
 Anderson_Cam2
 Text HLabel 1100 1250 3    50   Input ~ 0
 Driver_Cam2
-Text HLabel 4650 1200 3    50   Input ~ 0
+Text HLabel 4650 1200 3    50   Output ~ 0
 Current_Sensor_Cam2
 Wire Wire Line
 	1300 1900 2000 1900
@@ -969,7 +969,7 @@ AR Path="/615D5992/61842634" Ref="R?"  Part="1"
 AR Path="/615D7BA0/6170B60A/61842634" Ref="R?"  Part="1" 
 AR Path="/615D7BA0/6172F88A/61842634" Ref="R?"  Part="1" 
 F 0 "R?" V 9650 5250 50  0000 C CNN
-F 1 "3300" V 9750 5250 50  0000 C CNN
+F 1 "330" V 9750 5250 50  0000 C CNN
 F 2 "" V 9680 5250 50  0001 C CNN
 F 3 "~" H 9750 5250 50  0001 C CNN
 	1    9750 5250
@@ -1055,11 +1055,11 @@ F 3 "" H 10550 4850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7800 4550 7500 4550
-Text HLabel 10650 5100 3    50   Input ~ 0
+Text HLabel 10650 5100 3    50   Output ~ 0
 Anderson_NetSwitch
 Text HLabel 7500 4550 3    50   Input ~ 0
 Driver_NetSwitch
-Text HLabel 11050 4500 3    50   Input ~ 0
+Text HLabel 11050 4500 3    50   Output ~ 0
 Current_Sensor_NetSwitch
 Wire Wire Line
 	7700 5200 8400 5200
@@ -1258,7 +1258,7 @@ AR Path="/615D5992/618D8DDA" Ref="R?"  Part="1"
 AR Path="/615D7BA0/6170B60A/618D8DDA" Ref="R?"  Part="1" 
 AR Path="/615D7BA0/6172F88A/618D8DDA" Ref="R?"  Part="1" 
 F 0 "R?" V 3150 7150 50  0000 C CNN
-F 1 "3300" V 3250 7150 50  0000 C CNN
+F 1 "330" V 3250 7150 50  0000 C CNN
 F 2 "" V 3180 7150 50  0001 C CNN
 F 3 "~" H 3250 7150 50  0001 C CNN
 	1    3250 7150
@@ -1344,11 +1344,11 @@ F 3 "" H 4050 6750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1300 6450 1000 6450
-Text HLabel 4150 7000 3    50   Input ~ 0
+Text HLabel 4150 7000 3    50   Output ~ 0
 Anderson_Gimbal
 Text HLabel 1000 6450 3    50   Input ~ 0
 Driver_Gimbal
-Text HLabel 4550 6400 3    50   Input ~ 0
+Text HLabel 4550 6400 3    50   Output ~ 0
 Current_Sensor_Gimbal
 Wire Wire Line
 	1200 7100 1900 7100
@@ -1533,7 +1533,7 @@ AR Path="/615D5992/61B8DD4A" Ref="R?"  Part="1"
 AR Path="/615D7BA0/6170B60A/61B8DD4A" Ref="R?"  Part="1" 
 AR Path="/615D7BA0/6172F88A/61B8DD4A" Ref="R?"  Part="1" 
 F 0 "R?" V 9700 3400 50  0000 C CNN
-F 1 "3300" V 9800 3400 50  0000 C CNN
+F 1 "330" V 9800 3400 50  0000 C CNN
 F 2 "" V 9730 3400 50  0001 C CNN
 F 3 "~" H 9800 3400 50  0001 C CNN
 	1    9800 3400
@@ -1619,11 +1619,11 @@ F 3 "" H 10600 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7850 2700 7550 2700
-Text HLabel 10700 3250 3    50   Input ~ 0
+Text HLabel 10700 3250 3    50   Output ~ 0
 Anderson_SciSensor
 Text HLabel 7550 2700 3    50   Input ~ 0
 Driver_SciSensor
-Text HLabel 11100 2650 3    50   Input ~ 0
+Text HLabel 11100 2650 3    50   Output ~ 0
 Current_Sensor_SciSensor
 Wire Wire Line
 	7750 3350 8450 3350
@@ -1808,7 +1808,7 @@ AR Path="/615D5992/61BA279C" Ref="R?"  Part="1"
 AR Path="/615D7BA0/6170B60A/61BA279C" Ref="R?"  Part="1" 
 AR Path="/615D7BA0/6172F88A/61BA279C" Ref="R?"  Part="1" 
 F 0 "R?" V 9650 1900 50  0000 C CNN
-F 1 "3300" V 9750 1900 50  0000 C CNN
+F 1 "330" V 9750 1900 50  0000 C CNN
 F 2 "" V 9680 1900 50  0001 C CNN
 F 3 "~" H 9750 1900 50  0001 C CNN
 	1    9750 1900
@@ -1894,11 +1894,11 @@ F 3 "" H 10550 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7800 1200 7500 1200
-Text HLabel 10650 1750 3    50   Input ~ 0
+Text HLabel 10650 1750 3    50   Output ~ 0
 Anderson_Nav
 Text HLabel 7500 1200 3    50   Input ~ 0
 Driver_Nav
-Text HLabel 11050 1150 3    50   Input ~ 0
+Text HLabel 11050 1150 3    50   Output ~ 0
 Current_Sensor_Nav
 Wire Wire Line
 	7700 1850 8400 1850
@@ -1943,9 +1943,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 3950 9100 4000
 Wire Wire Line
-	9150 2150 9150 2050
-Wire Wire Line
-	9150 2050 8950 2050
+	9150 2150 8950 2150
 Wire Wire Line
 	9100 650  9100 550 
 Wire Wire Line
@@ -2112,8 +2110,6 @@ $EndComp
 Wire Wire Line
 	6100 5800 6100 5650
 Wire Wire Line
-	5600 5800 5600 5650
-Wire Wire Line
 	5600 5650 5700 5650
 $Comp
 L Transistor_FET:BUK7M8R0-40EX Q?
@@ -2164,7 +2160,7 @@ AR Path="/615D5992/6209CF7D" Ref="R?"  Part="1"
 AR Path="/61609A41/6209CF7D" Ref="R?"  Part="1" 
 AR Path="/615D7BA0/6172F88A/6209CF7D" Ref="R?"  Part="1" 
 F 0 "R?" V 6650 5150 50  0000 C CNN
-F 1 "3300" V 6750 5150 50  0000 C CNN
+F 1 "330" V 6750 5150 50  0000 C CNN
 F 2 "" V 6680 5150 50  0001 C CNN
 F 3 "~" H 6750 5150 50  0001 C CNN
 	1    6750 5150
@@ -2297,6 +2293,7 @@ U 1 1 6219A356
 P 5650 3600
 AR Path="/615D5992/6219A356" Ref="U?"  Part="1" 
 AR Path="/61609A41/6219A356" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A356" Ref="U?"  Part="1" 
 F 0 "U?" H 6025 4287 60  0000 C CNN
 F 1 "LT1910" H 6025 4181 60  0000 C CNN
 F 2 "" H 5650 3600 60  0001 C CNN
@@ -2310,6 +2307,7 @@ U 1 1 6219A35C
 P 5250 4250
 AR Path="/615D5992/6219A35C" Ref="R?"  Part="1" 
 AR Path="/61609A41/6219A35C" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A35C" Ref="R?"  Part="1" 
 F 0 "R?" V 5150 4250 50  0000 C CNN
 F 1 "5.1k" V 5250 4250 50  0000 C CNN
 F 2 "" V 5180 4250 50  0001 C CNN
@@ -2325,6 +2323,7 @@ U 1 1 6219A363
 P 5000 4500
 AR Path="/615D5992/6219A363" Ref="#PWR?"  Part="1" 
 AR Path="/61609A41/6219A363" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A363" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5000 4350 50  0001 C CNN
 F 1 "+5V" H 5015 4673 50  0000 C CNN
 F 2 "" H 5000 4500 50  0001 C CNN
@@ -2346,6 +2345,7 @@ U 1 1 6219A373
 P 6050 3200
 AR Path="/615D5992/6219A373" Ref="#PWR?"  Part="1" 
 AR Path="/61609A41/6219A373" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A373" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6050 2950 50  0001 C CNN
 F 1 "GND" H 6055 3027 50  0000 C CNN
 F 2 "" H 6050 3200 50  0001 C CNN
@@ -2359,6 +2359,7 @@ U 1 1 6219A379
 P 5000 2500
 AR Path="/615D5992/6219A379" Ref="F?"  Part="1" 
 AR Path="/61609A41/6219A379" Ref="F?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A379" Ref="F?"  Part="1" 
 F 0 "F?" V 4850 2450 50  0000 L CNN
 F 1 "20" V 5000 2450 50  0000 L CNN
 F 2 "" V 4930 2500 50  0001 C CNN
@@ -2369,8 +2370,6 @@ $EndComp
 Wire Wire Line
 	5250 2650 5250 2500
 Wire Wire Line
-	4750 2650 4750 2500
-Wire Wire Line
 	4750 2500 4850 2500
 $Comp
 L Transistor_FET:BUK7M8R0-40EX Q?
@@ -2378,6 +2377,7 @@ U 1 1 6219A383
 P 5450 2100
 AR Path="/615D5992/6219A383" Ref="Q?"  Part="1" 
 AR Path="/61609A41/6219A383" Ref="Q?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A383" Ref="Q?"  Part="1" 
 F 0 "Q?" H 5350 1900 50  0000 L CNN
 F 1 "BUK7M8R5-40HX" H 5300 1800 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:LFPAK33" H 5650 2025 50  0001 L CIN
@@ -2404,6 +2404,7 @@ U 1 1 6219A390
 P 5800 2500
 AR Path="/615D5992/6219A390" Ref="C?"  Part="1" 
 AR Path="/61609A41/6219A390" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A390" Ref="C?"  Part="1" 
 F 0 "C?" H 5915 2546 50  0000 L CNN
 F 1 "10uF" H 5915 2455 50  0000 L CNN
 F 2 "" H 5838 2350 50  0001 C CNN
@@ -2417,8 +2418,9 @@ U 1 1 6219A396
 P 6100 1850
 AR Path="/615D5992/6219A396" Ref="R?"  Part="1" 
 AR Path="/61609A41/6219A396" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A396" Ref="R?"  Part="1" 
 F 0 "R?" V 6000 1850 50  0000 C CNN
-F 1 "3300" V 6100 1850 50  0000 C CNN
+F 1 "330" V 6100 1850 50  0000 C CNN
 F 2 "" V 6030 1850 50  0001 C CNN
 F 3 "~" H 6100 1850 50  0001 C CNN
 	1    6100 1850
@@ -2430,6 +2432,7 @@ U 1 1 6219A39C
 P 6100 1450
 AR Path="/615D5992/6219A39C" Ref="D?"  Part="1" 
 AR Path="/61609A41/6219A39C" Ref="D?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A39C" Ref="D?"  Part="1" 
 F 0 "D?" H 6100 1550 50  0000 C CNN
 F 1 "LED" H 6100 1650 50  0000 C CNN
 F 2 "" H 6100 1450 50  0001 C CNN
@@ -2443,6 +2446,7 @@ U 1 1 6219A3A2
 P 6200 1200
 AR Path="/615D5992/6219A3A2" Ref="#PWR?"  Part="1" 
 AR Path="/61609A41/6219A3A2" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A3A2" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6200 950 50  0001 C CNN
 F 1 "GND" H 6205 1027 50  0000 C CNN
 F 2 "" H 6200 1200 50  0001 C CNN
@@ -2460,6 +2464,7 @@ U 1 1 6219A3AA
 P 5350 1050
 AR Path="/615D5992/6219A3AA" Ref="U?"  Part="1" 
 AR Path="/61609A41/6219A3AA" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A3AA" Ref="U?"  Part="1" 
 F 0 "U?" H 5650 1400 50  0000 L CNN
 F 1 "INA281" H 5550 1300 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5600 1250 50  0001 C CNN
@@ -2473,6 +2478,7 @@ U 1 1 6219A3B0
 P 5550 1600
 AR Path="/615D5992/6219A3B0" Ref="R?"  Part="1" 
 AR Path="/61609A41/6219A3B0" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A3B0" Ref="R?"  Part="1" 
 F 0 "R?" H 5620 1646 50  0000 L CNN
 F 1 "0.0025" V 5550 1500 50  0000 L CNN
 F 2 "" V 5480 1600 50  0001 C CNN
@@ -2490,6 +2496,7 @@ U 1 1 6219A3B8
 P 5700 1050
 AR Path="/615D5992/6219A3B8" Ref="#PWR?"  Part="1" 
 AR Path="/61609A41/6219A3B8" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6219A3B8" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5700 800 50  0001 C CNN
 F 1 "GND" H 5705 877 50  0000 C CNN
 F 2 "" H 5700 1050 50  0001 C CNN
@@ -2578,4 +2585,22 @@ F 3 "~" H 5900 3900 50  0001 C CNN
 	1    5900 3900
 	0    -1   -1   0   
 $EndComp
+Text HLabel 2550 650  0    50   Input ~ 0
+12VCam2
+Text HLabel 2500 2300 0    50   Input ~ 0
+12VBBB
+Text HLabel 2550 3950 0    50   Input ~ 0
+12VCam1
+Text HLabel 2500 5800 0    50   Input ~ 0
+12VGimbal
+Text HLabel 5600 5650 0    50   Input ~ 0
+12VMultimedia
+Text HLabel 4750 2500 0    50   Input ~ 0
+12VDrive
+Text HLabel 8950 3950 0    50   Input ~ 0
+12VNetSwitch
+Text HLabel 8950 2150 0    50   Input ~ 0
+12VSciSensor
+Text HLabel 8900 550  0    50   Input ~ 0
+12VNav
 $EndSCHEMATC

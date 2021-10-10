@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -158,7 +158,7 @@ AR Path="/615D5992/6190351D" Ref="R?"  Part="1"
 AR Path="/615D7BA0/6170B60A/6190351D" Ref="R?"  Part="1" 
 AR Path="/615D7BA0/6170B6A9/6190351D" Ref="R?"  Part="1" 
 F 0 "R?" V 3400 2600 50  0000 C CNN
-F 1 "3300" V 3500 2600 50  0000 C CNN
+F 1 "330" V 3500 2600 50  0000 C CNN
 F 2 "" V 3430 2600 50  0001 C CNN
 F 3 "~" H 3500 2600 50  0001 C CNN
 	1    3500 2600
@@ -244,11 +244,11 @@ F 3 "" H 4300 2200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1550 1900 1250 1900
-Text HLabel 4400 2450 3    50   Input ~ 0
+Text HLabel 4400 2450 3    50   Output ~ 0
 Anderson_Aux
 Text HLabel 1250 1900 3    50   Input ~ 0
 Driver_Aux
-Text HLabel 4800 1850 3    50   Input ~ 0
+Text HLabel 4800 1850 3    50   Output ~ 0
 Current_Sensor_Aux
 Wire Wire Line
 	1450 2550 2150 2550
@@ -372,20 +372,6 @@ F 3 "" H 7100 2700 50  0001 C CNN
 	1    7100 2700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Fuse F?
-U 1 1 6191E111
-P 7800 1650
-AR Path="/615D5992/6191E111" Ref="F?"  Part="1" 
-AR Path="/615D7BA0/6170B60A/6191E111" Ref="F?"  Part="1" 
-AR Path="/615D7BA0/6170B6A9/6191E111" Ref="F?"  Part="1" 
-F 0 "F?" V 7650 1600 50  0000 L CNN
-F 1 "20" V 7800 1600 50  0000 L CNN
-F 2 "" V 7730 1650 50  0001 C CNN
-F 3 "~" H 7800 1650 50  0001 C CNN
-	1    7800 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7650 1900 7800 1900
 $Comp
@@ -404,8 +390,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 8200 2
 $EndComp
 Wire Wire Line
 	7800 1900 8300 1900
-Wire Wire Line
-	7800 1800 7800 1900
 Connection ~ 7800 1900
 Wire Wire Line
 	7650 2050 7800 2050
@@ -437,7 +421,7 @@ AR Path="/615D5992/6191E12B" Ref="R?"  Part="1"
 AR Path="/615D7BA0/6170B60A/6191E12B" Ref="R?"  Part="1" 
 AR Path="/615D7BA0/6170B6A9/6191E12B" Ref="R?"  Part="1" 
 F 0 "R?" V 8350 2750 50  0000 C CNN
-F 1 "3300" V 8450 2750 50  0000 C CNN
+F 1 "330" V 8450 2750 50  0000 C CNN
 F 2 "" V 8380 2750 50  0001 C CNN
 F 3 "~" H 8450 2750 50  0001 C CNN
 	1    8450 2750
@@ -523,11 +507,11 @@ F 3 "" H 9250 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6500 2050 6200 2050
-Text HLabel 9350 2600 3    50   Input ~ 0
+Text HLabel 9350 2600 3    50   Output ~ 0
 Anderson_Spare
 Text HLabel 6200 2050 3    50   Input ~ 0
 Driver_Spare
-Text HLabel 9750 2000 3    50   Input ~ 0
+Text HLabel 9750 2000 3    50   Output ~ 0
 Current_Sensor_Spare
 Wire Wire Line
 	6400 2700 7100 2700
@@ -567,10 +551,6 @@ Text HLabel 9250 1650 0    50   Input ~ 0
 5V
 Wire Wire Line
 	9250 1650 9250 1700
-Text HLabel 7800 1450 0    50   Input ~ 0
-12VA
-Wire Wire Line
-	7800 1500 7800 1450
 Wire Wire Line
 	4100 1950 4100 2300
 Wire Wire Line
@@ -585,4 +565,24 @@ Wire Wire Line
 Connection ~ 8700 2450
 Wire Wire Line
 	8700 2450 8700 2600
+$Comp
+L Device:Fuse F?
+U 1 1 6185444D
+P 7800 1600
+AR Path="/615D5992/6185444D" Ref="F?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6185444D" Ref="F?"  Part="1" 
+AR Path="/615D7BA0/6170B6A9/6185444D" Ref="F?"  Part="1" 
+F 0 "F?" V 7650 1550 50  0000 L CNN
+F 1 "20" V 7800 1550 50  0000 L CNN
+F 2 "" V 7730 1600 50  0001 C CNN
+F 3 "~" H 7800 1600 50  0001 C CNN
+	1    7800 1600
+	1    0    0    -1  
+$EndComp
+Text HLabel 7800 1400 0    50   Input ~ 0
+12VA
+Wire Wire Line
+	7800 1450 7800 1400
+Wire Wire Line
+	7800 1750 7800 1900
 $EndSCHEMATC
