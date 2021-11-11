@@ -1,0 +1,649 @@
+EESchema Schematic File Version 4
+LIBS:PowerBoard_2022_Rev1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PowerBoard_2022_Rev1-rescue:OKI-78SR-12_1.0-W36-C-Converter_DCDC U?
+U 1 1 61EAD272
+P 2250 1700
+AR Path="/61563C60/61EAD272" Ref="U?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD272" Ref="U1"  Part="1" 
+F 0 "U1" H 2250 1942 50  0000 C CNN
+F 1 "OKI-78SR-12_1.0-W36-C" H 2250 1851 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 2300 1450 50  0001 L CIN
+F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 2250 1700 50  0001 C CNN
+	1    2250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61EAD279
+P 1650 1950
+AR Path="/61563C60/61EAD279" Ref="C?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD279" Ref="C5"  Part="1" 
+F 0 "C5" H 1765 1996 50  0000 L CNN
+F 1 "22uF" H 1765 1905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1650 1950 50  0001 C CNN
+F 3 "~" H 1650 1950 50  0001 C CNN
+	1    1650 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61EAD280
+P 3100 1950
+AR Path="/61563C60/61EAD280" Ref="C?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD280" Ref="C91"  Part="1" 
+F 0 "C91" H 3215 1996 50  0000 L CNN
+F 1 "47uF" H 3215 1905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3100 1950 50  0001 C CNN
+F 3 "~" H 3100 1950 50  0001 C CNN
+	1    3100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EAD287
+P 2700 1950
+AR Path="/61563C60/61EAD287" Ref="C?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD287" Ref="C87"  Part="1" 
+F 0 "C87" H 2815 1996 50  0000 L CNN
+F 1 "10uF" H 2815 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2738 1800 50  0001 C CNN
+F 3 "~" H 2700 1950 50  0001 C CNN
+	1    2700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61EAD28E
+P 3550 1700
+AR Path="/61563C60/61EAD28E" Ref="R?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD28E" Ref="R2"  Part="1" 
+F 0 "R2" V 3343 1700 50  0000 C CNN
+F 1 "1000" V 3434 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3480 1700 50  0001 C CNN
+F 3 "~" H 3550 1700 50  0001 C CNN
+	1    3550 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61EAD295
+P 4100 1700
+AR Path="/61563C60/61EAD295" Ref="D?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD295" Ref="D3"  Part="1" 
+F 0 "D3" H 4093 1445 50  0000 C CNN
+F 1 "LED" H 4093 1536 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 1700 50  0001 C CNN
+F 3 "~" H 4100 1700 50  0001 C CNN
+	1    4100 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 1500 1400 1700
+Wire Wire Line
+	1400 1700 1650 1700
+Wire Wire Line
+	2550 1700 2700 1700
+Wire Wire Line
+	3100 1800 3100 1700
+Connection ~ 3100 1700
+Wire Wire Line
+	3100 1700 3250 1700
+Wire Wire Line
+	2700 1800 2700 1700
+Connection ~ 2700 1700
+Wire Wire Line
+	2700 1700 3100 1700
+Wire Wire Line
+	1650 1800 1650 1700
+Connection ~ 1650 1700
+Wire Wire Line
+	1650 1700 1950 1700
+Wire Wire Line
+	1650 2150 2250 2150
+Connection ~ 2250 2150
+$Comp
+L power:GND #PWR?
+U 1 1 61EAD2AA
+P 2250 2250
+AR Path="/61563C60/61EAD2AA" Ref="#PWR?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD2AA" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 2250 2000 50  0001 C CNN
+F 1 "GND" H 2255 2077 50  0000 C CNN
+F 2 "" H 2250 2250 50  0001 C CNN
+F 3 "" H 2250 2250 50  0001 C CNN
+	1    2250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61EAD2B0
+P 4500 1800
+AR Path="/61563C60/61EAD2B0" Ref="#PWR?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD2B0" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 4500 1550 50  0001 C CNN
+F 1 "GND" H 4505 1627 50  0000 C CNN
+F 2 "" H 4500 1800 50  0001 C CNN
+F 3 "" H 4500 1800 50  0001 C CNN
+	1    4500 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1800 4500 1700
+Wire Wire Line
+	4500 1700 4250 1700
+Wire Wire Line
+	3950 1700 3700 1700
+Wire Wire Line
+	2250 2250 2250 2150
+Text HLabel 3250 1350 2    50   Output ~ 0
+12VSciLog
+Connection ~ 3250 1700
+Wire Wire Line
+	3250 1700 3400 1700
+Wire Wire Line
+	3250 1350 3250 1700
+Wire Wire Line
+	2250 2150 2700 2150
+Wire Wire Line
+	2700 2100 2700 2150
+Connection ~ 2700 2150
+Wire Wire Line
+	2700 2150 3100 2150
+Wire Wire Line
+	3100 2100 3100 2150
+Wire Wire Line
+	2250 2000 2250 2150
+Wire Wire Line
+	1650 2150 1650 2100
+$Comp
+L PowerBoard_2022_Rev1-rescue:OKI-78SR-12_1.0-W36-C-Converter_DCDC U?
+U 1 1 61EAD839
+P 2250 2900
+AR Path="/61563C60/61EAD839" Ref="U?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD839" Ref="U3"  Part="1" 
+F 0 "U3" H 2250 3142 50  0000 C CNN
+F 1 "OKI-78SR-12_1.0-W36-C" H 2250 3051 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 2300 2650 50  0001 L CIN
+F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 2250 2900 50  0001 C CNN
+	1    2250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61EAD840
+P 1650 3150
+AR Path="/61563C60/61EAD840" Ref="C?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD840" Ref="C7"  Part="1" 
+F 0 "C7" H 1765 3196 50  0000 L CNN
+F 1 "22uF" H 1765 3105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1650 3150 50  0001 C CNN
+F 3 "~" H 1650 3150 50  0001 C CNN
+	1    1650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61EAD847
+P 3100 3150
+AR Path="/61563C60/61EAD847" Ref="C?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD847" Ref="C92"  Part="1" 
+F 0 "C92" H 3215 3196 50  0000 L CNN
+F 1 "47uF" H 3215 3105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3100 3150 50  0001 C CNN
+F 3 "~" H 3100 3150 50  0001 C CNN
+	1    3100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EAD84E
+P 2700 3150
+AR Path="/61563C60/61EAD84E" Ref="C?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD84E" Ref="C88"  Part="1" 
+F 0 "C88" H 2815 3196 50  0000 L CNN
+F 1 "10uF" H 2815 3105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2738 3000 50  0001 C CNN
+F 3 "~" H 2700 3150 50  0001 C CNN
+	1    2700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61EAD855
+P 3550 2900
+AR Path="/61563C60/61EAD855" Ref="R?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD855" Ref="R4"  Part="1" 
+F 0 "R4" V 3343 2900 50  0000 C CNN
+F 1 "1000" V 3434 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3480 2900 50  0001 C CNN
+F 3 "~" H 3550 2900 50  0001 C CNN
+	1    3550 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61EAD85C
+P 4100 2900
+AR Path="/61563C60/61EAD85C" Ref="D?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD85C" Ref="D36"  Part="1" 
+F 0 "D36" H 4093 2645 50  0000 C CNN
+F 1 "LED" H 4093 2736 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 2900 50  0001 C CNN
+F 3 "~" H 4100 2900 50  0001 C CNN
+	1    4100 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 2700 1400 2900
+Wire Wire Line
+	1400 2900 1650 2900
+Wire Wire Line
+	2550 2900 2700 2900
+Wire Wire Line
+	3100 3000 3100 2900
+Connection ~ 3100 2900
+Wire Wire Line
+	3100 2900 3250 2900
+Wire Wire Line
+	2700 3000 2700 2900
+Connection ~ 2700 2900
+Wire Wire Line
+	2700 2900 3100 2900
+Wire Wire Line
+	1650 3000 1650 2900
+Connection ~ 1650 2900
+Wire Wire Line
+	1650 2900 1950 2900
+Wire Wire Line
+	1650 3350 2250 3350
+Connection ~ 2250 3350
+$Comp
+L power:GND #PWR?
+U 1 1 61EAD871
+P 2250 3450
+AR Path="/61563C60/61EAD871" Ref="#PWR?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD871" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 2250 3200 50  0001 C CNN
+F 1 "GND" H 2255 3277 50  0000 C CNN
+F 2 "" H 2250 3450 50  0001 C CNN
+F 3 "" H 2250 3450 50  0001 C CNN
+	1    2250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61EAD877
+P 4500 3000
+AR Path="/61563C60/61EAD877" Ref="#PWR?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAD877" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 4500 2750 50  0001 C CNN
+F 1 "GND" H 4505 2827 50  0000 C CNN
+F 2 "" H 4500 3000 50  0001 C CNN
+F 3 "" H 4500 3000 50  0001 C CNN
+	1    4500 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3000 4500 2900
+Wire Wire Line
+	4500 2900 4250 2900
+Wire Wire Line
+	3950 2900 3700 2900
+Wire Wire Line
+	2250 3450 2250 3350
+Text HLabel 3250 2550 2    50   Output ~ 0
+12VSciLog
+Connection ~ 3250 2900
+Wire Wire Line
+	3250 2900 3400 2900
+Wire Wire Line
+	3250 2550 3250 2900
+Wire Wire Line
+	2250 3350 2700 3350
+Wire Wire Line
+	2700 3300 2700 3350
+Connection ~ 2700 3350
+Wire Wire Line
+	2700 3350 3100 3350
+Wire Wire Line
+	3100 3300 3100 3350
+Wire Wire Line
+	2250 3200 2250 3350
+Wire Wire Line
+	1650 3350 1650 3300
+$Comp
+L PowerBoard_2022_Rev1-rescue:OKI-78SR-12_1.0-W36-C-Converter_DCDC U?
+U 1 1 61EAE137
+P 2250 4000
+AR Path="/61563C60/61EAE137" Ref="U?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAE137" Ref="U56"  Part="1" 
+F 0 "U56" H 2250 4242 50  0000 C CNN
+F 1 "OKI-78SR-12_1.0-W36-C" H 2250 4151 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 2300 3750 50  0001 L CIN
+F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 2250 4000 50  0001 C CNN
+	1    2250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61EAE13E
+P 1650 4250
+AR Path="/61563C60/61EAE13E" Ref="C?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAE13E" Ref="C85"  Part="1" 
+F 0 "C85" H 1765 4296 50  0000 L CNN
+F 1 "22uF" H 1765 4205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1650 4250 50  0001 C CNN
+F 3 "~" H 1650 4250 50  0001 C CNN
+	1    1650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61EAE145
+P 3100 4250
+AR Path="/61563C60/61EAE145" Ref="C?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAE145" Ref="C93"  Part="1" 
+F 0 "C93" H 3215 4296 50  0000 L CNN
+F 1 "47uF" H 3215 4205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3100 4250 50  0001 C CNN
+F 3 "~" H 3100 4250 50  0001 C CNN
+	1    3100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EAE14C
+P 2700 4250
+AR Path="/61563C60/61EAE14C" Ref="C?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAE14C" Ref="C89"  Part="1" 
+F 0 "C89" H 2815 4296 50  0000 L CNN
+F 1 "10uF" H 2815 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2738 4100 50  0001 C CNN
+F 3 "~" H 2700 4250 50  0001 C CNN
+	1    2700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61EAE153
+P 3550 4000
+AR Path="/61563C60/61EAE153" Ref="R?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAE153" Ref="R5"  Part="1" 
+F 0 "R5" V 3343 4000 50  0000 C CNN
+F 1 "1000" V 3434 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3480 4000 50  0001 C CNN
+F 3 "~" H 3550 4000 50  0001 C CNN
+	1    3550 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61EAE15A
+P 4100 4000
+AR Path="/61563C60/61EAE15A" Ref="D?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAE15A" Ref="D37"  Part="1" 
+F 0 "D37" H 4093 3745 50  0000 C CNN
+F 1 "LED" H 4093 3836 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 4000 50  0001 C CNN
+F 3 "~" H 4100 4000 50  0001 C CNN
+	1    4100 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 3800 1400 4000
+Wire Wire Line
+	1400 4000 1650 4000
+Wire Wire Line
+	2550 4000 2700 4000
+Wire Wire Line
+	3100 4100 3100 4000
+Connection ~ 3100 4000
+Wire Wire Line
+	3100 4000 3250 4000
+Wire Wire Line
+	2700 4100 2700 4000
+Connection ~ 2700 4000
+Wire Wire Line
+	2700 4000 3100 4000
+Wire Wire Line
+	1650 4100 1650 4000
+Connection ~ 1650 4000
+Wire Wire Line
+	1650 4000 1950 4000
+Wire Wire Line
+	1650 4450 2250 4450
+Connection ~ 2250 4450
+$Comp
+L power:GND #PWR?
+U 1 1 61EAE16F
+P 2250 4550
+AR Path="/61563C60/61EAE16F" Ref="#PWR?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAE16F" Ref="#PWR0239"  Part="1" 
+F 0 "#PWR0239" H 2250 4300 50  0001 C CNN
+F 1 "GND" H 2255 4377 50  0000 C CNN
+F 2 "" H 2250 4550 50  0001 C CNN
+F 3 "" H 2250 4550 50  0001 C CNN
+	1    2250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61EAE175
+P 4500 4100
+AR Path="/61563C60/61EAE175" Ref="#PWR?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAE175" Ref="#PWR0240"  Part="1" 
+F 0 "#PWR0240" H 4500 3850 50  0001 C CNN
+F 1 "GND" H 4505 3927 50  0000 C CNN
+F 2 "" H 4500 4100 50  0001 C CNN
+F 3 "" H 4500 4100 50  0001 C CNN
+	1    4500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4100 4500 4000
+Wire Wire Line
+	4500 4000 4250 4000
+Wire Wire Line
+	3950 4000 3700 4000
+Wire Wire Line
+	2250 4550 2250 4450
+Text HLabel 3250 3650 2    50   Output ~ 0
+12VSciLog
+Connection ~ 3250 4000
+Wire Wire Line
+	3250 4000 3400 4000
+Wire Wire Line
+	3250 3650 3250 4000
+Wire Wire Line
+	2250 4450 2700 4450
+Wire Wire Line
+	2700 4400 2700 4450
+Connection ~ 2700 4450
+Wire Wire Line
+	2700 4450 3100 4450
+Wire Wire Line
+	3100 4400 3100 4450
+Wire Wire Line
+	2250 4300 2250 4450
+Wire Wire Line
+	1650 4450 1650 4400
+$Comp
+L PowerBoard_2022_Rev1-rescue:OKI-78SR-12_1.0-W36-C-Converter_DCDC U?
+U 1 1 61EAF3C4
+P 2250 5100
+AR Path="/61563C60/61EAF3C4" Ref="U?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAF3C4" Ref="U57"  Part="1" 
+F 0 "U57" H 2250 5342 50  0000 C CNN
+F 1 "OKI-78SR-12_1.0-W36-C" H 2250 5251 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 2300 4850 50  0001 L CIN
+F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 2250 5100 50  0001 C CNN
+	1    2250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61EAF3CB
+P 1650 5350
+AR Path="/61563C60/61EAF3CB" Ref="C?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAF3CB" Ref="C86"  Part="1" 
+F 0 "C86" H 1765 5396 50  0000 L CNN
+F 1 "22uF" H 1765 5305 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1650 5350 50  0001 C CNN
+F 3 "~" H 1650 5350 50  0001 C CNN
+	1    1650 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61EAF3D2
+P 3100 5350
+AR Path="/61563C60/61EAF3D2" Ref="C?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAF3D2" Ref="C94"  Part="1" 
+F 0 "C94" H 3215 5396 50  0000 L CNN
+F 1 "47uF" H 3215 5305 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3100 5350 50  0001 C CNN
+F 3 "~" H 3100 5350 50  0001 C CNN
+	1    3100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61EAF3D9
+P 2700 5350
+AR Path="/61563C60/61EAF3D9" Ref="C?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAF3D9" Ref="C90"  Part="1" 
+F 0 "C90" H 2815 5396 50  0000 L CNN
+F 1 "10uF" H 2815 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2738 5200 50  0001 C CNN
+F 3 "~" H 2700 5350 50  0001 C CNN
+	1    2700 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61EAF3E0
+P 3550 5100
+AR Path="/61563C60/61EAF3E0" Ref="R?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAF3E0" Ref="R76"  Part="1" 
+F 0 "R76" V 3343 5100 50  0000 C CNN
+F 1 "1000" V 3434 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3480 5100 50  0001 C CNN
+F 3 "~" H 3550 5100 50  0001 C CNN
+	1    3550 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61EAF3E7
+P 4100 5100
+AR Path="/61563C60/61EAF3E7" Ref="D?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAF3E7" Ref="D38"  Part="1" 
+F 0 "D38" H 4093 4845 50  0000 C CNN
+F 1 "LED" H 4093 4936 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 5100 50  0001 C CNN
+F 3 "~" H 4100 5100 50  0001 C CNN
+	1    4100 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 4900 1400 5100
+Wire Wire Line
+	1400 5100 1650 5100
+Wire Wire Line
+	2550 5100 2700 5100
+Wire Wire Line
+	3100 5200 3100 5100
+Connection ~ 3100 5100
+Wire Wire Line
+	3100 5100 3250 5100
+Wire Wire Line
+	2700 5200 2700 5100
+Connection ~ 2700 5100
+Wire Wire Line
+	2700 5100 3100 5100
+Wire Wire Line
+	1650 5200 1650 5100
+Connection ~ 1650 5100
+Wire Wire Line
+	1650 5100 1950 5100
+Wire Wire Line
+	1650 5550 2250 5550
+Connection ~ 2250 5550
+$Comp
+L power:GND #PWR?
+U 1 1 61EAF3FC
+P 2250 5650
+AR Path="/61563C60/61EAF3FC" Ref="#PWR?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAF3FC" Ref="#PWR0241"  Part="1" 
+F 0 "#PWR0241" H 2250 5400 50  0001 C CNN
+F 1 "GND" H 2255 5477 50  0000 C CNN
+F 2 "" H 2250 5650 50  0001 C CNN
+F 3 "" H 2250 5650 50  0001 C CNN
+	1    2250 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61EAF402
+P 4500 5200
+AR Path="/61563C60/61EAF402" Ref="#PWR?"  Part="1" 
+AR Path="/61563C60/61E93D59/61EAF402" Ref="#PWR0242"  Part="1" 
+F 0 "#PWR0242" H 4500 4950 50  0001 C CNN
+F 1 "GND" H 4505 5027 50  0000 C CNN
+F 2 "" H 4500 5200 50  0001 C CNN
+F 3 "" H 4500 5200 50  0001 C CNN
+	1    4500 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5200 4500 5100
+Wire Wire Line
+	4500 5100 4250 5100
+Wire Wire Line
+	3950 5100 3700 5100
+Wire Wire Line
+	2250 5650 2250 5550
+Text HLabel 3250 4750 2    50   Output ~ 0
+12VSciLog
+Connection ~ 3250 5100
+Wire Wire Line
+	3250 5100 3400 5100
+Wire Wire Line
+	3250 4750 3250 5100
+Wire Wire Line
+	2250 5550 2700 5550
+Wire Wire Line
+	2700 5500 2700 5550
+Connection ~ 2700 5550
+Wire Wire Line
+	2700 5550 3100 5550
+Wire Wire Line
+	3100 5500 3100 5550
+Wire Wire Line
+	2250 5400 2250 5550
+Wire Wire Line
+	1650 5550 1650 5500
+Text HLabel 1400 1500 1    50   Input ~ 0
+PVLogic
+Text HLabel 1400 2700 1    50   Input ~ 0
+PVLogic
+Text HLabel 1400 3800 1    50   Input ~ 0
+PVLogic
+Text HLabel 1400 4900 1    50   Input ~ 0
+PVLogic
+$EndSCHEMATC
