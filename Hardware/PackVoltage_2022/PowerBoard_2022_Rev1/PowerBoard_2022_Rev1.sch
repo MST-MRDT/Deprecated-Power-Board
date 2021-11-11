@@ -128,8 +128,6 @@ Text GLabel 3700 5250 2    50   Input ~ 0
 Current_Sensor_Gimbal
 Text GLabel 3700 5350 2    50   Input ~ 0
 Current_Sensor_Aux
-Text GLabel 3700 5450 2    50   Input ~ 0
-Current_Sensor_Spare
 Wire Wire Line
 	3700 3300 3600 3300
 Wire Wire Line
@@ -162,8 +160,6 @@ Wire Wire Line
 	3600 5150 3700 5150
 Wire Wire Line
 	3700 5250 3600 5250
-Wire Wire Line
-	3600 5450 3700 5450
 Wire Wire Line
 	3700 5350 3600 5350
 Text GLabel 3700 3400 2    50   Input ~ 0
@@ -541,7 +537,7 @@ F 3 "~" H 1650 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Drill_Holes:BATT_PWR_VIA V1
+L PowerBoard_2022_Rev1-rescue:BATT_PWR_VIA-MRDT_Drill_Holes V1
 U 1 1 6186682A
 P 1550 6500
 F 0 "V1" H 1678 6520 60  0000 L CNN

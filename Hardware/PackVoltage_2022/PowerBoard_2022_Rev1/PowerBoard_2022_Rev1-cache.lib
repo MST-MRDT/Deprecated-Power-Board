@@ -174,19 +174,6 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MRDT_Drill_Holes_BATT_PWR_VIA
-#
-DEF MRDT_Drill_Holes_BATT_PWR_VIA V 0 40 N N 1 F N
-F0 "V" 150 50 60 H V C CNN
-F1 "MRDT_Drill_Holes_BATT_PWR_VIA" 0 200 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 4 0 1 0 0 150 -100 0 100 0 0 150 N
-X 1 1 0 -200 200 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # PowerBoard_2022_Rev1-rescue_AndersonPP-MRDT_Connectors
 #
 DEF PowerBoard_2022_Rev1-rescue_AndersonPP-MRDT_Connectors Conn 0 0 N Y 5 L N
@@ -204,6 +191,19 @@ X V+Log 2 400 100 200 L 50 39 2 1 I
 X V+Act 3 400 100 200 L 50 39 3 1 I
 X PV+ 4 400 100 200 L 50 39 4 1 I
 X ~ 1 400 100 200 L 50 39 5 1 I
+ENDDRAW
+ENDDEF
+#
+# PowerBoard_2022_Rev1-rescue_BATT_PWR_VIA-MRDT_Drill_Holes
+#
+DEF PowerBoard_2022_Rev1-rescue_BATT_PWR_VIA-MRDT_Drill_Holes V 0 40 N N 1 F N
+F0 "V" 150 50 60 H V C CNN
+F1 "PowerBoard_2022_Rev1-rescue_BATT_PWR_VIA-MRDT_Drill_Holes" 0 200 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+P 4 0 1 0 0 150 -100 0 100 0 0 150 N
+X 1 1 0 -200 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
