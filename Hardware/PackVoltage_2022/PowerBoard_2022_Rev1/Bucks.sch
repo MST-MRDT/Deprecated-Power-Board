@@ -2028,4 +2028,6 @@ Wire Wire Line
 	9600 5850 9750 5850
 Text HLabel 9750 5850 2    50   Output ~ 0
 12VGimAct
+NoConn ~ 3800 7050
+NoConn ~ 6100 7050
 $EndSCHEMATC
