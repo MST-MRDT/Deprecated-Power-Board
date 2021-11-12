@@ -10641,7 +10641,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96932)
-    (at 372.914303 -230.028972 270)
+    (at 350.308303 -233.076972 270)
     (path /615E92DD/615E9566)
     (fp_text reference Conn1 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10682,7 +10682,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A9694E)
-    (at 359.888044 -230.238639 270)
+    (at 337.282044 -233.286639 270)
     (path /615E92DD/6163A58E)
     (fp_text reference Conn2 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10723,7 +10723,7 @@
   )
 
   (module MRDT_Connectors:Anderson_3_Vertical_Side_by_Side (layer F.Cu) (tedit 5DD89709) (tstamp 61A96977)
-    (at 347.162044 -230.225639 270)
+    (at 324.556044 -233.273639 270)
     (path /615E92DD/61708907)
     (fp_text reference Conn3 (at 17.363 6.426 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10785,7 +10785,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96993)
-    (at 334.534303 -230.523972 270)
+    (at 311.928303 -233.571972 270)
     (path /615E92DD/61640749)
     (fp_text reference Conn4 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10827,7 +10827,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A969AF)
-    (at 320.238044 -230.479639 270)
+    (at 297.632044 -233.527639 270)
     (path /615E92DD/6163A582)
     (fp_text reference Conn5 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10868,7 +10868,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A969CB)
-    (at 307.564044 -230.264639 270)
+    (at 284.958044 -233.312639 270)
     (path /615E92DD/6163A59A)
     (fp_text reference Conn6 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10909,7 +10909,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A969E7)
-    (at 294.838044 -230.225639 270)
+    (at 272.232044 -233.273639 270)
     (path /615E92DD/6170890D)
     (fp_text reference Conn7 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10951,7 +10951,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96A03)
-    (at 281.656044 -230.238639 270)
+    (at 259.050044 -233.286639 270)
     (path /615E92DD/6164074F)
     (fp_text reference Conn8 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10993,7 +10993,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96A1F)
-    (at 267.986303 -230.269972 270)
+    (at 245.380303 -233.317972 270)
     (path /615E92DD/616728DC)
     (fp_text reference Conn9 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11034,7 +11034,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96A3B)
-    (at 255.214044 -230.225639 270)
+    (at 232.608044 -233.273639 270)
     (path /615E92DD/6163A5B2)
     (fp_text reference Conn10 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11075,7 +11075,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96A57)
-    (at 370.501195 -255.423594 270)
+    (at 347.895195 -258.471594 270)
     (path /615E92DD/61708913)
     (fp_text reference Conn11 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11117,7 +11117,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96A73)
-    (at 356.531195 -255.677594 270)
+    (at 333.925195 -258.725594 270)
     (path /615E92DD/61673B12)
     (fp_text reference Conn12 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11158,7 +11158,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96A8F)
-    (at 343.831195 -255.677594 270)
+    (at 321.225195 -258.725594 270)
     (path /615E92DD/61674240)
     (fp_text reference Conn13 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11199,7 +11199,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96AAB)
-    (at 331.344194 -255.814593 270)
+    (at 308.738194 -258.862593 270)
     (path /615E92DD/61675182)
     (fp_text reference Conn14 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11240,7 +11240,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96AC7)
-    (at 318.685195 -255.931594 270)
+    (at 296.079195 -258.979594 270)
     (path /615E92DD/616760D8)
     (fp_text reference Conn15 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11281,7 +11281,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96AE3)
-    (at 306.467195 -255.638594 270)
+    (at 283.861195 -258.686594 270)
     (path /615E92DD/616776CA)
     (fp_text reference Conn16 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11322,7 +11322,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96AFF)
-    (at 293.838194 -255.840593 270)
+    (at 271.232194 -258.888593 270)
     (path /615E92DD/61708919)
     (fp_text reference Conn17 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11364,7 +11364,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96B1B)
-    (at 281.601195 -255.840593 270)
+    (at 258.995195 -258.888593 270)
     (path /615E92DD/6170891F)
     (fp_text reference Conn18 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11406,7 +11406,7 @@
   )
 
   (module MRDT_Connectors:Anderson_3_Vertical_Side_by_Side (layer F.Cu) (tedit 5DD89709) (tstamp 61A96B44)
-    (at 268.113195 -255.892594 270)
+    (at 245.507195 -258.940594 270)
     (path /615E92DD/6170BB23)
     (fp_text reference Conn19 (at 17.363 6.426 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11468,7 +11468,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 61A96B60)
-    (at 255.947195 -255.677594 270)
+    (at 233.341195 -258.725594 270)
     (path /615E92DD/6170BB29)
     (fp_text reference Conn20 (at 9.763 6.426 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
