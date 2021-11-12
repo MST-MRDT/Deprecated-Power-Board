@@ -490,14 +490,14 @@ Wire Wire Line
 $Comp
 L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 61708907
-P 750 4100
+P 950 4650
 AR Path="/61708907" Ref="Conn?"  Part="1" 
 AR Path="/615E92DD/61708907" Ref="Conn3"  Part="1" 
-F 0 "Conn3" H 958 4487 60  0000 C CNN
-F 1 "AndersonPP" H 958 4381 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 600 3550 60  0001 C CNN
-F 3 "" H 600 3550 60  0001 C CNN
-	1    750  4100
+F 0 "Conn3" H 1158 5037 60  0000 C CNN
+F 1 "AndersonPP" H 1158 4931 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 800 4100 60  0001 C CNN
+F 3 "" H 800 4100 60  0001 C CNN
+	1    950  4650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -607,27 +607,27 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0228
 U 1 1 61708941
-P 1350 4000
-F 0 "#PWR0228" H 1350 3750 50  0001 C CNN
-F 1 "GND" H 1355 3827 50  0000 C CNN
-F 2 "" H 1350 4000 50  0001 C CNN
-F 3 "" H 1350 4000 50  0001 C CNN
-	1    1350 4000
+P 1550 4550
+F 0 "#PWR0228" H 1550 4300 50  0001 C CNN
+F 1 "GND" H 1555 4377 50  0000 C CNN
+F 2 "" H 1550 4550 50  0001 C CNN
+F 3 "" H 1550 4550 50  0001 C CNN
+	1    1550 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 4000 1150 4000
+	1550 4550 1350 4550
 $Comp
 L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 6170BB23
-P 8200 4100
+P 8200 4550
 AR Path="/6170BB23" Ref="Conn?"  Part="1" 
 AR Path="/615E92DD/6170BB23" Ref="Conn20"  Part="1" 
-F 0 "Conn20" H 8408 4487 60  0000 C CNN
-F 1 "AndersonPP" H 8408 4381 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 8050 3550 60  0001 C CNN
-F 3 "" H 8050 3550 60  0001 C CNN
-	1    8200 4100
+F 0 "Conn20" H 8408 4937 60  0000 C CNN
+F 1 "AndersonPP" H 8408 4831 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 8050 4000 60  0001 C CNN
+F 3 "" H 8050 4000 60  0001 C CNN
+	1    8200 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -659,111 +659,33 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0230
 U 1 1 6170BB5D
-P 8800 4000
-F 0 "#PWR0230" H 8800 3750 50  0001 C CNN
-F 1 "GND" H 8805 3827 50  0000 C CNN
-F 2 "" H 8800 4000 50  0001 C CNN
-F 3 "" H 8800 4000 50  0001 C CNN
-	1    8800 4000
+P 8800 4450
+F 0 "#PWR0230" H 8800 4200 50  0001 C CNN
+F 1 "GND" H 8805 4277 50  0000 C CNN
+F 2 "" H 8800 4450 50  0001 C CNN
+F 3 "" H 8800 4450 50  0001 C CNN
+	1    8800 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8800 4000 8600 4000
-$Comp
-L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 3 1 6170D7DA
-P 750 3550
-AR Path="/6170D7DA" Ref="Conn?"  Part="3" 
-AR Path="/615E92DD/6170D7DA" Ref="Conn1"  Part="3" 
-F 0 "Conn1" H 958 3937 60  0000 C CNN
-F 1 "AndersonPP" H 958 3831 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 600 3000 60  0001 C CNN
-F 3 "" H 600 3000 60  0001 C CNN
-	3    750  3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 3 1 6170E5EC
-P 2350 3550
-AR Path="/6170E5EC" Ref="Conn?"  Part="3" 
-AR Path="/615E92DD/6170E5EC" Ref="Conn3"  Part="3" 
-F 0 "Conn3" H 2558 3937 60  0000 C CNN
-F 1 "AndersonPP" H 2558 3831 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2200 3000 60  0001 C CNN
-F 3 "" H 2200 3000 60  0001 C CNN
-	3    2350 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 3 1 61710063
-P 3750 3550
-AR Path="/61710063" Ref="Conn?"  Part="3" 
-AR Path="/615E92DD/61710063" Ref="Conn5"  Part="3" 
-F 0 "Conn5" H 3958 3937 60  0000 C CNN
-F 1 "AndersonPP" H 3958 3831 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3600 3000 60  0001 C CNN
-F 3 "" H 3600 3000 60  0001 C CNN
-	3    3750 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 3 1 61710C12
-P 5250 3550
-AR Path="/61710C12" Ref="Conn?"  Part="3" 
-AR Path="/615E92DD/61710C12" Ref="Conn6"  Part="3" 
-F 0 "Conn6" H 5458 3937 60  0000 C CNN
-F 1 "AndersonPP" H 5458 3831 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 5100 3000 60  0001 C CNN
-F 3 "" H 5100 3000 60  0001 C CNN
-	3    5250 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 3 1 61711AD8
-P 6700 3550
-AR Path="/61711AD8" Ref="Conn?"  Part="3" 
-AR Path="/615E92DD/61711AD8" Ref="Conn7"  Part="3" 
-F 0 "Conn7" H 6908 3937 60  0000 C CNN
-F 1 "AndersonPP" H 6908 3831 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 6550 3000 60  0001 C CNN
-F 3 "" H 6550 3000 60  0001 C CNN
-	3    6700 3550
-	1    0    0    -1  
-$EndComp
+	8800 4450 8600 4450
 $Comp
 L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
 U 3 1 61712761
-P 8200 3550
+P 8200 4050
 AR Path="/61712761" Ref="Conn?"  Part="3" 
 AR Path="/615E92DD/61712761" Ref="Conn8"  Part="3" 
-F 0 "Conn8" H 8408 3937 60  0000 C CNN
-F 1 "AndersonPP" H 8408 3831 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 8050 3000 60  0001 C CNN
-F 3 "" H 8050 3000 60  0001 C CNN
-	3    8200 3550
+F 0 "Conn8" H 8408 4437 60  0000 C CNN
+F 1 "AndersonPP" H 8408 4331 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 8050 3500 60  0001 C CNN
+F 3 "" H 8050 3500 60  0001 C CNN
+	3    8200 4050
 	1    0    0    -1  
 $EndComp
-$Comp
-L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 3 1 617132FE
-P 9800 3550
-AR Path="/617132FE" Ref="Conn?"  Part="3" 
-AR Path="/615E92DD/617132FE" Ref="Conn9"  Part="3" 
-F 0 "Conn9" H 10008 3937 60  0000 C CNN
-F 1 "AndersonPP" H 10008 3831 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 9650 3000 60  0001 C CNN
-F 3 "" H 9650 3000 60  0001 C CNN
-	3    9800 3550
-	1    0    0    -1  
-$EndComp
-Text HLabel 1300 3450 2    50   Input ~ 0
+Text HLabel 1500 3450 2    50   Input ~ 0
 Anderson_SciSensor
 Wire Wire Line
-	1150 3450 1300 3450
+	1350 3450 1500 3450
 Text HLabel 2900 3450 2    50   Input ~ 0
 Anderson_BBB
 Wire Wire Line
@@ -791,14 +713,14 @@ Wire Wire Line
 $Comp
 L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 61640749
-P 750 5450
+P 950 5750
 AR Path="/61640749" Ref="Conn?"  Part="1" 
 AR Path="/615E92DD/61640749" Ref="Conn4"  Part="1" 
-F 0 "Conn4" H 958 5837 60  0000 C CNN
-F 1 "AndersonPP" H 958 5731 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 600 4900 60  0001 C CNN
-F 3 "" H 600 4900 60  0001 C CNN
-	1    750  5450
+F 0 "Conn4" H 1158 6137 60  0000 C CNN
+F 1 "AndersonPP" H 1158 6031 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 800 5200 60  0001 C CNN
+F 3 "" H 800 5200 60  0001 C CNN
+	1    950  5750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -830,89 +752,65 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0232
 U 1 1 6164075C
-P 1350 5350
-F 0 "#PWR0232" H 1350 5100 50  0001 C CNN
-F 1 "GND" H 1355 5177 50  0000 C CNN
-F 2 "" H 1350 5350 50  0001 C CNN
-F 3 "" H 1350 5350 50  0001 C CNN
-	1    1350 5350
+P 1550 5650
+F 0 "#PWR0232" H 1550 5400 50  0001 C CNN
+F 1 "GND" H 1555 5477 50  0000 C CNN
+F 2 "" H 1550 5650 50  0001 C CNN
+F 3 "" H 1550 5650 50  0001 C CNN
+	1    1550 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 5350 1150 5350
-$Comp
-L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 3 1 61640763
-P 750 4900
-AR Path="/61640763" Ref="Conn?"  Part="3" 
-AR Path="/615E92DD/61640763" Ref="Conn2"  Part="3" 
-F 0 "Conn2" H 958 5287 60  0000 C CNN
-F 1 "AndersonPP" H 958 5181 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 600 4350 60  0001 C CNN
-F 3 "" H 600 4350 60  0001 C CNN
-	3    750  4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 3 1 61640769
-P 2350 4900
-AR Path="/61640769" Ref="Conn?"  Part="3" 
-AR Path="/615E92DD/61640769" Ref="Conn4"  Part="3" 
-F 0 "Conn4" H 2558 5287 60  0000 C CNN
-F 1 "AndersonPP" H 2558 5181 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2200 4350 60  0001 C CNN
-F 3 "" H 2200 4350 60  0001 C CNN
-	3    2350 4900
-	1    0    0    -1  
-$EndComp
-Text HLabel 1300 4800 2    50   Input ~ 0
+	1550 5650 1350 5650
+Text HLabel 1500 5100 2    50   Input ~ 0
 Anderson_Spare
 Wire Wire Line
-	1150 4800 1300 4800
+	1350 5100 1500 5100
 Text HLabel 2900 4800 2    50   Input ~ 0
 Anderson_Aux
 Wire Wire Line
 	2750 4800 2900 4800
-$Comp
-L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 61F3134A
-P 2350 6850
-AR Path="/61F3134A" Ref="Conn?"  Part="1" 
-AR Path="/615E92DD/61F3134A" Ref="Conn23"  Part="1" 
-F 0 "Conn23" H 2558 7237 60  0000 C CNN
-F 1 "AndersonPP" H 2558 7131 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2200 6300 60  0001 C CNN
-F 3 "" H 2200 6300 60  0001 C CNN
-	1    2350 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0243
-U 1 1 61F31351
-P 2950 6750
-F 0 "#PWR0243" H 2950 6500 50  0001 C CNN
-F 1 "GND" H 2955 6577 50  0000 C CNN
-F 2 "" H 2950 6750 50  0001 C CNN
-F 3 "" H 2950 6750 50  0001 C CNN
-	1    2950 6750
-	1    0    0    -1  
-$EndComp
+Text HLabel 1500 4050 2    50   Input ~ 0
+Anderson_SciAct
 Wire Wire Line
-	2950 6750 2750 6750
-Text HLabel 2900 6200 2    50   Input ~ 0
-Anderson_SciLog
-Wire Wire Line
-	2750 6200 2900 6200
+	1350 4050 1500 4050
 $Comp
 L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn22
 U 2 1 61F33642
-P 2350 6300
-F 0 "Conn22" H 2556 6687 60  0000 C CNN
-F 1 "AndersonPP-MRDT_Connectors" H 2556 6581 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2200 5750 60  0001 C CNN
-F 3 "" H 2200 5750 60  0001 C CNN
-	2    2350 6300
+P 950 3550
+F 0 "Conn22" H 1156 3937 60  0000 C CNN
+F 1 "AndersonPP-MRDT_Connectors" H 1156 3831 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 800 3000 60  0001 C CNN
+F 3 "" H 800 3000 60  0001 C CNN
+	2    950  3550
+	1    0    0    -1  
+$EndComp
+Text HLabel 8750 3950 2    50   Input ~ 0
+Anderson_GimAct
+Wire Wire Line
+	8600 3950 8750 3950
+$Comp
+L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn13
+U 2 1 61A840C9
+P 8200 3550
+F 0 "Conn13" H 8406 3937 60  0000 C CNN
+F 1 "AndersonPP-MRDT_Connectors" H 8406 3831 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 8050 3000 60  0001 C CNN
+F 3 "" H 8050 3000 60  0001 C CNN
+	2    8200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
+U 3 1 6170D7DA
+P 950 4150
+AR Path="/6170D7DA" Ref="Conn?"  Part="3" 
+AR Path="/615E92DD/6170D7DA" Ref="Conn1"  Part="3" 
+F 0 "Conn1" H 1158 4537 60  0000 C CNN
+F 1 "AndersonPP" H 1158 4431 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 800 3600 60  0001 C CNN
+F 3 "" H 800 3600 60  0001 C CNN
+	3    950  4150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

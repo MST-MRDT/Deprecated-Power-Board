@@ -44,7 +44,7 @@ Text GLabel 5450 800  0    50   Input ~ 0
 PV
 Wire Wire Line
 	5450 800  5550 800 
-Text GLabel 10650 3350 2    50   Input ~ 0
+Text GLabel 10650 3350 2    50   Output ~ 0
 5V
 Text GLabel 1500 3350 0    50   Input ~ 0
 5V
@@ -94,37 +94,37 @@ Wire Wire Line
 	1600 5250 1500 5250
 Wire Wire Line
 	1500 5350 1600 5350
-Text GLabel 3700 3300 2    50   Input ~ 0
+Text GLabel 3700 3300 2    50   Output ~ 0
 Anderson_Aux
-Text GLabel 3700 3500 2    50   Input ~ 0
+Text GLabel 3700 3500 2    50   Output ~ 0
 Anderson_Nav
-Text GLabel 3700 3600 2    50   Input ~ 0
+Text GLabel 3700 3600 2    50   Output ~ 0
 Anderson_SciSensor
-Text GLabel 3700 3700 2    50   Input ~ 0
+Text GLabel 3700 3700 2    50   Output ~ 0
 Anderson_BBB
-Text GLabel 3700 3800 2    50   Input ~ 0
+Text GLabel 3700 3800 2    50   Output ~ 0
 Anderson_Cam1
-Text GLabel 3700 3900 2    50   Input ~ 0
+Text GLabel 3700 3900 2    50   Output ~ 0
 Anderson_Cam2
-Text GLabel 3700 4000 2    50   Input ~ 0
+Text GLabel 3700 4000 2    50   Output ~ 0
 Anderson_NetSwitch
-Text GLabel 3700 4100 2    50   Input ~ 0
+Text GLabel 3700 4100 2    50   Output ~ 0
 Anderson_Gimbal
-Text GLabel 3700 4650 2    50   Input ~ 0
+Text GLabel 3700 4650 2    50   Output ~ 0
 Current_Sensor_BBB
-Text GLabel 3700 4750 2    50   Input ~ 0
+Text GLabel 3700 4750 2    50   Output ~ 0
 Current_Sensor_Nav
-Text GLabel 3700 4850 2    50   Input ~ 0
+Text GLabel 3700 4850 2    50   Output ~ 0
 Current_Sensor_SciSensor
-Text GLabel 3700 4950 2    50   Input ~ 0
+Text GLabel 3700 4950 2    50   Output ~ 0
 Current_Sensor_Cam1
-Text GLabel 3700 5050 2    50   Input ~ 0
+Text GLabel 3700 5050 2    50   Output ~ 0
 Current_Sensor_Cam2
-Text GLabel 3700 5150 2    50   Input ~ 0
+Text GLabel 3700 5150 2    50   Output ~ 0
 Current_Sensor_NetSwitch
-Text GLabel 3700 5250 2    50   Input ~ 0
+Text GLabel 3700 5250 2    50   Output ~ 0
 Current_Sensor_Gimbal
-Text GLabel 3700 5350 2    50   Input ~ 0
+Text GLabel 3700 5350 2    50   Output ~ 0
 Current_Sensor_Aux
 Wire Wire Line
 	3700 3300 3600 3300
@@ -160,7 +160,7 @@ Wire Wire Line
 	3700 5250 3600 5250
 Wire Wire Line
 	3700 5350 3600 5350
-Text GLabel 3700 3400 2    50   Input ~ 0
+Text GLabel 3700 3400 2    50   Output ~ 0
 Anderson_Spare
 Text GLabel 9400 2750 0    50   Input ~ 0
 Anderson_Aux
@@ -238,27 +238,27 @@ Wire Wire Line
 	9500 1650 9400 1650
 Wire Wire Line
 	9400 1750 9500 1750
-Text GLabel 7250 2850 2    50   Input ~ 0
+Text GLabel 7250 2850 2    50   Output ~ 0
 Anderson_POE
 Wire Wire Line
 	7150 2850 7250 2850
-Text GLabel 7250 2750 2    50   Input ~ 0
+Text GLabel 7250 2750 2    50   Output ~ 0
 Anderson_Aux
 Wire Wire Line
 	7250 2750 7150 2750
-Text GLabel 7250 800  2    50   Input ~ 0
+Text GLabel 7250 800  2    50   Output ~ 0
 Anderson_M1
-Text GLabel 7250 900  2    50   Input ~ 0
+Text GLabel 7250 900  2    50   Output ~ 0
 Anderson_M2
-Text GLabel 7250 1000 2    50   Input ~ 0
+Text GLabel 7250 1000 2    50   Output ~ 0
 Anderson_M3
-Text GLabel 7250 1100 2    50   Input ~ 0
+Text GLabel 7250 1100 2    50   Output ~ 0
 Anderson_M4
-Text GLabel 7250 1200 2    50   Input ~ 0
+Text GLabel 7250 1200 2    50   Output ~ 0
 Anderson_M5
-Text GLabel 7250 1300 2    50   Input ~ 0
+Text GLabel 7250 1300 2    50   Output ~ 0
 Anderson_M6
-Text GLabel 7250 1400 2    50   Input ~ 0
+Text GLabel 7250 1400 2    50   Output ~ 0
 Anderson_M7
 Wire Wire Line
 	7250 800  7150 800 
@@ -274,19 +274,19 @@ Wire Wire Line
 	7250 1300 7150 1300
 Wire Wire Line
 	7150 1400 7250 1400
-Text GLabel 7250 1500 2    50   Input ~ 0
+Text GLabel 7250 1500 2    50   Output ~ 0
 Current_Sensor_M1
-Text GLabel 7250 1600 2    50   Input ~ 0
+Text GLabel 7250 1600 2    50   Output ~ 0
 Current_Sensor_M2
-Text GLabel 7250 1700 2    50   Input ~ 0
+Text GLabel 7250 1700 2    50   Output ~ 0
 Current_Sensor_M3
-Text GLabel 7250 1800 2    50   Input ~ 0
+Text GLabel 7250 1800 2    50   Output ~ 0
 Current_Sensor_M4
-Text GLabel 7250 1900 2    50   Input ~ 0
+Text GLabel 7250 1900 2    50   Output ~ 0
 Current_Sensor_M5
-Text GLabel 7250 2000 2    50   Input ~ 0
+Text GLabel 7250 2000 2    50   Output ~ 0
 Current_Sensor_M6
-Text GLabel 7250 2100 2    50   Input ~ 0
+Text GLabel 7250 2100 2    50   Output ~ 0
 Current_Sensor_M7
 Wire Wire Line
 	7250 2100 7150 2100
@@ -314,9 +314,9 @@ Wire Wire Line
 	7150 3950 7250 3950
 Wire Wire Line
 	7150 3850 7250 3850
-Text GLabel 7250 3950 2    50   Input ~ 0
+Text GLabel 7250 3950 2    50   Output ~ 0
 Current_Sensor_POE
-Text GLabel 7250 3850 2    50   Input ~ 0
+Text GLabel 7250 3850 2    50   Output ~ 0
 Current_Sensor_Aux
 Wire Wire Line
 	5450 2100 5550 2100
@@ -360,41 +360,41 @@ Wire Wire Line
 	3650 950  3750 950 
 Wire Wire Line
 	3750 850  3650 850 
-Text GLabel 3750 1450 2    50   Input ~ 0
+Text GLabel 3750 1450 2    50   Output ~ 0
 Driver_M7
-Text GLabel 3750 1350 2    50   Input ~ 0
+Text GLabel 3750 1350 2    50   Output ~ 0
 Driver_M6
-Text GLabel 3750 1250 2    50   Input ~ 0
+Text GLabel 3750 1250 2    50   Output ~ 0
 Driver_M5
-Text GLabel 3750 1150 2    50   Input ~ 0
+Text GLabel 3750 1150 2    50   Output ~ 0
 Driver_M4
-Text GLabel 3750 1050 2    50   Input ~ 0
+Text GLabel 3750 1050 2    50   Output ~ 0
 Driver_M3
-Text GLabel 3750 950  2    50   Input ~ 0
+Text GLabel 3750 950  2    50   Output ~ 0
 Driver_M2
-Text GLabel 3750 850  2    50   Input ~ 0
+Text GLabel 3750 850  2    50   Output ~ 0
 Driver_M1
-Text GLabel 3750 2000 2    50   Input ~ 0
+Text GLabel 3750 2000 2    50   Output ~ 0
 Driver_Cam1
-Text GLabel 3750 2100 2    50   Input ~ 0
+Text GLabel 3750 2100 2    50   Output ~ 0
 Driver_Cam2
 Wire Wire Line
 	3750 2000 3650 2000
 Wire Wire Line
 	3750 2100 3650 2100
-Text GLabel 3750 2300 2    50   Input ~ 0
+Text GLabel 3750 2300 2    50   Output ~ 0
 Driver_Gimbal
-Text GLabel 3750 2400 2    50   Input ~ 0
+Text GLabel 3750 2400 2    50   Output ~ 0
 Driver_Aux
 Wire Wire Line
 	3750 2300 3650 2300
 Wire Wire Line
 	3750 2400 3650 2400
-Text GLabel 3750 2200 2    50   Input ~ 0
+Text GLabel 3750 2200 2    50   Output ~ 0
 Driver_SciSensor
 Wire Wire Line
 	3750 2200 3650 2200
-Text GLabel 3750 2500 2    50   Input ~ 0
+Text GLabel 3750 2500 2    50   Output ~ 0
 Driver_Drive
 Wire Wire Line
 	3750 2500 3650 2500
@@ -530,7 +530,7 @@ Wire Wire Line
 Connection ~ 1650 6800
 Connection ~ 2100 6800
 $Sheet
-S 9450 3300 1100 1450
+S 9450 3300 1100 1550
 U 61563C60
 F0 "Bucks" 50
 F1 "Bucks.sch" 50
@@ -547,7 +547,8 @@ F11 "12VNav" O R 10550 4200 50
 F12 "12VGimbal" O R 10550 4300 50 
 F13 "12VCam2" O R 10550 4400 50 
 F14 "12VNetSwitch" O R 10550 4500 50 
-F15 "12VSciLog" O R 10550 4600 50 
+F15 "12VSciAct" O R 10550 4600 50 
+F16 "12VGimAct" O R 10550 4700 50 
 $EndSheet
 Wire Wire Line
 	1500 3800 1600 3800
@@ -585,6 +586,343 @@ Text GLabel 1500 3900 0    50   Input ~ 0
 12VCam2
 Text GLabel 1500 4000 0    50   Input ~ 0
 12VNetSwitch
+Wire Wire Line
+	1500 5450 1600 5450
+$Sheet
+S 5550 750  1600 1450
+U 615D5992
+F0 "MOTORS" 50
+F1 "MOTORS.sch" 50
+F2 "PV" I L 5550 800 50 
+F3 "5V" I L 5550 900 50 
+F4 "Driver_M1" I L 5550 1500 50 
+F5 "Driver_M2" I L 5550 1600 50 
+F6 "Current_Sensor_M1" O R 7150 1500 50 
+F7 "Current_Sensor_M2" O R 7150 1600 50 
+F8 "Driver_M3" I L 5550 1700 50 
+F9 "Current_Sensor_M3" O R 7150 1700 50 
+F10 "Driver_M4" I L 5550 1800 50 
+F11 "Current_Sensor_M4" O R 7150 1800 50 
+F12 "Driver_M5" I L 5550 1900 50 
+F13 "Current_Sensor_M5" O R 7150 1900 50 
+F14 "Driver_M7" I L 5550 2100 50 
+F15 "Current_Sensor_M7" O R 7150 2100 50 
+F16 "Driver_M6" I L 5550 2000 50 
+F17 "Current_Sensor_M6" O R 7150 2000 50 
+F18 "Anderson_M1" O R 7150 800 50 
+F19 "Anderson_M2" O R 7150 900 50 
+F20 "Anderson_M3" O R 7150 1000 50 
+F21 "Anderson_M4" O R 7150 1100 50 
+F22 "Anderson_M5" O R 7150 1200 50 
+F23 "Anderson_M7" O R 7150 1400 50 
+F24 "Anderson_M6" O R 7150 1300 50 
+$EndSheet
+Text GLabel 1500 4200 0    50   Input ~ 0
+12VA
+Wire Wire Line
+	1600 4200 1500 4200
+Text GLabel 3700 5650 2    50   Input ~ 0
+Current_Sensor_Drive
+Wire Wire Line
+	3700 5650 3600 5650
+Text GLabel 3700 5550 2    50   Input ~ 0
+Current_Sensor_Multimedia
+Wire Wire Line
+	3700 5550 3600 5550
+Text GLabel 3700 4200 2    50   Output ~ 0
+Anderson_Multimedia
+Wire Wire Line
+	3700 4200 3600 4200
+Text GLabel 3700 4300 2    50   Output ~ 0
+Anderson_Drive
+Wire Wire Line
+	3700 4300 3600 4300
+Text GLabel 1500 5550 0    50   Input ~ 0
+Driver_Multimedia
+Wire Wire Line
+	1500 5550 1600 5550
+Text GLabel 1500 5650 0    50   Input ~ 0
+Driver_Drive
+Wire Wire Line
+	1500 5650 1600 5650
+$Sheet
+S 9500 800  1050 2200
+U 615E92DD
+F0 "ANDERSONS" 50
+F1 "andersons.sch" 50
+F2 "Anderson_M2" I L 9500 950 50 
+F3 "Anderson_M1" I L 9500 850 50 
+F4 "Anderson_M3" I L 9500 1050 50 
+F5 "Anderson_M4" I L 9500 1150 50 
+F6 "Anderson_M5" I L 9500 1250 50 
+F7 "Anderson_M6" I L 9500 1350 50 
+F8 "Anderson_M7" I L 9500 1450 50 
+F9 "Anderson_Drive" I L 9500 1550 50 
+F10 "Anderson_Aux" I L 9500 2750 50 
+F11 "Anderson_Multimedia" I L 9500 1750 50 
+F12 "Anderson_POE" I L 9500 1650 50 
+F13 "Anderson_SciSensor" I L 9500 1950 50 
+F14 "Anderson_BBB" I L 9500 2050 50 
+F15 "Anderson_Nav" I L 9500 2150 50 
+F16 "Anderson_Cam1" I L 9500 2250 50 
+F17 "Anderson_Cam2" I L 9500 2350 50 
+F18 "Anderson_Gimbal" I L 9500 2450 50 
+F19 "Anderson_NetSwitch" I L 9500 2550 50 
+F20 "Anderson_Spare" I L 9500 2650 50 
+F21 "Anderson_SciAct" I L 9500 2850 50 
+F22 "Anderson_GimAct" I L 9500 2950 50 
+$EndSheet
+Text GLabel 10650 4500 2    50   Output ~ 0
+12VNetSwitch
+Text GLabel 10650 4400 2    50   Output ~ 0
+12VCam2
+Text GLabel 10650 4300 2    50   Output ~ 0
+12VGimbal
+Text GLabel 10650 4200 2    50   Output ~ 0
+12VNav
+Text GLabel 10650 4100 2    50   Output ~ 0
+12VBBB
+Text GLabel 10650 4000 2    50   Output ~ 0
+12VDrive
+Text GLabel 10650 3900 2    50   Output ~ 0
+12VMultimedia
+Text GLabel 10650 3800 2    50   Output ~ 0
+12VSciSensor
+Text GLabel 10650 3700 2    50   Output ~ 0
+12VCam1
+Wire Wire Line
+	10550 4500 10650 4500
+Wire Wire Line
+	10550 4400 10650 4400
+Wire Wire Line
+	10550 4300 10650 4300
+Wire Wire Line
+	10650 4200 10550 4200
+Wire Wire Line
+	10550 4100 10650 4100
+Wire Wire Line
+	10650 4000 10550 4000
+Wire Wire Line
+	10550 3900 10650 3900
+Wire Wire Line
+	10650 3800 10550 3800
+Wire Wire Line
+	10550 3550 10650 3550
+Wire Wire Line
+	10650 3700 10550 3700
+Wire Wire Line
+	10650 3450 10550 3450
+Text GLabel 10650 3550 2    50   Output ~ 0
+12VA
+Text GLabel 10650 3450 2    50   Output ~ 0
+3.3V
+Wire Wire Line
+	3750 2700 3650 2700
+Text GLabel 3750 2700 2    50   Output ~ 0
+Driver_Multimedia
+Wire Wire Line
+	3750 2800 3650 2800
+Text GLabel 3750 2800 2    50   Output ~ 0
+Driver_NetSwitch
+Wire Wire Line
+	3750 2900 3650 2900
+Text GLabel 3750 2900 2    50   Output ~ 0
+Driver_Spare
+Wire Wire Line
+	3750 1700 3650 1700
+Text GLabel 3750 1700 2    50   Output ~ 0
+Driver_POE
+Wire Wire Line
+	3750 1800 3650 1800
+Text GLabel 3750 1800 2    50   Output ~ 0
+Driver_BBB
+Wire Wire Line
+	3750 1900 3650 1900
+Text GLabel 3750 1900 2    50   Output ~ 0
+Driver_Nav
+$Sheet
+S 1600 700  2050 2300
+U 6158A510
+F0 "TIVA" 50
+F1 "TIVA.sch" 50
+F2 "3V3" I L 1600 750 50 
+F3 "Current_Sensor_M1" I L 1600 850 50 
+F4 "Current_Sensor_M2" I L 1600 950 50 
+F5 "Current_Sensor_M3" I L 1600 1050 50 
+F6 "Current_Sensor_M4" I L 1600 1150 50 
+F7 "Current_Sensor_M5" I L 1600 1250 50 
+F8 "Current_Sensor_M6" I L 1600 1350 50 
+F9 "Current_Sensor_M7" I L 1600 1450 50 
+F10 "Current_Sensor_POE" I L 1600 1700 50 
+F11 "Current_Sensor_BBB" I L 1600 1800 50 
+F12 "Current_Sensor_Nav" I L 1600 1900 50 
+F13 "Current_Sensor_Cam1" I L 1600 2000 50 
+F14 "Current_Sensor_Cam2" I L 1600 2100 50 
+F15 "Current_Sensor_SciSensor" I L 1600 2200 50 
+F16 "Current_Sensor_Aux" I L 1600 2400 50 
+F17 "Current_Sensor_NetSwitch" I L 1600 2800 50 
+F18 "Current_Sensor_Multimedia" I L 1600 2700 50 
+F19 "Current_Sensor_Drive" I L 1600 2500 50 
+F20 "Driver_M1" O R 3650 850 50 
+F21 "Driver_M2" O R 3650 950 50 
+F22 "Driver_M3" O R 3650 1050 50 
+F23 "Driver_M4" O R 3650 1150 50 
+F24 "Driver_M6" O R 3650 1350 50 
+F25 "Driver_M5" O R 3650 1250 50 
+F26 "Driver_M7" O R 3650 1450 50 
+F27 "Driver_POE" O R 3650 1700 50 
+F28 "Driver_BBB" O R 3650 1800 50 
+F29 "Driver_Nav" O R 3650 1900 50 
+F30 "Driver_Cam1" O R 3650 2000 50 
+F31 "Driver_Cam2" O R 3650 2100 50 
+F32 "Driver_SciSensor" O R 3650 2200 50 
+F33 "Driver_Gimbal" O R 3650 2300 50 
+F34 "Driver_Aux" O R 3650 2400 50 
+F35 "Driver_Spare" O R 3650 2900 50 
+F36 "Driver_NetSwitch" O R 3650 2800 50 
+F37 "Driver_Multimedia" O R 3650 2700 50 
+F38 "Driver_Drive" O R 3650 2500 50 
+F39 "Current_Sensor_GimAct" I L 1600 2300 50 
+F40 "Current_Sensor_SciAct" I L 1600 2600 50 
+F41 "Driver_SciAct" O R 3650 2600 50 
+F42 "Driver_GimAct" O R 3650 1600 50 
+$EndSheet
+Wire Wire Line
+	1500 750  1600 750 
+Wire Wire Line
+	1600 850  1500 850 
+Wire Wire Line
+	1500 950  1600 950 
+Wire Wire Line
+	1600 1050 1500 1050
+Wire Wire Line
+	1500 1150 1600 1150
+Wire Wire Line
+	1600 1250 1500 1250
+Wire Wire Line
+	1500 1350 1600 1350
+Text GLabel 1500 1450 0    50   Input ~ 0
+Current_Sensor_M7
+Text GLabel 1500 1350 0    50   Input ~ 0
+Current_Sensor_M6
+Text GLabel 1500 1250 0    50   Input ~ 0
+Current_Sensor_M5
+Text GLabel 1500 1150 0    50   Input ~ 0
+Current_Sensor_M4
+Text GLabel 1500 1050 0    50   Input ~ 0
+Current_Sensor_M3
+Text GLabel 1500 950  0    50   Input ~ 0
+Current_Sensor_M2
+Text GLabel 1500 850  0    50   Input ~ 0
+Current_Sensor_M1
+Wire Wire Line
+	1500 2500 1600 2500
+Text GLabel 1500 2500 0    50   Input ~ 0
+Current_Sensor_Drive
+Wire Wire Line
+	1500 2800 1600 2800
+Text GLabel 1500 2800 0    50   Input ~ 0
+Current_Sensor_NetSwitch
+Wire Wire Line
+	1500 2700 1600 2700
+Text GLabel 1500 2700 0    50   Input ~ 0
+Current_Sensor_Multimedia
+Wire Wire Line
+	1600 2400 1500 2400
+Text GLabel 1500 2400 0    50   Input ~ 0
+Current_Sensor_Aux
+Wire Wire Line
+	1500 2300 1600 2300
+Text GLabel 1500 2300 0    50   Input ~ 0
+Current_Sensor_GimAct
+Wire Wire Line
+	1600 2200 1500 2200
+Text GLabel 1500 2200 0    50   Input ~ 0
+Current_Sensor_SciSensor
+Wire Wire Line
+	1600 2100 1500 2100
+Wire Wire Line
+	1600 2000 1500 2000
+Text GLabel 1500 2100 0    50   Input ~ 0
+Current_Sensor_Cam2
+Text GLabel 1500 2000 0    50   Input ~ 0
+Current_Sensor_Cam1
+Wire Wire Line
+	1500 1900 1600 1900
+Wire Wire Line
+	1500 1800 1600 1800
+Text GLabel 1500 1900 0    50   Input ~ 0
+Current_Sensor_Nav
+Text GLabel 1500 1800 0    50   Input ~ 0
+Current_Sensor_BBB
+Wire Wire Line
+	1500 1700 1600 1700
+Text GLabel 1500 1700 0    50   Input ~ 0
+Current_Sensor_POE
+Text GLabel 1500 750  0    50   Input ~ 0
+3.3V
+Wire Wire Line
+	1500 1450 1600 1450
+Wire Wire Line
+	10550 4600 10650 4600
+Text GLabel 10650 4600 2    50   Output ~ 0
+12VSciAct
+Text GLabel 1500 4500 0    50   Input ~ 0
+12VSciAct
+Wire Wire Line
+	9400 2850 9500 2850
+Wire Wire Line
+	1500 4500 1600 4500
+Text GLabel 3700 5750 2    50   Input ~ 0
+Current_Sense_SciAct
+Wire Wire Line
+	3700 5750 3600 5750
+Text GLabel 3700 4400 2    50   Output ~ 0
+Anderson_SciAct
+Wire Wire Line
+	3700 4400 3600 4400
+Text GLabel 1500 5750 0    50   Input ~ 0
+Driver_SciAct
+Wire Wire Line
+	1500 5750 1600 5750
+Text GLabel 9400 2850 0    50   Input ~ 0
+Anderson_SciAct
+Text GLabel 3750 2600 2    50   Output ~ 0
+Driver_SciAct
+Text GLabel 1500 2600 0    50   Input ~ 0
+Current_Sense_SciAct
+Wire Wire Line
+	1500 2600 1600 2600
+Wire Wire Line
+	3650 2600 3750 2600
+Wire Wire Line
+	10550 4700 10650 4700
+Text GLabel 10650 4700 2    50   Output ~ 0
+12VGimAct
+Wire Wire Line
+	3600 4500 3700 4500
+Wire Wire Line
+	3600 5850 3700 5850
+Wire Wire Line
+	1600 5850 1500 5850
+Wire Wire Line
+	1600 6000 1500 6000
+Text GLabel 3700 4500 2    50   Output ~ 0
+Anderson_GimAct
+Text GLabel 3700 5850 2    50   Input ~ 0
+Current_Sense_GimAct
+Text GLabel 1500 5850 0    50   Input ~ 0
+Driver_GimAct
+Text GLabel 1500 6000 0    50   Input ~ 0
+12VGimAct
+Wire Wire Line
+	3650 1600 3750 1600
+Text GLabel 3750 1600 2    50   Output ~ 0
+Driver_GimAct
+Text GLabel 9400 2950 0    50   Input ~ 0
+Anderson_GimAct
+Wire Wire Line
+	9400 2950 9500 2950
 $Sheet
 S 1600 3200 2000 2850
 U 615D7BA0
@@ -635,316 +973,13 @@ F43 "12VNav" I L 1600 3600 50
 F44 "12VSciSensor" I L 1600 3700 50 
 F45 "12VMultimedia" I L 1600 4300 50 
 F46 "12VDrive" I L 1600 4400 50 
-F47 "Anderson_SciLog" O R 3600 4400 50 
-F48 "Driver_SciLog" I L 1600 5750 50 
-F49 "Current_Sense_SciLog" O R 3600 5750 50 
-F50 "12VSciLog" I L 1600 4500 50 
+F47 "Anderson_SciAct" O R 3600 4400 50 
+F48 "Driver_SciAct" I L 1600 5750 50 
+F49 "Current_Sense_SciAct" O R 3600 5750 50 
+F50 "12VSciAct" I L 1600 4500 50 
+F51 "Anderson_GimAct" O R 3600 4500 50 
+F52 "Driver_GimAct" I L 1600 5850 50 
+F53 "Current_Sense_GimAct" O R 3600 5850 50 
+F54 "12VGimAct" I L 1600 6000 50 
 $EndSheet
-Wire Wire Line
-	1500 5450 1600 5450
-$Sheet
-S 5550 750  1600 1450
-U 615D5992
-F0 "MOTORS" 50
-F1 "MOTORS.sch" 50
-F2 "PV" I L 5550 800 50 
-F3 "5V" I L 5550 900 50 
-F4 "Driver_M1" I L 5550 1500 50 
-F5 "Driver_M2" I L 5550 1600 50 
-F6 "Current_Sensor_M1" O R 7150 1500 50 
-F7 "Current_Sensor_M2" O R 7150 1600 50 
-F8 "Driver_M3" I L 5550 1700 50 
-F9 "Current_Sensor_M3" O R 7150 1700 50 
-F10 "Driver_M4" I L 5550 1800 50 
-F11 "Current_Sensor_M4" O R 7150 1800 50 
-F12 "Driver_M5" I L 5550 1900 50 
-F13 "Current_Sensor_M5" O R 7150 1900 50 
-F14 "Driver_M7" I L 5550 2100 50 
-F15 "Current_Sensor_M7" O R 7150 2100 50 
-F16 "Driver_M6" I L 5550 2000 50 
-F17 "Current_Sensor_M6" O R 7150 2000 50 
-F18 "Anderson_M1" O R 7150 800 50 
-F19 "Anderson_M2" O R 7150 900 50 
-F20 "Anderson_M3" O R 7150 1000 50 
-F21 "Anderson_M4" O R 7150 1100 50 
-F22 "Anderson_M5" O R 7150 1200 50 
-F23 "Anderson_M7" O R 7150 1400 50 
-F24 "Anderson_M6" O R 7150 1300 50 
-$EndSheet
-Text GLabel 1500 4200 0    50   Input ~ 0
-12VA
-Wire Wire Line
-	1600 4200 1500 4200
-Text GLabel 3700 5650 2    50   Input ~ 0
-Current_Sensor_Drive
-Wire Wire Line
-	3700 5650 3600 5650
-Text GLabel 3700 5550 2    50   Input ~ 0
-Current_Sensor_Multimedia
-Wire Wire Line
-	3700 5550 3600 5550
-Text GLabel 3700 4200 2    50   Input ~ 0
-Anderson_Multimedia
-Wire Wire Line
-	3700 4200 3600 4200
-Text GLabel 3700 4300 2    50   Input ~ 0
-Anderson_Drive
-Wire Wire Line
-	3700 4300 3600 4300
-Text GLabel 1500 5550 0    50   Input ~ 0
-Driver_Multimedia
-Wire Wire Line
-	1500 5550 1600 5550
-Text GLabel 1500 5650 0    50   Input ~ 0
-Driver_Drive
-Wire Wire Line
-	1500 5650 1600 5650
-$Sheet
-S 9500 800  1050 2200
-U 615E92DD
-F0 "ANDERSONS" 50
-F1 "andersons.sch" 50
-F2 "Anderson_M2" I L 9500 950 50 
-F3 "Anderson_M1" I L 9500 850 50 
-F4 "Anderson_M3" I L 9500 1050 50 
-F5 "Anderson_M4" I L 9500 1150 50 
-F6 "Anderson_M5" I L 9500 1250 50 
-F7 "Anderson_M6" I L 9500 1350 50 
-F8 "Anderson_M7" I L 9500 1450 50 
-F9 "Anderson_Drive" I L 9500 1550 50 
-F10 "Anderson_Aux" I L 9500 2750 50 
-F11 "Anderson_Multimedia" I L 9500 1750 50 
-F12 "Anderson_POE" I L 9500 1650 50 
-F13 "Anderson_SciSensor" I L 9500 1950 50 
-F14 "Anderson_BBB" I L 9500 2050 50 
-F15 "Anderson_Nav" I L 9500 2150 50 
-F16 "Anderson_Cam1" I L 9500 2250 50 
-F17 "Anderson_Cam2" I L 9500 2350 50 
-F18 "Anderson_Gimbal" I L 9500 2450 50 
-F19 "Anderson_NetSwitch" I L 9500 2550 50 
-F20 "Anderson_Spare" I L 9500 2650 50 
-F21 "Anderson_SciLog" I L 9500 2900 50 
-$EndSheet
-Text GLabel 10650 4500 2    50   Input ~ 0
-12VNetSwitch
-Text GLabel 10650 4400 2    50   Input ~ 0
-12VCam2
-Text GLabel 10650 4300 2    50   Input ~ 0
-12VGimbal
-Text GLabel 10650 4200 2    50   Input ~ 0
-12VNav
-Text GLabel 10650 4100 2    50   Input ~ 0
-12VBBB
-Text GLabel 10650 4000 2    50   Input ~ 0
-12VDrive
-Text GLabel 10650 3900 2    50   Input ~ 0
-12VMultimedia
-Text GLabel 10650 3800 2    50   Input ~ 0
-12VSciSensor
-Text GLabel 10650 3700 2    50   Input ~ 0
-12VCam1
-Wire Wire Line
-	10550 4500 10650 4500
-Wire Wire Line
-	10550 4400 10650 4400
-Wire Wire Line
-	10550 4300 10650 4300
-Wire Wire Line
-	10650 4200 10550 4200
-Wire Wire Line
-	10550 4100 10650 4100
-Wire Wire Line
-	10650 4000 10550 4000
-Wire Wire Line
-	10550 3900 10650 3900
-Wire Wire Line
-	10650 3800 10550 3800
-Wire Wire Line
-	10550 3550 10650 3550
-Wire Wire Line
-	10650 3700 10550 3700
-Wire Wire Line
-	10650 3450 10550 3450
-Text GLabel 10650 3550 2    50   Input ~ 0
-12VA
-Text GLabel 10650 3450 2    50   Input ~ 0
-3.3V
-Wire Wire Line
-	3750 2700 3650 2700
-Text GLabel 3750 2700 2    50   Input ~ 0
-Driver_Multimedia
-Wire Wire Line
-	3750 2800 3650 2800
-Text GLabel 3750 2800 2    50   Input ~ 0
-Driver_NetSwitch
-Wire Wire Line
-	3750 2900 3650 2900
-Text GLabel 3750 2900 2    50   Input ~ 0
-Driver_Spare
-Wire Wire Line
-	3750 1700 3650 1700
-Text GLabel 3750 1700 2    50   Input ~ 0
-Driver_POE
-Wire Wire Line
-	3750 1800 3650 1800
-Text GLabel 3750 1800 2    50   Input ~ 0
-Driver_BBB
-Wire Wire Line
-	3750 1900 3650 1900
-Text GLabel 3750 1900 2    50   Input ~ 0
-Driver_Nav
-$Sheet
-S 1600 700  2050 2300
-U 6158A510
-F0 "TIVA" 50
-F1 "TIVA.sch" 50
-F2 "3V3" I L 1600 750 50 
-F3 "Current_Sensor_M1" I L 1600 850 50 
-F4 "Current_Sensor_M2" I L 1600 950 50 
-F5 "Current_Sensor_M3" I L 1600 1050 50 
-F6 "Current_Sensor_M4" I L 1600 1150 50 
-F7 "Current_Sensor_M5" I L 1600 1250 50 
-F8 "Current_Sensor_M6" I L 1600 1350 50 
-F9 "Current_Sensor_M7" I L 1600 1450 50 
-F10 "Current_Sensor_POE" I L 1600 1700 50 
-F11 "Current_Sensor_BBB" I L 1600 1800 50 
-F12 "Current_Sensor_Nav" I L 1600 1900 50 
-F13 "Current_Sensor_Cam1" I L 1600 2000 50 
-F14 "Current_Sensor_Cam2" I L 1600 2100 50 
-F15 "Current_Sensor_SciSensor" I L 1600 2200 50 
-F16 "Current_Sensor_Gimbal" I L 1600 2300 50 
-F17 "Current_Sensor_Aux" I L 1600 2400 50 
-F18 "Current_Sensor_NetSwitch" I L 1600 2800 50 
-F19 "Current_Sensor_Multimedia" I L 1600 2700 50 
-F20 "Current_Sensor_Drive" I L 1600 2500 50 
-F21 "Driver_M1" O R 3650 850 50 
-F22 "Driver_M2" O R 3650 950 50 
-F23 "Driver_M3" O R 3650 1050 50 
-F24 "Driver_M4" O R 3650 1150 50 
-F25 "Driver_M6" O R 3650 1350 50 
-F26 "Driver_M5" O R 3650 1250 50 
-F27 "Driver_M7" O R 3650 1450 50 
-F28 "Driver_POE" O R 3650 1700 50 
-F29 "Driver_BBB" O R 3650 1800 50 
-F30 "Driver_Nav" O R 3650 1900 50 
-F31 "Driver_Cam1" O R 3650 2000 50 
-F32 "Driver_Cam2" O R 3650 2100 50 
-F33 "Driver_SciSensor" O R 3650 2200 50 
-F34 "Driver_Gimbal" O R 3650 2300 50 
-F35 "Driver_Aux" O R 3650 2400 50 
-F36 "Driver_Spare" O R 3650 2900 50 
-F37 "Driver_NetSwitch" O R 3650 2800 50 
-F38 "Driver_Multimedia" O R 3650 2700 50 
-F39 "Driver_Drive" O R 3650 2500 50 
-F40 "Current_Sensor_SciLog" I L 1600 2600 50 
-F41 "Driver_SciLog" O R 3650 2600 50 
-$EndSheet
-Wire Wire Line
-	1500 750  1600 750 
-Wire Wire Line
-	1600 850  1500 850 
-Wire Wire Line
-	1500 950  1600 950 
-Wire Wire Line
-	1600 1050 1500 1050
-Wire Wire Line
-	1500 1150 1600 1150
-Wire Wire Line
-	1600 1250 1500 1250
-Wire Wire Line
-	1500 1350 1600 1350
-Text GLabel 1500 1450 0    50   Input ~ 0
-Current_Sensor_M7
-Text GLabel 1500 1350 0    50   Input ~ 0
-Current_Sensor_M6
-Text GLabel 1500 1250 0    50   Input ~ 0
-Current_Sensor_M5
-Text GLabel 1500 1150 0    50   Input ~ 0
-Current_Sensor_M4
-Text GLabel 1500 1050 0    50   Input ~ 0
-Current_Sensor_M3
-Text GLabel 1500 950  0    50   Input ~ 0
-Current_Sensor_M2
-Text GLabel 1500 850  0    50   Input ~ 0
-Current_Sensor_M1
-Wire Wire Line
-	1500 2500 1600 2500
-Text GLabel 1500 2500 0    50   Input ~ 0
-Current_Sensor_Drive
-Wire Wire Line
-	1500 2800 1600 2800
-Text GLabel 1500 2800 0    50   Input ~ 0
-Current_Sensor_NetSwitch
-Wire Wire Line
-	1500 2700 1600 2700
-Text GLabel 1500 2700 0    50   Input ~ 0
-Current_Sensor_Multimedia
-Wire Wire Line
-	1600 2400 1500 2400
-Text GLabel 1500 2400 0    50   Input ~ 0
-Current_Sensor_Aux
-Wire Wire Line
-	1500 2300 1600 2300
-Text GLabel 1500 2300 0    50   Input ~ 0
-Current_Sensor_Gimbal
-Wire Wire Line
-	1600 2200 1500 2200
-Text GLabel 1500 2200 0    50   Input ~ 0
-Current_Sensor_SciSensor
-Wire Wire Line
-	1600 2100 1500 2100
-Wire Wire Line
-	1600 2000 1500 2000
-Text GLabel 1500 2100 0    50   Input ~ 0
-Current_Sensor_Cam2
-Text GLabel 1500 2000 0    50   Input ~ 0
-Current_Sensor_Cam1
-Wire Wire Line
-	1500 1900 1600 1900
-Wire Wire Line
-	1500 1800 1600 1800
-Text GLabel 1500 1900 0    50   Input ~ 0
-Current_Sensor_Nav
-Text GLabel 1500 1800 0    50   Input ~ 0
-Current_Sensor_BBB
-Wire Wire Line
-	1500 1700 1600 1700
-Text GLabel 1500 1700 0    50   Input ~ 0
-Current_Sensor_POE
-Text GLabel 1500 750  0    50   Input ~ 0
-3.3V
-Wire Wire Line
-	1500 1450 1600 1450
-Wire Wire Line
-	10550 4600 10650 4600
-Text GLabel 10650 4600 2    50   Input ~ 0
-12VSciLog
-Text GLabel 1500 4500 0    50   Input ~ 0
-12VSciLog
-Wire Wire Line
-	9400 2900 9500 2900
-Wire Wire Line
-	1500 4500 1600 4500
-Text GLabel 3700 5750 2    50   Input ~ 0
-Current_Sense_SciLog
-Wire Wire Line
-	3700 5750 3600 5750
-Text GLabel 3700 4400 2    50   Input ~ 0
-Anderson_SciLog
-Wire Wire Line
-	3700 4400 3600 4400
-Text GLabel 1500 5750 0    50   Input ~ 0
-Driver_SciLog
-Wire Wire Line
-	1500 5750 1600 5750
-Text GLabel 9400 2900 0    50   Input ~ 0
-Anderson_SciLog
-Text GLabel 3750 2600 2    50   Input ~ 0
-Driver_SciLog
-Text GLabel 1500 2600 0    50   Input ~ 0
-Current_Sense_SciLog
-Wire Wire Line
-	1500 2600 1600 2600
-Wire Wire Line
-	3650 2600 3750 2600
 $EndSCHEMATC

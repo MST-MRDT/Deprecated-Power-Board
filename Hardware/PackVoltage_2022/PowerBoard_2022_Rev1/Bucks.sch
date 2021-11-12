@@ -1424,44 +1424,44 @@ Text HLabel 6000 3450 2    50   Output ~ 0
 Connection ~ 6000 3750
 Wire Wire Line
 	6000 3750 6150 3750
-Text HLabel 750  7000 0    50   Input ~ 0
+Text HLabel 750  6750 0    50   Input ~ 0
 PV
 $Comp
 L Device:Fuse F4
 U 1 1 61DCC65E
-P 1300 6700
-F 0 "F4" V 1103 6700 50  0000 C CNN
-F 1 "5A" V 1194 6700 50  0000 C CNN
-F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 6700 50  0001 C CNN
-F 3 "~" H 1300 6700 50  0001 C CNN
-	1    1300 6700
+P 1300 6450
+F 0 "F4" V 1103 6450 50  0000 C CNN
+F 1 "5A" V 1194 6450 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 6450 50  0001 C CNN
+F 3 "~" H 1300 6450 50  0001 C CNN
+	1    1300 6450
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Fuse F6
 U 1 1 61DCD94F
-P 1300 7300
-F 0 "F6" V 1103 7300 50  0000 C CNN
-F 1 "5A" V 1194 7300 50  0000 C CNN
-F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 7300 50  0001 C CNN
-F 3 "~" H 1300 7300 50  0001 C CNN
-	1    1300 7300
+P 1300 7050
+F 0 "F6" V 1103 7050 50  0000 C CNN
+F 1 "5A" V 1194 7050 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 7050 50  0001 C CNN
+F 3 "~" H 1300 7050 50  0001 C CNN
+	1    1300 7050
 	0    1    1    0   
 $EndComp
-Text GLabel 2000 6700 2    50   Input ~ 0
+Text GLabel 2000 6450 2    50   Input ~ 0
 PV1
-Text GLabel 2000 7300 2    50   Input ~ 0
+Text GLabel 2000 7050 2    50   Input ~ 0
 PV2
 Wire Wire Line
-	1450 6700 2000 6700
+	1450 6450 2000 6450
 Wire Wire Line
-	1450 7300 2000 7300
+	1450 7050 2000 7050
 Wire Wire Line
-	1150 6700 850  6700
+	1150 6450 850  6450
 Wire Wire Line
-	1150 7300 850  7300
+	1150 7050 850  7050
 Wire Wire Line
-	850  6700 850  7000
+	850  6450 850  6750
 Text GLabel 700  3450 1    50   Input ~ 0
 PV1
 Text GLabel 4150 3550 1    50   Input ~ 0
@@ -1479,21 +1479,21 @@ PV2
 $Comp
 L Device:Fuse F5
 U 1 1 61E23D5F
-P 1300 7000
-F 0 "F5" V 1103 7000 50  0000 C CNN
-F 1 "2A" V 1194 7000 50  0000 C CNN
-F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 7000 50  0001 C CNN
-F 3 "~" H 1300 7000 50  0001 C CNN
-	1    1300 7000
+P 1300 6750
+F 0 "F5" V 1103 6750 50  0000 C CNN
+F 1 "2A" V 1194 6750 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 6750 50  0001 C CNN
+F 3 "~" H 1300 6750 50  0001 C CNN
+	1    1300 6750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1150 7000 850  7000
-Connection ~ 850  7000
+	1150 6750 850  6750
+Connection ~ 850  6750
 Wire Wire Line
-	850  7000 850  7300
+	850  6750 850  7050
 Wire Wire Line
-	750  7000 850  7000
+	750  6750 850  6750
 $Comp
 L PowerBoard_2022_Rev1-rescue:OKI-78SR-12_1.0-W36-C-Converter_DCDC U10
 U 1 1 61EB2B8E
@@ -1776,10 +1776,10 @@ Wire Wire Line
 	5850 5350 6000 5350
 Text GLabel 4000 5150 1    50   Input ~ 0
 PV2
-Text GLabel 2000 7000 2    50   Input ~ 0
+Text GLabel 2000 6750 2    50   Input ~ 0
 PVMulti
 Wire Wire Line
-	2000 7000 1450 7000
+	2000 6750 1450 6750
 Wire Wire Line
 	6050 650  6050 1000
 Wire Wire Line
@@ -1967,14 +1967,40 @@ S 8400 5650 1200 400
 U 61E93D59
 F0 "12VSciLog" 50
 F1 "12VSciLog.sch" 50
-F2 "12VSciLog" O R 9600 5750 50 
-F3 "PVLogic" I L 8400 5750 50 
+F2 "12VSciAct" O R 9600 5750 50 
+F3 "PVAct" I L 8400 5750 50 
+F4 "12VGimAct" O R 9600 5850 50 
+F5 "PVAct2" I L 8400 5850 50 
 $EndSheet
 $Comp
 L Device:Fuse F1
 U 1 1 61E9458E
+P 1300 7350
+F 0 "F1" V 1103 7350 50  0000 C CNN
+F 1 "5A" V 1194 7350 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 7350 50  0001 C CNN
+F 3 "~" H 1300 7350 50  0001 C CNN
+	1    1300 7350
+	0    1    1    0   
+$EndComp
+Text GLabel 2000 7350 2    50   Input ~ 0
+PVAct
+Wire Wire Line
+	1450 7350 2000 7350
+Text GLabel 8250 5750 0    50   Input ~ 0
+PVAct
+Wire Wire Line
+	8250 5750 8400 5750
+Text HLabel 9750 5750 2    50   Output ~ 0
+12VSciAct
+Wire Wire Line
+	9600 5750 9750 5750
+Connection ~ 850  7050
+$Comp
+L Device:Fuse F9
+U 1 1 6197848B
 P 1300 7600
-F 0 "F1" V 1103 7600 50  0000 C CNN
+F 0 "F9" V 1103 7600 50  0000 C CNN
 F 1 "5A" V 1194 7600 50  0000 C CNN
 F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 7600 50  0001 C CNN
 F 3 "~" H 1300 7600 50  0001 C CNN
@@ -1982,19 +2008,24 @@ F 3 "~" H 1300 7600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 2000 7600 2    50   Input ~ 0
-PVLogic
+PVAct2
 Wire Wire Line
 	1450 7600 2000 7600
 Wire Wire Line
 	1150 7600 850  7600
 Wire Wire Line
-	850  7300 850  7600
-Text GLabel 8250 5750 0    50   Input ~ 0
-PVLogic
+	850  7050 850  7350
 Wire Wire Line
-	8250 5750 8400 5750
-Text HLabel 9750 5750 2    50   Output ~ 0
-12VSciLog
+	1150 7350 850  7350
+Connection ~ 850  7350
 Wire Wire Line
-	9600 5750 9750 5750
+	850  7350 850  7600
+Text GLabel 8250 5850 0    50   Input ~ 0
+PVAct2
+Wire Wire Line
+	8250 5850 8400 5850
+Wire Wire Line
+	9600 5850 9750 5850
+Text HLabel 9750 5850 2    50   Output ~ 0
+12VGimAct
 $EndSCHEMATC

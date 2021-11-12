@@ -204,7 +204,7 @@ Current_Sensor_SciSensor
 Text HLabel 6900 2200 0    50   Output ~ 0
 Driver_SciSensor
 Text HLabel 8100 2500 2    50   Input ~ 0
-Current_Sensor_Gimbal
+Current_Sensor_GimAct
 Text HLabel 6900 2300 0    50   Output ~ 0
 Driver_Gimbal
 Text HLabel 4550 4250 2    50   Input ~ 0
@@ -226,9 +226,9 @@ Current_Sensor_Drive
 Text HLabel 6900 2800 0    50   Output ~ 0
 Driver_Drive
 Text HLabel 3400 3850 0    50   Input ~ 0
-Current_Sensor_SciLog
+Current_Sensor_SciAct
 Text HLabel 6900 2900 0    50   Output ~ 0
-Driver_SciLog
+Driver_SciAct
 Wire Wire Line
 	5000 2100 4450 2100
 $Comp
@@ -325,7 +325,6 @@ NoConn ~ 3500 2900
 NoConn ~ 4450 2900
 NoConn ~ 4450 2800
 NoConn ~ 4450 2700
-NoConn ~ 4450 4550
 NoConn ~ 4450 4650
 NoConn ~ 8000 2100
 NoConn ~ 8000 2200
@@ -353,4 +352,8 @@ NoConn ~ 8000 4450
 NoConn ~ 8000 4350
 NoConn ~ 8000 4250
 NoConn ~ 8000 4150
+Wire Wire Line
+	4450 4550 4550 4550
+Text HLabel 4550 4550 2    50   Output ~ 0
+Driver_GimAct
 $EndSCHEMATC

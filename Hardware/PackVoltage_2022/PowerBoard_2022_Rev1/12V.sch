@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -480,11 +480,11 @@ $EndComp
 Wire Wire Line
 	6250 3600 5950 3600
 Text HLabel 9100 4150 3    50   Output ~ 0
-Anderson_SciLog
+Anderson_SciAct
 Text HLabel 5950 3600 3    50   Input ~ 0
-Driver_SciLog
+Driver_SciAct
 Text HLabel 9500 3550 3    50   Output ~ 0
-Current_Sense_SciLog
+Current_Sense_SciAct
 Wire Wire Line
 	6150 4250 6850 4250
 Wire Wire Line
@@ -533,7 +533,292 @@ Connection ~ 8450 3950
 Wire Wire Line
 	8450 3950 8450 4150
 Text HLabel 7400 3000 0    50   Input ~ 0
-12VSciLog
+12VSciAct
 Wire Wire Line
 	7550 3000 7550 3450
+$Comp
+L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
+U 1 1 61A0529A
+P 6450 5550
+AR Path="/615D5992/61A0529A" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A0529A" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A0529A" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/61A0529A" Ref="U64"  Part="1" 
+F 0 "U64" H 6825 6237 60  0000 C CNN
+F 1 "LT1910" H 6825 6131 60  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6450 5550 60  0001 C CNN
+F 3 "" H 6450 5550 60  0001 C CNN
+	1    6450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61A052A1
+P 5800 5150
+AR Path="/615D5992/61A052A1" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A052A1" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A052A1" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/61A052A1" Ref="R84"  Part="1" 
+F 0 "R84" V 5700 5150 50  0000 C CNN
+F 1 "5.1k" V 5800 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5730 5150 50  0001 C CNN
+F 3 "~" H 5800 5150 50  0001 C CNN
+	1    5800 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 5150 6250 5150
+$Comp
+L power:+5V #PWR?
+U 1 1 61A052A9
+P 5550 4900
+AR Path="/615D5992/61A052A9" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A052A9" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A052A9" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/61A052A9" Ref="#PWR0254"  Part="1" 
+F 0 "#PWR0254" H 5550 4750 50  0001 C CNN
+F 1 "+5V" H 5565 5073 50  0000 C CNN
+F 2 "" H 5550 4900 50  0001 C CNN
+F 3 "" H 5550 4900 50  0001 C CNN
+	1    5550 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4900 5550 5150
+Wire Wire Line
+	5550 5150 5650 5150
+$Comp
+L Device:C C?
+U 1 1 61A052B1
+P 6150 5800
+AR Path="/615D5992/61A052B1" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A052B1" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A052B1" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/61A052B1" Ref="C109"  Part="1" 
+F 0 "C109" H 6265 5846 50  0000 L CNN
+F 1 "0.1uF" H 6265 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6188 5650 50  0001 C CNN
+F 3 "~" H 6150 5800 50  0001 C CNN
+	1    6150 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5650 6150 5450
+Wire Wire Line
+	6150 5450 6250 5450
+$Comp
+L power:GND #PWR?
+U 1 1 61A052BA
+P 6850 5950
+AR Path="/615D5992/61A052BA" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A052BA" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A052BA" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/61A052BA" Ref="#PWR0255"  Part="1" 
+F 0 "#PWR0255" H 6850 5700 50  0001 C CNN
+F 1 "GND" H 6855 5777 50  0000 C CNN
+F 2 "" H 6850 5950 50  0001 C CNN
+F 3 "" H 6850 5950 50  0001 C CNN
+	1    6850 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 5150 7550 5150
+$Comp
+L Transistor_FET:BUK7M8R0-40EX Q?
+U 1 1 61A052C1
+P 7950 5350
+AR Path="/615D5992/61A052C1" Ref="Q?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A052C1" Ref="Q?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A052C1" Ref="Q?"  Part="1" 
+AR Path="/615D7BA0/61A052C1" Ref="Q22"  Part="1" 
+F 0 "Q22" H 7850 5150 50  0000 L CNN
+F 1 "BUK7M8R5-40HX" H 7800 5050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 8150 5275 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 7950 5350 50  0001 L CNN
+	1    7950 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 5150 8050 5150
+Connection ~ 7550 5150
+Wire Wire Line
+	7400 5300 7550 5300
+Wire Wire Line
+	7550 5300 7550 5150
+Wire Wire Line
+	7400 5450 7750 5450
+Wire Wire Line
+	7750 5450 7750 5350
+$Comp
+L Device:C C?
+U 1 1 61A052CE
+P 7550 5700
+AR Path="/615D5992/61A052CE" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A052CE" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A052CE" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/61A052CE" Ref="C110"  Part="1" 
+F 0 "C110" H 7665 5746 50  0000 L CNN
+F 1 "10uF" H 7665 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7588 5550 50  0001 C CNN
+F 3 "~" H 7550 5700 50  0001 C CNN
+	1    7550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61A052D5
+P 8200 6000
+AR Path="/615D5992/61A052D5" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A052D5" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A052D5" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/61A052D5" Ref="R85"  Part="1" 
+F 0 "R85" V 8100 6000 50  0000 C CNN
+F 1 "330" V 8200 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8130 6000 50  0001 C CNN
+F 3 "~" H 8200 6000 50  0001 C CNN
+	1    8200 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61A052DC
+P 8600 6000
+AR Path="/615D5992/61A052DC" Ref="D?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A052DC" Ref="D?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A052DC" Ref="D?"  Part="1" 
+AR Path="/615D7BA0/61A052DC" Ref="D44"  Part="1" 
+F 0 "D44" H 8600 6100 50  0000 C CNN
+F 1 "LED" H 8600 6200 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8600 6000 50  0001 C CNN
+F 3 "~" H 8600 6000 50  0001 C CNN
+	1    8600 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61A052E3
+P 8850 6100
+AR Path="/615D5992/61A052E3" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A052E3" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A052E3" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/61A052E3" Ref="#PWR0256"  Part="1" 
+F 0 "#PWR0256" H 8850 5850 50  0001 C CNN
+F 1 "GND" H 8855 5927 50  0000 C CNN
+F 2 "" H 8850 6100 50  0001 C CNN
+F 3 "" H 8850 6100 50  0001 C CNN
+	1    8850 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 6000 8850 6000
+Wire Wire Line
+	8850 6000 8850 6100
+$Comp
+L PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U?
+U 1 1 61A052EB
+P 9000 5250
+AR Path="/615D5992/61A052EB" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A052EB" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A052EB" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/61A052EB" Ref="U65"  Part="1" 
+F 0 "U65" H 9300 5600 50  0000 L CNN
+F 1 "INA281" H 9200 5500 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9250 5450 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 9250 5450 50  0001 C CNN
+	1    9000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61A052F2
+P 8450 5450
+AR Path="/615D5992/61A052F2" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A052F2" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A052F2" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/61A052F2" Ref="R86"  Part="1" 
+F 0 "R86" H 8520 5496 50  0000 L CNN
+F 1 "0.0025" V 8450 5350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8380 5450 50  0001 C CNN
+F 3 "~" H 8450 5450 50  0001 C CNN
+	1    8450 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 5300 8450 5150
+Wire Wire Line
+	8450 5150 8800 5150
+$Comp
+L power:GND #PWR?
+U 1 1 61A052FB
+P 9000 5600
+AR Path="/615D5992/61A052FB" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/61A052FB" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/61A052FB" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/61A052FB" Ref="#PWR0257"  Part="1" 
+F 0 "#PWR0257" H 9000 5350 50  0001 C CNN
+F 1 "GND" H 9005 5427 50  0000 C CNN
+F 2 "" H 9000 5600 50  0001 C CNN
+F 3 "" H 9000 5600 50  0001 C CNN
+	1    9000 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 5300 5950 5300
+Text HLabel 9100 5850 3    50   Output ~ 0
+Anderson_GimAct
+Text HLabel 5950 5300 3    50   Input ~ 0
+Driver_GimAct
+Text HLabel 9500 5250 3    50   Output ~ 0
+Current_Sense_GimAct
+Wire Wire Line
+	6150 5950 6850 5950
+Wire Wire Line
+	7550 5950 7550 5850
+Connection ~ 6850 5950
+Wire Wire Line
+	6850 5950 7550 5950
+Wire Wire Line
+	6850 5950 6850 5750
+Wire Wire Line
+	7550 5550 7550 5300
+Connection ~ 7550 5300
+Wire Wire Line
+	9000 5600 9000 5550
+Wire Wire Line
+	8450 5850 9100 5850
+Wire Wire Line
+	8450 5600 8450 5650
+Wire Wire Line
+	8050 5550 8050 5600
+Wire Wire Line
+	8350 6000 8450 6000
+Wire Wire Line
+	8050 5600 8200 5600
+Wire Wire Line
+	8200 5600 8200 5150
+Connection ~ 8050 5600
+Wire Wire Line
+	8050 5600 8050 6000
+Wire Wire Line
+	9400 5250 9500 5250
+Wire Wire Line
+	8200 5150 8450 5150
+Connection ~ 8450 5150
+Text HLabel 9000 4900 0    50   Input ~ 0
+5V
+Wire Wire Line
+	9000 4900 9000 4950
+Wire Wire Line
+	7400 4700 7550 4700
+Wire Wire Line
+	8800 5350 8800 5650
+Wire Wire Line
+	8800 5650 8450 5650
+Connection ~ 8450 5650
+Wire Wire Line
+	8450 5650 8450 5850
+Text HLabel 7400 4700 0    50   Input ~ 0
+12VGimAct
+Wire Wire Line
+	7550 4700 7550 5150
 $EndSCHEMATC
