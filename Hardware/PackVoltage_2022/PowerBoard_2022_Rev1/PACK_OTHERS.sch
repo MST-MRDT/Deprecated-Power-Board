@@ -97,7 +97,7 @@ AR Path="/615D5992/61612B36" Ref="F?"  Part="1"
 AR Path="/61609A41/61612B36" Ref="F2"  Part="1" 
 F 0 "F2" V 8100 1400 50  0000 L CNN
 F 1 "20" V 8250 1400 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8180 1450 50  0001 C CNN
+F 2 "MRDT_Passives:ATC_Fuse_Block" V 8180 1450 50  0001 C CNN
 F 3 "~" H 8250 1450 50  0001 C CNN
 	1    8250 1450
 	1    0    0    -1  
@@ -351,7 +351,7 @@ AR Path="/615D5992/616288CD" Ref="F?"  Part="1"
 AR Path="/61609A41/616288CD" Ref="F1"  Part="1" 
 F 0 "F1" V 2950 5700 50  0000 L CNN
 F 1 "20" V 3100 5700 50  0000 L CNN
-F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 5750 50  0001 C CNN
+F 2 "MRDT_Passives:ATC_Fuse_Block" V 3030 5750 50  0001 C CNN
 F 3 "~" H 3100 5750 50  0001 C CNN
 	1    3100 5750
 	1    0    0    -1  
