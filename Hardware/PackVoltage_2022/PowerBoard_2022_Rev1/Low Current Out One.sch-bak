@@ -1,0 +1,840 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Converter_DCDC:OKI-78SR-12_1.0-W36-C U?
+U 1 1 6189A502
+P 1250 1650
+AR Path="/61563C60/6189A502" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6189A502" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A502" Ref="U?"  Part="1" 
+F 0 "U?" H 1250 1892 50  0000 C CNN
+F 1 "OKI-78SR-12_1.0-W36-C" H 1250 1801 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 1300 1400 50  0001 L CIN
+F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 1250 1650 50  0001 C CNN
+	1    1250 1650
+	0    1    1    0   
+$EndComp
+Text HLabel 1250 1050 2    50   Input ~ 0
+PV
+$Comp
+L Device:CP1 C?
+U 1 1 6189A509
+P 1000 1050
+AR Path="/61563C60/6189A509" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6189A509" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A509" Ref="C?"  Part="1" 
+F 0 "C?" H 1115 1096 50  0000 L CNN
+F 1 "22uF" H 1115 1005 50  0000 L CNN
+F 2 "" H 1000 1050 50  0001 C CNN
+F 3 "~" H 1000 1050 50  0001 C CNN
+	1    1000 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 6189A50F
+P 1000 2500
+AR Path="/61563C60/6189A50F" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6189A50F" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A50F" Ref="C?"  Part="1" 
+F 0 "C?" H 1115 2546 50  0000 L CNN
+F 1 "47uF" H 1115 2455 50  0000 L CNN
+F 2 "" H 1000 2500 50  0001 C CNN
+F 3 "~" H 1000 2500 50  0001 C CNN
+	1    1000 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6189A515
+P 1000 2100
+AR Path="/61563C60/6189A515" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6189A515" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A515" Ref="C?"  Part="1" 
+F 0 "C?" H 1115 2146 50  0000 L CNN
+F 1 "10uF" H 1115 2055 50  0000 L CNN
+F 2 "" H 1038 1950 50  0001 C CNN
+F 3 "~" H 1000 2100 50  0001 C CNN
+	1    1000 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6189A51B
+P 1250 2950
+AR Path="/61563C60/6189A51B" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6189A51B" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A51B" Ref="R?"  Part="1" 
+F 0 "R?" V 1043 2950 50  0000 C CNN
+F 1 "1000" V 1134 2950 50  0000 C CNN
+F 2 "" V 1180 2950 50  0001 C CNN
+F 3 "~" H 1250 2950 50  0001 C CNN
+	1    1250 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6189A521
+P 1250 3500
+AR Path="/61563C60/6189A521" Ref="D?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6189A521" Ref="D?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A521" Ref="D?"  Part="1" 
+F 0 "D?" H 1243 3245 50  0000 C CNN
+F 1 "LED" H 1243 3336 50  0000 C CNN
+F 2 "" H 1250 3500 50  0001 C CNN
+F 3 "~" H 1250 3500 50  0001 C CNN
+	1    1250 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 1950 1250 2100
+Wire Wire Line
+	1150 2500 1250 2500
+Connection ~ 1250 2500
+Wire Wire Line
+	1150 2100 1250 2100
+Connection ~ 1250 2100
+Wire Wire Line
+	1250 2100 1250 2500
+Wire Wire Line
+	1150 1050 1250 1050
+Wire Wire Line
+	1250 1050 1250 1350
+$Comp
+L power:GND #PWR?
+U 1 1 6189A52F
+P 850 1650
+AR Path="/61563C60/6189A52F" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6189A52F" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A52F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 850 1400 50  0001 C CNN
+F 1 "GND" H 855 1477 50  0000 C CNN
+F 2 "" H 850 1650 50  0001 C CNN
+F 3 "" H 850 1650 50  0001 C CNN
+	1    850  1650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6189A535
+P 1150 3900
+AR Path="/61563C60/6189A535" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/6189A535" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A535" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1150 3650 50  0001 C CNN
+F 1 "GND" H 1155 3727 50  0000 C CNN
+F 2 "" H 1150 3900 50  0001 C CNN
+F 3 "" H 1150 3900 50  0001 C CNN
+	1    1150 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 3900 1250 3900
+Wire Wire Line
+	1250 3900 1250 3650
+Wire Wire Line
+	1250 3350 1250 3100
+Wire Wire Line
+	850  1650 950  1650
+$Comp
+L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
+U 1 1 6189A53F
+P 2250 3750
+AR Path="/615D5992/6189A53F" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A53F" Ref="U?"  Part="1" 
+F 0 "U?" H 2625 4437 60  0000 C CNN
+F 1 "LT1910" H 2625 4331 60  0000 C CNN
+F 2 "" H 2250 3750 60  0001 C CNN
+F 3 "" H 2250 3750 60  0001 C CNN
+	1    2250 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6189A545
+P 1850 4400
+AR Path="/615D5992/6189A545" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A545" Ref="R?"  Part="1" 
+F 0 "R?" V 1750 4400 50  0000 C CNN
+F 1 "5.1k" V 1850 4400 50  0000 C CNN
+F 2 "" V 1780 4400 50  0001 C CNN
+F 3 "~" H 1850 4400 50  0001 C CNN
+	1    1850 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4250 1850 3950
+$Comp
+L power:+5V #PWR?
+U 1 1 6189A54C
+P 1600 4650
+AR Path="/615D5992/6189A54C" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A54C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1600 4500 50  0001 C CNN
+F 1 "+5V" H 1615 4823 50  0000 C CNN
+F 2 "" H 1600 4650 50  0001 C CNN
+F 3 "" H 1600 4650 50  0001 C CNN
+	1    1600 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 4650 1850 4650
+Wire Wire Line
+	1850 4650 1850 4550
+$Comp
+L Device:C C?
+U 1 1 6189A554
+P 2500 4050
+AR Path="/615D5992/6189A554" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A554" Ref="C?"  Part="1" 
+F 0 "C?" H 2615 4096 50  0000 L CNN
+F 1 "0.1uF" H 2615 4005 50  0000 L CNN
+F 2 "" H 2538 3900 50  0001 C CNN
+F 3 "~" H 2500 4050 50  0001 C CNN
+	1    2500 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 4050 2150 4050
+Wire Wire Line
+	2150 4050 2150 3950
+$Comp
+L power:GND #PWR?
+U 1 1 6189A55C
+P 2650 3350
+AR Path="/615D5992/6189A55C" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A55C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2650 3100 50  0001 C CNN
+F 1 "GND" H 2655 3177 50  0000 C CNN
+F 2 "" H 2650 3350 50  0001 C CNN
+F 3 "" H 2650 3350 50  0001 C CNN
+	1    2650 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 6189A562
+P 1600 2650
+AR Path="/615D5992/6189A562" Ref="F?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A562" Ref="F?"  Part="1" 
+F 0 "F?" V 1450 2600 50  0000 L CNN
+F 1 "20" V 1600 2600 50  0000 L CNN
+F 2 "" V 1530 2650 50  0001 C CNN
+F 3 "~" H 1600 2650 50  0001 C CNN
+	1    1600 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 2800 1850 2650
+$Comp
+L Transistor_FET:BUK7M8R0-40EX Q?
+U 1 1 6189A569
+P 2050 2250
+AR Path="/615D5992/6189A569" Ref="Q?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A569" Ref="Q?"  Part="1" 
+F 0 "Q?" H 1950 2050 50  0000 L CNN
+F 1 "BUK7M8R0-40EX" H 1900 1950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 2250 2175 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 2050 2250 50  0001 L CNN
+	1    2050 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 2650 1850 2150
+Wire Wire Line
+	1750 2650 1850 2650
+Connection ~ 1850 2650
+Wire Wire Line
+	2000 2800 2000 2650
+Wire Wire Line
+	2000 2650 1850 2650
+Wire Wire Line
+	2150 2800 2150 2450
+Wire Wire Line
+	2150 2450 2050 2450
+$Comp
+L Device:C C?
+U 1 1 6189A576
+P 2400 2650
+AR Path="/615D5992/6189A576" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A576" Ref="C?"  Part="1" 
+F 0 "C?" H 2515 2696 50  0000 L CNN
+F 1 "10uF" H 2515 2605 50  0000 L CNN
+F 2 "" H 2438 2500 50  0001 C CNN
+F 3 "~" H 2400 2650 50  0001 C CNN
+	1    2400 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6189A57C
+P 2700 2000
+AR Path="/615D5992/6189A57C" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A57C" Ref="R?"  Part="1" 
+F 0 "R?" V 2600 2000 50  0000 C CNN
+F 1 "3300" V 2700 2000 50  0000 C CNN
+F 2 "" V 2630 2000 50  0001 C CNN
+F 3 "~" H 2700 2000 50  0001 C CNN
+	1    2700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6189A582
+P 2700 1600
+AR Path="/615D5992/6189A582" Ref="D?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A582" Ref="D?"  Part="1" 
+F 0 "D?" H 2700 1700 50  0000 C CNN
+F 1 "LED" H 2700 1800 50  0000 C CNN
+F 2 "" H 2700 1600 50  0001 C CNN
+F 3 "~" H 2700 1600 50  0001 C CNN
+	1    2700 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6189A588
+P 2800 1350
+AR Path="/615D5992/6189A588" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A588" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 1100 50  0001 C CNN
+F 1 "GND" H 2805 1177 50  0000 C CNN
+F 2 "" H 2800 1350 50  0001 C CNN
+F 3 "" H 2800 1350 50  0001 C CNN
+	1    2800 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 1450 2700 1350
+Wire Wire Line
+	2700 1350 2800 1350
+$Comp
+L PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U?
+U 1 1 6189A590
+P 1950 1200
+AR Path="/615D5992/6189A590" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A590" Ref="U?"  Part="1" 
+F 0 "U?" H 2250 1550 50  0000 L CNN
+F 1 "INA281" H 2150 1450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2200 1400 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 2200 1400 50  0001 C CNN
+	1    1950 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6189A596
+P 2150 1750
+AR Path="/615D5992/6189A596" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A596" Ref="R?"  Part="1" 
+F 0 "R?" H 2220 1796 50  0000 L CNN
+F 1 "0.0025" V 2150 1650 50  0000 L CNN
+F 2 "" V 2080 1750 50  0001 C CNN
+F 3 "~" H 2150 1750 50  0001 C CNN
+	1    2150 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 1750 1850 1750
+Wire Wire Line
+	1850 1750 1850 1400
+$Comp
+L power:GND #PWR?
+U 1 1 6189A59E
+P 2300 1200
+AR Path="/615D5992/6189A59E" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/6189A59E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 950 50  0001 C CNN
+F 1 "GND" H 2305 1027 50  0000 C CNN
+F 2 "" H 2300 1200 50  0001 C CNN
+F 3 "" H 2300 1200 50  0001 C CNN
+	1    2300 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 3950 2000 4250
+Text HLabel 2550 1100 2    50   Input ~ 0
+Anderson_Nav
+Text HLabel 2000 4250 2    50   Input ~ 0
+Driver_Nav
+Text HLabel 1950 700  2    50   Input ~ 0
+Current_Sensor_Nav
+Wire Wire Line
+	2650 4050 2650 3350
+Wire Wire Line
+	2650 2650 2550 2650
+Connection ~ 2650 3350
+Wire Wire Line
+	2650 3350 2650 2650
+Wire Wire Line
+	2650 3350 2450 3350
+Wire Wire Line
+	2250 2650 2000 2650
+Connection ~ 2000 2650
+Wire Wire Line
+	2300 1200 2250 1200
+Wire Wire Line
+	2550 1750 2550 1100
+Wire Wire Line
+	2300 1750 2550 1750
+Wire Wire Line
+	2250 2150 2300 2150
+Wire Wire Line
+	2700 1850 2700 1750
+Wire Wire Line
+	2300 2150 2300 2000
+Wire Wire Line
+	2300 2000 1850 2000
+Connection ~ 2300 2150
+Wire Wire Line
+	2300 2150 2700 2150
+Wire Wire Line
+	1950 800  1950 700 
+Wire Wire Line
+	1850 2000 1850 1750
+Connection ~ 1850 1750
+Text HLabel 1600 1200 3    50   Input ~ 0
+5V
+Wire Wire Line
+	1600 1200 1650 1200
+Wire Wire Line
+	1250 2500 1250 2650
+Wire Wire Line
+	1450 2650 1250 2650
+Connection ~ 1250 2650
+Wire Wire Line
+	1250 2650 1250 2800
+Wire Wire Line
+	850  1050 850  1650
+Connection ~ 850  1650
+Wire Wire Line
+	850  1650 850  2100
+Connection ~ 850  2100
+Wire Wire Line
+	850  2100 850  2500
+$Comp
+L Converter_DCDC:OKI-78SR-12_1.0-W36-C U?
+U 1 1 618AAA21
+P 3900 1700
+AR Path="/61563C60/618AAA21" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/618AAA21" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA21" Ref="U?"  Part="1" 
+F 0 "U?" H 3900 1942 50  0000 C CNN
+F 1 "OKI-78SR-12_1.0-W36-C" H 3900 1851 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 3950 1450 50  0001 L CIN
+F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 3900 1700 50  0001 C CNN
+	1    3900 1700
+	0    1    1    0   
+$EndComp
+Text HLabel 3900 1100 2    50   Input ~ 0
+PV
+$Comp
+L Device:CP1 C?
+U 1 1 618AAA28
+P 3650 1100
+AR Path="/61563C60/618AAA28" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/618AAA28" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA28" Ref="C?"  Part="1" 
+F 0 "C?" H 3765 1146 50  0000 L CNN
+F 1 "22uF" H 3765 1055 50  0000 L CNN
+F 2 "" H 3650 1100 50  0001 C CNN
+F 3 "~" H 3650 1100 50  0001 C CNN
+	1    3650 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 618AAA2E
+P 3650 2550
+AR Path="/61563C60/618AAA2E" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/618AAA2E" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA2E" Ref="C?"  Part="1" 
+F 0 "C?" H 3765 2596 50  0000 L CNN
+F 1 "47uF" H 3765 2505 50  0000 L CNN
+F 2 "" H 3650 2550 50  0001 C CNN
+F 3 "~" H 3650 2550 50  0001 C CNN
+	1    3650 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 618AAA34
+P 3650 2150
+AR Path="/61563C60/618AAA34" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/618AAA34" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA34" Ref="C?"  Part="1" 
+F 0 "C?" H 3765 2196 50  0000 L CNN
+F 1 "10uF" H 3765 2105 50  0000 L CNN
+F 2 "" H 3688 2000 50  0001 C CNN
+F 3 "~" H 3650 2150 50  0001 C CNN
+	1    3650 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618AAA3A
+P 3900 3000
+AR Path="/61563C60/618AAA3A" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/618AAA3A" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA3A" Ref="R?"  Part="1" 
+F 0 "R?" V 3693 3000 50  0000 C CNN
+F 1 "1000" V 3784 3000 50  0000 C CNN
+F 2 "" V 3830 3000 50  0001 C CNN
+F 3 "~" H 3900 3000 50  0001 C CNN
+	1    3900 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 618AAA40
+P 3900 3550
+AR Path="/61563C60/618AAA40" Ref="D?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/618AAA40" Ref="D?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA40" Ref="D?"  Part="1" 
+F 0 "D?" H 3893 3295 50  0000 C CNN
+F 1 "LED" H 3893 3386 50  0000 C CNN
+F 2 "" H 3900 3550 50  0001 C CNN
+F 3 "~" H 3900 3550 50  0001 C CNN
+	1    3900 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 2000 3900 2150
+Wire Wire Line
+	3800 2550 3900 2550
+Connection ~ 3900 2550
+Wire Wire Line
+	3800 2150 3900 2150
+Connection ~ 3900 2150
+Wire Wire Line
+	3900 2150 3900 2550
+Wire Wire Line
+	3800 1100 3900 1100
+Wire Wire Line
+	3900 1100 3900 1400
+$Comp
+L power:GND #PWR?
+U 1 1 618AAA4E
+P 3500 1700
+AR Path="/61563C60/618AAA4E" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/618AAA4E" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA4E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3500 1450 50  0001 C CNN
+F 1 "GND" H 3505 1527 50  0000 C CNN
+F 2 "" H 3500 1700 50  0001 C CNN
+F 3 "" H 3500 1700 50  0001 C CNN
+	1    3500 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 618AAA54
+P 3800 3950
+AR Path="/61563C60/618AAA54" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6172F88A/618AAA54" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA54" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3800 3700 50  0001 C CNN
+F 1 "GND" H 3805 3777 50  0000 C CNN
+F 2 "" H 3800 3950 50  0001 C CNN
+F 3 "" H 3800 3950 50  0001 C CNN
+	1    3800 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 3950 3900 3950
+Wire Wire Line
+	3900 3950 3900 3700
+Wire Wire Line
+	3900 3400 3900 3150
+Wire Wire Line
+	3500 1700 3600 1700
+$Comp
+L PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U?
+U 1 1 618AAA5E
+P 4900 3800
+AR Path="/615D5992/618AAA5E" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA5E" Ref="U?"  Part="1" 
+F 0 "U?" H 5275 4487 60  0000 C CNN
+F 1 "LT1910" H 5275 4381 60  0000 C CNN
+F 2 "" H 4900 3800 60  0001 C CNN
+F 3 "" H 4900 3800 60  0001 C CNN
+	1    4900 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618AAA64
+P 4500 4450
+AR Path="/615D5992/618AAA64" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA64" Ref="R?"  Part="1" 
+F 0 "R?" V 4400 4450 50  0000 C CNN
+F 1 "5.1k" V 4500 4450 50  0000 C CNN
+F 2 "" V 4430 4450 50  0001 C CNN
+F 3 "~" H 4500 4450 50  0001 C CNN
+	1    4500 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4300 4500 4000
+$Comp
+L power:+5V #PWR?
+U 1 1 618AAA6B
+P 4250 4700
+AR Path="/615D5992/618AAA6B" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA6B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4250 4550 50  0001 C CNN
+F 1 "+5V" H 4265 4873 50  0000 C CNN
+F 2 "" H 4250 4700 50  0001 C CNN
+F 3 "" H 4250 4700 50  0001 C CNN
+	1    4250 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 4700 4500 4700
+Wire Wire Line
+	4500 4700 4500 4600
+$Comp
+L Device:C C?
+U 1 1 618AAA73
+P 5150 4100
+AR Path="/615D5992/618AAA73" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA73" Ref="C?"  Part="1" 
+F 0 "C?" H 5265 4146 50  0000 L CNN
+F 1 "0.1uF" H 5265 4055 50  0000 L CNN
+F 2 "" H 5188 3950 50  0001 C CNN
+F 3 "~" H 5150 4100 50  0001 C CNN
+	1    5150 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 4100 4800 4100
+Wire Wire Line
+	4800 4100 4800 4000
+$Comp
+L power:GND #PWR?
+U 1 1 618AAA7B
+P 5300 3400
+AR Path="/615D5992/618AAA7B" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA7B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5300 3150 50  0001 C CNN
+F 1 "GND" H 5305 3227 50  0000 C CNN
+F 2 "" H 5300 3400 50  0001 C CNN
+F 3 "" H 5300 3400 50  0001 C CNN
+	1    5300 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 618AAA81
+P 4250 2700
+AR Path="/615D5992/618AAA81" Ref="F?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA81" Ref="F?"  Part="1" 
+F 0 "F?" V 4100 2650 50  0000 L CNN
+F 1 "20" V 4250 2650 50  0000 L CNN
+F 2 "" V 4180 2700 50  0001 C CNN
+F 3 "~" H 4250 2700 50  0001 C CNN
+	1    4250 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 2850 4500 2700
+$Comp
+L Transistor_FET:BUK7M8R0-40EX Q?
+U 1 1 618AAA88
+P 4700 2300
+AR Path="/615D5992/618AAA88" Ref="Q?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA88" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4600 2100 50  0000 L CNN
+F 1 "BUK7M8R0-40EX" H 4550 2000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 4900 2225 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 4700 2300 50  0001 L CNN
+	1    4700 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 2700 4500 2200
+Wire Wire Line
+	4400 2700 4500 2700
+Connection ~ 4500 2700
+Wire Wire Line
+	4650 2850 4650 2700
+Wire Wire Line
+	4650 2700 4500 2700
+Wire Wire Line
+	4800 2850 4800 2500
+Wire Wire Line
+	4800 2500 4700 2500
+$Comp
+L Device:C C?
+U 1 1 618AAA95
+P 5050 2700
+AR Path="/615D5992/618AAA95" Ref="C?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA95" Ref="C?"  Part="1" 
+F 0 "C?" H 5165 2746 50  0000 L CNN
+F 1 "10uF" H 5165 2655 50  0000 L CNN
+F 2 "" H 5088 2550 50  0001 C CNN
+F 3 "~" H 5050 2700 50  0001 C CNN
+	1    5050 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618AAA9B
+P 5350 2050
+AR Path="/615D5992/618AAA9B" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAA9B" Ref="R?"  Part="1" 
+F 0 "R?" V 5250 2050 50  0000 C CNN
+F 1 "3300" V 5350 2050 50  0000 C CNN
+F 2 "" V 5280 2050 50  0001 C CNN
+F 3 "~" H 5350 2050 50  0001 C CNN
+	1    5350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 618AAAA1
+P 5350 1650
+AR Path="/615D5992/618AAAA1" Ref="D?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAAA1" Ref="D?"  Part="1" 
+F 0 "D?" H 5350 1750 50  0000 C CNN
+F 1 "LED" H 5350 1850 50  0000 C CNN
+F 2 "" H 5350 1650 50  0001 C CNN
+F 3 "~" H 5350 1650 50  0001 C CNN
+	1    5350 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 618AAAA7
+P 5450 1400
+AR Path="/615D5992/618AAAA7" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAAA7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5450 1150 50  0001 C CNN
+F 1 "GND" H 5455 1227 50  0000 C CNN
+F 2 "" H 5450 1400 50  0001 C CNN
+F 3 "" H 5450 1400 50  0001 C CNN
+	1    5450 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 1500 5350 1400
+Wire Wire Line
+	5350 1400 5450 1400
+$Comp
+L PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U?
+U 1 1 618AAAAF
+P 4600 1250
+AR Path="/615D5992/618AAAAF" Ref="U?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAAAF" Ref="U?"  Part="1" 
+F 0 "U?" H 4900 1600 50  0000 L CNN
+F 1 "INA281" H 4800 1500 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4850 1450 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 4850 1450 50  0001 C CNN
+	1    4600 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618AAAB5
+P 4800 1800
+AR Path="/615D5992/618AAAB5" Ref="R?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAAB5" Ref="R?"  Part="1" 
+F 0 "R?" H 4870 1846 50  0000 L CNN
+F 1 "0.0025" V 4800 1700 50  0000 L CNN
+F 2 "" V 4730 1800 50  0001 C CNN
+F 3 "~" H 4800 1800 50  0001 C CNN
+	1    4800 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 1800 4500 1800
+Wire Wire Line
+	4500 1800 4500 1450
+$Comp
+L power:GND #PWR?
+U 1 1 618AAABD
+P 4950 1250
+AR Path="/615D5992/618AAABD" Ref="#PWR?"  Part="1" 
+AR Path="/615D7BA0/6170B60A/618AAABD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 1000 50  0001 C CNN
+F 1 "GND" H 4955 1077 50  0000 C CNN
+F 2 "" H 4950 1250 50  0001 C CNN
+F 3 "" H 4950 1250 50  0001 C CNN
+	1    4950 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 4000 4650 4300
+Text HLabel 5200 1150 2    50   Input ~ 0
+Anderson_SciSensor
+Text HLabel 4650 4300 2    50   Input ~ 0
+Driver_SciSensor
+Text HLabel 4600 750  2    50   Input ~ 0
+Current_Sensor_SciSensor
+Wire Wire Line
+	5300 4100 5300 3400
+Wire Wire Line
+	5300 2700 5200 2700
+Connection ~ 5300 3400
+Wire Wire Line
+	5300 3400 5300 2700
+Wire Wire Line
+	5300 3400 5100 3400
+Wire Wire Line
+	4900 2700 4650 2700
+Connection ~ 4650 2700
+Wire Wire Line
+	4950 1250 4900 1250
+Wire Wire Line
+	5200 1800 5200 1150
+Wire Wire Line
+	4950 1800 5200 1800
+Wire Wire Line
+	4900 2200 4950 2200
+Wire Wire Line
+	5350 1900 5350 1800
+Wire Wire Line
+	4950 2200 4950 2050
+Wire Wire Line
+	4950 2050 4500 2050
+Connection ~ 4950 2200
+Wire Wire Line
+	4950 2200 5350 2200
+Wire Wire Line
+	4600 850  4600 750 
+Wire Wire Line
+	4500 2050 4500 1800
+Connection ~ 4500 1800
+Text HLabel 4250 1250 3    50   Input ~ 0
+5V
+Wire Wire Line
+	4250 1250 4300 1250
+Wire Wire Line
+	3900 2550 3900 2700
+Wire Wire Line
+	4100 2700 3900 2700
+Connection ~ 3900 2700
+Wire Wire Line
+	3900 2700 3900 2850
+Wire Wire Line
+	3500 1100 3500 1700
+Connection ~ 3500 1700
+Wire Wire Line
+	3500 1700 3500 2150
+Connection ~ 3500 2150
+Wire Wire Line
+	3500 2150 3500 2550
+$EndSCHEMATC
