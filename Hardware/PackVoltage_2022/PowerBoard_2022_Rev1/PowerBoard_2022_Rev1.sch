@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:PowerBoard_2022_Rev1-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -983,7 +982,7 @@ F53 "Current_Sense_GimAct" O R 3600 5850 50
 F54 "12VGimAct" I L 1600 6000 50 
 $EndSheet
 $Comp
-L MRDT_Drill_Holes:Via GND1
+L PowerBoard_2022_Rev1-rescue:Via-MRDT_Drill_Holes GND1
 U 1 1 61913625
 P 4900 6700
 F 0 "GND1" H 5129 6758 60  0000 L CNN
