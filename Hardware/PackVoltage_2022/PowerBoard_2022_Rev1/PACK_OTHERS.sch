@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:PowerBoard_2022_Rev1-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -41,19 +42,6 @@ F 3 "~" H 6500 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6650 1700 6950 1700
-$Comp
-L power:+5V #PWR?
-U 1 1 61612B20
-P 6250 1450
-AR Path="/615D5992/61612B20" Ref="#PWR?"  Part="1" 
-AR Path="/61609A41/61612B20" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 6250 1300 50  0001 C CNN
-F 1 "+5V" H 6265 1623 50  0000 C CNN
-F 2 "" H 6250 1450 50  0001 C CNN
-F 3 "" H 6250 1450 50  0001 C CNN
-	1    6250 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6250 1450 6250 1700
 Wire Wire Line
@@ -295,19 +283,6 @@ F 3 "~" H 1350 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 6000 1800 6000
-$Comp
-L power:+5V #PWR?
-U 1 1 616288B7
-P 1100 5750
-AR Path="/615D5992/616288B7" Ref="#PWR?"  Part="1" 
-AR Path="/61609A41/616288B7" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 1100 5600 50  0001 C CNN
-F 1 "+5V" H 1115 5923 50  0000 C CNN
-F 2 "" H 1100 5750 50  0001 C CNN
-F 3 "" H 1100 5750 50  0001 C CNN
-	1    1100 5750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1100 5750 1100 6000
 Wire Wire Line
@@ -561,4 +536,8 @@ Wire Wire Line
 Connection ~ 9150 2250
 Wire Wire Line
 	9150 2250 9150 2400
+Text HLabel 1100 5750 1    50   Input ~ 0
+5V
+Text HLabel 6250 1450 1    50   Input ~ 0
+5V
 $EndSCHEMATC

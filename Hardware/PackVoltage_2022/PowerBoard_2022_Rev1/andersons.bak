@@ -22,7 +22,7 @@ AR Path="/615E9566" Ref="Conn?"  Part="1"
 AR Path="/615E92DD/615E9566" Ref="Conn1"  Part="1" 
 F 0 "Conn1" H 808 1837 60  0000 C CNN
 F 1 "AndersonPP" H 808 1731 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 450 900 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 450 900 60  0001 C CNN
 F 3 "" H 450 900 60  0001 C CNN
 	1    600  1450
 	1    0    0    -1  
@@ -35,7 +35,7 @@ AR Path="/6166F3D2" Ref="Conn?"  Part="4"
 AR Path="/615E92DD/6166F3D2" Ref="Conn1"  Part="4" 
 F 0 "Conn1" H 808 1337 60  0000 C CNN
 F 1 "AndersonPP" H 808 1231 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 450 400 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 450 400 60  0001 C CNN
 F 3 "" H 450 400 60  0001 C CNN
 	4    600  950 
 	1    0    0    -1  
@@ -48,7 +48,7 @@ AR Path="/616728DC" Ref="Conn?"  Part="1"
 AR Path="/615E92DD/616728DC" Ref="Conn9"  Part="1" 
 F 0 "Conn9" H 3108 1887 60  0000 C CNN
 F 1 "AndersonPP" H 3108 1781 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 2750 950 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 2750 950 60  0001 C CNN
 F 3 "" H 2750 950 60  0001 C CNN
 	1    2900 1500
 	1    0    0    -1  
@@ -61,7 +61,7 @@ AR Path="/616728E2" Ref="Conn?"  Part="4"
 AR Path="/615E92DD/616728E2" Ref="Conn9"  Part="4" 
 F 0 "Conn9" H 3108 1387 60  0000 C CNN
 F 1 "AndersonPP" H 3108 1281 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 2750 450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 2750 450 60  0001 C CNN
 F 3 "" H 2750 450 60  0001 C CNN
 	4    2900 1000
 	1    0    0    -1  
@@ -74,7 +74,7 @@ AR Path="/61673B12" Ref="Conn?"  Part="1"
 AR Path="/615E92DD/61673B12" Ref="Conn12"  Part="1" 
 F 0 "Conn12" H 4208 1887 60  0000 C CNN
 F 1 "AndersonPP" H 4208 1781 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3850 950 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 3850 950 60  0001 C CNN
 F 3 "" H 3850 950 60  0001 C CNN
 	1    4000 1500
 	1    0    0    -1  
@@ -87,7 +87,7 @@ AR Path="/61673B18" Ref="Conn?"  Part="4"
 AR Path="/615E92DD/61673B18" Ref="Conn12"  Part="4" 
 F 0 "Conn12" H 4208 1387 60  0000 C CNN
 F 1 "AndersonPP" H 4208 1281 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3850 450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 3850 450 60  0001 C CNN
 F 3 "" H 3850 450 60  0001 C CNN
 	4    4000 1000
 	1    0    0    -1  
@@ -100,7 +100,7 @@ AR Path="/61674240" Ref="Conn?"  Part="1"
 AR Path="/615E92DD/61674240" Ref="Conn13"  Part="1" 
 F 0 "Conn13" H 5258 1887 60  0000 C CNN
 F 1 "AndersonPP" H 5258 1781 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 4900 950 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 4900 950 60  0001 C CNN
 F 3 "" H 4900 950 60  0001 C CNN
 	1    5050 1500
 	1    0    0    -1  
@@ -113,7 +113,7 @@ AR Path="/61674246" Ref="Conn?"  Part="4"
 AR Path="/615E92DD/61674246" Ref="Conn13"  Part="4" 
 F 0 "Conn13" H 5258 1387 60  0000 C CNN
 F 1 "AndersonPP" H 5258 1281 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 4900 450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 4900 450 60  0001 C CNN
 F 3 "" H 4900 450 60  0001 C CNN
 	4    5050 1000
 	1    0    0    -1  
@@ -126,7 +126,7 @@ AR Path="/61675182" Ref="Conn?"  Part="1"
 AR Path="/615E92DD/61675182" Ref="Conn14"  Part="1" 
 F 0 "Conn14" H 6458 1887 60  0000 C CNN
 F 1 "AndersonPP" H 6458 1781 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 6100 950 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 6100 950 60  0001 C CNN
 F 3 "" H 6100 950 60  0001 C CNN
 	1    6250 1500
 	1    0    0    -1  
@@ -139,7 +139,7 @@ AR Path="/61675188" Ref="Conn?"  Part="4"
 AR Path="/615E92DD/61675188" Ref="Conn14"  Part="4" 
 F 0 "Conn14" H 6458 1387 60  0000 C CNN
 F 1 "AndersonPP" H 6458 1281 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 6100 450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 6100 450 60  0001 C CNN
 F 3 "" H 6100 450 60  0001 C CNN
 	4    6250 1000
 	1    0    0    -1  
@@ -152,7 +152,7 @@ AR Path="/616760D8" Ref="Conn?"  Part="1"
 AR Path="/615E92DD/616760D8" Ref="Conn15"  Part="1" 
 F 0 "Conn15" H 7608 1887 60  0000 C CNN
 F 1 "AndersonPP" H 7608 1781 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 7250 950 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 7250 950 60  0001 C CNN
 F 3 "" H 7250 950 60  0001 C CNN
 	1    7400 1500
 	1    0    0    -1  
@@ -165,7 +165,7 @@ AR Path="/616760DE" Ref="Conn?"  Part="4"
 AR Path="/615E92DD/616760DE" Ref="Conn15"  Part="4" 
 F 0 "Conn15" H 7608 1387 60  0000 C CNN
 F 1 "AndersonPP" H 7608 1281 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 7250 450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 7250 450 60  0001 C CNN
 F 3 "" H 7250 450 60  0001 C CNN
 	4    7400 1000
 	1    0    0    -1  
@@ -178,7 +178,7 @@ AR Path="/616776CA" Ref="Conn?"  Part="1"
 AR Path="/615E92DD/616776CA" Ref="Conn16"  Part="1" 
 F 0 "Conn16" H 8858 1887 60  0000 C CNN
 F 1 "AndersonPP" H 8858 1781 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 8500 950 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 8500 950 60  0001 C CNN
 F 3 "" H 8500 950 60  0001 C CNN
 	1    8650 1500
 	1    0    0    -1  
@@ -191,7 +191,7 @@ AR Path="/616776D0" Ref="Conn?"  Part="4"
 AR Path="/615E92DD/616776D0" Ref="Conn16"  Part="4" 
 F 0 "Conn16" H 8858 1387 60  0000 C CNN
 F 1 "AndersonPP" H 8858 1281 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 8500 450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 8500 450 60  0001 C CNN
 F 3 "" H 8500 450 60  0001 C CNN
 	4    8650 1000
 	1    0    0    -1  
@@ -323,7 +323,7 @@ AR Path="/6163A582" Ref="Conn?"  Part="1"
 AR Path="/615E92DD/6163A582" Ref="Conn5"  Part="1" 
 F 0 "Conn5" H 1958 1837 60  0000 C CNN
 F 1 "AndersonPP" H 1958 1731 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1600 900 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 1600 900 60  0001 C CNN
 F 3 "" H 1600 900 60  0001 C CNN
 	1    1750 1450
 	1    0    0    -1  
@@ -336,7 +336,7 @@ AR Path="/6163A588" Ref="Conn?"  Part="4"
 AR Path="/615E92DD/6163A588" Ref="Conn5"  Part="4" 
 F 0 "Conn5" H 1958 1337 60  0000 C CNN
 F 1 "AndersonPP" H 1958 1231 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1600 400 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 1600 400 60  0001 C CNN
 F 3 "" H 1600 400 60  0001 C CNN
 	4    1750 950 
 	1    0    0    -1  
@@ -349,7 +349,7 @@ AR Path="/6163A58E" Ref="Conn?"  Part="1"
 AR Path="/615E92DD/6163A58E" Ref="Conn2"  Part="1" 
 F 0 "Conn2" H 858 3087 60  0000 C CNN
 F 1 "AndersonPP" H 858 2981 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 500 2150 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 500 2150 60  0001 C CNN
 F 3 "" H 500 2150 60  0001 C CNN
 	1    650  2700
 	1    0    0    -1  
@@ -362,7 +362,7 @@ AR Path="/6163A594" Ref="Conn?"  Part="4"
 AR Path="/615E92DD/6163A594" Ref="Conn2"  Part="4" 
 F 0 "Conn2" H 858 2587 60  0000 C CNN
 F 1 "AndersonPP" H 858 2481 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 500 1650 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 500 1650 60  0001 C CNN
 F 3 "" H 500 1650 60  0001 C CNN
 	4    650  2200
 	1    0    0    -1  
@@ -375,7 +375,7 @@ AR Path="/6163A59A" Ref="Conn?"  Part="1"
 AR Path="/615E92DD/6163A59A" Ref="Conn6"  Part="1" 
 F 0 "Conn6" H 2008 3087 60  0000 C CNN
 F 1 "AndersonPP" H 2008 2981 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1650 2150 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 1650 2150 60  0001 C CNN
 F 3 "" H 1650 2150 60  0001 C CNN
 	1    1800 2700
 	1    0    0    -1  
@@ -388,7 +388,7 @@ AR Path="/6163A5A0" Ref="Conn?"  Part="4"
 AR Path="/615E92DD/6163A5A0" Ref="Conn6"  Part="4" 
 F 0 "Conn6" H 2008 2587 60  0000 C CNN
 F 1 "AndersonPP" H 2008 2481 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1650 1650 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 1650 1650 60  0001 C CNN
 F 3 "" H 1650 1650 60  0001 C CNN
 	4    1800 2200
 	1    0    0    -1  
@@ -401,7 +401,7 @@ AR Path="/6163A5B2" Ref="Conn?"  Part="1"
 AR Path="/615E92DD/6163A5B2" Ref="Conn10"  Part="1" 
 F 0 "Conn10" H 3508 3137 60  0000 C CNN
 F 1 "AndersonPP" H 3508 3031 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3150 2200 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 3150 2200 60  0001 C CNN
 F 3 "" H 3150 2200 60  0001 C CNN
 	1    3300 2750
 	1    0    0    -1  
@@ -414,7 +414,7 @@ AR Path="/6163A5B8" Ref="Conn?"  Part="4"
 AR Path="/615E92DD/6163A5B8" Ref="Conn10"  Part="4" 
 F 0 "Conn10" H 3508 2637 60  0000 C CNN
 F 1 "AndersonPP" H 3508 2531 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3150 1700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 3150 1700 60  0001 C CNN
 F 3 "" H 3150 1700 60  0001 C CNN
 	4    3300 2250
 	1    0    0    -1  
@@ -792,9 +792,11 @@ F 3 "" H 800 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn3
+L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn3
 U 2 1 618FD8B0
 P 950 3550
+AR Path="/618FD8B0" Ref="Conn3"  Part="2" 
+AR Path="/615E92DD/618FD8B0" Ref="Conn3"  Part="2" 
 F 0 "Conn3" H 1156 3937 60  0000 C CNN
 F 1 "AndersonPP" H 1156 3831 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 800 3000 60  0001 C CNN
@@ -803,9 +805,11 @@ F 3 "" H 800 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn7
+L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn7
 U 2 1 618FFBAC
 P 2350 3550
+AR Path="/618FFBAC" Ref="Conn7"  Part="2" 
+AR Path="/615E92DD/618FFBAC" Ref="Conn7"  Part="2" 
 F 0 "Conn7" H 2556 3937 60  0000 C CNN
 F 1 "AndersonPP" H 2556 3831 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 2200 3000 60  0001 C CNN
@@ -814,9 +818,11 @@ F 3 "" H 2200 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn11
+L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn11
 U 2 1 618FFC14
 P 3750 3550
+AR Path="/618FFC14" Ref="Conn11"  Part="2" 
+AR Path="/615E92DD/618FFC14" Ref="Conn11"  Part="2" 
 F 0 "Conn11" H 3956 3937 60  0000 C CNN
 F 1 "AndersonPP" H 3956 3831 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3600 3000 60  0001 C CNN
@@ -825,9 +831,11 @@ F 3 "" H 3600 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn17
+L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn17
 U 2 1 618FFC8E
 P 5250 3550
+AR Path="/618FFC8E" Ref="Conn17"  Part="2" 
+AR Path="/615E92DD/618FFC8E" Ref="Conn17"  Part="2" 
 F 0 "Conn17" H 5456 3937 60  0000 C CNN
 F 1 "AndersonPP" H 5456 3831 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 5100 3000 60  0001 C CNN
@@ -836,9 +844,11 @@ F 3 "" H 5100 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn18
+L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn18
 U 2 1 618FFD18
 P 6700 3550
+AR Path="/618FFD18" Ref="Conn18"  Part="2" 
+AR Path="/615E92DD/618FFD18" Ref="Conn18"  Part="2" 
 F 0 "Conn18" H 6906 3937 60  0000 C CNN
 F 1 "AndersonPP" H 6906 3831 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 6550 3000 60  0001 C CNN
@@ -847,9 +857,11 @@ F 3 "" H 6550 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn19
+L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn19
 U 2 1 618FFD90
 P 8200 3550
+AR Path="/618FFD90" Ref="Conn19"  Part="2" 
+AR Path="/615E92DD/618FFD90" Ref="Conn19"  Part="2" 
 F 0 "Conn19" H 8406 3937 60  0000 C CNN
 F 1 "AndersonPP" H 8406 3831 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 8050 3000 60  0001 C CNN
@@ -858,9 +870,11 @@ F 3 "" H 8050 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn20
+L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn20
 U 2 1 618FFE0A
 P 9800 3550
+AR Path="/618FFE0A" Ref="Conn20"  Part="2" 
+AR Path="/615E92DD/618FFE0A" Ref="Conn20"  Part="2" 
 F 0 "Conn20" H 10006 3937 60  0000 C CNN
 F 1 "AndersonPP" H 10006 3831 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9650 3000 60  0001 C CNN
@@ -869,9 +883,11 @@ F 3 "" H 9650 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn4
+L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn4
 U 2 1 618FFE86
 P 950 5200
+AR Path="/618FFE86" Ref="Conn4"  Part="2" 
+AR Path="/615E92DD/618FFE86" Ref="Conn4"  Part="2" 
 F 0 "Conn4" H 1156 5587 60  0000 C CNN
 F 1 "AndersonPP" H 1156 5481 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 800 4650 60  0001 C CNN
@@ -880,9 +896,11 @@ F 3 "" H 800 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn8
+L PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn8
 U 2 1 618FFF3E
 P 2800 5250
+AR Path="/618FFF3E" Ref="Conn8"  Part="2" 
+AR Path="/615E92DD/618FFF3E" Ref="Conn8"  Part="2" 
 F 0 "Conn8" H 3006 5637 60  0000 C CNN
 F 1 "AndersonPP" H 3006 5531 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 2650 4700 60  0001 C CNN

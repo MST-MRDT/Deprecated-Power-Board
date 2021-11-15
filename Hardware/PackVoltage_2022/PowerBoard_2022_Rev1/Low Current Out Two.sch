@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:PowerBoard_2022_Rev1-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -43,20 +44,6 @@ F 3 "~" H 950 2750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 2750 1400 2750
-$Comp
-L power:+5V #PWR?
-U 1 1 6179FA5B
-P 700 2500
-AR Path="/615D5992/6179FA5B" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6170B60A/6179FA5B" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6172F88A/6179FA5B" Ref="#PWR0124"  Part="1" 
-F 0 "#PWR0124" H 700 2350 50  0001 C CNN
-F 1 "+5V" H 715 2673 50  0000 C CNN
-F 2 "" H 700 2500 50  0001 C CNN
-F 3 "" H 700 2500 50  0001 C CNN
-	1    700  2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	700  2500 700  2750
 Wire Wire Line
@@ -288,20 +275,6 @@ F 3 "~" H 950 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 4450 1400 4450
-$Comp
-L power:+5V #PWR?
-U 1 1 6182162F
-P 700 4200
-AR Path="/615D5992/6182162F" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6170B60A/6182162F" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6172F88A/6182162F" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 700 4050 50  0001 C CNN
-F 1 "+5V" H 715 4373 50  0000 C CNN
-F 2 "" H 700 4200 50  0001 C CNN
-F 3 "" H 700 4200 50  0001 C CNN
-	1    700  4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	700  4200 700  4450
 Wire Wire Line
@@ -547,20 +520,6 @@ F 3 "~" H 950 1100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 1100 1400 1100
-$Comp
-L power:+5V #PWR?
-U 1 1 61833032
-P 700 850
-AR Path="/615D5992/61833032" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6170B60A/61833032" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6172F88A/61833032" Ref="#PWR0123"  Part="1" 
-F 0 "#PWR0123" H 700 700 50  0001 C CNN
-F 1 "+5V" H 715 1023 50  0000 C CNN
-F 2 "" H 700 850 50  0001 C CNN
-F 3 "" H 700 850 50  0001 C CNN
-	1    700  850 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	700  850  700  1100
 Wire Wire Line
@@ -806,20 +765,6 @@ F 3 "~" H 7350 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 4400 7800 4400
-$Comp
-L power:+5V #PWR?
-U 1 1 61842604
-P 7100 4150
-AR Path="/615D5992/61842604" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6170B60A/61842604" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6172F88A/61842604" Ref="#PWR0146"  Part="1" 
-F 0 "#PWR0146" H 7100 4000 50  0001 C CNN
-F 1 "+5V" H 7115 4323 50  0000 C CNN
-F 2 "" H 7100 4150 50  0001 C CNN
-F 3 "" H 7100 4150 50  0001 C CNN
-	1    7100 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 4150 7100 4400
 Wire Wire Line
@@ -1079,20 +1024,6 @@ F 3 "~" H 850 6300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1000 6300 1300 6300
-$Comp
-L power:+5V #PWR?
-U 1 1 618D8DAA
-P 600 6050
-AR Path="/615D5992/618D8DAA" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6170B60A/618D8DAA" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6172F88A/618D8DAA" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 600 5900 50  0001 C CNN
-F 1 "+5V" H 615 6223 50  0000 C CNN
-F 2 "" H 600 6050 50  0001 C CNN
-F 3 "" H 600 6050 50  0001 C CNN
-	1    600  6050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	600  6050 600  6300
 Wire Wire Line
@@ -1338,20 +1269,6 @@ F 3 "~" H 7400 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7550 2550 7850 2550
-$Comp
-L power:+5V #PWR?
-U 1 1 61B8DD1A
-P 7150 2300
-AR Path="/615D5992/61B8DD1A" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6170B60A/61B8DD1A" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6172F88A/61B8DD1A" Ref="#PWR0147"  Part="1" 
-F 0 "#PWR0147" H 7150 2150 50  0001 C CNN
-F 1 "+5V" H 7165 2473 50  0000 C CNN
-F 2 "" H 7150 2300 50  0001 C CNN
-F 3 "" H 7150 2300 50  0001 C CNN
-	1    7150 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 2300 7150 2550
 Wire Wire Line
@@ -1597,20 +1514,6 @@ F 3 "~" H 7350 1050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 1050 7800 1050
-$Comp
-L power:+5V #PWR?
-U 1 1 61BA276C
-P 7100 800
-AR Path="/615D5992/61BA276C" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6170B60A/61BA276C" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6172F88A/61BA276C" Ref="#PWR0145"  Part="1" 
-F 0 "#PWR0145" H 7100 650 50  0001 C CNN
-F 1 "+5V" H 7115 973 50  0000 C CNN
-F 2 "" H 7100 800 50  0001 C CNN
-F 3 "" H 7100 800 50  0001 C CNN
-	1    7100 800 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 800  7100 1050
 Wire Wire Line
@@ -1919,20 +1822,6 @@ F 3 "~" H 6100 7400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6100 7250 6100 6950
-$Comp
-L power:+5V #PWR?
-U 1 1 6209CF4A
-P 5850 7650
-AR Path="/615D5992/6209CF4A" Ref="#PWR?"  Part="1" 
-AR Path="/61609A41/6209CF4A" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6172F88A/6209CF4A" Ref="#PWR0140"  Part="1" 
-F 0 "#PWR0140" H 5850 7500 50  0001 C CNN
-F 1 "+5V" H 5865 7823 50  0000 C CNN
-F 2 "" H 5850 7650 50  0001 C CNN
-F 3 "" H 5850 7650 50  0001 C CNN
-	1    5850 7650
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5850 7650 6100 7650
 Wire Wire Line
@@ -2175,20 +2064,6 @@ F 3 "~" H 5250 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 4100 5250 3800
-$Comp
-L power:+5V #PWR?
-U 1 1 6219A363
-P 5000 4500
-AR Path="/615D5992/6219A363" Ref="#PWR?"  Part="1" 
-AR Path="/61609A41/6219A363" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6172F88A/6219A363" Ref="#PWR0138"  Part="1" 
-F 0 "#PWR0138" H 5000 4350 50  0001 C CNN
-F 1 "+5V" H 5015 4673 50  0000 C CNN
-F 2 "" H 5000 4500 50  0001 C CNN
-F 3 "" H 5000 4500 50  0001 C CNN
-	1    5000 4500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5000 4500 5250 4500
 Wire Wire Line
@@ -2461,4 +2336,22 @@ Wire Wire Line
 	2700 650  2700 1100
 Wire Wire Line
 	4750 2500 5250 2500
+Text HLabel 700  2500 1    50   Input ~ 0
+5V
+Text HLabel 700  850  1    50   Input ~ 0
+5V
+Text HLabel 700  4200 1    50   Input ~ 0
+5V
+Text HLabel 600  6050 1    50   Input ~ 0
+5V
+Text HLabel 5850 7650 0    50   Input ~ 0
+5V
+Text HLabel 5000 4500 0    50   Input ~ 0
+5V
+Text HLabel 7100 4150 1    50   Input ~ 0
+5V
+Text HLabel 7150 2300 1    50   Input ~ 0
+5V
+Text HLabel 7100 800  1    50   Input ~ 0
+5V
 $EndSCHEMATC

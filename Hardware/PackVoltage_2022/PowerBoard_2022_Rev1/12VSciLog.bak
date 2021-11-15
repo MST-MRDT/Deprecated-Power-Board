@@ -22,7 +22,7 @@ AR Path="/61563C60/61EAD272" Ref="U?"  Part="1"
 AR Path="/61563C60/61E93D59/61EAD272" Ref="U17"  Part="1" 
 F 0 "U17" H 2250 1942 50  0000 C CNN
 F 1 "OKI-78SR-12_1.0-W36-C" H 2250 1851 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 2300 1450 50  0001 L CIN
+F 2 "MRDT_Devices:OKI_Horizontal" H 2300 1450 50  0001 L CIN
 F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 2250 1700 50  0001 C CNN
 	1    2250 1700
 	1    0    0    -1  
@@ -178,7 +178,7 @@ AR Path="/61563C60/61EAD839" Ref="U?"  Part="1"
 AR Path="/61563C60/61E93D59/61EAD839" Ref="U18"  Part="1" 
 F 0 "U18" H 2250 3142 50  0000 C CNN
 F 1 "OKI-78SR-12_1.0-W36-C" H 2250 3051 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 2300 2650 50  0001 L CIN
+F 2 "MRDT_Devices:OKI_Horizontal" H 2300 2650 50  0001 L CIN
 F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 2250 2900 50  0001 C CNN
 	1    2250 2900
 	1    0    0    -1  
@@ -323,7 +323,7 @@ AR Path="/61563C60/61EAE137" Ref="U?"  Part="1"
 AR Path="/61563C60/61E93D59/61EAE137" Ref="U19"  Part="1" 
 F 0 "U19" H 2250 4242 50  0000 C CNN
 F 1 "OKI-78SR-12_1.0-W36-C" H 2250 4151 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 2300 3750 50  0001 L CIN
+F 2 "MRDT_Devices:OKI_Horizontal" H 2300 3750 50  0001 L CIN
 F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 2250 4000 50  0001 C CNN
 	1    2250 4000
 	1    0    0    -1  
@@ -468,7 +468,7 @@ AR Path="/61563C60/61EAF3C4" Ref="U?"  Part="1"
 AR Path="/61563C60/61E93D59/61EAF3C4" Ref="U20"  Part="1" 
 F 0 "U20" H 2250 5342 50  0000 C CNN
 F 1 "OKI-78SR-12_1.0-W36-C" H 2250 5251 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 2300 4850 50  0001 L CIN
+F 2 "MRDT_Devices:OKI_Horizontal" H 2300 4850 50  0001 L CIN
 F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 2250 5100 50  0001 C CNN
 	1    2250 5100
 	1    0    0    -1  
@@ -615,7 +615,7 @@ AR Path="/61563C60/619351EE" Ref="U?"  Part="1"
 AR Path="/61563C60/61E93D59/619351EE" Ref="U21"  Part="1" 
 F 0 "U21" H 6650 1842 50  0000 C CNN
 F 1 "OKI-78SR-12_1.0-W36-C" H 6650 1751 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 6700 1350 50  0001 L CIN
+F 2 "MRDT_Devices:OKI_Horizontal" H 6700 1350 50  0001 L CIN
 F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 6650 1600 50  0001 C CNN
 	1    6650 1600
 	1    0    0    -1  
@@ -771,7 +771,7 @@ AR Path="/61563C60/61935241" Ref="U?"  Part="1"
 AR Path="/61563C60/61E93D59/61935241" Ref="U22"  Part="1" 
 F 0 "U22" H 6650 3042 50  0000 C CNN
 F 1 "OKI-78SR-12_1.0-W36-C" H 6650 2951 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 6700 2550 50  0001 L CIN
+F 2 "MRDT_Devices:OKI_Horizontal" H 6700 2550 50  0001 L CIN
 F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 6650 2800 50  0001 C CNN
 	1    6650 2800
 	1    0    0    -1  
@@ -921,7 +921,7 @@ AR Path="/61563C60/61935294" Ref="U?"  Part="1"
 AR Path="/61563C60/61E93D59/61935294" Ref="U23"  Part="1" 
 F 0 "U23" H 6650 4142 50  0000 C CNN
 F 1 "OKI-78SR-12_1.0-W36-C" H 6650 4051 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 6700 3650 50  0001 L CIN
+F 2 "MRDT_Devices:OKI_Horizontal" H 6700 3650 50  0001 L CIN
 F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 6650 3900 50  0001 C CNN
 	1    6650 3900
 	1    0    0    -1  
@@ -1071,7 +1071,7 @@ AR Path="/61563C60/619352E7" Ref="U?"  Part="1"
 AR Path="/61563C60/61E93D59/619352E7" Ref="U24"  Part="1" 
 F 0 "U24" H 6650 5242 50  0000 C CNN
 F 1 "OKI-78SR-12_1.0-W36-C" H 6650 5151 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 6700 4750 50  0001 L CIN
+F 2 "MRDT_Devices:OKI_Horizontal" H 6700 4750 50  0001 L CIN
 F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 6650 5000 50  0001 C CNN
 	1    6650 5000
 	1    0    0    -1  

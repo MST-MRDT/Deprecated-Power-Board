@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:PowerBoard_2022_Rev1-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -282,21 +283,6 @@ F 3 "~" H 5800 3450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5950 3450 6250 3450
-$Comp
-L power:+5V #PWR?
-U 1 1 61F45D1B
-P 5550 3200
-AR Path="/615D5992/61F45D1B" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6170B60A/61F45D1B" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6172F88A/61F45D1B" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/61F45D1B" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 5550 3050 50  0001 C CNN
-F 1 "+5V" H 5565 3373 50  0000 C CNN
-F 2 "" H 5550 3200 50  0001 C CNN
-F 3 "" H 5550 3200 50  0001 C CNN
-	1    5550 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5550 3200 5550 3450
 Wire Wire Line
@@ -567,21 +553,6 @@ F 3 "~" H 5800 5150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5950 5150 6250 5150
-$Comp
-L power:+5V #PWR?
-U 1 1 61A052A9
-P 5550 4900
-AR Path="/615D5992/61A052A9" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6170B60A/61A052A9" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/6172F88A/61A052A9" Ref="#PWR?"  Part="1" 
-AR Path="/615D7BA0/61A052A9" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 5550 4750 50  0001 C CNN
-F 1 "+5V" H 5565 5073 50  0000 C CNN
-F 2 "" H 5550 4900 50  0001 C CNN
-F 3 "" H 5550 4900 50  0001 C CNN
-	1    5550 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5550 4900 5550 5150
 Wire Wire Line
@@ -820,4 +791,8 @@ Text HLabel 7400 4700 0    50   Input ~ 0
 12VGimAct
 Wire Wire Line
 	7550 4700 7550 5150
+Text HLabel 5550 3200 1    50   Input ~ 0
+5V
+Text HLabel 5550 4900 1    50   Input ~ 0
+5V
 $EndSCHEMATC

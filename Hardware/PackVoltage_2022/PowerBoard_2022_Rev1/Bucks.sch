@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:PowerBoard_2022_Rev1-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1799,7 +1800,7 @@ U 1 1 6177F77D
 P 8850 4500
 F 0 "U16" H 8850 4742 50  0000 C CNN
 F 1 "OKI-78SR-12_1.0-W36-C" H 8850 4651 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 8900 4250 50  0001 L CIN
+F 2 "MRDT_Devices:OKI_Horizontal" H 8900 4250 50  0001 L CIN
 F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 8850 4500 50  0001 C CNN
 	1    8850 4500
 	1    0    0    -1  
