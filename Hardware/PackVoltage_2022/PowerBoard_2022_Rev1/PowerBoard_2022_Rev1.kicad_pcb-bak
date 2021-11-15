@@ -21,7 +21,7 @@
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user hide)
+    (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
     (43 Eco2.User user)
@@ -873,7 +873,7 @@
   )
 
   (module MRDT_Passives:ATC_Fuse_Block (layer F.Cu) (tedit 5FBB409B) (tstamp 619D99F0)
-    (at 422.656 142.494)
+    (at 1167.13 -18.796)
     (tags "Fuse ATC")
     (path /615D5992/616D60FA)
     (fp_text reference F11 (at -1.27 6.35) (layer Dwgs.User) hide
@@ -6719,7 +6719,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 61A95D3A)
-    (at 754.166 -93.218)
+    (at 485.18 -157.734)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /61563C60/61E93D59/61EAD279)
@@ -6885,7 +6885,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 61A95DCE)
-    (at 761.178242 -93.102999)
+    (at 492.192242 -157.618999)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /61563C60/61E93D59/61EAD840)
@@ -7051,7 +7051,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 61A95E62)
-    (at 768.35 -92.964)
+    (at 499.364 -157.48)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /61563C60/61E93D59/61EAE13E)
@@ -7217,7 +7217,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 61A95EF6)
-    (at 775.716 -92.71)
+    (at 506.73 -157.226)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /61563C60/61E93D59/61EAF3CB)
@@ -7527,7 +7527,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 61A95FCE)
-    (at 687.324 -8.89)
+    (at 483.87 -143.256)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /61563C60/61E93D59/61EAD280)
@@ -7693,7 +7693,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 61A96062)
-    (at 695.198 -8.89)
+    (at 491.744 -143.256)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /61563C60/61E93D59/61EAD847)
@@ -7859,7 +7859,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 61A960F6)
-    (at 703.072 -8.89)
+    (at 499.618 -143.256)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /61563C60/61E93D59/61EAE145)
@@ -8025,7 +8025,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 61A9618A)
-    (at 710.692 -8.636)
+    (at 507.238 -143.002)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /61563C60/61E93D59/61EAF3D2)
@@ -18012,7 +18012,7 @@
   )
 
   (module MRDT_Devices:OKI_Horizontal (layer F.Cu) (tedit 5DD8981C) (tstamp 61A97982)
-    (at 1027.43 -24.892)
+    (at 687.07 265.684)
     (tags OKI)
     (path /61563C60/615654A2)
     (fp_text reference U5 (at 0 -2.54) (layer F.SilkS) hide
@@ -18047,7 +18047,7 @@
   )
 
   (module MRDT_Devices:OKI_Horizontal (layer F.Cu) (tedit 5DD8981C) (tstamp 61A97995)
-    (at 1108.202 -25.654)
+    (at 824.23 243.078)
     (tags OKI)
     (path /61563C60/61587404)
     (fp_text reference U6 (at 0 -2.54) (layer F.SilkS) hide
@@ -18082,7 +18082,7 @@
   )
 
   (module MRDT_Devices:OKI_Horizontal (layer F.Cu) (tedit 5DD8981C) (tstamp 61A979A8)
-    (at 354.584 222.25)
+    (at 1087.12 -28.194)
     (tags OKI)
     (path /61563C60/6156C173)
     (fp_text reference U7 (at 0 -2.54) (layer F.SilkS) hide
@@ -18257,7 +18257,7 @@
   )
 
   (module MRDT_Devices:OKI_Horizontal (layer F.Cu) (tedit 5DD8981C) (tstamp 61A97A07)
-    (at 474.218 217.424)
+    (at 1021.08 -26.162)
     (tags OKI)
     (path /61563C60/619984C1)
     (fp_text reference U12 (at 0 -2.54) (layer F.SilkS) hide
@@ -18362,7 +18362,7 @@
   )
 
   (module MRDT_Devices:OKI_Horizontal (layer F.Cu) (tedit 5DD8981C) (tstamp 61A97A40)
-    (at 536.702 217.678)
+    (at 1067.816 -141.478)
     (tags OKI)
     (path /61563C60/6197F470)
     (fp_text reference U15 (at 0 -2.54) (layer F.SilkS) hide
@@ -21248,7 +21248,7 @@
   )
 
   (module MRDT_Devices:OKI_Horizontal (layer F.Cu) (tedit 5DD8981C) (tstamp 619E117F)
-    (at 1049.782 -151.13)
+    (at 1048.512 -141.478)
     (tags OKI)
     (path /61563C60/6177F77D)
     (fp_text reference U16 (at 0 -2.54) (layer F.SilkS) hide
@@ -21614,16 +21614,16 @@
     (arrow2b (pts (xy 63.5 -12.7) (xy 62.913579 -13.826504)))
   )
   (dimension 177.8 (width 0.15) (layer Dwgs.User)
-    (gr_text "7.0000 in" (at 658.541591 -261.606317 90) (layer Dwgs.User)
+    (gr_text "7.0000 in" (at 392.435795 -101.553791 90) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (feature1 (pts (xy 659.841591 -172.706317) (xy 659.25517 -172.706317)))
-    (feature2 (pts (xy 659.841591 -350.506317) (xy 659.25517 -350.506317)))
-    (crossbar (pts (xy 659.841591 -350.506317) (xy 659.841591 -172.706317)))
-    (arrow1a (pts (xy 659.841591 -172.706317) (xy 659.25517 -173.832821)))
-    (arrow1b (pts (xy 659.841591 -172.706317) (xy 660.428012 -173.832821)))
-    (arrow2a (pts (xy 659.841591 -350.506317) (xy 659.25517 -349.379813)))
-    (arrow2b (pts (xy 659.841591 -350.506317) (xy 660.428012 -349.379813)))
+    (feature1 (pts (xy 393.735795 -12.653791) (xy 393.149374 -12.653791)))
+    (feature2 (pts (xy 393.735795 -190.453791) (xy 393.149374 -190.453791)))
+    (crossbar (pts (xy 393.735795 -190.453791) (xy 393.735795 -12.653791)))
+    (arrow1a (pts (xy 393.735795 -12.653791) (xy 393.149374 -13.780295)))
+    (arrow1b (pts (xy 393.735795 -12.653791) (xy 394.322216 -13.780295)))
+    (arrow2a (pts (xy 393.735795 -190.453791) (xy 393.149374 -189.327287)))
+    (arrow2b (pts (xy 393.735795 -190.453791) (xy 394.322216 -189.327287)))
   )
   (dimension 330.2 (width 0.15) (layer Dwgs.User)
     (gr_text "13.0000 in" (at 228.6 -11.4) (layer Dwgs.User)
