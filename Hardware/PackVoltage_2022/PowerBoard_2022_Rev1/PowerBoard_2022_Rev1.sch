@@ -620,11 +620,11 @@ Text GLabel 1500 4200 0    50   Input ~ 0
 12VA
 Wire Wire Line
 	1600 4200 1500 4200
-Text GLabel 3700 5650 2    50   Input ~ 0
+Text GLabel 3700 5650 2    50   Output ~ 0
 Current_Sensor_Drive
 Wire Wire Line
 	3700 5650 3600 5650
-Text GLabel 3700 5550 2    50   Input ~ 0
+Text GLabel 3700 5550 2    50   Output ~ 0
 Current_Sensor_Multimedia
 Wire Wire Line
 	3700 5550 3600 5550
@@ -830,8 +830,6 @@ Wire Wire Line
 	1600 2400 1500 2400
 Text GLabel 1500 2400 0    50   Input ~ 0
 Current_Sensor_Aux
-Wire Wire Line
-	1500 2300 1600 2300
 Text GLabel 1500 2300 0    50   Input ~ 0
 Current_Sensor_GimAct
 Wire Wire Line
@@ -872,7 +870,7 @@ Wire Wire Line
 	9400 2850 9500 2850
 Wire Wire Line
 	1500 4500 1600 4500
-Text GLabel 3700 5750 2    50   Input ~ 0
+Text GLabel 3700 5750 2    50   Output ~ 0
 Current_Sense_SciAct
 Wire Wire Line
 	3700 5750 3600 5750
@@ -908,7 +906,7 @@ Wire Wire Line
 	1600 6000 1500 6000
 Text GLabel 3700 4500 2    50   Output ~ 0
 Anderson_GimAct
-Text GLabel 3700 5850 2    50   Input ~ 0
+Text GLabel 3700 5850 2    50   Output ~ 0
 Current_Sense_GimAct
 Text GLabel 1500 5850 0    50   Input ~ 0
 Driver_GimAct
@@ -993,10 +991,10 @@ F 3 "" H 4900 6700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0158
+L power:GND #PWR02
 U 1 1 6191387F
 P 4900 6800
-F 0 "#PWR0158" H 4900 6550 50  0001 C CNN
+F 0 "#PWR02" H 4900 6550 50  0001 C CNN
 F 1 "GND" H 4905 6627 50  0000 C CNN
 F 2 "" H 4900 6800 50  0001 C CNN
 F 3 "" H 4900 6800 50  0001 C CNN
@@ -1005,4 +1003,6 @@ F 3 "" H 4900 6800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 6800 4900 6700
+Wire Wire Line
+	1500 2300 1600 2300
 $EndSCHEMATC
