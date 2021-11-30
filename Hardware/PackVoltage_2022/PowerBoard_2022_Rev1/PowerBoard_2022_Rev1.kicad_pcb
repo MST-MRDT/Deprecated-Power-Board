@@ -1,9 +1,9 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.10)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
     (thickness 1.6)
-    (drawings 98)
-    (tracks 1770)
+    (drawings 94)
+    (tracks 1771)
     (zones 0)
     (modules 361)
     (nets 256)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.254)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -348,7 +348,7 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
-    (trace_width 0.25)
+    (trace_width 0.254)
     (via_dia 0.8)
     (via_drill 0.4)
     (uvia_dia 0.3)
@@ -21720,6 +21720,7 @@
     )
   )
 
+  (gr_line (start 244.856 -190.5) (end 219.964 -190.5) (layer Edge.Cuts) (width 0.15) (tstamp 61A5A42B))
   (gr_text "Power Board, Rev 1.0\nMars Rover Design Team\nMissouri S&T, 2022\nDakota Miller, Nithin Vijay, Josh Perkins" (at 169.037 -78.613) (layer F.SilkS) (tstamp 6196B309)
     (effects (font (size 1.27 1.27) (thickness 0.3175)))
   )
@@ -21924,11 +21925,6 @@
   (gr_line (start 219.964 -190.5) (end 130.81 -190.5) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 244.856 -190.5) (end 385.572 -190.5) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 130.81 -190.5) (end 105.918 -190.5) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 221.996 -188.468) (end 221.996 -172.72) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 219.964 -188.468) (end 221.996 -188.468) (angle -90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 242.824 -172.72) (end 242.824 -188.468) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 221.996 -172.72) (end 242.824 -172.72) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 244.856 -188.468) (end 244.856 -190.5) (angle -90) (layer Edge.Cuts) (width 0.15))
   (dimension 330.2 (width 0.15) (layer Dwgs.User)
     (gr_text "13.0000 in" (at 228.5815 -189.258764) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -22482,7 +22478,6 @@
   (segment (start 250.698 -49.784) (end 249.047 -51.435) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 253.1745 -47.3075) (end 250.698 -49.784) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 165.862 -50.927) (end 160.655 -50.927) (width 0.25) (layer F.Cu) (net 8))
-  (segment (start 160.655 -50.927) (end 159.512 -49.784) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 159.512 -49.784) (end 158.115 -51.181) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 161.888001 -47.407999) (end 159.512 -49.784) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 178.4985 -50.2285) (end 176.911 -48.641) (width 0.25) (layer F.Cu) (net 8))
@@ -22629,6 +22624,8 @@
   (segment (start 213.496443 -51.308) (end 217.297 -51.308) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 217.424 -51.181) (end 217.424 -52.705) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 217.424 -45.593) (end 217.424 -51.181) (width 0.25) (layer F.Cu) (net 8))
+  (segment (start 160.401 -51.181) (end 158.115 -51.181) (width 0.25) (layer F.Cu) (net 8))
+  (segment (start 160.655 -50.927) (end 160.401 -51.181) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 299.212 -114.046) (end 298.958 -114.3) (width 0.25) (layer F.Cu) (net 9))
   (segment (start 304.038 -114.046) (end 299.212 -114.046) (width 0.25) (layer F.Cu) (net 9))
   (segment (start 293.878 -114.3) (end 293.37 -113.792) (width 0.25) (layer F.Cu) (net 9))
