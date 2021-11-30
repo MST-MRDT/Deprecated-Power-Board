@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +19,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:CP1
+# Device_CP1
 #
-DEF Device:CP1 C 0 10 N N 1 F N
+DEF Device_CP1 C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:CP1" 25 -100 50 H V L CNN
+F1 "Device_CP1" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -39,11 +39,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D
+# Device_D
 #
-DEF Device:D D 0 40 N N 1 F N
+DEF Device_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:D" 0 -100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -53,19 +53,19 @@ $FPLIST
  D_*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 10 -50 50 -50 -50 N
 P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Fuse
+# Device_Fuse
 #
-DEF Device:Fuse F 0 0 N Y 1 F N
+DEF Device_Fuse F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "Device:Fuse" -75 0 50 V V C CNN
+F1 "Device_Fuse" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -79,11 +79,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED
+# Device_LED
 #
-DEF Device:LED D 0 40 N N 1 F N
+DEF Device_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:LED" 0 -100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -92,9 +92,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 10 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -102,11 +102,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -119,11 +119,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors
+# PowerBoard_2022_Rev1-rescue_AndersonPP-MRDT_Connectors
 #
-DEF PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn 0 0 N Y 5 L N
+DEF PowerBoard_2022_Rev1-rescue_AndersonPP-MRDT_Connectors Conn 0 0 N Y 5 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "PowerBoard_2022_Rev1-rescue:AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
+F1 "PowerBoard_2022_Rev1-rescue_AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -139,11 +139,11 @@ X ~ 1 400 100 200 L 50 39 5 1 I
 ENDDRAW
 ENDDEF
 #
-# PowerBoard_2022_Rev1-rescue:BATT_PWR_VIA-MRDT_Drill_Holes
+# PowerBoard_2022_Rev1-rescue_BATT_PWR_VIA-MRDT_Drill_Holes
 #
-DEF PowerBoard_2022_Rev1-rescue:BATT_PWR_VIA-MRDT_Drill_Holes V 0 40 N N 1 F N
+DEF PowerBoard_2022_Rev1-rescue_BATT_PWR_VIA-MRDT_Drill_Holes V 0 40 N N 1 F N
 F0 "V" 150 50 60 H V C CNN
-F1 "PowerBoard_2022_Rev1-rescue:BATT_PWR_VIA-MRDT_Drill_Holes" 0 200 60 H V C CNN
+F1 "PowerBoard_2022_Rev1-rescue_BATT_PWR_VIA-MRDT_Drill_Holes" 0 200 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -152,11 +152,11 @@ X 1 1 0 -200 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs
+# PowerBoard_2022_Rev1-rescue_INA281-MRDT_ICs
 #
-DEF PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs U 0 40 Y Y 1 F N
+DEF PowerBoard_2022_Rev1-rescue_INA281-MRDT_ICs U 0 40 Y Y 1 F N
 F0 "U" 200 300 50 H V C CNN
-F1 "PowerBoard_2022_Rev1-rescue:INA281-MRDT_ICs" 200 200 50 H V C CNN
+F1 "PowerBoard_2022_Rev1-rescue_INA281-MRDT_ICs" 200 200 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 250 200 50 H I C CNN
 F3 "" 250 200 50 H I C CNN
 DRAW
@@ -169,11 +169,11 @@ X V+ 5 0 300 150 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs
+# PowerBoard_2022_Rev1-rescue_LT1910-MRDT_ICs
 #
-DEF PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs U 0 40 Y Y 1 F N
+DEF PowerBoard_2022_Rev1-rescue_LT1910-MRDT_ICs U 0 40 Y Y 1 F N
 F0 "U" 700 -50 60 H V C CNN
-F1 "PowerBoard_2022_Rev1-rescue:LT1910-MRDT_ICs" 450 550 60 H V C CNN
+F1 "PowerBoard_2022_Rev1-rescue_LT1910-MRDT_ICs" 450 550 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -188,11 +188,11 @@ X V+ 8 950 400 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoard_2022_Rev1-rescue:OKI-78SR-12_1.0-W36-C-Converter_DCDC
+# PowerBoard_2022_Rev1-rescue_OKI-78SR-12_1.0-W36-C-Converter_DCDC
 #
-DEF PowerBoard_2022_Rev1-rescue:OKI-78SR-12_1.0-W36-C-Converter_DCDC U 0 20 Y Y 1 F N
+DEF PowerBoard_2022_Rev1-rescue_OKI-78SR-12_1.0-W36-C-Converter_DCDC U 0 20 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "PowerBoard_2022_Rev1-rescue:OKI-78SR-12_1.0-W36-C-Converter_DCDC" 0 125 50 H V L CNN
+F1 "PowerBoard_2022_Rev1-rescue_OKI-78SR-12_1.0-W36-C-Converter_DCDC" 0 125 50 H V L CNN
 F2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" 50 -250 50 H I L CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -206,11 +206,11 @@ X OUT 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# PowerBoard_2022_Rev1-rescue:OKI-78SR-3.3_1.5-W36-C-Converter_DCDC
+# PowerBoard_2022_Rev1-rescue_OKI-78SR-3.3_1.5-W36-C-Converter_DCDC
 #
-DEF PowerBoard_2022_Rev1-rescue:OKI-78SR-3.3_1.5-W36-C-Converter_DCDC U 0 20 Y Y 1 F N
+DEF PowerBoard_2022_Rev1-rescue_OKI-78SR-3.3_1.5-W36-C-Converter_DCDC U 0 20 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "PowerBoard_2022_Rev1-rescue:OKI-78SR-3.3_1.5-W36-C-Converter_DCDC" 0 125 50 H V L CNN
+F1 "PowerBoard_2022_Rev1-rescue_OKI-78SR-3.3_1.5-W36-C-Converter_DCDC" 0 125 50 H V L CNN
 F2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" 50 -250 50 H I L CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -224,11 +224,11 @@ X OUT 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# PowerBoard_2022_Rev1-rescue:OKI-78SR-5_1.5-W36-C-Converter_DCDC
+# PowerBoard_2022_Rev1-rescue_OKI-78SR-5_1.5-W36-C-Converter_DCDC
 #
-DEF PowerBoard_2022_Rev1-rescue:OKI-78SR-5_1.5-W36-C-Converter_DCDC U 0 20 Y Y 1 F N
+DEF PowerBoard_2022_Rev1-rescue_OKI-78SR-5_1.5-W36-C-Converter_DCDC U 0 20 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "PowerBoard_2022_Rev1-rescue:OKI-78SR-5_1.5-W36-C-Converter_DCDC" 0 125 50 H V L CNN
+F1 "PowerBoard_2022_Rev1-rescue_OKI-78SR-5_1.5-W36-C-Converter_DCDC" 0 125 50 H V L CNN
 F2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" 50 -250 50 H I L CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -242,11 +242,11 @@ X OUT 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# PowerBoard_2022_Rev1-rescue:Q36SR12020NRFA-MRDT_Devices
+# PowerBoard_2022_Rev1-rescue_Q36SR12020NRFA-MRDT_Devices
 #
-DEF PowerBoard_2022_Rev1-rescue:Q36SR12020NRFA-MRDT_Devices VR 0 5 Y Y 1 F N
+DEF PowerBoard_2022_Rev1-rescue_Q36SR12020NRFA-MRDT_Devices VR 0 5 Y Y 1 F N
 F0 "VR" 650 -50 50 H V C CNN
-F1 "PowerBoard_2022_Rev1-rescue:Q36SR12020NRFA-MRDT_Devices" 350 550 50 H V C CNN
+F1 "PowerBoard_2022_Rev1-rescue_Q36SR12020NRFA-MRDT_Devices" 350 550 50 H V C CNN
 F2 "" 300 800 50 H I C CNN
 F3 "" 300 800 50 H I C CNN
 DRAW
@@ -263,11 +263,11 @@ X +VOUT 8 950 450 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# PowerBoard_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields
+# PowerBoard_2022_Rev1-rescue_TM4C129E_Launchpad-MRDT_Shields
 #
-DEF PowerBoard_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U 0 20 Y Y 8 L N
+DEF PowerBoard_2022_Rev1-rescue_TM4C129E_Launchpad-MRDT_Shields U 0 20 Y Y 8 L N
 F0 "U" 100 -50 60 H V C CNN
-F1 "PowerBoard_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields" 100 1150 60 H V C CNN
+F1 "PowerBoard_2022_Rev1-rescue_TM4C129E_Launchpad-MRDT_Shields" 100 1150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -363,11 +363,11 @@ X D2_5 Rese' -200 550 200 R 50 50 8 1 I
 ENDDRAW
 ENDDEF
 #
-# PowerBoard_2022_Rev1-rescue:Via-MRDT_Drill_Holes
+# PowerBoard_2022_Rev1-rescue_Via-MRDT_Drill_Holes
 #
-DEF PowerBoard_2022_Rev1-rescue:Via-MRDT_Drill_Holes V 0 40 Y Y 1 F N
+DEF PowerBoard_2022_Rev1-rescue_Via-MRDT_Drill_Holes V 0 40 Y Y 1 F N
 F0 "V" 0 -100 60 H V C CNN
-F1 "PowerBoard_2022_Rev1-rescue:Via-MRDT_Drill_Holes" 0 100 60 H V C CNN
+F1 "PowerBoard_2022_Rev1-rescue_Via-MRDT_Drill_Holes" 0 100 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -376,11 +376,11 @@ X ~ 1 0 0 200 R 50 50 1 1 I N
 ENDDRAW
 ENDDEF
 #
-# Transistor_FET:BUK7M8R0-40EX
+# Transistor_FET_BUK7M8R0-40EX
 #
-DEF Transistor_FET:BUK7M8R0-40EX Q 0 20 Y N 1 F N
+DEF Transistor_FET_BUK7M8R0-40EX Q 0 20 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_FET:BUK7M8R0-40EX" 200 0 50 H V L CNN
+F1 "Transistor_FET_BUK7M8R0-40EX" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:LFPAK33" 200 -75 50 H I L CIN
 F3 "" 0 0 50 V I L CNN
 ALIAS BUK9M85-60EX BUK7M45-40EX BUK9M52-40EX BUK9M42-60EX BUK9M14-40EX BUK9M24-60EX BUK9M10-30EX BUK9M11-40EX BUK7M10-40EX BUK7M15-60EX BUK7M19-60EX BUK9M9R1-40EX BUK9M6R6-30EX BUK9M12-60EX BUK7M9R9-60EX BUK7M42-60EX BUK9M156-100EX BUK7M33-60EX BUK7M21-40EX BUK9M43-100EX BUK7M12-60EX BUK9M15-60EX BUK7M27-80EX BUK9M19-60EX BUK9M5R2-30EX BUK7M17-80EX BUK9M7R2-40EX BUK9M34-100EX BUK9M23-80EX BUK7M67-60EX BUK9M24-40EX BUK9M120-100EX BUK9M17-30EX BUK7M12-40EX BUK9M28-80EX BUK7M8R0-40EX BUK9M35-80EX BUK7M6R3-40EX BUK7M22-80EX
@@ -388,22 +388,18 @@ $FPLIST
  LFPAK33*
 $ENDFPLIST
 DRAW
-C 65 0 111 0 1 10 N
-C 100 -70 11 0 1 0 F
-C 100 70 11 0 1 0 F
-P 2 0 1 0 -100 0 0 0 N
-P 2 0 1 0 30 -70 100 -70 N
+C 65 0 110 0 1 10 N
+C 100 -70 10 0 1 0 F
+C 100 70 10 0 1 0 F
+P 2 0 1 0 10 0 -100 0 N
+P 2 0 1 10 10 75 10 -75 N
 P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 0 30 0 100 0 N
 P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 0 30 70 100 70 N
 P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 -70 100 -100 N
-P 2 0 1 0 100 -70 100 0 N
 P 2 0 1 0 100 100 100 70 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
+P 3 0 1 0 100 -100 100 0 30 0 N
+P 4 0 1 0 30 -70 130 -70 130 70 30 70 N
 P 4 0 1 0 40 0 80 15 80 -15 40 0 F
-P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
 P 4 0 1 0 110 20 115 15 145 15 150 10 N
 P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
 X S 1 100 -200 100 U 50 50 1 1 P
@@ -414,11 +410,11 @@ X D 5 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
