@@ -528,27 +528,6 @@ Wire Wire Line
 	1650 6800 2100 6800
 Connection ~ 1650 6800
 Connection ~ 2100 6800
-$Sheet
-S 9450 3300 1100 1550
-U 61563C60
-F0 "Bucks" 50
-F1 "Bucks.sch" 50
-F2 "PV" I L 9450 3350 50 
-F3 "5V" O R 10550 3350 50 
-F4 "3.3V" O R 10550 3450 50 
-F5 "12VA" O R 10550 3550 50 
-F6 "12VCam1" O R 10550 3700 50 
-F7 "12VSciSensor" O R 10550 3800 50 
-F8 "12VMultimedia" O R 10550 3900 50 
-F9 "12VDrive" O R 10550 4000 50 
-F10 "12VBBB" O R 10550 4100 50 
-F11 "12VNav" O R 10550 4200 50 
-F12 "12VGimbal" O R 10550 4300 50 
-F13 "12VCam2" O R 10550 4400 50 
-F14 "12VNetSwitch" O R 10550 4500 50 
-F15 "12VSciAct" O R 10550 4600 50 
-F16 "12VGimAct" O R 10550 4700 50 
-$EndSheet
 Wire Wire Line
 	1500 3800 1600 3800
 Wire Wire Line
@@ -671,44 +650,8 @@ F20 "Anderson_Spare" I L 9500 2650 50
 F21 "Anderson_SciAct" I L 9500 2850 50 
 F22 "Anderson_GimAct" I L 9500 2950 50 
 $EndSheet
-Text GLabel 10650 4500 2    50   Output ~ 0
-12VNetSwitch
-Text GLabel 10650 4400 2    50   Output ~ 0
-12VCam2
-Text GLabel 10650 4300 2    50   Output ~ 0
-12VGimbal
-Text GLabel 10650 4200 2    50   Output ~ 0
-12VNav
-Text GLabel 10650 4100 2    50   Output ~ 0
-12VBBB
-Text GLabel 10650 4000 2    50   Output ~ 0
-12VDrive
-Text GLabel 10650 3900 2    50   Output ~ 0
-12VMultimedia
-Text GLabel 10650 3800 2    50   Output ~ 0
-12VSciSensor
-Text GLabel 10650 3700 2    50   Output ~ 0
-12VCam1
-Wire Wire Line
-	10550 4500 10650 4500
-Wire Wire Line
-	10550 4400 10650 4400
-Wire Wire Line
-	10550 4300 10650 4300
-Wire Wire Line
-	10650 4200 10550 4200
-Wire Wire Line
-	10550 4100 10650 4100
-Wire Wire Line
-	10650 4000 10550 4000
-Wire Wire Line
-	10550 3900 10650 3900
-Wire Wire Line
-	10650 3800 10550 3800
 Wire Wire Line
 	10550 3550 10650 3550
-Wire Wire Line
-	10650 3700 10550 3700
 Wire Wire Line
 	10650 3450 10550 3450
 Text GLabel 10650 3550 2    50   Output ~ 0
@@ -860,10 +803,6 @@ Text GLabel 1500 750  0    50   Input ~ 0
 3.3V
 Wire Wire Line
 	1500 1450 1600 1450
-Wire Wire Line
-	10550 4600 10650 4600
-Text GLabel 10650 4600 2    50   Output ~ 0
-12VSciAct
 Text GLabel 1500 4500 0    50   Input ~ 0
 12VSciAct
 Wire Wire Line
@@ -892,10 +831,6 @@ Wire Wire Line
 	1500 2600 1600 2600
 Wire Wire Line
 	3650 2600 3750 2600
-Wire Wire Line
-	10550 4700 10650 4700
-Text GLabel 10650 4700 2    50   Output ~ 0
-12VGimAct
 Wire Wire Line
 	3600 4500 3700 4500
 Wire Wire Line
@@ -1005,4 +940,14 @@ Wire Wire Line
 	4900 6800 4900 6700
 Wire Wire Line
 	1500 2300 1600 2300
+$Sheet
+S 9450 3300 1100 1550
+U 61563C60
+F0 "Bucks" 50
+F1 "Bucks.sch" 50
+F2 "PV" I L 9450 3350 50 
+F3 "5V" O R 10550 3350 50 
+F4 "3.3V" O R 10550 3450 50 
+F5 "12VA" O R 10550 3550 50 
+$EndSheet
 $EndSCHEMATC
