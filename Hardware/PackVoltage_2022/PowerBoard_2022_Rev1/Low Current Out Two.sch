@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -2300,23 +2300,23 @@ F 3 "~" H 5900 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel 2550 650  0    50   Input ~ 0
-12VCam2
+PV1
 Text HLabel 2500 2300 0    50   Input ~ 0
-12VBBB
+PV1
 Text HLabel 2550 3950 0    50   Input ~ 0
-12VCam1
+PV1
 Text HLabel 2500 5800 0    50   Input ~ 0
-12VGimbal
+PV2
 Text HLabel 5600 5650 0    50   Input ~ 0
-12VMultimedia
+PVMulti
 Text HLabel 4750 2500 0    50   Input ~ 0
-12VDrive
+PV2
 Text HLabel 8950 3950 0    50   Input ~ 0
-12VNetSwitch
+PV2
 Text HLabel 8950 2150 0    50   Input ~ 0
-12VSciSensor
+PV2
 Text HLabel 8900 850  0    50   Input ~ 0
-12VNav
+PV1
 Wire Wire Line
 	9100 850  9100 1050
 Wire Wire Line

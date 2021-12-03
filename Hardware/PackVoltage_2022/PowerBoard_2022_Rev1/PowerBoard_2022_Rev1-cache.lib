@@ -188,24 +188,6 @@ X V+ 8 950 400 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PowerBoard_2022_Rev1-rescue_OKI-78SR-12_1.0-W36-C-Converter_DCDC
-#
-DEF PowerBoard_2022_Rev1-rescue_OKI-78SR-12_1.0-W36-C-Converter_DCDC U 0 20 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "PowerBoard_2022_Rev1-rescue_OKI-78SR-12_1.0-W36-C-Converter_DCDC" 0 125 50 H V L CNN
-F2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" 50 -250 50 H I L CIN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Converter*DCDC*muRata*OKI*78SR*Vertical*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X IN 1 -300 0 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X OUT 3 300 0 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
 # PowerBoard_2022_Rev1-rescue_OKI-78SR-3.3_1.5-W36-C-Converter_DCDC
 #
 DEF PowerBoard_2022_Rev1-rescue_OKI-78SR-3.3_1.5-W36-C-Converter_DCDC U 0 20 Y Y 1 F N

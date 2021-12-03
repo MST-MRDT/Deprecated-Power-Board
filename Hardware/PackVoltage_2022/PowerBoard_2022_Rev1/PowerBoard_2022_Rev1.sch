@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -529,41 +529,25 @@ Wire Wire Line
 Connection ~ 1650 6800
 Connection ~ 2100 6800
 Wire Wire Line
-	1500 3800 1600 3800
+	1500 3850 1600 3850
 Wire Wire Line
-	1500 3700 1600 3700
+	1500 3750 1600 3750
 Wire Wire Line
-	1600 4300 1500 4300
+	1600 3550 1500 3550
 Wire Wire Line
-	1500 4400 1600 4400
+	1500 3650 1600 3650
 Wire Wire Line
-	1600 3500 1500 3500
-Wire Wire Line
-	1500 3600 1600 3600
-Wire Wire Line
-	1600 4100 1500 4100
-Wire Wire Line
-	1600 3900 1500 3900
-Wire Wire Line
-	1600 4000 1500 4000
-Text GLabel 1500 3800 0    50   Input ~ 0
-12VCam1
-Text GLabel 1500 3700 0    50   Input ~ 0
-12VSciSensor
-Text GLabel 1500 4300 0    50   Input ~ 0
-12VMultimedia
-Text GLabel 1500 4400 0    50   Input ~ 0
-12VDrive
-Text GLabel 1500 3500 0    50   Input ~ 0
-12VBBB
-Text GLabel 1500 3600 0    50   Input ~ 0
-12VNav
-Text GLabel 1500 4100 0    50   Input ~ 0
-12VGimbal
-Text GLabel 1500 3900 0    50   Input ~ 0
-12VCam2
-Text GLabel 1500 4000 0    50   Input ~ 0
-12VNetSwitch
+	1600 3950 1500 3950
+Text GLabel 1500 3850 0    50   Input ~ 0
+PVAct
+Text GLabel 1500 3750 0    50   Input ~ 0
+PVMulti
+Text GLabel 1500 3550 0    50   Input ~ 0
+PV1
+Text GLabel 1500 3650 0    50   Input ~ 0
+PV2
+Text GLabel 1500 3950 0    50   Input ~ 0
+PVAct2
 Wire Wire Line
 	1500 5450 1600 5450
 $Sheet
@@ -595,10 +579,6 @@ F22 "Anderson_M5" O R 7150 1200 50
 F23 "Anderson_M7" O R 7150 1400 50 
 F24 "Anderson_M6" O R 7150 1300 50 
 $EndSheet
-Text GLabel 1500 4200 0    50   Input ~ 0
-12VA
-Wire Wire Line
-	1600 4200 1500 4200
 Text GLabel 3700 5650 2    50   Output ~ 0
 Current_Sensor_Drive
 Wire Wire Line
@@ -803,12 +783,8 @@ Text GLabel 1500 750  0    50   Input ~ 0
 3.3V
 Wire Wire Line
 	1500 1450 1600 1450
-Text GLabel 1500 4500 0    50   Input ~ 0
-12VSciAct
 Wire Wire Line
 	9400 2850 9500 2850
-Wire Wire Line
-	1500 4500 1600 4500
 Text GLabel 3700 5750 2    50   Output ~ 0
 Current_Sense_SciAct
 Wire Wire Line
@@ -889,30 +865,25 @@ F27 "Anderson_NetSwitch" O R 3600 4000 50
 F28 "Anderson_Gimbal" O R 3600 4100 50 
 F29 "Current_Sensor_Aux" O R 3600 5350 50 
 F30 "Current_Sensor_Spare" O R 3600 5450 50 
-F31 "12VA" I L 1600 4200 50 
-F32 "Driver_Multimedia" I L 1600 5550 50 
-F33 "Driver_Drive" I L 1600 5650 50 
-F34 "Anderson_Multimedia" O R 3600 4200 50 
-F35 "Anderson_Drive" O R 3600 4300 50 
-F36 "Current_Sensor_Multimedia" O R 3600 5550 50 
-F37 "Current_Sensor_Drive" O R 3600 5650 50 
-F38 "12VBBB" I L 1600 3500 50 
-F39 "12VCam1" I L 1600 3800 50 
-F40 "12VCam2" I L 1600 3900 50 
-F41 "12VNetSwitch" I L 1600 4000 50 
-F42 "12VGimbal" I L 1600 4100 50 
-F43 "12VNav" I L 1600 3600 50 
-F44 "12VSciSensor" I L 1600 3700 50 
-F45 "12VMultimedia" I L 1600 4300 50 
-F46 "12VDrive" I L 1600 4400 50 
-F47 "Anderson_SciAct" O R 3600 4400 50 
-F48 "Driver_SciAct" I L 1600 5750 50 
-F49 "Current_Sense_SciAct" O R 3600 5750 50 
-F50 "12VSciAct" I L 1600 4500 50 
-F51 "Anderson_GimAct" O R 3600 4500 50 
-F52 "Driver_GimAct" I L 1600 5850 50 
-F53 "Current_Sense_GimAct" O R 3600 5850 50 
-F54 "12VGimAct" I L 1600 6000 50 
+F31 "Driver_Multimedia" I L 1600 5550 50 
+F32 "Driver_Drive" I L 1600 5650 50 
+F33 "Anderson_Multimedia" O R 3600 4200 50 
+F34 "Anderson_Drive" O R 3600 4300 50 
+F35 "Current_Sensor_Multimedia" O R 3600 5550 50 
+F36 "Current_Sensor_Drive" O R 3600 5650 50 
+F37 "Anderson_SciAct" O R 3600 4400 50 
+F38 "Driver_SciAct" I L 1600 5750 50 
+F39 "Current_Sense_SciAct" O R 3600 5750 50 
+F40 "Anderson_GimAct" O R 3600 4500 50 
+F41 "Driver_GimAct" I L 1600 5850 50 
+F42 "Current_Sense_GimAct" O R 3600 5850 50 
+F43 "12VGimAct" I L 1600 6000 50 
+F44 "12VA" I L 1600 3450 50 
+F45 "PV1" I L 1600 3550 50 
+F46 "PV2" I L 1600 3650 50 
+F47 "PVMulti" I L 1600 3750 50 
+F48 "PVAct" I L 1600 3850 50 
+F49 "PVAct2" I L 1600 3950 50 
 $EndSheet
 $Comp
 L PowerBoard_2022_Rev1-rescue:Via-MRDT_Drill_Holes GND1
@@ -940,14 +911,6 @@ Wire Wire Line
 	4900 6800 4900 6700
 Wire Wire Line
 	1500 2300 1600 2300
-Wire Wire Line
-	10550 4700 10650 4700
-Wire Wire Line
-	10550 4600 10650 4600
-Text GLabel 10650 4700 2    50   Output ~ 0
-12VGimAct
-Text GLabel 10650 4600 2    50   Output ~ 0
-12VSciAct
 $Sheet
 S 9450 3300 1100 1550
 U 61563C60
@@ -957,7 +920,34 @@ F2 "PV" I L 9450 3350 50
 F3 "5V" O R 10550 3350 50 
 F4 "3.3V" O R 10550 3450 50 
 F5 "12VA" O R 10550 3550 50 
-F6 "12VSciAct" O R 10550 4600 50 
-F7 "12VGimAct" O R 10550 4700 50 
+F6 "PV1" O R 10550 3650 50 
+F7 "PV2" O R 10550 3750 50 
+F8 "PVMulti" O R 10550 3850 50 
+F9 "PVAct" O R 10550 3950 50 
+F10 "PVAct2" O R 10550 4050 50 
 $EndSheet
+Text GLabel 10650 3650 2    50   Output ~ 0
+PV1
+Text GLabel 10650 3750 2    50   Output ~ 0
+PV2
+Text GLabel 10650 3850 2    50   Output ~ 0
+PVMulti
+Text GLabel 10650 3950 2    50   Output ~ 0
+PVAct
+Text GLabel 10650 4050 2    50   Output ~ 0
+PVAct2
+Wire Wire Line
+	10550 3650 10650 3650
+Wire Wire Line
+	10650 3750 10550 3750
+Wire Wire Line
+	10550 3850 10650 3850
+Wire Wire Line
+	10650 3950 10550 3950
+Wire Wire Line
+	10550 4050 10650 4050
+Text GLabel 1500 3450 0    50   Input ~ 0
+12VA
+Wire Wire Line
+	1500 3450 1600 3450
 $EndSCHEMATC

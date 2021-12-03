@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -164,15 +164,9 @@ F26 "Current_Sensor_Multimedia" O R 3500 4250 50
 F27 "Anderson_Drive" O R 3500 3200 50 
 F28 "Driver_Drive" I L 1600 4350 50 
 F29 "Current_Sensor_Drive" O R 3500 4350 50 
-F30 "12VCam2" I L 1600 2600 50 
-F31 "12VBBB" I L 1600 2400 50 
-F32 "12VCam1" I L 1600 2500 50 
-F33 "12VGimbal" I L 1600 2800 50 
-F34 "12VMultimedia" I L 1600 3100 50 
-F35 "12VDrive" I L 1600 3200 50 
-F36 "12VNetSwitch" I L 1600 2700 50 
-F37 "12VSciSensor" I L 1600 3000 50 
-F38 "12VNav" I L 1600 2900 50 
+F30 "PV1" I L 1600 2400 50 
+F31 "PV2" I L 1600 2500 50 
+F32 "PVMulti" I L 1600 2600 50 
 $EndSheet
 Text HLabel 1450 4250 0    50   Input ~ 0
 Driver_Multimedia
@@ -195,35 +189,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 4350 3650 4350
 Text HLabel 1450 2400 0    50   Input ~ 0
-12VBBB
+PV1
 Text HLabel 1450 2500 0    50   Input ~ 0
-12VCam1
+PV2
 Text HLabel 1450 2600 0    50   Input ~ 0
-12VCam2
-Text HLabel 1450 2700 0    50   Input ~ 0
-12VNetSwitch
-Text HLabel 1450 2800 0    50   Input ~ 0
-12VGimbal
-Text HLabel 1450 2900 0    50   Input ~ 0
-12VNav
-Text HLabel 1450 3000 0    50   Input ~ 0
-12VSciSensor
-Text HLabel 1450 3100 0    50   Input ~ 0
-12VMultimedia
-Text HLabel 1450 3200 0    50   Input ~ 0
-12VDrive
-Wire Wire Line
-	1450 3200 1600 3200
-Wire Wire Line
-	1450 3100 1600 3100
-Wire Wire Line
-	1450 3000 1600 3000
-Wire Wire Line
-	1450 2900 1600 2900
-Wire Wire Line
-	1450 2800 1600 2800
-Wire Wire Line
-	1450 2700 1600 2700
+PVMulti
 Wire Wire Line
 	1450 2600 1600 2600
 Wire Wire Line
@@ -517,7 +487,7 @@ Connection ~ 8450 3950
 Wire Wire Line
 	8450 3950 8450 4150
 Text HLabel 7400 3000 0    50   Input ~ 0
-12VSciAct
+PVAct
 Wire Wire Line
 	7550 3000 7550 3450
 $Comp
@@ -787,7 +757,7 @@ Connection ~ 8450 5650
 Wire Wire Line
 	8450 5650 8450 5850
 Text HLabel 7400 4700 0    50   Input ~ 0
-12VGimAct
+PVAct2
 Wire Wire Line
 	7550 4700 7550 5150
 Text HLabel 5550 3200 1    50   Input ~ 0
