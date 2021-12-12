@@ -653,4 +653,6 @@ Text GLabel 7550 1650 2    50   Output ~ 0
 12V
 Text GLabel 8650 1700 0    50   Input ~ 0
 12V
+Text HLabel 5550 5150 2    50   Output ~ 0
+12VA
 $EndSCHEMATC
