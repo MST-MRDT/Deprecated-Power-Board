@@ -74,7 +74,7 @@ Driver_NetSwitch
 Text GLabel 1500 5150 0    50   Input ~ 0
 Driver_Gimbal
 Text GLabel 1500 5250 0    50   Input ~ 0
-Driver_Aux
+Driver_Aux_Logic
 Text GLabel 1500 5350 0    50   Input ~ 0
 Driver_Spare
 Wire Wire Line
@@ -94,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 5350 1600 5350
 Text GLabel 3700 3300 2    50   Output ~ 0
-Anderson_Aux
+Anderson_Aux_Logic
 Text GLabel 3700 3500 2    50   Output ~ 0
 Anderson_Nav
 Text GLabel 3700 3600 2    50   Output ~ 0
@@ -121,10 +121,8 @@ Text GLabel 3700 5050 2    50   Output ~ 0
 Current_Sensor_Cam2
 Text GLabel 3700 5150 2    50   Output ~ 0
 Current_Sensor_NetSwitch
-Text GLabel 3700 5250 2    50   Output ~ 0
-Current_Sensor_Gimbal
 Text GLabel 3700 5350 2    50   Output ~ 0
-Current_Sensor_Aux
+Current_Sensor_Aux_Logic
 Wire Wire Line
 	3700 3300 3600 3300
 Wire Wire Line
@@ -629,6 +627,7 @@ F19 "Anderson_NetSwitch" I L 9500 2550 50
 F20 "Anderson_Spare" I L 9500 2650 50 
 F21 "Anderson_SciAct" I L 9500 2850 50 
 F22 "Anderson_GimAct" I L 9500 2950 50 
+F23 "Anderson_Aux_Log" I L 9500 1850 50 
 $EndSheet
 Wire Wire Line
 	10550 3550 10650 3550
@@ -663,7 +662,7 @@ Wire Wire Line
 Text GLabel 3750 1900 2    50   Output ~ 0
 Driver_Nav
 $Sheet
-S 1600 700  2050 2300
+S 1600 700  2050 2400
 U 6158A510
 F0 "TIVA" 50
 F1 "TIVA.sch" 50
@@ -680,7 +679,7 @@ F11 "Current_Sensor_BBB" I L 1600 1800 50
 F12 "Current_Sensor_Nav" I L 1600 1900 50 
 F13 "Current_Sensor_Cam1" I L 1600 2000 50 
 F14 "Current_Sensor_Cam2" I L 1600 2100 50 
-F15 "Current_Sensor_SciSensor" I L 1600 2200 50 
+F15 "Current_Sensor_Aux_Logic" I L 1600 2200 50 
 F16 "Current_Sensor_Aux" I L 1600 2400 50 
 F17 "Current_Sensor_NetSwitch" I L 1600 2800 50 
 F18 "Current_Sensor_Multimedia" I L 1600 2700 50 
@@ -708,6 +707,7 @@ F39 "Current_Sensor_GimAct" I L 1600 2300 50
 F40 "Current_Sensor_SciAct" I L 1600 2600 50 
 F41 "Driver_SciAct" O R 3650 2600 50 
 F42 "Driver_GimAct" O R 3650 1600 50 
+F43 "Driver_Aux_Logic" O R 3650 3000 50 
 $EndSheet
 Wire Wire Line
 	1500 750  1600 750 
@@ -758,7 +758,7 @@ Current_Sensor_GimAct
 Wire Wire Line
 	1600 2200 1500 2200
 Text GLabel 1500 2200 0    50   Input ~ 0
-Current_Sensor_SciSensor
+Current_Sensor_Aux_Logic
 Wire Wire Line
 	1600 2100 1500 2100
 Wire Wire Line
@@ -786,7 +786,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 2850 9500 2850
 Text GLabel 3700 5750 2    50   Output ~ 0
-Current_Sense_SciAct
+Current_Sensor_SciAct
 Wire Wire Line
 	3700 5750 3600 5750
 Text GLabel 3700 4400 2    50   Output ~ 0
@@ -802,7 +802,7 @@ Anderson_SciAct
 Text GLabel 3750 2600 2    50   Output ~ 0
 Driver_SciAct
 Text GLabel 1500 2600 0    50   Input ~ 0
-Current_Sense_SciAct
+Current_Sensor_SciAct
 Wire Wire Line
 	1500 2600 1600 2600
 Wire Wire Line
@@ -818,7 +818,7 @@ Wire Wire Line
 Text GLabel 3700 4500 2    50   Output ~ 0
 Anderson_GimAct
 Text GLabel 3700 5850 2    50   Output ~ 0
-Current_Sense_GimAct
+Current_Sensor_GimAct
 Text GLabel 1500 5850 0    50   Input ~ 0
 Driver_GimAct
 Text GLabel 1500 6000 0    50   Input ~ 0
@@ -950,4 +950,14 @@ Text GLabel 1500 3450 0    50   Input ~ 0
 12VA
 Wire Wire Line
 	1500 3450 1600 3450
+Text GLabel 9400 1850 0    50   Input ~ 0
+Anderson_Aux_Logic
+Wire Wire Line
+	9400 1850 9500 1850
+Text GLabel 3750 3000 2    50   Output ~ 0
+Driver_Aux_Logic
+Wire Wire Line
+	3650 3000 3750 3000
+Text GLabel 3700 5250 2    50   Output ~ 0
+Current_Sensor_Gimbal
 $EndSCHEMATC

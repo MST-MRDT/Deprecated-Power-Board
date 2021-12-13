@@ -199,7 +199,7 @@ Current_Sensor_Cam2
 Text HLabel 6900 2100 0    50   Output ~ 0
 Driver_Cam2
 Text HLabel 4550 4350 2    50   Input ~ 0
-Current_Sensor_SciSensor
+Current_Sensor_Aux_Logic
 Text HLabel 6900 2200 0    50   Output ~ 0
 Driver_SciSensor
 Text HLabel 8100 2500 2    50   Input ~ 0
@@ -319,7 +319,6 @@ Wire Wire Line
 	8000 2600 8100 2600
 Wire Wire Line
 	4550 2600 4450 2600
-NoConn ~ 3500 2800
 NoConn ~ 3500 2900
 NoConn ~ 4450 2900
 NoConn ~ 4450 2800
@@ -355,4 +354,8 @@ Wire Wire Line
 	4450 4550 4550 4550
 Text HLabel 4550 4550 2    50   Output ~ 0
 Driver_GimAct
+Text HLabel 3400 2800 0    50   Output ~ 0
+Driver_Aux_Logic
+Wire Wire Line
+	3400 2800 3500 2800
 $EndSCHEMATC

@@ -766,7 +766,7 @@ Anderson_Spare
 Wire Wire Line
 	1350 5100 1500 5100
 Text HLabel 3350 5150 2    50   Input ~ 0
-Anderson_Aux
+Anderson_Aux_Log
 Wire Wire Line
 	3200 5150 3350 5150
 Text HLabel 1500 4050 2    50   Input ~ 0
