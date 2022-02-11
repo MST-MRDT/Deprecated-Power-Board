@@ -121,8 +121,6 @@ Text GLabel 3700 5050 2    50   Output ~ 0
 Current_Sensor_Cam2
 Text GLabel 3700 5150 2    50   Output ~ 0
 Current_Sensor_NetSwitch
-Text GLabel 3700 5250 2    50   Output ~ 0
-Current_Sensor_Gimbal
 Text GLabel 3700 5350 2    50   Output ~ 0
 Current_Sensor_Aux_Logic
 Wire Wire Line
@@ -788,7 +786,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 2850 9500 2850
 Text GLabel 3700 5750 2    50   Output ~ 0
-Current_Sense_SciAct
+Current_Sensor_SciAct
 Wire Wire Line
 	3700 5750 3600 5750
 Text GLabel 3700 4400 2    50   Output ~ 0
@@ -804,7 +802,7 @@ Anderson_SciAct
 Text GLabel 3750 2600 2    50   Output ~ 0
 Driver_SciAct
 Text GLabel 1500 2600 0    50   Input ~ 0
-Current_Sense_SciAct
+Current_Sensor_SciAct
 Wire Wire Line
 	1500 2600 1600 2600
 Wire Wire Line
@@ -820,7 +818,7 @@ Wire Wire Line
 Text GLabel 3700 4500 2    50   Output ~ 0
 Anderson_GimAct
 Text GLabel 3700 5850 2    50   Output ~ 0
-Current_Sense_GimAct
+Current_Sensor_GimAct
 Text GLabel 1500 5850 0    50   Input ~ 0
 Driver_GimAct
 Text GLabel 1500 6000 0    50   Input ~ 0
@@ -960,4 +958,6 @@ Text GLabel 3750 3000 2    50   Output ~ 0
 Driver_Aux_Logic
 Wire Wire Line
 	3650 3000 3750 3000
+Text GLabel 3700 5250 2    50   Output ~ 0
+Current_Sensor_Gimbal
 $EndSCHEMATC
