@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PackVoltage_2022_Rev1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -136,7 +137,6 @@ NoConn ~ 8000 2850
 NoConn ~ 8000 3050
 NoConn ~ 8000 3150
 NoConn ~ 8000 3250
-NoConn ~ 6400 3450
 NoConn ~ 6400 3550
 NoConn ~ 6400 3650
 NoConn ~ 6400 3850
@@ -158,6 +158,13 @@ NoConn ~ 8000 4850
 NoConn ~ 8000 4950
 NoConn ~ 8000 5050
 NoConn ~ 8000 5150
-NoConn ~ 6400 5050
 NoConn ~ 6400 5150
+Wire Wire Line
+	6400 5050 6350 5050
+Text HLabel 6350 5050 0    50   Input ~ 0
+Current_Sensor_POE
+Wire Wire Line
+	6400 3450 6350 3450
+Text HLabel 6350 3450 0    50   Output ~ 0
+Driver_POE
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PackVoltage_2022_Rev1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -221,6 +222,9 @@ F22 "Current_Sensor_M2" O R 8300 3250 50
 F23 "Current_Sensor_M3" O R 8300 3350 50 
 F24 "Current_Sensor_M4" O R 8300 3450 50 
 F25 "12V" O R 8300 1700 50 
+F26 "Driver_POE" I L 6150 3050 50 
+F27 "Anderson_POE" O R 8300 1800 50 
+F28 "Current_Sensor_POE" O R 8300 3050 50 
 $EndSheet
 $Comp
 L MRDT_Devices:OKI U?
@@ -1010,4 +1014,57 @@ Wire Wire Line
 	9200 1700 9200 3550
 Wire Wire Line
 	9200 3550 9700 3550
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 6213C762
+P 10950 4050
+F 0 "Conn?" H 11050 4300 60  0000 C CNN
+F 1 "POE" H 11050 4000 60  0000 C CNN
+F 2 "" H 10800 3500 60  0001 C CNN
+F 3 "" H 10800 3500 60  0001 C CNN
+	1    10950 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 4 1 6213C769
+P 10100 4050
+F 0 "Conn?" H 10200 4300 60  0000 C CNN
+F 1 "POE" H 10200 4000 60  0000 C CNN
+F 2 "" H 9950 3500 60  0001 C CNN
+F 3 "" H 9950 3500 60  0001 C CNN
+	4    10100 4050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 3950 10400 3950
+Wire Wire Line
+	10400 3950 10400 4000
+$Comp
+L power:GND #PWR?
+U 1 1 6213C772
+P 10400 4000
+F 0 "#PWR?" H 10400 3750 50  0001 C CNN
+F 1 "GND" H 10405 3827 50  0000 C CNN
+F 2 "" H 10400 4000 50  0001 C CNN
+F 3 "" H 10400 4000 50  0001 C CNN
+	1    10400 4000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 3050 8350 3050
+Text GLabel 8350 3050 2    50   Output ~ 0
+Current_Sensor_POE
+Text GLabel 6100 3050 0    50   Input ~ 0
+Driver_POE
+Wire Wire Line
+	6100 3050 6150 3050
+Wire Wire Line
+	8300 1800 9150 1800
+Wire Wire Line
+	9150 1800 9150 3650
+Wire Wire Line
+	9150 3650 9700 3650
+Wire Wire Line
+	9700 3650 9700 3950
 $EndSCHEMATC
