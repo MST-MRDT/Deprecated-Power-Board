@@ -120,4 +120,44 @@ Text HLabel 6350 3250 0    50   Output ~ 0
 Driver_M6
 Text HLabel 6350 3350 0    50   Output ~ 0
 Driver_Spare
+NoConn ~ 8000 2150
+NoConn ~ 8000 1850
+NoConn ~ 8000 1950
+NoConn ~ 6400 2150
+NoConn ~ 6400 2250
+NoConn ~ 6400 2450
+NoConn ~ 6400 2550
+NoConn ~ 8000 2250
+NoConn ~ 8000 2350
+NoConn ~ 8000 2450
+NoConn ~ 8000 2550
+NoConn ~ 8000 2750
+NoConn ~ 8000 2850
+NoConn ~ 8000 3050
+NoConn ~ 8000 3150
+NoConn ~ 8000 3250
+NoConn ~ 6400 3450
+NoConn ~ 6400 3550
+NoConn ~ 6400 3650
+NoConn ~ 6400 3850
+NoConn ~ 6400 3950
+NoConn ~ 6400 4050
+NoConn ~ 6400 4150
+NoConn ~ 8000 3350
+NoConn ~ 8000 3550
+NoConn ~ 8000 3650
+NoConn ~ 8000 3750
+NoConn ~ 8000 3950
+NoConn ~ 8000 4050
+NoConn ~ 8000 4350
+NoConn ~ 8000 4450
+NoConn ~ 8000 4550
+NoConn ~ 8000 4650
+NoConn ~ 8000 4750
+NoConn ~ 8000 4850
+NoConn ~ 8000 4950
+NoConn ~ 8000 5050
+NoConn ~ 8000 5150
+NoConn ~ 6400 5050
+NoConn ~ 6400 5150
 $EndSCHEMATC
