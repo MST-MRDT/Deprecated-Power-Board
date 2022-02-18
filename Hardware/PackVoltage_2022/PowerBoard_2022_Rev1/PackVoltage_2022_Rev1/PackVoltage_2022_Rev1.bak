@@ -1,4 +1,554 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Drill_Holes:BATT_PWR_VIA V?
+U 1 1 620EC67F
+P 1050 6100
+F 0 "V?" H 1178 6122 60  0000 L CNN
+F 1 "BATT_PWR_VIA" H 1178 6016 60  0000 L CNN
+F 2 "" H 1050 6100 60  0001 C CNN
+F 3 "" H 1050 6100 60  0001 C CNN
+	1    1050 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6300 1050 6450
+Wire Wire Line
+	1050 6450 1150 6450
+$Comp
+L Device:CP1 C?
+U 1 1 620EC85D
+P 1150 6600
+F 0 "C?" H 1265 6646 50  0000 L CNN
+F 1 "CP1" H 1265 6555 50  0000 L CNN
+F 2 "" H 1150 6600 50  0001 C CNN
+F 3 "~" H 1150 6600 50  0001 C CNN
+	1    1150 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 6750 1500 6750
+$Comp
+L Device:CP1 C?
+U 1 1 620ECA49
+P 1500 6600
+F 0 "C?" H 1615 6646 50  0000 L CNN
+F 1 "CP1" H 1615 6555 50  0000 L CNN
+F 2 "" H 1500 6600 50  0001 C CNN
+F 3 "~" H 1500 6600 50  0001 C CNN
+	1    1500 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 6450 1500 6450
+Connection ~ 1150 6450
+Wire Wire Line
+	1500 6750 1850 6750
+Connection ~ 1500 6750
+Wire Wire Line
+	1500 6450 1850 6450
+Connection ~ 1500 6450
+$Comp
+L Device:CP1 C?
+U 1 1 620ECB21
+P 1850 6600
+F 0 "C?" H 1965 6646 50  0000 L CNN
+F 1 "CP1" H 1965 6555 50  0000 L CNN
+F 2 "" H 1850 6600 50  0001 C CNN
+F 3 "~" H 1850 6600 50  0001 C CNN
+	1    1850 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6450 2200 6450
+Connection ~ 1850 6450
+Wire Wire Line
+	1850 6750 2200 6750
+Connection ~ 1850 6750
+$Comp
+L Device:CP1 C?
+U 1 1 620ECCDF
+P 2200 6600
+F 0 "C?" H 2315 6646 50  0000 L CNN
+F 1 "CP1" H 2315 6555 50  0000 L CNN
+F 2 "" H 2200 6600 50  0001 C CNN
+F 3 "~" H 2200 6600 50  0001 C CNN
+	1    2200 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6450 2550 6450
+Connection ~ 2200 6450
+Wire Wire Line
+	2200 6750 2550 6750
+Connection ~ 2200 6750
+$Comp
+L Device:D D?
+U 1 1 620ECE8A
+P 2550 6600
+F 0 "D?" V 2504 6679 50  0000 L CNN
+F 1 "D" V 2595 6679 50  0000 L CNN
+F 2 "" H 2550 6600 50  0001 C CNN
+F 3 "~" H 2550 6600 50  0001 C CNN
+	1    2550 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 6450 2850 6450
+Connection ~ 2550 6450
+Wire Wire Line
+	2550 6750 2850 6750
+Connection ~ 2550 6750
+$Comp
+L Device:D D?
+U 1 1 620ED07B
+P 2850 6600
+F 0 "D?" V 2804 6679 50  0000 L CNN
+F 1 "D" V 2895 6679 50  0000 L CNN
+F 2 "" H 2850 6600 50  0001 C CNN
+F 3 "~" H 2850 6600 50  0001 C CNN
+	1    2850 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 6450 3000 6450
+Wire Wire Line
+	3000 6450 3000 6300
+Connection ~ 2850 6450
+Text GLabel 3000 6300 1    50   Input ~ 0
+PV
+Wire Wire Line
+	2850 6750 3150 6750
+Wire Wire Line
+	3150 6750 3150 6850
+Connection ~ 2850 6750
+$Comp
+L power:GND #PWR?
+U 1 1 620ED382
+P 3150 6850
+F 0 "#PWR?" H 3150 6600 50  0001 C CNN
+F 1 "GND" H 3155 6677 50  0000 C CNN
+F 2 "" H 3150 6850 50  0001 C CNN
+F 3 "" H 3150 6850 50  0001 C CNN
+	1    3150 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Drill_Holes:Via GND?
+U 1 1 620ED4D8
+P 1100 7100
+F 0 "GND?" H 1328 7158 60  0000 L CNN
+F 1 "Via" H 1328 7052 60  0000 L CNN
+F 2 "" H 1100 7100 60  0001 C CNN
+F 3 "" H 1100 7100 60  0001 C CNN
+	1    1100 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 7100 1100 7450
+Wire Wire Line
+	1100 7450 1300 7450
+$Comp
+L power:GND #PWR?
+U 1 1 620ED78C
+P 1300 7450
+F 0 "#PWR?" H 1300 7200 50  0001 C CNN
+F 1 "GND" V 1305 7322 50  0000 R CNN
+F 2 "" H 1300 7450 50  0001 C CNN
+F 3 "" H 1300 7450 50  0001 C CNN
+	1    1300 7450
+	0    -1   -1   0   
+$EndComp
+$Sheet
+S 3450 6200 1150 1450
+U 620ED97A
+F0 "Bucks" 50
+F1 "Bucks.sch" 50
+F2 "5V" O R 4600 6350 50 
+F3 "PV" I L 3450 6350 50 
+F4 "3V3" O R 4600 6450 50 
+$EndSheet
+Text GLabel 4700 6350 2    50   Input ~ 0
+5V
+Wire Wire Line
+	4700 6350 4600 6350
+Text GLabel 4700 6450 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	4700 6450 4600 6450
+Text GLabel 3350 6350 0    50   Input ~ 0
+PV
+Wire Wire Line
+	3350 6350 3450 6350
+$Sheet
+S 650  3000 1700 2600
+U 620F03FF
+F0 "TEENSY" 50
+F1 "TEENSY.sch" 50
+$EndSheet
+$Sheet
+S 8100 1550 2150 2850
+U 620F088F
+F0 "MOTORS" 50
+F1 "MOTORS.sch" 50
+F2 "Driver_M1" I L 8100 2300 50 
+F3 "PV" I L 8100 1600 50 
+F4 "Anderson_M1" O R 10250 1600 50 
+F5 "5V" I L 8100 1700 50 
+F6 "Driver_M2" I L 8100 2400 50 
+F7 "Anderson_M2" O R 10250 1700 50 
+F8 "Driver_M3" I L 8100 2500 50 
+F9 "Anderson_M3" O R 10250 1800 50 
+F10 "Driver_M4" I L 8100 2600 50 
+F11 "Anderson_M4" O R 10250 1900 50 
+F12 "Driver_M5" I L 8100 2700 50 
+F13 "Anderson_M5" O R 10250 2000 50 
+F14 "Driver_M6" I L 8100 2800 50 
+F15 "Anderson_M6" O R 10250 2100 50 
+F16 "Driver_Spare" I L 8100 2900 50 
+F17 "Anderson_Spare" O R 10250 2200 50 
+$EndSheet
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 62196DB4
+P 3400 4150
+AR Path="/620ED97A/62196DB4" Ref="U?"  Part="1" 
+AR Path="/62196DB4" Ref="U?"  Part="1" 
+F 0 "U?" H 3450 4100 60  0001 C CNN
+F 1 "OKI" H 3600 4431 60  0000 C CNN
+F 2 "" H 3200 4050 60  0001 C CNN
+F 3 "" H 3200 4050 60  0001 C CNN
+	1    3400 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4050 2700 3800
+Wire Wire Line
+	2700 4050 2800 4050
+$Comp
+L Device:CP1 C?
+U 1 1 62196DBC
+P 2800 4200
+AR Path="/620ED97A/62196DBC" Ref="C?"  Part="1" 
+AR Path="/62196DBC" Ref="C?"  Part="1" 
+F 0 "C?" H 2915 4246 50  0000 L CNN
+F 1 "22uF" H 2915 4155 50  0000 L CNN
+F 2 "" H 2800 4200 50  0001 C CNN
+F 3 "~" H 2800 4200 50  0001 C CNN
+	1    2800 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 4050
+Wire Wire Line
+	2800 4050 3200 4050
+Wire Wire Line
+	2800 4350 2800 4650
+Wire Wire Line
+	2800 4650 3600 4650
+Wire Wire Line
+	3600 4350 3600 4650
+Wire Wire Line
+	3600 4650 3750 4650
+Connection ~ 3600 4650
+$Comp
+L power:GND #PWR?
+U 1 1 62196DCA
+P 3750 4650
+AR Path="/620ED97A/62196DCA" Ref="#PWR?"  Part="1" 
+AR Path="/62196DCA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3750 4400 50  0001 C CNN
+F 1 "GND" H 3755 4477 50  0000 C CNN
+F 2 "" H 3750 4650 50  0001 C CNN
+F 3 "" H 3750 4650 50  0001 C CNN
+	1    3750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4650 4000 4650
+Connection ~ 3750 4650
+$Comp
+L Device:C C?
+U 1 1 62196DD2
+P 4000 4200
+AR Path="/620ED97A/62196DD2" Ref="C?"  Part="1" 
+AR Path="/62196DD2" Ref="C?"  Part="1" 
+F 0 "C?" H 4115 4246 50  0000 L CNN
+F 1 "10uF" H 4115 4155 50  0000 L CNN
+F 2 "" H 4038 4050 50  0001 C CNN
+F 3 "~" H 4000 4200 50  0001 C CNN
+	1    4000 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 4050
+Wire Wire Line
+	4000 4350 4000 4650
+Wire Wire Line
+	4000 4650 4450 4650
+Wire Wire Line
+	4450 4650 4450 4350
+Connection ~ 4000 4650
+$Comp
+L Device:CP1 C?
+U 1 1 62196DDE
+P 4450 4200
+AR Path="/620ED97A/62196DDE" Ref="C?"  Part="1" 
+AR Path="/62196DDE" Ref="C?"  Part="1" 
+F 0 "C?" H 4565 4246 50  0000 L CNN
+F 1 "47uF" H 4565 4155 50  0000 L CNN
+F 2 "" H 4450 4200 50  0001 C CNN
+F 3 "~" H 4450 4200 50  0001 C CNN
+	1    4450 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4050 4450 4050
+Wire Wire Line
+	4450 4050 4700 4050
+Connection ~ 4450 4050
+Wire Wire Line
+	4700 4050 4700 3650
+Wire Wire Line
+	4700 4050 5050 4050
+Connection ~ 4700 4050
+$Comp
+L Device:R R?
+U 1 1 62196DEB
+P 5200 4050
+AR Path="/620ED97A/62196DEB" Ref="R?"  Part="1" 
+AR Path="/62196DEB" Ref="R?"  Part="1" 
+F 0 "R?" V 5100 4050 50  0000 C CNN
+F 1 "300" V 5200 4050 50  0000 C CNN
+F 2 "" V 5130 4050 50  0001 C CNN
+F 3 "~" H 5200 4050 50  0001 C CNN
+	1    5200 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 4050 5650 4050
+$Comp
+L Device:LED D?
+U 1 1 62196DF3
+P 5800 4050
+AR Path="/620ED97A/62196DF3" Ref="D?"  Part="1" 
+AR Path="/62196DF3" Ref="D?"  Part="1" 
+F 0 "D?" H 5792 3795 50  0000 C CNN
+F 1 "LED" H 5792 3886 50  0000 C CNN
+F 2 "" H 5800 4050 50  0001 C CNN
+F 3 "~" H 5800 4050 50  0001 C CNN
+	1    5800 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 4050 6300 4050
+Wire Wire Line
+	6300 4050 6300 4350
+$Comp
+L power:GND #PWR?
+U 1 1 62196DFC
+P 6300 4350
+AR Path="/620ED97A/62196DFC" Ref="#PWR?"  Part="1" 
+AR Path="/62196DFC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6300 4100 50  0001 C CNN
+F 1 "GND" H 6305 4177 50  0000 C CNN
+F 2 "" H 6300 4350 50  0001 C CNN
+F 3 "" H 6300 4350 50  0001 C CNN
+	1    6300 4350
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 4200 0    50   ~ 0
+Green
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 62196E05
+P 3400 5300
+AR Path="/620ED97A/62196E05" Ref="U?"  Part="1" 
+AR Path="/62196E05" Ref="U?"  Part="1" 
+F 0 "U?" H 3450 5250 60  0001 C CNN
+F 1 "OKI" H 3600 5581 60  0000 C CNN
+F 2 "" H 3200 5200 60  0001 C CNN
+F 3 "" H 3200 5200 60  0001 C CNN
+	1    3400 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 5200 2700 4950
+Wire Wire Line
+	2700 5200 2800 5200
+$Comp
+L Device:CP1 C?
+U 1 1 62196E0D
+P 2800 5350
+AR Path="/620ED97A/62196E0D" Ref="C?"  Part="1" 
+AR Path="/62196E0D" Ref="C?"  Part="1" 
+F 0 "C?" H 2915 5396 50  0000 L CNN
+F 1 "22uF" H 2915 5305 50  0000 L CNN
+F 2 "" H 2800 5350 50  0001 C CNN
+F 3 "~" H 2800 5350 50  0001 C CNN
+	1    2800 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 5200
+Wire Wire Line
+	2800 5200 3200 5200
+Wire Wire Line
+	2800 5500 2800 5800
+Wire Wire Line
+	2800 5800 3600 5800
+Wire Wire Line
+	3600 5500 3600 5800
+Wire Wire Line
+	3600 5800 3750 5800
+Connection ~ 3600 5800
+$Comp
+L power:GND #PWR?
+U 1 1 62196E1B
+P 3750 5800
+AR Path="/620ED97A/62196E1B" Ref="#PWR?"  Part="1" 
+AR Path="/62196E1B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3750 5550 50  0001 C CNN
+F 1 "GND" H 3755 5627 50  0000 C CNN
+F 2 "" H 3750 5800 50  0001 C CNN
+F 3 "" H 3750 5800 50  0001 C CNN
+	1    3750 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 5800 4000 5800
+Connection ~ 3750 5800
+$Comp
+L Device:C C?
+U 1 1 62196E23
+P 4000 5350
+AR Path="/620ED97A/62196E23" Ref="C?"  Part="1" 
+AR Path="/62196E23" Ref="C?"  Part="1" 
+F 0 "C?" H 4115 5396 50  0000 L CNN
+F 1 "10uF" H 4115 5305 50  0000 L CNN
+F 2 "" H 4038 5200 50  0001 C CNN
+F 3 "~" H 4000 5350 50  0001 C CNN
+	1    4000 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 5200
+Wire Wire Line
+	4000 5500 4000 5800
+Wire Wire Line
+	4000 5800 4450 5800
+Wire Wire Line
+	4450 5800 4450 5500
+Connection ~ 4000 5800
+$Comp
+L Device:CP1 C?
+U 1 1 62196E2F
+P 4450 5350
+AR Path="/620ED97A/62196E2F" Ref="C?"  Part="1" 
+AR Path="/62196E2F" Ref="C?"  Part="1" 
+F 0 "C?" H 4565 5396 50  0000 L CNN
+F 1 "47uF" H 4565 5305 50  0000 L CNN
+F 2 "" H 4450 5350 50  0001 C CNN
+F 3 "~" H 4450 5350 50  0001 C CNN
+	1    4450 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5200 4450 5200
+Wire Wire Line
+	4450 5200 4700 5200
+Connection ~ 4450 5200
+Wire Wire Line
+	4700 5200 4700 4800
+Wire Wire Line
+	4700 5200 5050 5200
+Connection ~ 4700 5200
+$Comp
+L Device:R R?
+U 1 1 62196E3C
+P 5200 5200
+AR Path="/620ED97A/62196E3C" Ref="R?"  Part="1" 
+AR Path="/62196E3C" Ref="R?"  Part="1" 
+F 0 "R?" V 5100 5200 50  0000 C CNN
+F 1 "130" V 5200 5200 50  0000 C CNN
+F 2 "" V 5130 5200 50  0001 C CNN
+F 3 "~" H 5200 5200 50  0001 C CNN
+	1    5200 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 5200 5650 5200
+$Comp
+L Device:LED D?
+U 1 1 62196E44
+P 5800 5200
+AR Path="/620ED97A/62196E44" Ref="D?"  Part="1" 
+AR Path="/62196E44" Ref="D?"  Part="1" 
+F 0 "D?" H 5792 4945 50  0000 C CNN
+F 1 "LED" H 5792 5036 50  0000 C CNN
+F 2 "" H 5800 5200 50  0001 C CNN
+F 3 "~" H 5800 5200 50  0001 C CNN
+	1    5800 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 5200 6300 5200
+Wire Wire Line
+	6300 5200 6300 5500
+$Comp
+L power:GND #PWR?
+U 1 1 62196E4D
+P 6300 5500
+AR Path="/620ED97A/62196E4D" Ref="#PWR?"  Part="1" 
+AR Path="/62196E4D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6300 5250 50  0001 C CNN
+F 1 "GND" H 6305 5327 50  0000 C CNN
+F 2 "" H 6300 5500 50  0001 C CNN
+F 3 "" H 6300 5500 50  0001 C CNN
+	1    6300 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 5350 0    50   ~ 0
+Green
+$Sheet
+S 10700 6250 500  150 
+U 6219DADC
+F0 "Spare motor copy" 50
+F1 "Spare motor copy.sch" 50
+$EndSheet
+$Comp
+L power:+5V #PWR?
+U 1 1 6219EB63
+P 4700 3650
+F 0 "#PWR?" H 4700 3500 50  0001 C CNN
+F 1 "+5V" H 4715 3823 50  0000 C CNN
+F 2 "" H 4700 3650 50  0001 C CNN
+F 3 "" H 4700 3650 50  0001 C CNN
+	1    4700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6219ED71
+P 4700 4800
+F 0 "#PWR?" H 4700 4650 50  0001 C CNN
+F 1 "+3V3" H 4715 4973 50  0000 C CNN
+F 2 "" H 4700 4800 50  0001 C CNN
+F 3 "" H 4700 4800 50  0001 C CNN
+	1    4700 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 3800 1    50   Input ~ 0
+PV
+Text GLabel 2700 4950 1    50   Input ~ 0
+PV
 $EndSCHEMATC

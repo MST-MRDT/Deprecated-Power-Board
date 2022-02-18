@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -64,60 +64,4 @@ F 3 "" H 8150 5700 50  0001 C CNN
 	1    8150 5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6400 4350 6350 4350
-Wire Wire Line
-	6400 4450 6350 4450
-Wire Wire Line
-	6400 4550 6350 4550
-Wire Wire Line
-	6400 4650 6350 4650
-Wire Wire Line
-	6400 4750 6350 4750
-Wire Wire Line
-	6400 4850 6350 4850
-Wire Wire Line
-	6400 4950 6350 4950
-Text HLabel 6350 4350 0    50   Input ~ 0
-Current_Sensor_M1
-Text HLabel 6350 4450 0    50   Input ~ 0
-Current_Sensor_M2
-Text HLabel 6350 4550 0    50   Input ~ 0
-Current_Sensor_M3
-Text HLabel 6350 4650 0    50   Input ~ 0
-Current_Sensor_M4
-Text HLabel 6350 4750 0    50   Input ~ 0
-Current_Sensor_M5
-Text HLabel 6350 4850 0    50   Input ~ 0
-Current_Sensor_M6
-Text HLabel 6350 4950 0    50   Input ~ 0
-Current_Sensor_Spare
-Text HLabel 6350 2750 0    50   Output ~ 0
-Driver_M1
-Wire Wire Line
-	6400 2750 6350 2750
-Wire Wire Line
-	6400 2850 6350 2850
-Wire Wire Line
-	6400 2950 6350 2950
-Wire Wire Line
-	6400 3050 6350 3050
-Wire Wire Line
-	6400 3150 6350 3150
-Wire Wire Line
-	6400 3250 6350 3250
-Wire Wire Line
-	6400 3350 6350 3350
-Text HLabel 6350 2850 0    50   Output ~ 0
-Driver_M2
-Text HLabel 6350 2950 0    50   Output ~ 0
-Driver_M3
-Text HLabel 6350 3050 0    50   Output ~ 0
-Driver_M4
-Text HLabel 6350 3150 0    50   Output ~ 0
-Driver_M5
-Text HLabel 6350 3250 0    50   Output ~ 0
-Driver_M6
-Text HLabel 6350 3350 0    50   Output ~ 0
-Driver_Spare
 $EndSCHEMATC
