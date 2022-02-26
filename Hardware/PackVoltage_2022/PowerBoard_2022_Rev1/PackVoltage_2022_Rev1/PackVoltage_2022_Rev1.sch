@@ -1122,4 +1122,8 @@ Text Label 7400 5750 2    315  Italic 63
 PV_Via
 Text Label 11100 5700 2    315  Italic 63
 GND_Via
+Text Label 7100 6800 0    157  Italic 31
+PackVoltage_PowerBoard
+Text Label 7100 7100 0    157  Italic 31
+"Rev3"
 $EndSCHEMATC
