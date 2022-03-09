@@ -390,7 +390,7 @@
   )
 
   (module MRDT_Shields:TM4C129E_Launchpad_FULL_THT_TOP (layer F.Cu) (tedit 5C295643) (tstamp 62293F04)
-    (at 353.314 52.705)
+    (at 327.279 44.069)
     (path /620F03FF/6228A2B2)
     (fp_text reference U19 (at 122.174 -0.762 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3088,7 +3088,7 @@
   )
 
   (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5AD71971) (tstamp 622939BB)
-    (at 312.801 119.507)
+    (at 362.094758 131.602999)
     (path /620ED4D8)
     (fp_text reference GND1 (at 0 10.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
