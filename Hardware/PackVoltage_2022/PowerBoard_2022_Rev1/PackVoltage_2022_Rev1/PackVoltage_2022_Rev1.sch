@@ -173,28 +173,6 @@ F 3 "" H 10050 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Sheet
-S 1900 650  2200 1200
-U 620F03FF
-F0 "TEENSY" 50
-F1 "TEENSY.sch" 50
-F2 "Current_Sensor_M1" I L 1900 750 50 
-F3 "Current_Sensor_M2" I L 1900 850 50 
-F4 "Current_Sensor_M3" I L 1900 950 50 
-F5 "Current_Sensor_M4" I L 1900 1050 50 
-F6 "Current_Sensor_M5" I L 1900 1150 50 
-F7 "Current_Sensor_M6" I L 1900 1250 50 
-F8 "Current_Sensor_Spare" I L 1900 1350 50 
-F9 "Driver_M1" O R 4100 750 50 
-F10 "Driver_M2" O R 4100 850 50 
-F11 "Driver_M3" O R 4100 950 50 
-F12 "Driver_M4" O R 4100 1050 50 
-F13 "Driver_M5" O R 4100 1150 50 
-F14 "Driver_M6" O R 4100 1250 50 
-F15 "Driver_Spare" O R 4100 1350 50 
-F16 "Current_Sensor_POE" I L 1900 1450 50 
-F17 "Driver_POE" O R 4100 1450 50 
-$EndSheet
-$Sheet
 S 6100 950  2150 2200
 U 620F088F
 F0 "MOTORS" 50
@@ -756,34 +734,6 @@ Text GLabel 8400 2950 2    50   Output ~ 0
 Current_Sensor_M6
 Text GLabel 8400 3050 2    50   Output ~ 0
 Current_Sensor_Spare
-Text GLabel 1750 750  0    50   Input ~ 0
-Current_Sensor_M1
-Text GLabel 1750 850  0    50   Input ~ 0
-Current_Sensor_M2
-Text GLabel 1750 950  0    50   Input ~ 0
-Current_Sensor_M3
-Text GLabel 1750 1050 0    50   Input ~ 0
-Current_Sensor_M4
-Text GLabel 1750 1150 0    50   Input ~ 0
-Current_Sensor_M5
-Text GLabel 1750 1250 0    50   Input ~ 0
-Current_Sensor_M6
-Text GLabel 1750 1350 0    50   Input ~ 0
-Current_Sensor_Spare
-Text GLabel 4250 750  2    50   Output ~ 0
-Driver_M1
-Text GLabel 4250 850  2    50   Output ~ 0
-Driver_M2
-Text GLabel 4250 950  2    50   Output ~ 0
-Driver_M3
-Text GLabel 4250 1050 2    50   Output ~ 0
-Driver_M4
-Text GLabel 4250 1150 2    50   Output ~ 0
-Driver_M5
-Text GLabel 4250 1250 2    50   Output ~ 0
-Driver_M6
-Text GLabel 4250 1350 2    50   Output ~ 0
-Driver_Spare
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 1 1 6243818E
@@ -1055,57 +1005,17 @@ Wire Wire Line
 	9350 1800 9350 4000
 Wire Wire Line
 	9350 4000 9650 4000
-Text Label 5600 3850 0    315  Italic 63
+Text Label 5200 4300 0    315  Italic 63
 Bucks&Mosfets
-Text Label 1900 2750 0    315  Italic 63
-Tiva
-Wire Wire Line
-	4100 750  4250 750 
-Wire Wire Line
-	4100 850  4250 850 
-Wire Wire Line
-	4100 950  4250 950 
-Wire Wire Line
-	4100 1050 4250 1050
-Wire Wire Line
-	4100 1150 4250 1150
-Wire Wire Line
-	4100 1250 4250 1250
-Wire Wire Line
-	4100 1350 4250 1350
-Wire Wire Line
-	1750 1350 1900 1350
-Wire Wire Line
-	1750 1250 1900 1250
-Wire Wire Line
-	1750 1150 1900 1150
-Wire Wire Line
-	1750 1050 1900 1050
-Wire Wire Line
-	1750 950  1900 950 
-Wire Wire Line
-	1750 850  1900 850 
-Wire Wire Line
-	1750 750  1900 750 
-Text GLabel 1750 1450 0    50   Input ~ 0
-Current_Sensor_POE
-Wire Wire Line
-	1750 1450 1900 1450
-Text GLabel 4250 1450 2    50   Output ~ 0
-Driver_POE
-Wire Wire Line
-	4100 1450 4250 1450
 Wire Notes Line
 	5250 4300 11150 4300
 Wire Notes Line
 	500  3000 5250 3000
-Wire Notes Line
-	500  500  11150 500 
-Text Label 4950 4200 2    315  Italic 63
+Text Label 2500 4500 2    315  Italic 63
 +5V_Oki
 Wire Notes Line
 	5250 4550 500  4550
-Text Label 4900 5850 2    315  Italic 63
+Text Label 2950 6000 2    315  Italic 63
 +3.3V_Oki
 Wire Notes Line
 	5250 500  5250 6050
@@ -1117,12 +1027,292 @@ Wire Notes Line
 	11150 500  11150 6050
 Wire Notes Line
 	500  6050 11150 6050
-Text Label 7400 5750 2    315  Italic 63
+Text Label 6850 6050 2    315  Italic 63
 PV_Via
-Text Label 11100 5700 2    315  Italic 63
+Text Label 10900 6050 2    315  Italic 63
 GND_Via
 Text Label 7100 6800 0    157  Italic 31
 PackVoltage_PowerBoard
 Text Label 7100 7100 0    157  Italic 31
 "Rev3"
+Wire Wire Line
+	1550 2600 1700 2600
+Text GLabel 1550 2600 0    50   Input ~ 0
+Current_Sensor_SciAct
+Wire Wire Line
+	1550 2500 1700 2500
+Text GLabel 1550 2500 0    50   Input ~ 0
+Current_Sensor_GimLog
+Wire Wire Line
+	1550 2400 1700 2400
+Text GLabel 1550 2400 0    50   Input ~ 0
+Current_Sensor_GimAct
+Wire Wire Line
+	1550 2300 1700 2300
+Text GLabel 1550 2300 0    50   Input ~ 0
+Current_Sensor_Nav
+Wire Wire Line
+	1550 2200 1700 2200
+Text GLabel 1550 2200 0    50   Input ~ 0
+Current_Sensor_Multi
+Wire Wire Line
+	1550 2100 1700 2100
+Text GLabel 1550 2100 0    50   Input ~ 0
+Current_Sensor_Cam2
+Wire Wire Line
+	1550 2000 1700 2000
+Text GLabel 1550 2000 0    50   Input ~ 0
+Current_Sensor_Cam1
+Wire Wire Line
+	1550 1900 1700 1900
+Text GLabel 1550 1900 0    50   Input ~ 0
+Current_Sensor_BBB
+Wire Wire Line
+	1550 1800 1700 1800
+Text GLabel 1550 1800 0    50   Input ~ 0
+Current_Sensor_NetSwitch
+Wire Wire Line
+	1550 1700 1700 1700
+Text GLabel 1550 1700 0    50   Input ~ 0
+Current_Sensor_AuxAct
+Wire Wire Line
+	1550 1600 1700 1600
+Text GLabel 1550 1600 0    50   Input ~ 0
+Current_Sensor_AuxLog
+Wire Wire Line
+	1550 1500 1700 1500
+Text GLabel 1550 1500 0    50   Input ~ 0
+Current_Sensor_Drive
+Wire Wire Line
+	3900 2600 4050 2600
+Text GLabel 4050 2600 2    50   Output ~ 0
+Driver_SciAct
+Wire Wire Line
+	3900 2500 4050 2500
+Text GLabel 4050 2500 2    50   Output ~ 0
+Driver_SciLog
+Wire Wire Line
+	3900 2400 4050 2400
+Text GLabel 4050 2400 2    50   Output ~ 0
+Driver_GimAct
+Wire Wire Line
+	3900 2300 4050 2300
+Text GLabel 4050 2300 2    50   Output ~ 0
+Driver_Nav
+Wire Wire Line
+	3900 2200 4050 2200
+Text GLabel 4050 2200 2    50   Output ~ 0
+Driver_Multi
+Wire Wire Line
+	3900 2100 4050 2100
+Text GLabel 4050 2100 2    50   Output ~ 0
+Driver_Cam2
+Wire Wire Line
+	3900 2000 4050 2000
+Text GLabel 4050 2000 2    50   Output ~ 0
+Driver_Cam1
+Wire Wire Line
+	3900 1900 4050 1900
+Text GLabel 4050 1900 2    50   Output ~ 0
+Driver_BBB
+Wire Wire Line
+	3900 1800 4050 1800
+Text GLabel 4050 1800 2    50   Output ~ 0
+Driver_NetSwitch
+Wire Wire Line
+	3900 1700 4050 1700
+Text GLabel 4050 1700 2    50   Output ~ 0
+Driver_AuxAct
+Wire Wire Line
+	3900 1600 4050 1600
+Text GLabel 4050 1600 2    50   Output ~ 0
+Driver_AuxLog
+Wire Wire Line
+	3900 1500 4050 1500
+Text GLabel 4050 1500 2    50   Output ~ 0
+Driver_Drive
+$Sheet
+S 1700 600  2200 2100
+U 620F03FF
+F0 "TIVA" 50
+F1 "TIVA.sch" 50
+F2 "Current_Sensor_M1" I L 1700 700 50 
+F3 "Current_Sensor_M2" I L 1700 800 50 
+F4 "Current_Sensor_M3" I L 1700 900 50 
+F5 "Current_Sensor_M4" I L 1700 1000 50 
+F6 "Current_Sensor_M5" I L 1700 1100 50 
+F7 "Current_Sensor_M6" I L 1700 1200 50 
+F8 "Current_Sensor_Spare" I L 1700 1300 50 
+F9 "Driver_M1" O R 3900 700 50 
+F10 "Driver_M2" O R 3900 800 50 
+F11 "Driver_M3" O R 3900 900 50 
+F12 "Driver_M4" O R 3900 1000 50 
+F13 "Driver_M5" O R 3900 1100 50 
+F14 "Driver_M6" O R 3900 1200 50 
+F15 "Driver_Spare" O R 3900 1300 50 
+F16 "Current_Sensor_POE" I L 1700 1400 50 
+F17 "Driver_POE" O R 3900 1400 50 
+F18 "Current_Sensor_Drive" I L 1700 1500 50 
+F19 "Current_Sensor_AuxLog" I L 1700 1600 50 
+F20 "Current_Sensor_AuxAct" I L 1700 1700 50 
+F21 "Current_Sensor_NetSwitch" I L 1700 1800 50 
+F22 "Current_Sensor_BBB" I L 1700 1900 50 
+F23 "Current_Sensor_Cam1" I L 1700 2000 50 
+F24 "Current_Sensor_Cam2" I L 1700 2100 50 
+F25 "Current_Sensor_Multi" I L 1700 2200 50 
+F26 "Current_Sensor_Nav" I L 1700 2300 50 
+F27 "Current_Sensor_GimAct" I L 1700 2400 50 
+F28 "Current_Sensor_GimLog" I L 1700 2500 50 
+F29 "Driver_GimAct" O R 3900 2400 50 
+F30 "Driver_AuxLog" O R 3900 1600 50 
+F31 "Driver_AuxAct" O R 3900 1700 50 
+F32 "Driver_BBB" O R 3900 1900 50 
+F33 "Driver_Cam1" O R 3900 2000 50 
+F34 "Driver_Cam2" O R 3900 2100 50 
+F35 "Driver_Multi" O R 3900 2200 50 
+F36 "Driver_Nav" O R 3900 2300 50 
+F37 "Driver_NetSwitch" O R 3900 1800 50 
+F38 "Driver_SciAct" O R 3900 2600 50 
+F39 "Driver_SciLog" O R 3900 2500 50 
+F40 "Current_Sensor_SciAct" I L 1700 2600 50 
+F41 "Driver_Drive" O R 3900 1500 50 
+$EndSheet
+Wire Notes Line
+	500  500  11150 500 
+Wire Wire Line
+	3900 1400 4050 1400
+Text GLabel 4050 1400 2    50   Output ~ 0
+Driver_POE
+Wire Wire Line
+	1550 1400 1700 1400
+Text GLabel 1550 1400 0    50   Input ~ 0
+Current_Sensor_POE
+Wire Wire Line
+	1550 700  1700 700 
+Wire Wire Line
+	1550 800  1700 800 
+Wire Wire Line
+	1550 900  1700 900 
+Wire Wire Line
+	1550 1000 1700 1000
+Wire Wire Line
+	1550 1100 1700 1100
+Wire Wire Line
+	1550 1200 1700 1200
+Wire Wire Line
+	1550 1300 1700 1300
+Wire Wire Line
+	3900 1300 4050 1300
+Wire Wire Line
+	3900 1200 4050 1200
+Wire Wire Line
+	3900 1100 4050 1100
+Wire Wire Line
+	3900 1000 4050 1000
+Wire Wire Line
+	3900 900  4050 900 
+Wire Wire Line
+	3900 800  4050 800 
+Wire Wire Line
+	3900 700  4050 700 
+Text Label 450  3000 0    236  Italic 47
+Tiva
+Text GLabel 4050 1300 2    50   Output ~ 0
+Driver_Spare
+Text GLabel 4050 1200 2    50   Output ~ 0
+Driver_M6
+Text GLabel 4050 1100 2    50   Output ~ 0
+Driver_M5
+Text GLabel 4050 1000 2    50   Output ~ 0
+Driver_M4
+Text GLabel 4050 900  2    50   Output ~ 0
+Driver_M3
+Text GLabel 4050 800  2    50   Output ~ 0
+Driver_M2
+Text GLabel 4050 700  2    50   Output ~ 0
+Driver_M1
+Text GLabel 1550 1300 0    50   Input ~ 0
+Current_Sensor_Spare
+Text GLabel 1550 1200 0    50   Input ~ 0
+Current_Sensor_M6
+Text GLabel 1550 1100 0    50   Input ~ 0
+Current_Sensor_M5
+Text GLabel 1550 1000 0    50   Input ~ 0
+Current_Sensor_M4
+Text GLabel 1550 900  0    50   Input ~ 0
+Current_Sensor_M3
+Text GLabel 1550 800  0    50   Input ~ 0
+Current_Sensor_M2
+Text GLabel 1550 700  0    50   Input ~ 0
+Current_Sensor_M1
+$Comp
+L MRDT_Connectors:Molex_SL_10 Conn?
+U 1 1 624BF0D2
+P 800 7450
+F 0 "Conn?" H 742 8647 60  0000 C CNN
+F 1 "Molex_SL_10" H 742 8541 60  0000 C CNN
+F 2 "" H 800 7950 60  0001 C CNN
+F 3 "" H 800 7950 60  0001 C CNN
+	1    800  7450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 7600 1000 7600
+Text GLabel 1150 7600 2    50   Input ~ 0
+Current_Sensor_SciAct
+Wire Wire Line
+	1150 7500 1000 7500
+Text GLabel 1150 7500 2    50   Input ~ 0
+Current_Sensor_GimLog
+Wire Wire Line
+	1150 7400 1000 7400
+Text GLabel 1150 7400 2    50   Input ~ 0
+Current_Sensor_GimAct
+Wire Wire Line
+	1150 7300 1000 7300
+Text GLabel 1150 7300 2    50   Input ~ 0
+Current_Sensor_Nav
+Wire Wire Line
+	1150 7200 1000 7200
+Text GLabel 1150 7200 2    50   Input ~ 0
+Current_Sensor_Multi
+Wire Wire Line
+	1150 7100 1000 7100
+Text GLabel 1150 7100 2    50   Input ~ 0
+Current_Sensor_Cam2
+Wire Wire Line
+	1150 7000 1000 7000
+Text GLabel 1150 7000 2    50   Input ~ 0
+Current_Sensor_Cam1
+Wire Wire Line
+	1150 6900 1000 6900
+Text GLabel 1150 6900 2    50   Input ~ 0
+Current_Sensor_BBB
+Wire Wire Line
+	1150 6800 1000 6800
+Text GLabel 1150 6800 2    50   Input ~ 0
+Current_Sensor_NetSwitch
+Wire Wire Line
+	1150 6700 1000 6700
+Text GLabel 1150 6700 2    50   Input ~ 0
+Current_Sensor_AuxAct
+Wire Wire Line
+	1150 6600 1000 6600
+Text GLabel 1150 6600 2    50   Input ~ 0
+Current_Sensor_AuxLog
+Wire Wire Line
+	1150 6500 1000 6500
+Text GLabel 1150 6500 2    50   Input ~ 0
+Current_Sensor_Drive
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn?
+U 1 1 624D0E50
+P 800 7650
+F 0 "Conn?" H 350 7550 60  0000 C CNN
+F 1 "Molex_SL_02" H 800 7550 60  0000 C CNN
+F 2 "" H 800 7550 60  0001 C CNN
+F 3 "" H 800 7550 60  0001 C CNN
+	1    800  7650
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

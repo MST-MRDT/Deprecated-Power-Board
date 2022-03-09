@@ -60,7 +60,7 @@ Current_Sensor_M4
 Text HLabel 5500 4300 0    50   Input ~ 0
 Current_Sensor_M6
 Text HLabel 6600 4000 2    50   Input ~ 0
-Current_Sensor_Spare
+Current_Sensor_NetSwitch
 Text HLabel 5500 2450 0    50   Output ~ 0
 Driver_M1
 Wire Wire Line
@@ -228,4 +228,44 @@ Text HLabel 6600 4200 2    50   Input ~ 0
 Current_Sensor_Drive
 Wire Wire Line
 	6600 4200 6550 4200
+Text HLabel 6600 4300 2    50   Input ~ 0
+Current_Sensor_AuxLog
+Wire Wire Line
+	6600 4300 6550 4300
+Text HLabel 6600 4400 2    50   Input ~ 0
+Current_Sensor_AuxAct
+Wire Wire Line
+	6600 4400 6550 4400
+Text HLabel 6600 4500 2    50   Input ~ 0
+Current_Sensor_Drive
+Wire Wire Line
+	6600 4500 6550 4500
+Text HLabel 6600 2450 2    50   Input ~ 0
+Current_Sensor_BBB
+Wire Wire Line
+	6600 2450 6550 2450
+Text HLabel 6600 2550 2    50   Input ~ 0
+Current_Sensor_Cam1
+Wire Wire Line
+	6600 2550 6550 2550
+Text HLabel 6600 2650 2    50   Input ~ 0
+Current_Sensor_Cam2
+Wire Wire Line
+	6600 2650 6550 2650
+Text HLabel 6600 2750 2    50   Input ~ 0
+Current_Sensor_Multi
+Wire Wire Line
+	6600 2750 6550 2750
+Text HLabel 6600 2850 2    50   Input ~ 0
+Current_Sensor_GimAct
+Wire Wire Line
+	6600 2850 6550 2850
+Text HLabel 8900 2700 2    50   Input ~ 0
+Current_Sensor_Nav
+Wire Wire Line
+	8900 2700 8850 2700
+Text HLabel 8900 2800 2    50   Input ~ 0
+Current_Sensor_AuxLog
+Wire Wire Line
+	8900 2800 8850 2800
 $EndSCHEMATC
