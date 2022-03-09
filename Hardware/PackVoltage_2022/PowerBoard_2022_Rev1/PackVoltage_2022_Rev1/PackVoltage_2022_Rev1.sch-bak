@@ -1245,4 +1245,74 @@ Text GLabel 1550 800  0    50   Input ~ 0
 Current_Sensor_M2
 Text GLabel 1550 700  0    50   Input ~ 0
 Current_Sensor_M1
+$Comp
+L MRDT_Connectors:Molex_SL_10 Conn?
+U 1 1 624BF0D2
+P 800 7450
+F 0 "Conn?" H 742 8647 60  0000 C CNN
+F 1 "Molex_SL_10" H 742 8541 60  0000 C CNN
+F 2 "" H 800 7950 60  0001 C CNN
+F 3 "" H 800 7950 60  0001 C CNN
+	1    800  7450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 7600 1000 7600
+Text GLabel 1150 7600 2    50   Input ~ 0
+Current_Sensor_SciAct
+Wire Wire Line
+	1150 7500 1000 7500
+Text GLabel 1150 7500 2    50   Input ~ 0
+Current_Sensor_GimLog
+Wire Wire Line
+	1150 7400 1000 7400
+Text GLabel 1150 7400 2    50   Input ~ 0
+Current_Sensor_GimAct
+Wire Wire Line
+	1150 7300 1000 7300
+Text GLabel 1150 7300 2    50   Input ~ 0
+Current_Sensor_Nav
+Wire Wire Line
+	1150 7200 1000 7200
+Text GLabel 1150 7200 2    50   Input ~ 0
+Current_Sensor_Multi
+Wire Wire Line
+	1150 7100 1000 7100
+Text GLabel 1150 7100 2    50   Input ~ 0
+Current_Sensor_Cam2
+Wire Wire Line
+	1150 7000 1000 7000
+Text GLabel 1150 7000 2    50   Input ~ 0
+Current_Sensor_Cam1
+Wire Wire Line
+	1150 6900 1000 6900
+Text GLabel 1150 6900 2    50   Input ~ 0
+Current_Sensor_BBB
+Wire Wire Line
+	1150 6800 1000 6800
+Text GLabel 1150 6800 2    50   Input ~ 0
+Current_Sensor_NetSwitch
+Wire Wire Line
+	1150 6700 1000 6700
+Text GLabel 1150 6700 2    50   Input ~ 0
+Current_Sensor_AuxAct
+Wire Wire Line
+	1150 6600 1000 6600
+Text GLabel 1150 6600 2    50   Input ~ 0
+Current_Sensor_AuxLog
+Wire Wire Line
+	1150 6500 1000 6500
+Text GLabel 1150 6500 2    50   Input ~ 0
+Current_Sensor_Drive
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn?
+U 1 1 624D0E50
+P 800 7650
+F 0 "Conn?" H 350 7550 60  0000 C CNN
+F 1 "Molex_SL_02" H 800 7550 60  0000 C CNN
+F 2 "" H 800 7550 60  0001 C CNN
+F 3 "" H 800 7550 60  0001 C CNN
+	1    800  7650
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
