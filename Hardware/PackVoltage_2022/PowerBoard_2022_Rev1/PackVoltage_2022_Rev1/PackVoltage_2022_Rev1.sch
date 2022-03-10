@@ -309,113 +309,7 @@ F 3 "" H 3700 3500 50  0001 C CNN
 	1    3700 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 2750 3500 0    50   ~ 0
-Green
-$Comp
-L MRDT_Devices:OKI U?
-U 1 1 62196E05
-P 1350 5100
-AR Path="/620ED97A/62196E05" Ref="U?"  Part="1" 
-AR Path="/62196E05" Ref="U2"  Part="1" 
-F 0 "U2" H 1400 5050 60  0001 C CNN
-F 1 "OKI" H 1550 5381 60  0000 C CNN
-F 2 "MRDT_Devices:OKI_Horizontal" H 1150 5000 60  0001 C CNN
-F 3 "" H 1150 5000 60  0001 C CNN
-	1    1350 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 62196E0D
-P 1000 5250
-AR Path="/620ED97A/62196E0D" Ref="C?"  Part="1" 
-AR Path="/62196E0D" Ref="C2"  Part="1" 
-F 0 "C2" H 1115 5296 50  0000 L CNN
-F 1 "22uF" H 1115 5205 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1000 5250 50  0001 C CNN
-F 3 "~" H 1000 5250 50  0001 C CNN
-	1    1000 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62196E1B
-P 1700 5550
-AR Path="/620ED97A/62196E1B" Ref="#PWR?"  Part="1" 
-AR Path="/62196E1B" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 1700 5300 50  0001 C CNN
-F 1 "GND" H 1705 5377 50  0000 C CNN
-F 2 "" H 1700 5550 50  0001 C CNN
-F 3 "" H 1700 5550 50  0001 C CNN
-	1    1700 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 62196E23
-P 1950 5250
-AR Path="/620ED97A/62196E23" Ref="C?"  Part="1" 
-AR Path="/62196E23" Ref="C4"  Part="1" 
-F 0 "C4" H 2065 5296 50  0000 L CNN
-F 1 "10uF" H 2065 5205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1988 5100 50  0001 C CNN
-F 3 "~" H 1950 5250 50  0001 C CNN
-	1    1950 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 62196E2F
-P 2400 5250
-AR Path="/620ED97A/62196E2F" Ref="C?"  Part="1" 
-AR Path="/62196E2F" Ref="C6"  Part="1" 
-F 0 "C6" H 2515 5296 50  0000 L CNN
-F 1 "47uF" H 2515 5205 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2400 5250 50  0001 C CNN
-F 3 "~" H 2400 5250 50  0001 C CNN
-	1    2400 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62196E3C
-P 2900 5000
-AR Path="/620ED97A/62196E3C" Ref="R?"  Part="1" 
-AR Path="/62196E3C" Ref="R2"  Part="1" 
-F 0 "R2" V 2800 5000 50  0000 C CNN
-F 1 "330" V 2900 5000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2830 5000 50  0001 C CNN
-F 3 "~" H 2900 5000 50  0001 C CNN
-	1    2900 5000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 62196E44
-P 3400 5000
-AR Path="/620ED97A/62196E44" Ref="D?"  Part="1" 
-AR Path="/62196E44" Ref="D2"  Part="1" 
-F 0 "D2" H 3392 4745 50  0000 C CNN
-F 1 "LED" H 3392 4836 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3400 5000 50  0001 C CNN
-F 3 "~" H 3400 5000 50  0001 C CNN
-	1    3400 5000
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62196E4D
-P 3700 5150
-AR Path="/620ED97A/62196E4D" Ref="#PWR?"  Part="1" 
-AR Path="/62196E4D" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 3700 4900 50  0001 C CNN
-F 1 "GND" H 3705 4977 50  0000 C CNN
-F 2 "" H 3700 5150 50  0001 C CNN
-F 3 "" H 3700 5150 50  0001 C CNN
-	1    3700 5150
-	1    0    0    -1  
-$EndComp
-Text Notes 2800 5150 0    50   ~ 0
+Text Notes 2800 3500 0    50   ~ 0
 Green
 $Comp
 L power:+5V #PWR0107
@@ -428,20 +322,7 @@ F 3 "" H 2200 3300 50  0001 C CNN
 	1    2200 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR0108
-U 1 1 6219ED71
-P 2200 4950
-F 0 "#PWR0108" H 2200 4800 50  0001 C CNN
-F 1 "+3V3" H 2215 5123 50  0000 C CNN
-F 2 "" H 2200 4950 50  0001 C CNN
-F 3 "" H 2200 4950 50  0001 C CNN
-	1    2200 4950
-	1    0    0    -1  
-$EndComp
 Text GLabel 850  3300 1    50   Input ~ 0
-PV
-Text GLabel 850  4950 1    50   Input ~ 0
 PV
 Wire Wire Line
 	6100 1000 6050 1000
@@ -815,47 +696,6 @@ $EndComp
 Wire Wire Line
 	5800 1100 6100 1100
 Wire Wire Line
-	3050 5000 3250 5000
-Wire Wire Line
-	3550 5000 3700 5000
-Wire Wire Line
-	3700 5000 3700 5150
-Wire Wire Line
-	1950 5100 1950 5000
-Connection ~ 1950 5000
-Wire Wire Line
-	2400 5100 2400 5000
-Connection ~ 2400 5000
-Wire Wire Line
-	2400 5000 2750 5000
-Wire Wire Line
-	2400 5400 2400 5500
-Wire Wire Line
-	2400 5500 1950 5500
-Wire Wire Line
-	1000 5500 1000 5400
-Wire Wire Line
-	1550 5300 1550 5500
-Connection ~ 1550 5500
-Wire Wire Line
-	1550 5500 1000 5500
-Wire Wire Line
-	1950 5400 1950 5500
-Connection ~ 1950 5500
-Wire Wire Line
-	1950 5500 1700 5500
-Wire Wire Line
-	1000 5100 1000 5000
-Wire Wire Line
-	1000 5000 1150 5000
-Wire Wire Line
-	1000 5000 850  5000
-Wire Wire Line
-	850  5000 850  4950
-Connection ~ 1000 5000
-Wire Wire Line
-	1950 5000 2200 5000
-Wire Wire Line
 	1950 3350 2200 3350
 Wire Wire Line
 	2400 3450 2400 3350
@@ -881,11 +721,6 @@ Wire Wire Line
 	850  3350 850  3300
 Connection ~ 1000 3350
 Wire Wire Line
-	1550 3650 1550 3850
-Connection ~ 1550 3850
-Wire Wire Line
-	1550 3850 1000 3850
-Wire Wire Line
 	1950 3750 1950 3850
 Connection ~ 1950 3850
 Wire Wire Line
@@ -902,20 +737,8 @@ Connection ~ 2200 3350
 Wire Wire Line
 	2200 3350 2400 3350
 Wire Wire Line
-	2200 4950 2200 5000
-Connection ~ 2200 5000
-Wire Wire Line
-	2200 5000 2400 5000
-Wire Wire Line
 	1700 3900 1700 3850
 Connection ~ 1700 3850
-Wire Wire Line
-	1700 3850 1550 3850
-Wire Wire Line
-	1700 5550 1700 5500
-Connection ~ 1700 5500
-Wire Wire Line
-	1700 5500 1550 5500
 $Comp
 L MRDT_Connectors:AndersonPP Conn10
 U 4 1 62438195
@@ -1125,4 +948,181 @@ F17 "Driver_POE" O R 4100 1450 50
 $EndSheet
 Text Label 1900 2900 2    236  Italic 47
 Teensy
+Wire Wire Line
+	1000 3850 1550 3850
+Wire Wire Line
+	1550 3650 1550 3850
+Connection ~ 1550 3850
+Wire Wire Line
+	1550 3850 1700 3850
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 62196E05
+P 1350 5100
+AR Path="/620ED97A/62196E05" Ref="U?"  Part="1" 
+AR Path="/62196E05" Ref="U2"  Part="1" 
+F 0 "U2" H 1400 5050 60  0001 C CNN
+F 1 "OKI" H 1550 5381 60  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 1150 5000 60  0001 C CNN
+F 3 "" H 1150 5000 60  0001 C CNN
+	1    1350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 62196E0D
+P 1000 5250
+AR Path="/620ED97A/62196E0D" Ref="C?"  Part="1" 
+AR Path="/62196E0D" Ref="C2"  Part="1" 
+F 0 "C2" H 1115 5296 50  0000 L CNN
+F 1 "22uF" H 1115 5205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1000 5250 50  0001 C CNN
+F 3 "~" H 1000 5250 50  0001 C CNN
+	1    1000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62196E23
+P 1950 5250
+AR Path="/620ED97A/62196E23" Ref="C?"  Part="1" 
+AR Path="/62196E23" Ref="C4"  Part="1" 
+F 0 "C4" H 2065 5296 50  0000 L CNN
+F 1 "10uF" H 2065 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1988 5100 50  0001 C CNN
+F 3 "~" H 1950 5250 50  0001 C CNN
+	1    1950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 62196E2F
+P 2400 5250
+AR Path="/620ED97A/62196E2F" Ref="C?"  Part="1" 
+AR Path="/62196E2F" Ref="C6"  Part="1" 
+F 0 "C6" H 2515 5296 50  0000 L CNN
+F 1 "47uF" H 2515 5205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2400 5250 50  0001 C CNN
+F 3 "~" H 2400 5250 50  0001 C CNN
+	1    2400 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62196E3C
+P 2900 5000
+AR Path="/620ED97A/62196E3C" Ref="R?"  Part="1" 
+AR Path="/62196E3C" Ref="R2"  Part="1" 
+F 0 "R2" V 2800 5000 50  0000 C CNN
+F 1 "330" V 2900 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2830 5000 50  0001 C CNN
+F 3 "~" H 2900 5000 50  0001 C CNN
+	1    2900 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 62196E44
+P 3400 5000
+AR Path="/620ED97A/62196E44" Ref="D?"  Part="1" 
+AR Path="/62196E44" Ref="D2"  Part="1" 
+F 0 "D2" H 3392 4745 50  0000 C CNN
+F 1 "LED" H 3392 4836 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3400 5000 50  0001 C CNN
+F 3 "~" H 3400 5000 50  0001 C CNN
+	1    3400 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62196E4D
+P 3700 5150
+AR Path="/620ED97A/62196E4D" Ref="#PWR?"  Part="1" 
+AR Path="/62196E4D" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 3700 4900 50  0001 C CNN
+F 1 "GND" H 3705 4977 50  0000 C CNN
+F 2 "" H 3700 5150 50  0001 C CNN
+F 3 "" H 3700 5150 50  0001 C CNN
+	1    3700 5150
+	1    0    0    -1  
+$EndComp
+Text Notes 2800 5150 0    50   ~ 0
+Green
+$Comp
+L power:+3V3 #PWR0108
+U 1 1 6219ED71
+P 2200 4950
+F 0 "#PWR0108" H 2200 4800 50  0001 C CNN
+F 1 "+3V3" H 2215 5123 50  0000 C CNN
+F 2 "" H 2200 4950 50  0001 C CNN
+F 3 "" H 2200 4950 50  0001 C CNN
+	1    2200 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 850  4950 1    50   Input ~ 0
+PV
+Wire Wire Line
+	3050 5000 3250 5000
+Wire Wire Line
+	3550 5000 3700 5000
+Wire Wire Line
+	3700 5000 3700 5150
+Wire Wire Line
+	2400 5100 2400 5000
+Connection ~ 2400 5000
+Wire Wire Line
+	2400 5000 2750 5000
+Wire Wire Line
+	2400 5400 2400 5500
+Wire Wire Line
+	1000 5500 1000 5400
+Wire Wire Line
+	1950 5400 1950 5500
+Connection ~ 1950 5500
+Wire Wire Line
+	2400 5500 1950 5500
+Wire Wire Line
+	1000 5100 1000 5000
+Wire Wire Line
+	1000 5000 1150 5000
+Connection ~ 1000 5000
+Wire Wire Line
+	1000 5000 850  5000
+Wire Wire Line
+	850  5000 850  4950
+Wire Wire Line
+	2200 5000 2400 5000
+Wire Wire Line
+	1950 5000 2200 5000
+Connection ~ 2200 5000
+Wire Wire Line
+	2200 4950 2200 5000
+Connection ~ 1950 5000
+Wire Wire Line
+	1950 5000 1950 5100
+Wire Wire Line
+	1550 5300 1550 5500
+Connection ~ 1550 5500
+Wire Wire Line
+	1000 5500 1550 5500
+$Comp
+L power:GND #PWR?
+U 1 1 62196E1B
+P 1700 5550
+AR Path="/620ED97A/62196E1B" Ref="#PWR?"  Part="1" 
+AR Path="/62196E1B" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 1700 5300 50  0001 C CNN
+F 1 "GND" H 1705 5377 50  0000 C CNN
+F 2 "" H 1700 5550 50  0001 C CNN
+F 3 "" H 1700 5550 50  0001 C CNN
+	1    1700 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5550 1700 5500
+Wire Wire Line
+	1950 5500 1700 5500
+Wire Wire Line
+	1550 5500 1700 5500
+Connection ~ 1700 5500
 $EndSCHEMATC
