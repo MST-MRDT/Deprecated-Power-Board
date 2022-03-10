@@ -1146,23 +1146,23 @@ Wire Wire Line
 	1550 5500 1700 5500
 Connection ~ 1700 5500
 $Comp
-L MRDT_Connectors:Molex_SL_10 Conn?
+L MRDT_Connectors:Molex_SL_10 Conn1
 U 1 1 622AD675
 P 2600 7350
-F 0 "Conn?" H 2728 7908 60  0000 L CNN
+F 0 "Conn1" H 2728 7908 60  0000 L CNN
 F 1 "Molex_SL_10" H 2728 7802 60  0000 L CNN
-F 2 "" H 2600 7850 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_10_Vertical" H 2600 7850 60  0001 C CNN
 F 3 "" H 2600 7850 60  0001 C CNN
 	1    2600 7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_10 Conn?
+L MRDT_Connectors:Molex_SL_10 Conn2
 U 1 1 622AF1C8
 P 3700 7400
-F 0 "Conn?" H 3642 8597 60  0000 C CNN
+F 0 "Conn2" H 3642 8597 60  0000 C CNN
 F 1 "Molex_SL_10" H 3642 8491 60  0000 C CNN
-F 2 "" H 3700 7900 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_10_Vertical" H 3700 7900 60  0001 C CNN
 F 3 "" H 3700 7900 60  0001 C CNN
 	1    3700 7400
 	-1   0    0    -1  
