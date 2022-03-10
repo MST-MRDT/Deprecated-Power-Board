@@ -91,21 +91,6 @@ F 3 "" H 6550 1550 50  0001 C CNN
 	1    6550 1550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4800 5150
-NoConn ~ 6400 5150
-NoConn ~ 6400 5050
-NoConn ~ 6400 4950
-NoConn ~ 6400 4850
-NoConn ~ 6400 4750
-NoConn ~ 6400 4650
-NoConn ~ 6400 4550
-NoConn ~ 6400 4450
-NoConn ~ 6400 4350
-NoConn ~ 6400 4050
-NoConn ~ 6400 3950
-NoConn ~ 6400 3750
-NoConn ~ 6400 3650
-NoConn ~ 6400 3550
 NoConn ~ 6400 3350
 NoConn ~ 6400 3250
 NoConn ~ 6400 3150
@@ -139,12 +124,6 @@ Wire Wire Line
 	4600 3350 4800 3350
 Wire Wire Line
 	4600 3450 4800 3450
-NoConn ~ 4800 3550
-NoConn ~ 4800 3650
-NoConn ~ 4800 3850
-NoConn ~ 4800 3950
-NoConn ~ 4800 4050
-NoConn ~ 4800 4150
 Wire Wire Line
 	6400 5350 6500 5350
 Wire Wire Line
@@ -166,4 +145,85 @@ F 3 "" H 6500 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6400 1650
+Text HLabel 4650 5150 0    50   Input ~ 0
+Current_Sensor_AuxLog
+Wire Wire Line
+	4650 5150 4800 5150
+Text HLabel 6550 4350 2    50   Input ~ 0
+Current_Sensor_BBB
+Wire Wire Line
+	6550 4350 6400 4350
+Text HLabel 6550 4450 2    50   Input ~ 0
+Current_Sensor_Cam1
+Wire Wire Line
+	6550 4450 6400 4450
+Text HLabel 6550 4550 2    50   Input ~ 0
+Current_Sensor_Cam2
+Wire Wire Line
+	6550 4550 6400 4550
+Text HLabel 6550 4650 2    50   Input ~ 0
+Current_Sensor_Drive
+Wire Wire Line
+	6550 4650 6400 4650
+Text HLabel 6550 4750 2    50   Input ~ 0
+Current_Sensor_GimAct
+Wire Wire Line
+	6550 4750 6400 4750
+Text HLabel 6550 4850 2    50   Input ~ 0
+Current_Sensor_GimLog
+Wire Wire Line
+	6550 4850 6400 4850
+Text HLabel 6550 4950 2    50   Input ~ 0
+Current_Sensor_Multi
+Wire Wire Line
+	6550 4950 6400 4950
+Text HLabel 6550 5050 2    50   Input ~ 0
+Current_Sensor_Nav
+Wire Wire Line
+	6550 5050 6400 5050
+Text HLabel 6550 5150 2    50   Input ~ 0
+Current_Sensor_NetSwitch
+Wire Wire Line
+	6550 5150 6400 5150
+Text HLabel 4600 3550 0    50   Output ~ 0
+Driver_Cam1
+Wire Wire Line
+	4600 3550 4800 3550
+Text HLabel 4600 3650 0    50   Output ~ 0
+Driver_Cam2
+Wire Wire Line
+	4600 3650 4800 3650
+Text HLabel 4600 3850 0    50   Output ~ 0
+Driver_AuxLog
+Wire Wire Line
+	4600 3850 4800 3850
+Text HLabel 4600 3950 0    50   Output ~ 0
+Driver_BBB
+Wire Wire Line
+	4600 3950 4800 3950
+Text HLabel 4600 4050 0    50   Output ~ 0
+Driver_Drive
+Wire Wire Line
+	4600 4050 4800 4050
+Text HLabel 4600 4150 0    50   Output ~ 0
+Driver_Multi
+Wire Wire Line
+	4600 4150 4800 4150
+Text HLabel 6600 3950 2    50   Output ~ 0
+Driver_GimAct
+Wire Wire Line
+	6600 3950 6400 3950
+Text HLabel 6600 4050 2    50   Output ~ 0
+Driver_GimLog
+Wire Wire Line
+	6600 4050 6400 4050
+Text HLabel 6600 3550 2    50   Output ~ 0
+Driver_Nav
+Wire Wire Line
+	6600 3550 6400 3550
+Text HLabel 6600 3650 2    50   Output ~ 0
+Driver_NetSwitch
+Wire Wire Line
+	6600 3650 6400 3650
+NoConn ~ 6400 3750
 $EndSCHEMATC
