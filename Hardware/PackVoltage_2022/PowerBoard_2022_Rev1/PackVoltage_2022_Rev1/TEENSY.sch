@@ -44,7 +44,7 @@ Driver_POE
 Text HLabel 4650 4750 0    50   Input ~ 0
 Current_Sensor_M5
 $Comp
-L MRDT_Shields:Teensy4.1_DEV-16771 U19
+L PackVoltage_2022_Rev1-rescue:Teensy4.1_DEV-16771-MRDT_Shields U19
 U 1 1 62368E05
 P 5600 3550
 F 0 "U19" H 5600 5717 50  0000 C CNN
@@ -97,11 +97,6 @@ NoConn ~ 6400 3150
 NoConn ~ 6400 3050
 NoConn ~ 6400 2850
 NoConn ~ 6400 2750
-NoConn ~ 6400 2550
-NoConn ~ 6400 2450
-NoConn ~ 6400 2350
-NoConn ~ 6400 2250
-NoConn ~ 6400 2150
 NoConn ~ 6400 1850
 NoConn ~ 6400 1950
 NoConn ~ 4800 2150
@@ -149,28 +144,24 @@ Text HLabel 4650 5150 0    50   Input ~ 0
 Current_Sensor_AuxLog
 Wire Wire Line
 	4650 5150 4800 5150
-Text HLabel 6550 4350 2    50   Input ~ 0
+Text HLabel 6550 4450 2    50   Input ~ 0
 Current_Sensor_BBB
 Wire Wire Line
 	6550 4350 6400 4350
-Text HLabel 6550 4450 2    50   Input ~ 0
+Text HLabel 6550 4550 2    50   Input ~ 0
 Current_Sensor_Cam1
 Wire Wire Line
 	6550 4450 6400 4450
-Text HLabel 6550 4550 2    50   Input ~ 0
+Text HLabel 6550 4650 2    50   Input ~ 0
 Current_Sensor_Cam2
 Wire Wire Line
 	6550 4550 6400 4550
-Text HLabel 6550 4650 2    50   Input ~ 0
+Text HLabel 6550 4750 2    50   Input ~ 0
 Current_Sensor_Drive
 Wire Wire Line
 	6550 4650 6400 4650
-Text HLabel 6550 4750 2    50   Input ~ 0
-Current_Sensor_GimAct
-Wire Wire Line
-	6550 4750 6400 4750
 Text HLabel 6550 4850 2    50   Input ~ 0
-Current_Sensor_GimLog
+Current_Sensor_Gim
 Wire Wire Line
 	6550 4850 6400 4850
 Text HLabel 6550 4950 2    50   Input ~ 0
@@ -209,12 +200,8 @@ Text HLabel 4600 4150 0    50   Output ~ 0
 Driver_Multi
 Wire Wire Line
 	4600 4150 4800 4150
-Text HLabel 6600 3950 2    50   Output ~ 0
-Driver_GimAct
-Wire Wire Line
-	6600 3950 6400 3950
 Text HLabel 6600 4050 2    50   Output ~ 0
-Driver_GimLog
+Driver_Gim
 Wire Wire Line
 	6600 4050 6400 4050
 Text HLabel 6600 3550 2    50   Output ~ 0
@@ -225,5 +212,128 @@ Text HLabel 6600 3650 2    50   Output ~ 0
 Driver_NetSwitch
 Wire Wire Line
 	6600 3650 6400 3650
-NoConn ~ 6400 3750
+NoConn ~ 6400 3950
+NoConn ~ 6400 2150
+NoConn ~ 6400 2250
+NoConn ~ 6400 2350
+NoConn ~ 6400 2450
+NoConn ~ 6400 2550
+$Comp
+L Connector:RJ45_LED_Shielded J?
+U 1 1 623B0B29
+P 9400 3050
+F 0 "J?" H 9400 3717 50  0000 C CNN
+F 1 "RJ45_LED_Shielded" H 9400 3626 50  0000 C CNN
+F 2 "" V 9400 3075 50  0001 C CNN
+F 3 "~" V 9400 3075 50  0001 C CNN
+	1    9400 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_D_06 Conn?
+U 1 1 623B4892
+P 9850 4200
+F 0 "Conn?" V 9739 4372 60  0000 R CNN
+F 1 "Molex_uF_D_06" V 9845 4372 60  0000 R CNN
+F 2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" H 9850 4500 60  0001 C CNN
+F 3 "" H 9850 4500 60  0001 C CNN
+	1    9850 4200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9100 4000 9100 3450
+Wire Wire Line
+	9200 4000 9200 3750
+Wire Wire Line
+	9200 3750 9300 3750
+Wire Wire Line
+	9300 3750 9300 3450
+Wire Wire Line
+	9600 4000 9600 3800
+Wire Wire Line
+	9600 3800 9400 3800
+Wire Wire Line
+	9400 3800 9400 3450
+Wire Wire Line
+	9500 4000 9500 3750
+Wire Wire Line
+	9500 3750 9600 3750
+Wire Wire Line
+	9600 3750 9600 3450
+Wire Wire Line
+	9400 4000 9400 3850
+Wire Wire Line
+	9400 3850 8700 3850
+Wire Wire Line
+	8700 3850 8700 2450
+Wire Wire Line
+	8700 2450 9700 2450
+Wire Wire Line
+	9700 2450 9700 2650
+Wire Wire Line
+	8900 3050 8550 3050
+Wire Wire Line
+	8550 3050 8550 3150
+$Comp
+L power:GND #PWR?
+U 1 1 623BDF76
+P 8550 3150
+F 0 "#PWR?" H 8550 2900 50  0001 C CNN
+F 1 "GND" H 8555 2977 50  0000 C CNN
+F 2 "" H 8550 3150 50  0001 C CNN
+F 3 "" H 8550 3150 50  0001 C CNN
+	1    8550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2650 9800 2450
+Wire Wire Line
+	9800 2450 10200 2450
+Wire Wire Line
+	10200 2450 10200 3450
+Wire Wire Line
+	10200 3450 9800 3450
+Wire Wire Line
+	10200 3450 10200 3950
+Wire Wire Line
+	10200 3950 9300 3950
+Wire Wire Line
+	9300 3950 9300 4000
+Connection ~ 10200 3450
+Wire Wire Line
+	9200 3450 9200 3600
+Wire Wire Line
+	9200 3600 9500 3600
+Wire Wire Line
+	9500 3450 9500 3600
+Wire Wire Line
+	9500 3600 10500 3600
+Connection ~ 9500 3600
+Wire Wire Line
+	10200 3950 10500 3950
+Connection ~ 10200 3950
+$Comp
+L Device:CP1 C?
+U 1 1 623C74FB
+P 10500 3750
+F 0 "C?" H 10615 3796 50  0000 L CNN
+F 1 "0.1 uF" H 10615 3705 50  0000 L CNN
+F 2 "" H 10500 3750 50  0001 C CNN
+F 3 "~" H 10500 3750 50  0001 C CNN
+	1    10500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 3950 10500 3900
+NoConn ~ 9100 2650
+NoConn ~ 9200 2650
+NoConn ~ 9700 3450
+Text HLabel 6550 4350 2    50   Input ~ 0
+Current_Sensor_AuxAct
+Wire Wire Line
+	6400 4750 6550 4750
+Text HLabel 6600 3750 2    50   Output ~ 0
+Driver_AuxAct
+Wire Wire Line
+	6400 3750 6600 3750
 $EndSCHEMATC

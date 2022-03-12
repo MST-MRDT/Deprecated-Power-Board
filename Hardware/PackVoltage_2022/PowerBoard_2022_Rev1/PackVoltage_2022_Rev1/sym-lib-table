@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name PackVoltage_2022_Rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/PackVoltage_2022_Rev1-rescue.lib)(options "")(descr ""))
 )
