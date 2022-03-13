@@ -29,7 +29,7 @@ F 3 "~" H 6400 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_ICs:LT1910 U12
+L PackVoltage_2022_Rev1-rescue:LT1910-MRDT_ICs U12
 U 1 1 621D6471
 P 6850 5800
 AR Path="/620F088F/621D6471" Ref="U12"  Part="1" 
@@ -230,7 +230,7 @@ Text HLabel 9750 6000 2    50   Output ~ 0
 Anderson_Spare
 Connection ~ 9150 5350
 $Comp
-L MRDT_ICs:INA281 U16
+L PackVoltage_2022_Rev1-rescue:INA281-MRDT_ICs U16
 U 1 1 621D64DC
 P 9900 5450
 AR Path="/620F088F/621D64DC" Ref="U16"  Part="1" 
@@ -261,14 +261,10 @@ F 3 "" H 9900 5750 50  0001 C CNN
 	1    9900 5750
 	1    0    0    -1  
 $EndComp
-Text HLabel 9900 5150 1    50   Input ~ 0
-5V
 Text HLabel 10300 5450 2    50   Output ~ 0
 Current_Sensor_Spare
 Wire Wire Line
 	6000 5350 6000 5400
-Text HLabel 6000 5350 1    50   Input ~ 0
-5V
 Wire Wire Line
 	8550 6300 8850 6300
 Connection ~ 8550 5750
@@ -290,7 +286,7 @@ F 3 "~" H 6700 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_ICs:LT1910 U14
+L PackVoltage_2022_Rev1-rescue:LT1910-MRDT_ICs U14
 U 1 1 621D6D30
 P 7150 2850
 AR Path="/620F088F/621D6D30" Ref="U14"  Part="1" 
@@ -491,7 +487,7 @@ Text HLabel 10050 3050 2    50   Output ~ 0
 Anderson_M6
 Connection ~ 9450 2400
 $Comp
-L MRDT_ICs:INA281 U18
+L PackVoltage_2022_Rev1-rescue:INA281-MRDT_ICs U18
 U 1 1 621D6D9B
 P 10200 2500
 AR Path="/620F088F/621D6D9B" Ref="U18"  Part="1" 
@@ -522,14 +518,10 @@ F 3 "" H 10200 2800 50  0001 C CNN
 	1    10200 2800
 	1    0    0    -1  
 $EndComp
-Text HLabel 10200 2200 1    50   Input ~ 0
-5V
 Text HLabel 10600 2500 2    50   Output ~ 0
 Current_Sensor_M6
 Wire Wire Line
 	6300 2400 6300 2450
-Text HLabel 6300 2400 1    50   Input ~ 0
-5V
 Wire Wire Line
 	8850 3350 9150 3350
 Connection ~ 8850 2800
@@ -551,7 +543,7 @@ F 3 "~" H 6450 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_ICs:LT1910 U13
+L PackVoltage_2022_Rev1-rescue:LT1910-MRDT_ICs U13
 U 1 1 621D8352
 P 6900 1400
 AR Path="/620F088F/621D8352" Ref="U13"  Part="1" 
@@ -752,7 +744,7 @@ Text HLabel 9800 1600 2    50   Output ~ 0
 Anderson_M5
 Connection ~ 9200 950 
 $Comp
-L MRDT_ICs:INA281 U17
+L PackVoltage_2022_Rev1-rescue:INA281-MRDT_ICs U17
 U 1 1 621D83BD
 P 9950 1050
 AR Path="/620F088F/621D83BD" Ref="U17"  Part="1" 
@@ -783,14 +775,10 @@ F 3 "" H 9950 1350 50  0001 C CNN
 	1    9950 1350
 	1    0    0    -1  
 $EndComp
-Text HLabel 9950 750  1    50   Input ~ 0
-5V
 Text HLabel 10350 1050 2    50   Output ~ 0
 Current_Sensor_M5
 Wire Wire Line
 	6050 950  6050 1000
-Text HLabel 6050 950  1    50   Input ~ 0
-5V
 Wire Wire Line
 	8600 1900 8900 1900
 Connection ~ 8600 1350
@@ -812,7 +800,7 @@ F 3 "~" H 1050 1100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_ICs:LT1910 U3
+L PackVoltage_2022_Rev1-rescue:LT1910-MRDT_ICs U3
 U 1 1 621DC6FA
 P 1500 1500
 AR Path="/620F088F/621DC6FA" Ref="U3"  Part="1" 
@@ -1013,7 +1001,7 @@ Text HLabel 4400 1700 2    50   Output ~ 0
 Anderson_M1
 Connection ~ 3800 1050
 $Comp
-L MRDT_ICs:INA281 U7
+L PackVoltage_2022_Rev1-rescue:INA281-MRDT_ICs U7
 U 1 1 621DC765
 P 4550 1150
 AR Path="/620F088F/621DC765" Ref="U7"  Part="1" 
@@ -1044,280 +1032,23 @@ F 3 "" H 4550 1450 50  0001 C CNN
 	1    4550 1450
 	1    0    0    -1  
 $EndComp
-Text HLabel 4550 850  1    50   Input ~ 0
-5V
 Text HLabel 4950 1150 2    50   Output ~ 0
 Current_Sensor_M1
 Wire Wire Line
 	650  1050 650  1100
-Text HLabel 650  1050 1    50   Input ~ 0
-5V
 Wire Wire Line
 	3200 2000 3500 2000
 Connection ~ 3200 1450
 Wire Wire Line
 	3200 1450 3200 2000
 Wire Wire Line
-	750  2700 1000 2700
-$Comp
-L Device:R R4
-U 1 1 621E2A5A
-P 1150 2700
-AR Path="/620F088F/621E2A5A" Ref="R4"  Part="1" 
-AR Path="/6219DADC/621E2A5A" Ref="R?"  Part="1" 
-F 0 "R4" V 1050 2700 50  0000 C CNN
-F 1 "5.1k" V 1150 2700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1080 2700 50  0001 C CNN
-F 3 "~" H 1150 2700 50  0001 C CNN
-	1    1150 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L MRDT_ICs:LT1910 U4
-U 1 1 621E2A61
-P 1600 3100
-AR Path="/620F088F/621E2A61" Ref="U4"  Part="1" 
-AR Path="/6219DADC/621E2A61" Ref="U?"  Part="1" 
-F 0 "U4" H 1975 3787 60  0000 C CNN
-F 1 "LT1910" H 1975 3681 60  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1600 3100 60  0001 C CNN
-F 3 "" H 1600 3100 60  0001 C CNN
-	1    1600 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 2700 1400 2700
-Wire Wire Line
-	1400 2850 1150 2850
-Text HLabel 1150 2850 0    50   Input ~ 0
-Driver_M2
-$Comp
-L Device:C C12
-U 1 1 621E2A6B
-P 1400 3200
-AR Path="/620F088F/621E2A6B" Ref="C12"  Part="1" 
-AR Path="/6219DADC/621E2A6B" Ref="C?"  Part="1" 
-F 0 "C12" H 1515 3246 50  0000 L CNN
-F 1 "0.1uF" H 1515 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1438 3050 50  0001 C CNN
-F 3 "~" H 1400 3200 50  0001 C CNN
-	1    1400 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 3000 1400 3050
-Wire Wire Line
-	1400 3350 2000 3350
-Wire Wire Line
-	2000 3300 2000 3350
-Connection ~ 2000 3350
-Wire Wire Line
-	2000 3350 2000 3450
-$Comp
-L power:GND #PWR0131
-U 1 1 621E2A77
-P 2000 3450
-AR Path="/620F088F/621E2A77" Ref="#PWR0131"  Part="1" 
-AR Path="/6219DADC/621E2A77" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0131" H 2000 3200 50  0001 C CNN
-F 1 "GND" H 2005 3277 50  0000 C CNN
-F 2 "" H 2000 3450 50  0001 C CNN
-F 3 "" H 2000 3450 50  0001 C CNN
-	1    2000 3450
-	1    0    0    -1  
-$EndComp
-Connection ~ 2000 3450
-Wire Wire Line
-	2550 2700 2700 2700
-Wire Wire Line
-	2550 2850 2800 2850
-Wire Wire Line
-	2550 3000 3000 3000
-Wire Wire Line
-	3000 3000 3000 2850
-Wire Wire Line
-	2700 2700 2700 2600
-Connection ~ 2700 2700
-Wire Wire Line
-	2700 2700 2800 2700
-$Comp
-L Device:Fuse F2
-U 1 1 621E2A85
-P 2700 2450
-AR Path="/620F088F/621E2A85" Ref="F2"  Part="1" 
-AR Path="/6219DADC/621E2A85" Ref="F?"  Part="1" 
-F 0 "F2" H 2760 2496 50  0000 L CNN
-F 1 "20" V 2700 2400 50  0000 L CNN
-F 2 "MRDT_Passives:ATC_Fuse_Block" V 2630 2450 50  0001 C CNN
-F 3 "~" H 2700 2450 50  0001 C CNN
-	1    2700 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	2700 2300 2550 2300
 Text HLabel 2550 2300 0    50   Input ~ 0
 PV
-Wire Wire Line
-	2800 3450 2800 3400
-Wire Wire Line
-	2000 3450 2800 3450
-$Comp
-L Device:C C16
-U 1 1 621E2A90
-P 2800 3250
-AR Path="/620F088F/621E2A90" Ref="C16"  Part="1" 
-AR Path="/6219DADC/621E2A90" Ref="C?"  Part="1" 
-F 0 "C16" H 2915 3296 50  0000 L CNN
-F 1 "10uF" H 2915 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2838 3100 50  0001 C CNN
-F 3 "~" H 2800 3250 50  0001 C CNN
-	1    2800 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 3100 2800 2850
-Connection ~ 2800 2850
-Wire Wire Line
-	2800 2850 2800 2700
-Wire Wire Line
-	2800 2700 2800 2650
-Connection ~ 2800 2700
-$Comp
-L Transistor_FET:BUK7M8R0-40EX Q2
-U 1 1 621E2A9C
-P 3200 2850
-AR Path="/620F088F/621E2A9C" Ref="Q2"  Part="1" 
-AR Path="/6219DADC/621E2A9C" Ref="Q?"  Part="1" 
-F 0 "Q2" H 3405 2896 50  0000 L CNN
-F 1 "BUK7S2R0-40HJ" H 3000 2600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 3400 2775 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 3200 2850 50  0001 L CNN
-	1    3200 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 2650 3300 2650
-$Comp
-L Device:R R8
-U 1 1 621E2AA4
-P 3750 3600
-AR Path="/620F088F/621E2AA4" Ref="R8"  Part="1" 
-AR Path="/6219DADC/621E2AA4" Ref="R?"  Part="1" 
-F 0 "R8" V 3650 3600 50  0000 C CNN
-F 1 "2800" V 3750 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3680 3600 50  0001 C CNN
-F 3 "~" H 3750 3600 50  0001 C CNN
-	1    3750 3600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3900 3600 4050 3600
-$Comp
-L Device:LED D6
-U 1 1 621E2AAC
-P 4200 3600
-AR Path="/620F088F/621E2AAC" Ref="D6"  Part="1" 
-AR Path="/6219DADC/621E2AAC" Ref="D?"  Part="1" 
-F 0 "D6" H 4200 3500 50  0000 C CNN
-F 1 "LED" H 4200 3700 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4200 3600 50  0001 C CNN
-F 3 "~" H 4200 3600 50  0001 C CNN
-	1    4200 3600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4350 3600 4450 3600
-$Comp
-L power:GND #PWR0132
-U 1 1 621E2AB4
-P 4450 3600
-AR Path="/620F088F/621E2AB4" Ref="#PWR0132"  Part="1" 
-AR Path="/6219DADC/621E2AB4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0132" H 4450 3350 50  0001 C CNN
-F 1 "GND" H 4455 3427 50  0000 C CNN
-F 2 "" H 4450 3600 50  0001 C CNN
-F 3 "" H 4450 3600 50  0001 C CNN
-	1    4450 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 3050 3750 3050
-Wire Wire Line
-	3750 3050 3750 2650
-Wire Wire Line
-	3750 2650 3900 2650
-Wire Wire Line
-	3900 2650 3900 2750
-$Comp
-L Device:R R11
-U 1 1 621E2ABE
-P 3900 2900
-AR Path="/620F088F/621E2ABE" Ref="R11"  Part="1" 
-AR Path="/6219DADC/621E2ABE" Ref="R?"  Part="1" 
-F 0 "R11" H 3970 2946 50  0000 L CNN
-F 1 ".0025" V 3900 2800 50  0000 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 3830 2900 50  0001 C CNN
-F 3 "~" H 3900 2900 50  0001 C CNN
-	1    3900 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 3050 3900 3150
-Wire Wire Line
-	3900 3150 4150 3150
-Wire Wire Line
-	4150 3150 4150 3300
-Wire Wire Line
-	4150 3300 4500 3300
-Connection ~ 4150 3150
-Text HLabel 4500 3300 2    50   Output ~ 0
-Anderson_M2
-Connection ~ 3900 2650
-$Comp
-L MRDT_ICs:INA281 U8
-U 1 1 621E2ACC
-P 4650 2750
-AR Path="/620F088F/621E2ACC" Ref="U8"  Part="1" 
-AR Path="/6219DADC/621E2ACC" Ref="U?"  Part="1" 
-F 0 "U8" H 4800 2900 50  0000 L CNN
-F 1 "INA281" H 4800 2600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4900 2950 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 4900 2950 50  0001 C CNN
-	1    4650 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 3150 4450 2850
-Wire Wire Line
-	4150 3150 4450 3150
-Wire Wire Line
-	3900 2650 4450 2650
-$Comp
-L power:GND #PWR0133
-U 1 1 621E2AD6
-P 4650 3050
-AR Path="/620F088F/621E2AD6" Ref="#PWR0133"  Part="1" 
-AR Path="/6219DADC/621E2AD6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0133" H 4650 2800 50  0001 C CNN
-F 1 "GND" H 4655 2877 50  0000 C CNN
-F 2 "" H 4650 3050 50  0001 C CNN
-F 3 "" H 4650 3050 50  0001 C CNN
-	1    4650 3050
-	1    0    0    -1  
-$EndComp
-Text HLabel 4650 2450 1    50   Input ~ 0
-5V
 Text HLabel 5050 2750 2    50   Output ~ 0
 Current_Sensor_M2
 Wire Wire Line
 	750  2650 750  2700
-Text HLabel 750  2650 1    50   Input ~ 0
-5V
-Wire Wire Line
-	3300 3600 3600 3600
-Connection ~ 3300 3050
-Wire Wire Line
-	3300 3050 3300 3600
 Wire Wire Line
 	850  4350 1100 4350
 $Comp
@@ -1332,19 +1063,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1180 4350 50  0
 F 3 "~" H 1250 4350 50  0001 C CNN
 	1    1250 4350
 	0    1    1    0   
-$EndComp
-$Comp
-L MRDT_ICs:LT1910 U5
-U 1 1 621ECAE5
-P 1700 4750
-AR Path="/620F088F/621ECAE5" Ref="U5"  Part="1" 
-AR Path="/6219DADC/621ECAE5" Ref="U?"  Part="1" 
-F 0 "U5" H 2075 5437 60  0000 C CNN
-F 1 "LT1910" H 2075 5331 60  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1700 4750 60  0001 C CNN
-F 3 "" H 1700 4750 60  0001 C CNN
-	1    1700 4750
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1400 4350 1500 4350
@@ -1389,35 +1107,11 @@ F 3 "" H 2100 5100 50  0001 C CNN
 $EndComp
 Connection ~ 2100 5100
 Wire Wire Line
-	2650 4350 2800 4350
-Wire Wire Line
 	2650 4500 2900 4500
 Wire Wire Line
 	2650 4650 3100 4650
 Wire Wire Line
 	3100 4650 3100 4500
-Wire Wire Line
-	2800 4350 2800 4250
-Connection ~ 2800 4350
-Wire Wire Line
-	2800 4350 2900 4350
-$Comp
-L Device:Fuse F3
-U 1 1 621ECB09
-P 2800 4100
-AR Path="/620F088F/621ECB09" Ref="F3"  Part="1" 
-AR Path="/6219DADC/621ECB09" Ref="F?"  Part="1" 
-F 0 "F3" H 2860 4146 50  0000 L CNN
-F 1 "20" V 2800 4050 50  0000 L CNN
-F 2 "MRDT_Passives:ATC_Fuse_Block" V 2730 4100 50  0001 C CNN
-F 3 "~" H 2800 4100 50  0001 C CNN
-	1    2800 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 3950 2650 3950
-Text HLabel 2650 3950 0    50   Input ~ 0
-PV
 Wire Wire Line
 	2900 5100 2900 5050
 Wire Wire Line
@@ -1440,24 +1134,6 @@ Wire Wire Line
 Connection ~ 2900 4500
 Wire Wire Line
 	2900 4500 2900 4350
-Wire Wire Line
-	2900 4350 2900 4300
-Connection ~ 2900 4350
-$Comp
-L Transistor_FET:BUK7M8R0-40EX Q3
-U 1 1 621ECB20
-P 3300 4500
-AR Path="/620F088F/621ECB20" Ref="Q3"  Part="1" 
-AR Path="/6219DADC/621ECB20" Ref="Q?"  Part="1" 
-F 0 "Q3" H 3505 4546 50  0000 L CNN
-F 1 "BUK7S2R0-40HJ" H 3100 4250 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 3500 4425 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 3300 4500 50  0001 L CNN
-	1    3300 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 4300 3400 4300
 $Comp
 L Device:R R10
 U 1 1 621ECB28
@@ -1503,12 +1179,6 @@ F 3 "" H 4550 5250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3400 4700 3850 4700
-Wire Wire Line
-	3850 4700 3850 4300
-Wire Wire Line
-	3850 4300 4000 4300
-Wire Wire Line
-	4000 4300 4000 4400
 $Comp
 L Device:R R12
 U 1 1 621ECB42
@@ -1533,26 +1203,10 @@ Wire Wire Line
 Connection ~ 4250 4800
 Text HLabel 4600 4950 2    50   Output ~ 0
 Anderson_M3
-Connection ~ 4000 4300
-$Comp
-L MRDT_ICs:INA281 U9
-U 1 1 621ECB50
-P 4750 4400
-AR Path="/620F088F/621ECB50" Ref="U9"  Part="1" 
-AR Path="/6219DADC/621ECB50" Ref="U?"  Part="1" 
-F 0 "U9" H 4900 4550 50  0000 L CNN
-F 1 "INA281" H 4900 4250 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5000 4600 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 5000 4600 50  0001 C CNN
-	1    4750 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4550 4800 4550 4500
 Wire Wire Line
 	4250 4800 4550 4800
-Wire Wire Line
-	4000 4300 4550 4300
 $Comp
 L power:GND #PWR0136
 U 1 1 621ECB5A
@@ -1566,17 +1220,12 @@ F 3 "" H 4750 4700 50  0001 C CNN
 	1    4750 4700
 	1    0    0    -1  
 $EndComp
-Text HLabel 4750 4100 1    50   Input ~ 0
-5V
 Text HLabel 5150 4400 2    50   Output ~ 0
 Current_Sensor_M3
 Wire Wire Line
 	850  4300 850  4350
-Text HLabel 850  4300 1    50   Input ~ 0
-5V
 Wire Wire Line
 	3400 5250 3700 5250
-Connection ~ 3400 4700
 Wire Wire Line
 	3400 4700 3400 5250
 Wire Wire Line
@@ -1595,7 +1244,7 @@ F 3 "~" H 1400 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_ICs:LT1910 U6
+L PackVoltage_2022_Rev1-rescue:LT1910-MRDT_ICs U6
 U 1 1 621FB3FA
 P 1850 6600
 AR Path="/620F088F/621FB3FA" Ref="U6"  Part="1" 
@@ -1796,7 +1445,7 @@ Text HLabel 4750 6800 2    50   Output ~ 0
 Anderson_M4
 Connection ~ 4150 6150
 $Comp
-L MRDT_ICs:INA281 U10
+L PackVoltage_2022_Rev1-rescue:INA281-MRDT_ICs U10
 U 1 1 621FB465
 P 4900 6250
 AR Path="/620F088F/621FB465" Ref="U10"  Part="1" 
@@ -1827,14 +1476,10 @@ F 3 "" H 4900 6550 50  0001 C CNN
 	1    4900 6550
 	1    0    0    -1  
 $EndComp
-Text HLabel 4900 5950 1    50   Input ~ 0
-5V
 Text HLabel 5300 6250 2    50   Output ~ 0
 Current_Sensor_M4
 Wire Wire Line
 	1000 6150 1000 6200
-Text HLabel 1000 6150 1    50   Input ~ 0
-5V
 Wire Wire Line
 	3550 7100 3850 7100
 Connection ~ 3550 6550
@@ -1921,7 +1566,7 @@ F 3 "~" H 6300 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_ICs:LT1910 U11
+L PackVoltage_2022_Rev1-rescue:LT1910-MRDT_ICs U11
 U 1 1 6211E3B6
 P 6750 4400
 AR Path="/620F088F/6211E3B6" Ref="U11"  Part="1" 
@@ -2122,7 +1767,7 @@ Text HLabel 9650 4600 2    50   Output ~ 0
 Anderson_POE
 Connection ~ 9050 3950
 $Comp
-L MRDT_ICs:INA281 U15
+L PackVoltage_2022_Rev1-rescue:INA281-MRDT_ICs U15
 U 1 1 6211E421
 P 9800 4050
 AR Path="/620F088F/6211E421" Ref="U15"  Part="1" 
@@ -2153,17 +1798,516 @@ F 3 "" H 9800 4350 50  0001 C CNN
 	1    9800 4350
 	1    0    0    -1  
 $EndComp
-Text HLabel 9800 3750 1    50   Input ~ 0
-5V
 Text HLabel 10200 4050 2    50   Output ~ 0
 Current_Sensor_POE
 Wire Wire Line
 	5900 3950 5900 4000
-Text HLabel 5900 3950 1    50   Input ~ 0
-5V
 Wire Wire Line
 	8450 4900 8750 4900
 Connection ~ 8450 4350
 Wire Wire Line
 	8450 4350 8450 4900
+$Comp
+L power:+5V #PWR?
+U 1 1 6253FCED
+P 6050 950
+F 0 "#PWR?" H 6050 800 50  0001 C CNN
+F 1 "+5V" H 6065 1123 50  0000 C CNN
+F 2 "" H 6050 950 50  0001 C CNN
+F 3 "" H 6050 950 50  0001 C CNN
+	1    6050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 62573DE6
+P 9950 750
+F 0 "#PWR?" H 9950 600 50  0001 C CNN
+F 1 "+5V" H 9965 923 50  0000 C CNN
+F 2 "" H 9950 750 50  0001 C CNN
+F 3 "" H 9950 750 50  0001 C CNN
+	1    9950 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 625A6305
+P 10200 2200
+F 0 "#PWR?" H 10200 2050 50  0001 C CNN
+F 1 "+5V" H 10215 2373 50  0000 C CNN
+F 2 "" H 10200 2200 50  0001 C CNN
+F 3 "" H 10200 2200 50  0001 C CNN
+	1    10200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 625F16A4
+P 6300 2400
+F 0 "#PWR?" H 6300 2250 50  0001 C CNN
+F 1 "+5V" H 6315 2573 50  0000 C CNN
+F 2 "" H 6300 2400 50  0001 C CNN
+F 3 "" H 6300 2400 50  0001 C CNN
+	1    6300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6262392C
+P 5900 3950
+F 0 "#PWR?" H 5900 3800 50  0001 C CNN
+F 1 "+5V" H 5915 4123 50  0000 C CNN
+F 2 "" H 5900 3950 50  0001 C CNN
+F 3 "" H 5900 3950 50  0001 C CNN
+	1    5900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 62655B3D
+P 9800 3750
+F 0 "#PWR?" H 9800 3600 50  0001 C CNN
+F 1 "+5V" H 9815 3923 50  0000 C CNN
+F 2 "" H 9800 3750 50  0001 C CNN
+F 3 "" H 9800 3750 50  0001 C CNN
+	1    9800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 62687D91
+P 9900 5150
+F 0 "#PWR?" H 9900 5000 50  0001 C CNN
+F 1 "+5V" H 9915 5323 50  0000 C CNN
+F 2 "" H 9900 5150 50  0001 C CNN
+F 3 "" H 9900 5150 50  0001 C CNN
+	1    9900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 626BA0A2
+P 6000 5350
+F 0 "#PWR?" H 6000 5200 50  0001 C CNN
+F 1 "+5V" H 6015 5523 50  0000 C CNN
+F 2 "" H 6000 5350 50  0001 C CNN
+F 3 "" H 6000 5350 50  0001 C CNN
+	1    6000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 626EC216
+P 4900 5950
+F 0 "#PWR?" H 4900 5800 50  0001 C CNN
+F 1 "+5V" H 4915 6123 50  0000 C CNN
+F 2 "" H 4900 5950 50  0001 C CNN
+F 3 "" H 4900 5950 50  0001 C CNN
+	1    4900 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6271E189
+P 1000 6150
+F 0 "#PWR?" H 1000 6000 50  0001 C CNN
+F 1 "+5V" H 1015 6323 50  0000 C CNN
+F 2 "" H 1000 6150 50  0001 C CNN
+F 3 "" H 1000 6150 50  0001 C CNN
+	1    1000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6279B80E
+P 850 4300
+F 0 "#PWR?" H 850 4150 50  0001 C CNN
+F 1 "+5V" H 865 4473 50  0000 C CNN
+F 2 "" H 850 4300 50  0001 C CNN
+F 3 "" H 850 4300 50  0001 C CNN
+	1    850  4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 4700
+Connection ~ 2900 4350
+Connection ~ 2800 4350
+Wire Wire Line
+	2650 4350 2800 4350
+Wire Wire Line
+	2800 4350 2900 4350
+$Comp
+L power:+5V #PWR?
+U 1 1 6276944A
+P 4750 4100
+F 0 "#PWR?" H 4750 3950 50  0001 C CNN
+F 1 "+5V" H 4765 4273 50  0000 C CNN
+F 2 "" H 4750 4100 50  0001 C CNN
+F 3 "" H 4750 4100 50  0001 C CNN
+	1    4750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4300 4550 4300
+$Comp
+L PackVoltage_2022_Rev1-rescue:INA281-MRDT_ICs U9
+U 1 1 621ECB50
+P 4750 4400
+AR Path="/620F088F/621ECB50" Ref="U9"  Part="1" 
+AR Path="/6219DADC/621ECB50" Ref="U?"  Part="1" 
+F 0 "U9" H 4900 4550 50  0000 L CNN
+F 1 "INA281" H 4900 4250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5000 4600 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 5000 4600 50  0001 C CNN
+	1    4750 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 4300
+Wire Wire Line
+	4000 4300 4000 4400
+Wire Wire Line
+	3850 4300 4000 4300
+Wire Wire Line
+	3850 4700 3850 4300
+Wire Wire Line
+	2900 4300 3400 4300
+$Comp
+L Transistor_FET:BUK7M8R0-40EX Q3
+U 1 1 621ECB20
+P 3300 4500
+AR Path="/620F088F/621ECB20" Ref="Q3"  Part="1" 
+AR Path="/6219DADC/621ECB20" Ref="Q?"  Part="1" 
+F 0 "Q3" H 3505 4546 50  0000 L CNN
+F 1 "BUK7S2R0-40HJ" H 3100 4250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 3500 4425 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 3300 4500 50  0001 L CNN
+	1    3300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4350 2900 4300
+Text HLabel 2650 3950 0    50   Input ~ 0
+PV
+Wire Wire Line
+	2800 3950 2650 3950
+$Comp
+L Device:Fuse F3
+U 1 1 621ECB09
+P 2800 4100
+AR Path="/620F088F/621ECB09" Ref="F3"  Part="1" 
+AR Path="/6219DADC/621ECB09" Ref="F?"  Part="1" 
+F 0 "F3" H 2860 4146 50  0000 L CNN
+F 1 "20" V 2800 4050 50  0000 L CNN
+F 2 "MRDT_Passives:ATC_Fuse_Block" V 2730 4100 50  0001 C CNN
+F 3 "~" H 2800 4100 50  0001 C CNN
+	1    2800 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4350 2800 4250
+$Comp
+L PackVoltage_2022_Rev1-rescue:LT1910-MRDT_ICs U5
+U 1 1 621ECAE5
+P 1700 4750
+AR Path="/620F088F/621ECAE5" Ref="U5"  Part="1" 
+AR Path="/6219DADC/621ECAE5" Ref="U?"  Part="1" 
+F 0 "U5" H 2075 5437 60  0000 C CNN
+F 1 "LT1910" H 2075 5331 60  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1700 4750 60  0001 C CNN
+F 3 "" H 1700 4750 60  0001 C CNN
+	1    1700 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3050 3300 3600
+Connection ~ 3300 3050
+Wire Wire Line
+	3300 3600 3600 3600
+$Comp
+L power:GND #PWR0133
+U 1 1 621E2AD6
+P 4650 3050
+AR Path="/620F088F/621E2AD6" Ref="#PWR0133"  Part="1" 
+AR Path="/6219DADC/621E2AD6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0133" H 4650 2800 50  0001 C CNN
+F 1 "GND" H 4655 2877 50  0000 C CNN
+F 2 "" H 4650 3050 50  0001 C CNN
+F 3 "" H 4650 3050 50  0001 C CNN
+	1    4650 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2650 4450 2650
+Wire Wire Line
+	4150 3150 4450 3150
+Wire Wire Line
+	4450 3150 4450 2850
+$Comp
+L PackVoltage_2022_Rev1-rescue:INA281-MRDT_ICs U8
+U 1 1 621E2ACC
+P 4650 2750
+AR Path="/620F088F/621E2ACC" Ref="U8"  Part="1" 
+AR Path="/6219DADC/621E2ACC" Ref="U?"  Part="1" 
+F 0 "U8" H 4800 2900 50  0000 L CNN
+F 1 "INA281" H 4800 2600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4900 2950 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 4900 2950 50  0001 C CNN
+	1    4650 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 2650
+Text HLabel 4500 3300 2    50   Output ~ 0
+Anderson_M2
+Connection ~ 4150 3150
+Wire Wire Line
+	4150 3300 4500 3300
+Wire Wire Line
+	4150 3150 4150 3300
+Wire Wire Line
+	3900 3150 4150 3150
+Wire Wire Line
+	3900 3050 3900 3150
+$Comp
+L Device:R R11
+U 1 1 621E2ABE
+P 3900 2900
+AR Path="/620F088F/621E2ABE" Ref="R11"  Part="1" 
+AR Path="/6219DADC/621E2ABE" Ref="R?"  Part="1" 
+F 0 "R11" H 3970 2946 50  0000 L CNN
+F 1 ".0025" V 3900 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 3830 2900 50  0001 C CNN
+F 3 "~" H 3900 2900 50  0001 C CNN
+	1    3900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2650 3900 2750
+Wire Wire Line
+	3750 2650 3900 2650
+Wire Wire Line
+	3750 3050 3750 2650
+Wire Wire Line
+	3300 3050 3750 3050
+$Comp
+L power:GND #PWR0132
+U 1 1 621E2AB4
+P 4450 3600
+AR Path="/620F088F/621E2AB4" Ref="#PWR0132"  Part="1" 
+AR Path="/6219DADC/621E2AB4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0132" H 4450 3350 50  0001 C CNN
+F 1 "GND" H 4455 3427 50  0000 C CNN
+F 2 "" H 4450 3600 50  0001 C CNN
+F 3 "" H 4450 3600 50  0001 C CNN
+	1    4450 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3600 4450 3600
+$Comp
+L Device:LED D6
+U 1 1 621E2AAC
+P 4200 3600
+AR Path="/620F088F/621E2AAC" Ref="D6"  Part="1" 
+AR Path="/6219DADC/621E2AAC" Ref="D?"  Part="1" 
+F 0 "D6" H 4200 3500 50  0000 C CNN
+F 1 "LED" H 4200 3700 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4200 3600 50  0001 C CNN
+F 3 "~" H 4200 3600 50  0001 C CNN
+	1    4200 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 3600 4050 3600
+$Comp
+L Device:R R8
+U 1 1 621E2AA4
+P 3750 3600
+AR Path="/620F088F/621E2AA4" Ref="R8"  Part="1" 
+AR Path="/6219DADC/621E2AA4" Ref="R?"  Part="1" 
+F 0 "R8" V 3650 3600 50  0000 C CNN
+F 1 "2800" V 3750 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3680 3600 50  0001 C CNN
+F 3 "~" H 3750 3600 50  0001 C CNN
+	1    3750 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 2650 3300 2650
+$Comp
+L Transistor_FET:BUK7M8R0-40EX Q2
+U 1 1 621E2A9C
+P 3200 2850
+AR Path="/620F088F/621E2A9C" Ref="Q2"  Part="1" 
+AR Path="/6219DADC/621E2A9C" Ref="Q?"  Part="1" 
+F 0 "Q2" H 3405 2896 50  0000 L CNN
+F 1 "BUK7S2R0-40HJ" H 3000 2600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 3400 2775 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf" V 3200 2850 50  0001 L CNN
+	1    3200 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 2700
+Wire Wire Line
+	2800 2700 2800 2650
+Wire Wire Line
+	2800 2850 2800 2700
+Connection ~ 2800 2850
+Wire Wire Line
+	2800 3100 2800 2850
+$Comp
+L Device:C C16
+U 1 1 621E2A90
+P 2800 3250
+AR Path="/620F088F/621E2A90" Ref="C16"  Part="1" 
+AR Path="/6219DADC/621E2A90" Ref="C?"  Part="1" 
+F 0 "C16" H 2915 3296 50  0000 L CNN
+F 1 "10uF" H 2915 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2838 3100 50  0001 C CNN
+F 3 "~" H 2800 3250 50  0001 C CNN
+	1    2800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3450 2800 3450
+Wire Wire Line
+	2800 3450 2800 3400
+$Comp
+L Device:Fuse F2
+U 1 1 621E2A85
+P 2700 2450
+AR Path="/620F088F/621E2A85" Ref="F2"  Part="1" 
+AR Path="/6219DADC/621E2A85" Ref="F?"  Part="1" 
+F 0 "F2" H 2760 2496 50  0000 L CNN
+F 1 "20" V 2700 2400 50  0000 L CNN
+F 2 "MRDT_Passives:ATC_Fuse_Block" V 2630 2450 50  0001 C CNN
+F 3 "~" H 2700 2450 50  0001 C CNN
+	1    2700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2700 2800 2700
+Connection ~ 2700 2700
+Wire Wire Line
+	2700 2700 2700 2600
+Wire Wire Line
+	3000 3000 3000 2850
+Wire Wire Line
+	2550 3000 3000 3000
+Wire Wire Line
+	2550 2850 2800 2850
+Wire Wire Line
+	2550 2700 2700 2700
+Connection ~ 2000 3450
+$Comp
+L power:GND #PWR0131
+U 1 1 621E2A77
+P 2000 3450
+AR Path="/620F088F/621E2A77" Ref="#PWR0131"  Part="1" 
+AR Path="/6219DADC/621E2A77" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0131" H 2000 3200 50  0001 C CNN
+F 1 "GND" H 2005 3277 50  0000 C CNN
+F 2 "" H 2000 3450 50  0001 C CNN
+F 3 "" H 2000 3450 50  0001 C CNN
+	1    2000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3350 2000 3450
+Connection ~ 2000 3350
+Wire Wire Line
+	2000 3300 2000 3350
+Wire Wire Line
+	1400 3350 2000 3350
+Wire Wire Line
+	1400 3000 1400 3050
+$Comp
+L Device:C C12
+U 1 1 621E2A6B
+P 1400 3200
+AR Path="/620F088F/621E2A6B" Ref="C12"  Part="1" 
+AR Path="/6219DADC/621E2A6B" Ref="C?"  Part="1" 
+F 0 "C12" H 1515 3246 50  0000 L CNN
+F 1 "0.1uF" H 1515 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1438 3050 50  0001 C CNN
+F 3 "~" H 1400 3200 50  0001 C CNN
+	1    1400 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 1150 2850 0    50   Input ~ 0
+Driver_M2
+Wire Wire Line
+	1400 2850 1150 2850
+Wire Wire Line
+	1300 2700 1400 2700
+$Comp
+L PackVoltage_2022_Rev1-rescue:LT1910-MRDT_ICs U4
+U 1 1 621E2A61
+P 1600 3100
+AR Path="/620F088F/621E2A61" Ref="U4"  Part="1" 
+AR Path="/6219DADC/621E2A61" Ref="U?"  Part="1" 
+F 0 "U4" H 1975 3787 60  0000 C CNN
+F 1 "LT1910" H 1975 3681 60  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1600 3100 60  0001 C CNN
+F 3 "" H 1600 3100 60  0001 C CNN
+	1    1600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 621E2A5A
+P 1150 2700
+AR Path="/620F088F/621E2A5A" Ref="R4"  Part="1" 
+AR Path="/6219DADC/621E2A5A" Ref="R?"  Part="1" 
+F 0 "R4" V 1050 2700 50  0000 C CNN
+F 1 "5.1k" V 1150 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1080 2700 50  0001 C CNN
+F 3 "~" H 1150 2700 50  0001 C CNN
+	1    1150 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	750  2700 1000 2700
+$Comp
+L power:+5V #PWR?
+U 1 1 627F60D6
+P 4650 2450
+F 0 "#PWR?" H 4650 2300 50  0001 C CNN
+F 1 "+5V" H 4665 2623 50  0000 C CNN
+F 2 "" H 4650 2450 50  0001 C CNN
+F 3 "" H 4650 2450 50  0001 C CNN
+	1    4650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6282A2C7
+P 750 2650
+F 0 "#PWR?" H 750 2500 50  0001 C CNN
+F 1 "+5V" H 765 2823 50  0000 C CNN
+F 2 "" H 750 2650 50  0001 C CNN
+F 3 "" H 750 2650 50  0001 C CNN
+	1    750  2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6285E371
+P 4550 850
+F 0 "#PWR?" H 4550 700 50  0001 C CNN
+F 1 "+5V" H 4565 1023 50  0000 C CNN
+F 2 "" H 4550 850 50  0001 C CNN
+F 3 "" H 4550 850 50  0001 C CNN
+	1    4550 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 628924E4
+P 650 1050
+F 0 "#PWR?" H 650 900 50  0001 C CNN
+F 1 "+5V" H 665 1223 50  0000 C CNN
+F 2 "" H 650 1050 50  0001 C CNN
+F 3 "" H 650 1050 50  0001 C CNN
+	1    650  1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

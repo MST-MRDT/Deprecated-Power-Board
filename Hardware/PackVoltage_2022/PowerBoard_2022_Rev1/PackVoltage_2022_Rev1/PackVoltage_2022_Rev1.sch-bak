@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Drill_Holes:BATT_PWR_VIA V1
+L PackVoltage_2022_Rev1-rescue:BATT_PWR_VIA-MRDT_Drill_Holes V1
 U 1 1 620EC67F
 P 6100 4500
 F 0 "V1" H 6228 4522 60  0000 L CNN
@@ -147,7 +147,7 @@ F 3 "" H 8200 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Drill_Holes:Via GND1
+L PackVoltage_2022_Rev1-rescue:Via-MRDT_Drill_Holes GND1
 U 1 1 620ED4D8
 P 9850 4600
 F 0 "GND1" H 9950 4600 60  0000 L CNN
@@ -180,33 +180,32 @@ F1 "MOTORS.sch" 50
 F2 "Driver_M1" I L 6100 1300 50 
 F3 "PV" I L 6100 1000 50 
 F4 "Anderson_M1" O R 8250 1000 50 
-F5 "5V" I L 6100 1100 50 
-F6 "Driver_M2" I L 6100 1400 50 
-F7 "Anderson_M2" O R 8250 1100 50 
-F8 "Driver_M3" I L 6100 1500 50 
-F9 "Anderson_M3" O R 8250 1200 50 
-F10 "Driver_M4" I L 6100 1600 50 
-F11 "Anderson_M4" O R 8250 1300 50 
-F12 "Driver_M5" I L 6100 1700 50 
-F13 "Anderson_M5" O R 8250 1400 50 
-F14 "Driver_M6" I L 6100 1800 50 
-F15 "Anderson_M6" O R 8250 1500 50 
-F16 "Driver_Spare" I L 6100 1900 50 
-F17 "Anderson_Spare" O R 8250 1600 50 
-F18 "Current_Sensor_Spare" O R 8250 3050 50 
-F19 "Current_Sensor_M6" O R 8250 2950 50 
-F20 "Current_Sensor_M5" O R 8250 2850 50 
-F21 "Current_Sensor_M1" O R 8250 2450 50 
-F22 "Current_Sensor_M2" O R 8250 2550 50 
-F23 "Current_Sensor_M3" O R 8250 2650 50 
-F24 "Current_Sensor_M4" O R 8250 2750 50 
-F25 "12V" O R 8250 1700 50 
-F26 "Driver_POE" I L 6100 1200 50 
-F27 "Anderson_POE" O R 8250 1800 50 
-F28 "Current_Sensor_POE" O R 8250 2350 50 
+F5 "Driver_M2" I L 6100 1400 50 
+F6 "Anderson_M2" O R 8250 1100 50 
+F7 "Driver_M3" I L 6100 1500 50 
+F8 "Anderson_M3" O R 8250 1200 50 
+F9 "Driver_M4" I L 6100 1600 50 
+F10 "Anderson_M4" O R 8250 1300 50 
+F11 "Driver_M5" I L 6100 1700 50 
+F12 "Anderson_M5" O R 8250 1400 50 
+F13 "Driver_M6" I L 6100 1800 50 
+F14 "Anderson_M6" O R 8250 1500 50 
+F15 "Driver_Spare" I L 6100 1900 50 
+F16 "Anderson_Spare" O R 8250 1600 50 
+F17 "Current_Sensor_Spare" O R 8250 3050 50 
+F18 "Current_Sensor_M6" O R 8250 2950 50 
+F19 "Current_Sensor_M5" O R 8250 2850 50 
+F20 "Current_Sensor_M1" O R 8250 2450 50 
+F21 "Current_Sensor_M2" O R 8250 2550 50 
+F22 "Current_Sensor_M3" O R 8250 2650 50 
+F23 "Current_Sensor_M4" O R 8250 2750 50 
+F24 "12V" O R 8250 1700 50 
+F25 "Driver_POE" I L 6100 1200 50 
+F26 "Anderson_POE" O R 8250 1800 50 
+F27 "Current_Sensor_POE" O R 8250 2350 50 
 $EndSheet
 $Comp
-L MRDT_Devices:OKI U?
+L PackVoltage_2022_Rev1-rescue:OKI-MRDT_Devices U?
 U 1 1 62196DB4
 P 1350 3450
 AR Path="/620ED97A/62196DB4" Ref="U?"  Part="1" 
@@ -277,7 +276,7 @@ P 2900 3350
 AR Path="/620ED97A/62196DEB" Ref="R?"  Part="1" 
 AR Path="/62196DEB" Ref="R1"  Part="1" 
 F 0 "R1" V 2800 3350 50  0000 C CNN
-F 1 "510" V 2900 3350 50  0000 C CNN
+F 1 "300" V 2900 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2830 3350 50  0001 C CNN
 F 3 "~" H 2900 3350 50  0001 C CNN
 	1    2900 3350
@@ -343,7 +342,7 @@ Driver_Spare
 Text GLabel 6050 1000 0    50   Input ~ 0
 PV
 $Comp
-L MRDT_Connectors:AndersonPP Conn3
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn3
 U 1 1 621C10BF
 P 10900 800
 F 0 "Conn3" H 11000 1050 60  0000 C CNN
@@ -354,7 +353,7 @@ F 3 "" H 10750 250 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn3
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn3
 U 4 1 621C1520
 P 10050 800
 F 0 "Conn3" H 10150 1050 60  0000 C CNN
@@ -380,7 +379,7 @@ F 3 "" H 10350 750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn4
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn4
 U 1 1 621C7EF9
 P 10900 1200
 F 0 "Conn4" H 11000 1450 60  0000 C CNN
@@ -391,7 +390,7 @@ F 3 "" H 10750 650 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn4
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn4
 U 4 1 621C7F00
 P 10050 1200
 F 0 "Conn4" H 10150 1450 60  0000 C CNN
@@ -417,7 +416,7 @@ F 3 "" H 10350 1150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn5
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn5
 U 1 1 621C96B2
 P 10900 1600
 F 0 "Conn5" H 11000 1850 60  0000 C CNN
@@ -428,7 +427,7 @@ F 3 "" H 10750 1050 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn5
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn5
 U 4 1 621C96B9
 P 10050 1600
 F 0 "Conn5" H 10150 1850 60  0000 C CNN
@@ -454,7 +453,7 @@ F 3 "" H 10350 1550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn6
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn6
 U 1 1 621CB326
 P 10900 2000
 F 0 "Conn6" H 11000 2250 60  0000 C CNN
@@ -465,7 +464,7 @@ F 3 "" H 10750 1450 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn6
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn6
 U 4 1 621CB32D
 P 10050 2000
 F 0 "Conn6" H 10150 2250 60  0000 C CNN
@@ -491,7 +490,7 @@ F 3 "" H 10350 1950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn7
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn7
 U 1 1 621CD178
 P 10900 2400
 F 0 "Conn7" H 11000 2650 60  0000 C CNN
@@ -502,7 +501,7 @@ F 3 "" H 10750 1850 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn7
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn7
 U 4 1 621CD17F
 P 10050 2400
 F 0 "Conn7" H 10150 2650 60  0000 C CNN
@@ -528,7 +527,7 @@ F 3 "" H 10350 2350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn8
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn8
 U 1 1 621CF002
 P 10900 2850
 F 0 "Conn8" H 11000 3100 60  0000 C CNN
@@ -539,7 +538,7 @@ F 3 "" H 10750 2300 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn8
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn8
 U 4 1 621CF009
 P 10050 2850
 F 0 "Conn8" H 10200 3100 60  0000 C CNN
@@ -565,7 +564,7 @@ F 3 "" H 10350 2800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn9
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn9
 U 1 1 621D1122
 P 10900 3250
 F 0 "Conn9" H 11000 3500 60  0000 C CNN
@@ -576,7 +575,7 @@ F 3 "" H 10750 2700 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn9
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn9
 U 4 1 621D1129
 P 10050 3250
 F 0 "Conn9" H 10150 3500 60  0000 C CNN
@@ -616,7 +615,7 @@ Current_Sensor_M6
 Text GLabel 8400 3050 2    50   Output ~ 0
 Current_Sensor_Spare
 $Comp
-L MRDT_Connectors:AndersonPP Conn10
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn10
 U 1 1 6243818E
 P 10900 3700
 F 0 "Conn10" H 11000 3950 60  0000 C CNN
@@ -642,7 +641,7 @@ F 3 "" H 10350 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn11
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn11
 U 1 1 6213C762
 P 10900 4100
 F 0 "Conn11" H 11000 4350 60  0000 C CNN
@@ -653,7 +652,7 @@ F 3 "" H 10750 3550 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn11
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn11
 U 4 1 6213C769
 P 10050 4100
 F 0 "Conn11" H 10150 4350 60  0000 C CNN
@@ -682,19 +681,6 @@ Text GLabel 8400 2350 2    50   Output ~ 0
 Current_Sensor_POE
 Text GLabel 5950 1200 0    50   Input ~ 0
 Driver_POE
-$Comp
-L power:+5V #PWR0118
-U 1 1 621C0509
-P 5800 1100
-F 0 "#PWR0118" H 5800 950 50  0001 C CNN
-F 1 "+5V" H 5815 1273 50  0000 C CNN
-F 2 "" H 5800 1100 50  0001 C CNN
-F 3 "" H 5800 1100 50  0001 C CNN
-	1    5800 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 1100 6100 1100
 Wire Wire Line
 	1950 3350 2200 3350
 Wire Wire Line
@@ -740,7 +726,7 @@ Wire Wire Line
 	1700 3900 1700 3850
 Connection ~ 1700 3850
 $Comp
-L MRDT_Connectors:AndersonPP Conn10
+L PackVoltage_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn10
 U 4 1 62438195
 P 10050 3700
 F 0 "Conn10" H 10150 3950 60  0000 C CNN
@@ -857,7 +843,7 @@ GND_Via
 Text Label 7100 6800 0    157  Italic 31
 PackVoltage_PowerBoard
 Text Label 7100 7100 0    157  Italic 31
-"Rev3"
+"RevBaker'sDozen"
 Wire Notes Line
 	500  500  11150 500 
 Wire Wire Line
@@ -946,25 +932,25 @@ F15 "Driver_Spare" O R 4100 1350 50
 F16 "Current_Sensor_POE" I L 1900 1450 50 
 F17 "Driver_POE" O R 4100 1450 50 
 F18 "Current_Sensor_AuxLog" I L 1900 1650 50 
-F19 "Current_Sensor_BBB" I L 1900 1750 50 
-F20 "Current_Sensor_Cam1" I L 1900 1850 50 
-F21 "Current_Sensor_Cam2" I L 1900 1950 50 
-F22 "Current_Sensor_Drive" I L 1900 2050 50 
-F23 "Current_Sensor_GimAct" I L 1900 2150 50 
-F24 "Current_Sensor_GimLog" I L 1900 2250 50 
-F25 "Current_Sensor_Multi" I L 1900 2350 50 
-F26 "Current_Sensor_Nav" I L 1900 2450 50 
-F27 "Current_Sensor_NetSwitch" I L 1900 2550 50 
-F28 "Driver_Cam1" O R 4100 1850 50 
-F29 "Driver_Cam2" O R 4100 1950 50 
-F30 "Driver_AuxLog" O R 4100 1650 50 
-F31 "Driver_BBB" O R 4100 1750 50 
-F32 "Driver_Drive" O R 4100 2050 50 
-F33 "Driver_Multi" O R 4100 2350 50 
-F34 "Driver_GimAct" O R 4100 2150 50 
-F35 "Driver_GimLog" O R 4100 2250 50 
-F36 "Driver_Nav" O R 4100 2450 50 
-F37 "Driver_NetSwitch" O R 4100 2550 50 
+F19 "Current_Sensor_BBB" I L 1900 1850 50 
+F20 "Current_Sensor_Cam1" I L 1900 1950 50 
+F21 "Current_Sensor_Cam2" I L 1900 2050 50 
+F22 "Current_Sensor_Drive" I L 1900 2150 50 
+F23 "Current_Sensor_Multi" I L 1900 2350 50 
+F24 "Current_Sensor_Nav" I L 1900 2450 50 
+F25 "Current_Sensor_NetSwitch" I L 1900 2550 50 
+F26 "Driver_Cam1" O R 4100 1950 50 
+F27 "Driver_Cam2" O R 4100 2050 50 
+F28 "Driver_AuxLog" O R 4100 1650 50 
+F29 "Driver_BBB" O R 4100 1850 50 
+F30 "Driver_Drive" O R 4100 2150 50 
+F31 "Driver_Multi" O R 4100 2350 50 
+F32 "Driver_Nav" O R 4100 2450 50 
+F33 "Driver_NetSwitch" O R 4100 2550 50 
+F34 "Current_Sensor_Gim" I L 1900 2250 50 
+F35 "Driver_Gim" O R 4100 2250 50 
+F36 "Current_Sensor_AuxAct" I L 1900 1750 50 
+F37 "Driver_AuxAct" O R 4100 1750 50 
 $EndSheet
 Text Label 1750 3000 2    236  Italic 47
 Teensy
@@ -976,7 +962,7 @@ Connection ~ 1550 3850
 Wire Wire Line
 	1550 3850 1700 3850
 $Comp
-L MRDT_Devices:OKI U?
+L PackVoltage_2022_Rev1-rescue:OKI-MRDT_Devices U?
 U 1 1 62196E05
 P 1350 5100
 AR Path="/620ED97A/62196E05" Ref="U?"  Part="1" 
@@ -1034,7 +1020,7 @@ P 2900 5000
 AR Path="/620ED97A/62196E3C" Ref="R?"  Part="1" 
 AR Path="/62196E3C" Ref="R2"  Part="1" 
 F 0 "R2" V 2800 5000 50  0000 C CNN
-F 1 "330" V 2900 5000 50  0000 C CNN
+F 1 "100" V 2900 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2830 5000 50  0001 C CNN
 F 3 "~" H 2900 5000 50  0001 C CNN
 	1    2900 5000
@@ -1079,8 +1065,6 @@ F 3 "" H 2200 4950 50  0001 C CNN
 	1    2200 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 850  4950 1    50   Input ~ 0
-PV
 Wire Wire Line
 	3050 5000 3250 5000
 Wire Wire Line
@@ -1146,7 +1130,7 @@ Wire Wire Line
 	1550 5500 1700 5500
 Connection ~ 1700 5500
 $Comp
-L MRDT_Connectors:Molex_SL_10 Conn1
+L PackVoltage_2022_Rev1-rescue:Molex_SL_10-MRDT_Connectors Conn1
 U 1 1 622AD675
 P 2600 7350
 F 0 "Conn1" H 2728 7908 60  0000 L CNN
@@ -1157,7 +1141,7 @@ F 3 "" H 2600 7850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_10 Conn2
+L PackVoltage_2022_Rev1-rescue:Molex_SL_10-MRDT_Connectors Conn2
 U 1 1 622AF1C8
 P 3700 7400
 F 0 "Conn2" H 3642 8597 60  0000 C CNN
@@ -1169,112 +1153,90 @@ F 3 "" H 3700 7900 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	4050 6450 3900 6450
-Text GLabel 4050 6450 2    50   Output ~ 0
+Text GLabel 4050 6450 2    50   Input ~ 0
 Current_Sensor_AuxLog
 Wire Wire Line
-	4050 6550 3900 6550
-Text GLabel 4050 6550 2    50   Output ~ 0
-Current_Sensor_BBB
-Wire Wire Line
 	4050 6650 3900 6650
-Text GLabel 4050 6650 2    50   Output ~ 0
+Text GLabel 4050 6750 2    50   Input ~ 0
 Current_Sensor_Cam1
 Wire Wire Line
 	4050 6750 3900 6750
-Text GLabel 4050 6750 2    50   Output ~ 0
+Text GLabel 4050 6850 2    50   Input ~ 0
 Current_Sensor_Cam2
 Wire Wire Line
-	4050 6850 3900 6850
-Text GLabel 4050 6850 2    50   Output ~ 0
-Current_Sensor_Drive
-Wire Wire Line
-	4050 6950 3900 6950
-Text GLabel 4050 6950 2    50   Output ~ 0
-Current_Sensor_GimAct
-Wire Wire Line
 	4050 7050 3900 7050
-Text GLabel 4050 7050 2    50   Output ~ 0
-Current_Sensor_GimLog
+Text GLabel 4050 7050 2    50   Input ~ 0
+Current_Sensor_Gim
 Wire Wire Line
 	4050 7150 3900 7150
-Text GLabel 4050 7150 2    50   Output ~ 0
+Text GLabel 4050 7150 2    50   Input ~ 0
 Current_Sensor_Multi
 Wire Wire Line
 	4050 7250 3900 7250
-Text GLabel 4050 7250 2    50   Output ~ 0
-Current_Sensor_Nav
 Wire Wire Line
 	4050 7350 3900 7350
-Text GLabel 4050 7350 2    50   Output ~ 0
+Text GLabel 4050 7350 2    50   Input ~ 0
 Current_Sensor_NetSwitch
 Wire Wire Line
 	2250 6400 2400 6400
-Text GLabel 2250 6400 0    50   Input ~ 0
+Text GLabel 2250 6400 0    50   Output ~ 0
 Driver_AuxLog
 Wire Wire Line
 	2250 6500 2400 6500
-Text GLabel 2250 6500 0    50   Input ~ 0
+Text GLabel 2250 6600 0    50   Output ~ 0
 Driver_BBB
 Wire Wire Line
 	2250 6600 2400 6600
-Text GLabel 2250 6600 0    50   Input ~ 0
+Text GLabel 2250 6700 0    50   Output ~ 0
 Driver_Cam1
 Wire Wire Line
 	2250 6700 2400 6700
-Text GLabel 2250 6700 0    50   Input ~ 0
+Text GLabel 2250 6800 0    50   Output ~ 0
 Driver_Cam2
 Wire Wire Line
 	2250 6800 2400 6800
-Text GLabel 2250 6800 0    50   Input ~ 0
+Text GLabel 2250 6900 0    50   Output ~ 0
 Driver_Drive
 Wire Wire Line
-	2250 6900 2400 6900
-Text GLabel 2250 6900 0    50   Input ~ 0
-Driver_GimAct
-Wire Wire Line
 	2250 7000 2400 7000
-Text GLabel 2250 7000 0    50   Input ~ 0
-Driver_GimLog
+Text GLabel 2250 7000 0    50   Output ~ 0
+Driver_Gim
 Wire Wire Line
 	2250 7100 2400 7100
-Text GLabel 2250 7100 0    50   Input ~ 0
+Text GLabel 2250 7100 0    50   Output ~ 0
 Driver_Multi
 Wire Wire Line
 	2250 7200 2400 7200
-Text GLabel 2250 7200 0    50   Input ~ 0
+Text GLabel 2250 7200 0    50   Output ~ 0
 Driver_Nav
 Wire Wire Line
 	2250 7300 2400 7300
-Text GLabel 2250 7300 0    50   Input ~ 0
+Text GLabel 2250 7300 0    50   Output ~ 0
 Driver_NetSwitch
 Wire Wire Line
 	1750 1650 1900 1650
 Text GLabel 1750 1650 0    50   Input ~ 0
 Current_Sensor_AuxLog
 Wire Wire Line
-	1750 1750 1900 1750
-Text GLabel 1750 1750 0    50   Input ~ 0
-Current_Sensor_BBB
-Wire Wire Line
 	1750 1850 1900 1850
 Text GLabel 1750 1850 0    50   Input ~ 0
-Current_Sensor_Cam1
+Current_Sensor_BBB
 Wire Wire Line
 	1750 1950 1900 1950
 Text GLabel 1750 1950 0    50   Input ~ 0
-Current_Sensor_Cam2
+Current_Sensor_Cam1
 Wire Wire Line
 	1750 2050 1900 2050
 Text GLabel 1750 2050 0    50   Input ~ 0
-Current_Sensor_Drive
+Current_Sensor_Cam2
 Wire Wire Line
 	1750 2150 1900 2150
 Text GLabel 1750 2150 0    50   Input ~ 0
-Current_Sensor_GimAct
+Current_Sensor_Drive
 Wire Wire Line
 	1750 2250 1900 2250
 Text GLabel 1750 2250 0    50   Input ~ 0
-Current_Sensor_GimLog
+Current_Sensor_Gim
 Wire Wire Line
 	1750 2350 1900 2350
 Text GLabel 1750 2350 0    50   Input ~ 0
@@ -1292,29 +1254,25 @@ Wire Wire Line
 Text GLabel 4250 1650 2    50   Output ~ 0
 Driver_AuxLog
 Wire Wire Line
-	4250 1750 4100 1750
-Text GLabel 4250 1750 2    50   Output ~ 0
-Driver_BBB
-Wire Wire Line
 	4250 1850 4100 1850
 Text GLabel 4250 1850 2    50   Output ~ 0
-Driver_Cam1
+Driver_BBB
 Wire Wire Line
 	4250 1950 4100 1950
 Text GLabel 4250 1950 2    50   Output ~ 0
-Driver_Cam2
+Driver_Cam1
 Wire Wire Line
 	4250 2050 4100 2050
 Text GLabel 4250 2050 2    50   Output ~ 0
-Driver_Drive
+Driver_Cam2
 Wire Wire Line
 	4250 2150 4100 2150
 Text GLabel 4250 2150 2    50   Output ~ 0
-Driver_GimAct
+Driver_Drive
 Wire Wire Line
 	4250 2250 4100 2250
 Text GLabel 4250 2250 2    50   Output ~ 0
-Driver_GimLog
+Driver_Gim
 Wire Wire Line
 	4250 2350 4100 2350
 Text GLabel 4250 2350 2    50   Output ~ 0
@@ -1327,4 +1285,32 @@ Wire Wire Line
 	4250 2550 4100 2550
 Text GLabel 4250 2550 2    50   Output ~ 0
 Driver_NetSwitch
+Wire Wire Line
+	4050 6550 3900 6550
+Wire Wire Line
+	4050 6850 3900 6850
+Text GLabel 4050 7250 2    50   Input ~ 0
+Current_Sensor_Nav
+Text GLabel 4050 6950 2    50   Input ~ 0
+Current_Sensor_Drive
+Text GLabel 4050 6650 2    50   Input ~ 0
+Current_Sensor_BBB
+Text GLabel 2250 6500 0    50   Output ~ 0
+Driver_AuxAct
+Text GLabel 4050 6550 2    50   Input ~ 0
+Current_Sensor_AuxAct
+Wire Wire Line
+	2250 6900 2400 6900
+Wire Wire Line
+	3900 6950 4050 6950
+Wire Wire Line
+	1750 1750 1900 1750
+Wire Wire Line
+	4250 1750 4100 1750
+Text GLabel 4250 1750 2    50   Output ~ 0
+Driver_AuxAct
+Text GLabel 850  4950 1    50   Input ~ 0
+PV
+Text GLabel 1750 1750 0    50   Input ~ 0
+Current_Sensor_AuxLog
 $EndSCHEMATC
