@@ -1871,7 +1871,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 62293BEA)
-    (at 112.908241 113.734 180)
+    (at 116.9435 111.194 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /620F088F/624236D3)
@@ -3116,7 +3116,7 @@
   )
 
   (module MRDT_Passives:ATC_Fuse_Block (layer F.Cu) (tedit 5FBB409B) (tstamp 62293986)
-    (at 113.03 120.65 270)
+    (at 114.808 125.73 270)
     (tags "Fuse ATC")
     (path /620F088F/623FAD63)
     (fp_text reference F5 (at -1.27 6.35 90) (layer Dwgs.User) hide
@@ -3238,7 +3238,7 @@
     (fp_text reference F1 (at -1.27 6.35 90) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20 (at 6.731 1.651 90) (layer F.SilkS)
+    (fp_text value 20 (at 6.730999 1.651 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.15)))
     )
     (fp_line (start -3.175 5.08) (end 16.637 5.08) (layer F.SilkS) (width 0.15))
@@ -3413,7 +3413,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEF1) (tstamp 622938FE)
-    (at 121.643241 113.694 180)
+    (at 121.389241 111.154 180)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /620F088F/624236DB)
@@ -3799,12 +3799,12 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV (layer F.Cu) (tedit 611DCC85) (tstamp 6229383B)
-    (at 120.396 107.315 180)
+    (at 113.538 85.305 270)
     (path /6243818E)
-    (fp_text reference Conn10 (at 9.763 6.426) (layer F.SilkS)
+    (fp_text reference Conn10 (at 9.763 6.426 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 12V (at 4.263 -4.374 180) (layer F.Fab) hide
+    (fp_text value 12V (at 4.263 -4.374 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 3.963 4.826) (end -3.937 4.826) (layer F.SilkS) (width 0.15))
@@ -3829,9 +3829,9 @@
     (fp_line (start 11.863 4.826) (end 3.963 4.826) (layer F.SilkS) (width 0.15))
     (fp_line (start 11.863 4.826) (end 11.863 -3.074) (layer F.SilkS) (width 0.15))
     (fp_line (start 11.355 -1.524) (end 11.355 3.048) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at 0.013 0.026 90) (size 5.08 5.08) (drill 4.104006) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0.013 0.026 180) (size 5.08 5.08) (drill 4.104006) (layers *.Cu *.Mask)
       (net 1 GND))
-    (pad 4 thru_hole circle (at 7.913 0.026 90) (size 5.08 5.08) (drill 4.104005) (layers *.Cu *.Mask)
+    (pad 4 thru_hole circle (at 7.913 0.026 180) (size 5.08 5.08) (drill 4.104005) (layers *.Cu *.Mask)
       (net 28 /MOTORS/12V))
     (model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Connctors/Anderson_2_Vertcal_Side_by_Side.stp"
       (offset (xyz 11.42999982833862 1.904999971389771 0))
