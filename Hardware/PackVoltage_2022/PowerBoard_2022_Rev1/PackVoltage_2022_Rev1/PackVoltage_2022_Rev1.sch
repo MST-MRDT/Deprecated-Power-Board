@@ -1312,5 +1312,5 @@ Driver_AuxAct
 Text GLabel 850  4950 1    50   Input ~ 0
 PV
 Text GLabel 1750 1750 0    50   Input ~ 0
-Current_Sensor_AuxLog
+Current_Sensor_AuxAct
 $EndSCHEMATC
