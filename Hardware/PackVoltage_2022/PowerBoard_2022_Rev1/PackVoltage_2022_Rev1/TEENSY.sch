@@ -36,7 +36,7 @@ Driver_M5
 Text HLabel 4600 3250 0    50   Output ~ 0
 Driver_M6
 Text HLabel 4600 3350 0    50   Output ~ 0
-Driver_Spare
+Driver_SpareMotor
 Text HLabel 4650 5050 0    50   Input ~ 0
 Current_Sensor_POE
 Text HLabel 4600 3450 0    50   Output ~ 0
@@ -44,10 +44,10 @@ Driver_POE
 Text HLabel 4650 4750 0    50   Input ~ 0
 Current_Sensor_M5
 $Comp
-L PackVoltage_2022_Rev1-rescue:Teensy4.1_DEV-16771-MRDT_Shields U19
+L MRDT_Shields:Teensy4.1_DEV-16771 U20
 U 1 1 62368E05
 P 5600 3550
-F 0 "U19" H 5600 5717 50  0000 C CNN
+F 0 "U20" H 5600 5717 50  0000 C CNN
 F 1 "Teensy4.1_DEV-16771" H 5600 5626 50  0000 C CNN
 F 2 "MRDT_Shields:MODULE_DEV-16771" H 7700 3250 50  0001 L BNN
 F 3 "" H 5600 3550 50  0001 L BNN
@@ -59,7 +59,7 @@ F 7 "4.1" H 5300 1350 50  0001 L BNN "PARTREV"
 	1    0    0    -1  
 $EndComp
 Text HLabel 4650 4950 0    50   Input ~ 0
-Current_Sensor_Spare
+Current_Sensor_SpareMotor
 Wire Wire Line
 	4650 4350 4800 4350
 Wire Wire Line
@@ -81,20 +81,18 @@ Wire Wire Line
 Wire Wire Line
 	6550 1750 6550 1550
 $Comp
-L power:+3.3V #PWR0144
+L power:+3.3V #PWR064
 U 1 1 623850B6
 P 6550 1550
-F 0 "#PWR0144" H 6550 1400 50  0001 C CNN
+F 0 "#PWR064" H 6550 1400 50  0001 C CNN
 F 1 "+3.3V" H 6565 1723 50  0000 C CNN
 F 2 "" H 6550 1550 50  0001 C CNN
 F 3 "" H 6550 1550 50  0001 C CNN
 	1    6550 1550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6400 3350
 NoConn ~ 6400 3250
 NoConn ~ 6400 3150
-NoConn ~ 6400 3050
 NoConn ~ 6400 2850
 NoConn ~ 6400 2750
 NoConn ~ 6400 1850
@@ -129,10 +127,10 @@ Connection ~ 6500 5450
 Wire Wire Line
 	6500 5450 6500 5550
 $Comp
-L power:GND #PWR0145
+L power:GND #PWR063
 U 1 1 623DD9ED
 P 6500 5550
-F 0 "#PWR0145" H 6500 5300 50  0001 C CNN
+F 0 "#PWR063" H 6500 5300 50  0001 C CNN
 F 1 "GND" H 6505 5377 50  0000 C CNN
 F 2 "" H 6500 5550 50  0001 C CNN
 F 3 "" H 6500 5550 50  0001 C CNN
@@ -141,7 +139,7 @@ F 3 "" H 6500 5550 50  0001 C CNN
 $EndComp
 NoConn ~ 6400 1650
 Text HLabel 4650 5150 0    50   Input ~ 0
-Current_Sensor_AuxLog
+Current_Sensor_12VSpare
 Wire Wire Line
 	4650 5150 4800 5150
 Text HLabel 6550 4450 2    50   Input ~ 0
@@ -172,10 +170,6 @@ Text HLabel 6550 5050 2    50   Input ~ 0
 Current_Sensor_Nav
 Wire Wire Line
 	6550 5050 6400 5050
-Text HLabel 6550 5150 2    50   Input ~ 0
-Current_Sensor_NetSwitch
-Wire Wire Line
-	6550 5150 6400 5150
 Text HLabel 4600 3550 0    50   Output ~ 0
 Driver_Cam1
 Wire Wire Line
@@ -185,7 +179,7 @@ Driver_Cam2
 Wire Wire Line
 	4600 3650 4800 3650
 Text HLabel 4600 3850 0    50   Output ~ 0
-Driver_AuxLog
+Driver_12VSpare
 Wire Wire Line
 	4600 3850 4800 3850
 Text HLabel 4600 3950 0    50   Output ~ 0
@@ -208,10 +202,6 @@ Text HLabel 6600 3550 2    50   Output ~ 0
 Driver_Nav
 Wire Wire Line
 	6600 3550 6400 3550
-Text HLabel 6600 3650 2    50   Output ~ 0
-Driver_NetSwitch
-Wire Wire Line
-	6600 3650 6400 3650
 NoConn ~ 6400 3950
 NoConn ~ 6400 2150
 NoConn ~ 6400 2250
@@ -230,14 +220,14 @@ F 3 "~" V 9400 3075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PackVoltage_2022_Rev1-rescue:Molex_uF_D_06-MRDT_Connectors Conn?
+L MRDT_Connectors:Molex_uF_D_06 Conn?
 U 1 1 623B4892
 P 9850 4200
 AR Path="/623B4892" Ref="Conn?"  Part="1" 
-AR Path="/620F03FF/623B4892" Ref="Conn12"  Part="1" 
-F 0 "Conn12" V 9739 4372 60  0000 R CNN
+AR Path="/620F03FF/623B4892" Ref="Conn13"  Part="1" 
+F 0 "Conn13" V 9739 4372 60  0000 R CNN
 F 1 "Molex_uF_D_06" V 9845 4372 60  0000 R CNN
-F 2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" H 9850 4500 60  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_2x03_P2.00mm_Vertical" H 9850 4500 60  0001 C CNN
 F 3 "" H 9850 4500 60  0001 C CNN
 	1    9850 4200
 	0    -1   1    0   
@@ -277,10 +267,10 @@ Wire Wire Line
 Wire Wire Line
 	8550 3050 8550 3150
 $Comp
-L power:GND #PWR0161
+L power:GND #PWR065
 U 1 1 623BDF76
 P 8550 3150
-F 0 "#PWR0161" H 8550 2900 50  0001 C CNN
+F 0 "#PWR065" H 8550 2900 50  0001 C CNN
 F 1 "GND" H 8555 2977 50  0000 C CNN
 F 2 "" H 8550 3150 50  0001 C CNN
 F 3 "" H 8550 3150 50  0001 C CNN
@@ -331,11 +321,18 @@ NoConn ~ 9100 2650
 NoConn ~ 9200 2650
 NoConn ~ 9700 3450
 Text HLabel 6550 4350 2    50   Input ~ 0
-Current_Sensor_AuxAct
+Current_Sensor_Aux
 Wire Wire Line
 	6400 4750 6550 4750
 Text HLabel 6600 3750 2    50   Output ~ 0
-Driver_AuxAct
+Driver_Aux
 Wire Wire Line
 	6400 3750 6600 3750
+NoConn ~ 6400 3350
+Text HLabel 6600 3650 2    50   Output ~ 0
+Driver_Spare
+Wire Wire Line
+	6400 3650 6600 3650
+NoConn ~ 6400 5150
+NoConn ~ 6400 3050
 $EndSCHEMATC

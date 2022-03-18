@@ -1,4 +1,4 @@
-19563947894910400
+19568588135571417
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56769,6 +56769,13 @@ Q36SR12020NRFA
 0
 8
 8
+MRDT_Devices
+TSR_1-2433
+
+
+0
+3
+3
 MRDT_Drill_Holes
 4_40_Hole
 
@@ -57443,6 +57450,20 @@ MRDT_Silkscreens
 0
 MRDT_Silkscreens
 z_sig_Aaron_Colvin_Sig_4mmx14.1mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Alex_Wortmann_PT1
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Alex_Wortmann_PT2
 
 
 0

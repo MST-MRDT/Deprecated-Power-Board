@@ -178,11 +178,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PackVoltage_2022_Rev1-rescue_AndersonPP-MRDT_Connectors
+# MRDT_Connectors_AndersonPP
 #
-DEF PackVoltage_2022_Rev1-rescue_AndersonPP-MRDT_Connectors Conn 0 0 N Y 5 L N
+DEF MRDT_Connectors_AndersonPP Conn 0 0 N Y 5 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "PackVoltage_2022_Rev1-rescue_AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
+F1 "MRDT_Connectors_AndersonPP" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -198,11 +198,65 @@ X ~ 1 400 100 200 L 50 39 5 1 I
 ENDDRAW
 ENDDEF
 #
-# PackVoltage_2022_Rev1-rescue_BATT_PWR_VIA-MRDT_Drill_Holes
+# MRDT_Connectors_Molex_SL_09
 #
-DEF PackVoltage_2022_Rev1-rescue_BATT_PWR_VIA-MRDT_Drill_Holes V 0 40 N N 1 F N
+DEF MRDT_Connectors_Molex_SL_09 Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "MRDT_Connectors_Molex_SL_09" 50 950 60 H V C CNN
+F2 "" 0 400 60 H I C CNN
+F3 "" 0 400 60 H I C CNN
+DRAW
+S 0 900 100 0 0 1 0 N
+X ~ 1 -200 850 200 R 50 50 1 1 I
+X ~ 2 -200 750 200 R 50 50 1 1 I
+X ~ 3 -200 650 200 R 50 50 1 1 I
+X ~ 4 -200 550 200 R 50 50 1 1 I
+X ~ 5 -200 450 200 R 50 50 1 1 I
+X ~ 6 -200 350 200 R 50 50 1 1 I
+X ~ 7 -200 250 200 R 50 50 1 1 I
+X ~ 8 -200 150 200 R 50 50 1 1 I
+X ~ 9 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MRDT_Connectors_Molex_uF_D_06
+#
+DEF MRDT_Connectors_Molex_uF_D_06 Conn 0 40 Y Y 1 F N
+F0 "Conn" 50 100 60 H V C CNN
+F1 "MRDT_Connectors_Molex_uF_D_06" 50 850 60 H V C CNN
+F2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" 0 300 60 H I C CNN
+F3 "" 0 300 60 H I C CNN
+DRAW
+S 0 800 100 200 0 1 0 N
+X ~ 1 -200 750 200 R 50 50 1 1 I
+X ~ 2 -200 650 200 R 50 50 1 1 I
+X ~ 3 -200 550 200 R 50 50 1 1 I
+X ~ 4 -200 450 200 R 50 50 1 1 I
+X ~ 5 -200 350 200 R 50 50 1 1 I
+X ~ 6 -200 250 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MRDT_Devices_TSR1-2433
+#
+DEF MRDT_Devices_TSR1-2433 U 0 40 Y Y 1 F N
+F0 "U" 400 0 50 H V C CNN
+F1 "MRDT_Devices_TSR1-2433" 400 0 50 V I C CNN
+F2 "" 300 100 50 H I C CNN
+F3 "" 300 100 50 H I C CNN
+DRAW
+S 100 150 350 -150 0 0 0 N
+X Vin 1 0 100 100 R 50 50 1 1 I
+X GND 2 0 0 100 R 50 50 1 1 I
+X Vout 3 0 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MRDT_Drill_Holes_BATT_PWR_VIA
+#
+DEF MRDT_Drill_Holes_BATT_PWR_VIA V 0 40 N N 1 F N
 F0 "V" 150 50 60 H V C CNN
-F1 "PackVoltage_2022_Rev1-rescue_BATT_PWR_VIA-MRDT_Drill_Holes" 0 200 60 H V C CNN
+F1 "MRDT_Drill_Holes_BATT_PWR_VIA" 0 200 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -211,11 +265,24 @@ X 1 1 0 -200 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# PackVoltage_2022_Rev1-rescue_INA281-MRDT_ICs
+# MRDT_Drill_Holes_Via
 #
-DEF PackVoltage_2022_Rev1-rescue_INA281-MRDT_ICs U 0 40 Y Y 1 F N
+DEF MRDT_Drill_Holes_Via V 0 40 Y Y 1 F N
+F0 "V" 0 -100 60 H V C CNN
+F1 "MRDT_Drill_Holes_Via" 0 100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+X ~ 1 0 0 200 R 50 50 1 1 I N
+ENDDRAW
+ENDDEF
+#
+# MRDT_ICs_INA281
+#
+DEF MRDT_ICs_INA281 U 0 40 Y Y 1 F N
 F0 "U" 200 300 50 H V C CNN
-F1 "PackVoltage_2022_Rev1-rescue_INA281-MRDT_ICs" 200 200 50 H V C CNN
+F1 "MRDT_ICs_INA281" 200 200 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 250 200 50 H I C CNN
 F3 "" 250 200 50 H I C CNN
 DRAW
@@ -228,11 +295,11 @@ X V+ 5 0 300 150 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# PackVoltage_2022_Rev1-rescue_LT1910-MRDT_ICs
+# MRDT_ICs_LT1910
 #
-DEF PackVoltage_2022_Rev1-rescue_LT1910-MRDT_ICs U 0 40 Y Y 1 F N
+DEF MRDT_ICs_LT1910 U 0 40 Y Y 1 F N
 F0 "U" 700 -50 60 H V C CNN
-F1 "PackVoltage_2022_Rev1-rescue_LT1910-MRDT_ICs" 450 550 60 H V C CNN
+F1 "MRDT_ICs_LT1910" 450 550 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -247,66 +314,11 @@ X V+ 8 950 400 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PackVoltage_2022_Rev1-rescue_Molex_SL_10-MRDT_Connectors
+# MRDT_Shields_Teensy4.1_DEV-16771
 #
-DEF PackVoltage_2022_Rev1-rescue_Molex_SL_10-MRDT_Connectors Conn 0 40 Y Y 1 F N
-F0 "Conn" 150 -50 60 H V C CNN
-F1 "PackVoltage_2022_Rev1-rescue_Molex_SL_10-MRDT_Connectors" 50 1050 60 H V C CNN
-F2 "" 0 500 60 H I C CNN
-F3 "" 0 500 60 H I C CNN
-DRAW
-S 0 1000 100 0 0 1 0 N
-X ~ 1 -200 950 200 R 50 50 1 1 I
-X ~ 10 -200 50 200 R 50 50 1 1 I
-X ~ 2 -200 850 200 R 50 50 1 1 I
-X ~ 3 -200 750 200 R 50 50 1 1 I
-X ~ 4 -200 650 200 R 50 50 1 1 I
-X ~ 5 -200 550 200 R 50 50 1 1 I
-X ~ 6 -200 450 200 R 50 50 1 1 I
-X ~ 7 -200 350 200 R 50 50 1 1 I
-X ~ 8 -200 250 200 R 50 50 1 1 I
-X ~ 9 -200 150 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# PackVoltage_2022_Rev1-rescue_Molex_uF_D_06-MRDT_Connectors
-#
-DEF PackVoltage_2022_Rev1-rescue_Molex_uF_D_06-MRDT_Connectors Conn 0 40 Y Y 1 F N
-F0 "Conn" 50 100 60 H V C CNN
-F1 "PackVoltage_2022_Rev1-rescue_Molex_uF_D_06-MRDT_Connectors" 50 850 60 H V C CNN
-F2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" 0 300 60 H I C CNN
-F3 "" 0 300 60 H I C CNN
-DRAW
-S 0 800 100 200 0 1 0 N
-X ~ 1 -200 750 200 R 50 50 1 1 I
-X ~ 2 -200 650 200 R 50 50 1 1 I
-X ~ 3 -200 550 200 R 50 50 1 1 I
-X ~ 4 -200 450 200 R 50 50 1 1 I
-X ~ 5 -200 350 200 R 50 50 1 1 I
-X ~ 6 -200 250 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# PackVoltage_2022_Rev1-rescue_OKI-MRDT_Devices
-#
-DEF PackVoltage_2022_Rev1-rescue_OKI-MRDT_Devices U 0 40 Y Y 1 F N
-F0 "U" 50 -50 60 H I C CNN
-F1 "PackVoltage_2022_Rev1-rescue_OKI-MRDT_Devices" 200 250 60 H V C CNN
-F2 "" -200 -100 60 H I C CNN
-F3 "" -200 -100 60 H I C CNN
-DRAW
-S 0 0 400 200 0 1 0 N
-X Vi 1 -200 100 200 R 50 50 1 1 I
-X GND 2 200 -200 200 U 50 50 1 1 O
-X Vo 3 600 100 200 L 50 50 1 1 O
-ENDDRAW
-ENDDEF
-#
-# PackVoltage_2022_Rev1-rescue_Teensy4.1_DEV-16771-MRDT_Shields
-#
-DEF PackVoltage_2022_Rev1-rescue_Teensy4.1_DEV-16771-MRDT_Shields U 0 40 Y Y 1 F N
+DEF MRDT_Shields_Teensy4.1_DEV-16771 U 0 40 Y Y 1 F N
 F0 "U" -600 2050 50 H V L BNN
-F1 "PackVoltage_2022_Rev1-rescue_Teensy4.1_DEV-16771-MRDT_Shields" -600 -2100 50 H V L BNN
+F1 "MRDT_Shields_Teensy4.1_DEV-16771" -600 -2100 50 H V L BNN
 F2 "MODULE_DEV-16771" 2100 -300 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Manufacturer recommendations" 2100 -550 50 H I L BNN "STANDARD"
@@ -380,19 +392,6 @@ X USB_GND USB_GND2 800 -1900 200 L 40 40 0 0 W
 X VBAT VBAT 800 1600 200 L 40 40 0 0 P
 X VIN VIN -800 1400 200 R 40 40 0 0 I
 X VUSB VUSB 800 1700 200 L 40 40 0 0 P
-ENDDRAW
-ENDDEF
-#
-# PackVoltage_2022_Rev1-rescue_Via-MRDT_Drill_Holes
-#
-DEF PackVoltage_2022_Rev1-rescue_Via-MRDT_Drill_Holes V 0 40 Y Y 1 F N
-F0 "V" 0 -100 60 H V C CNN
-F1 "PackVoltage_2022_Rev1-rescue_Via-MRDT_Drill_Holes" 0 100 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-C 0 0 50 0 1 0 N
-X ~ 1 0 0 200 R 50 50 1 1 I N
 ENDDRAW
 ENDDEF
 #
