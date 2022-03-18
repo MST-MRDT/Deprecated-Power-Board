@@ -211,7 +211,7 @@ AR Path="/620ED97A/62196DBC" Ref="C?"  Part="1"
 AR Path="/62196DBC" Ref="C4"  Part="1" 
 F 0 "C4" H 2065 3646 50  0000 L CNN
 F 1 "22uF" H 2065 3555 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1950 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1950 3600 50  0001 C CNN
 F 3 "~" H 1950 3600 50  0001 C CNN
 	1    1950 3600
 	1    0    0    -1  
@@ -524,7 +524,7 @@ L MRDT_Connectors:AndersonPP Conn10
 U 2 1 621D1122
 P 10900 3250
 F 0 "Conn10" H 11000 3500 60  0000 C CNN
-F 1 "Spare" H 11000 3200 60  0000 C CNN
+F 1 "SpareMotor" H 11000 3200 60  0000 C CNN
 F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 10750 2700 60  0001 C CNN
 F 3 "" H 10750 2700 60  0001 C CNN
 	2    10900 3250
@@ -535,7 +535,7 @@ L MRDT_Connectors:AndersonPP Conn10
 U 1 1 621D1129
 P 10050 3250
 F 0 "Conn10" H 10150 3500 60  0000 C CNN
-F 1 "Spare" H 10150 3200 60  0000 C CNN
+F 1 "SpareMotor" H 10150 3200 60  0000 C CNN
 F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9900 2700 60  0001 C CNN
 F 3 "" H 9900 2700 60  0001 C CNN
 	1    10050 3250
@@ -1063,7 +1063,7 @@ AR Path="/620ED97A/62426AC0" Ref="C?"  Part="1"
 AR Path="/62426AC0" Ref="C3"  Part="1" 
 F 0 "C3" H 2015 5246 50  0000 L CNN
 F 1 "22uF" H 2015 5155 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1900 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1900 5200 50  0001 C CNN
 F 3 "~" H 1900 5200 50  0001 C CNN
 	1    1900 5200
 	1    0    0    -1  
