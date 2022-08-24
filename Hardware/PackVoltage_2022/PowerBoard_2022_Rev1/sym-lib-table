@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name PowerBoard_2022_Rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/PowerBoard_2022_Rev1-rescue.lib)(options "")(descr ""))
-)
