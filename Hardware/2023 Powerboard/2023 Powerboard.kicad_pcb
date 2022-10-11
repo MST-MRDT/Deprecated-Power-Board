@@ -240,7 +240,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 017ad51e-0bc7-426f-9719-ca824177c215)
-    (at 159.8295 43.434)
+    (at 147.193 43.434)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/cdfadb34-1952-4632-833f-037c640f889c")
@@ -283,7 +283,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 02da9c6f-adf4-4333-9960-379775c3b045)
-    (at 142.5705 43.434)
+    (at 129.934 43.434)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/cf819710-4d68-496c-b994-ae94dd47c461")
@@ -326,7 +326,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 038e8874-6c5b-44fb-8c59-e9407ed1e441)
-    (at 139.5095 120.904)
+    (at 126.873 120.904)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -370,7 +370,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 043182a3-85ee-426e-828c-3e05f6b6a14c)
-    (at 208.0895 112.649)
+    (at 195.453 112.649)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -412,7 +412,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 059272b2-6a27-4cdf-b583-58dfa1808c0b)
-    (at 117.9195 98.044)
+    (at 105.283 98.044)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -454,7 +454,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 05b0fc3a-4586-4216-9b4f-633cf47d103f)
-    (at 87.4395 56.134)
+    (at 74.803 56.134)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -501,7 +501,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 09fd8c7a-0500-439a-8b95-642906f0b2c5)
-    (at 208.0895 106.299)
+    (at 195.453 106.299)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -543,7 +543,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0e375d22-1a99-40fa-93ab-b66883d876ad)
-    (at 190.667 112.649)
+    (at 178.0305 112.649)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -585,7 +585,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0e829b19-f632-46c8-9bec-f70ec5f82c45)
-    (at 292.267 111.379)
+    (at 279.6305 111.379)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -627,7 +627,7 @@
 
   (footprint "Diode_THT:D_DO-201_P5.08mm_Vertical_KathodeUp" (layer "F.Cu")
     (tedit 5AE50CD5) (tstamp 0efbdca6-d1a5-4ff8-89a0-3e72d0d83a38)
-    (at 482.58 145.415)
+    (at 22.713 67.056)
     (descr "Diode, DO-201 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=9.53*5.21mm^2, , http://www.diodes.com/_files/packages/DO-201.pdf")
     (tags "Diode DO-201 series Axial Vertical pin pitch 5.08mm  length 9.53mm diameter 5.21mm")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -677,7 +677,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0f48512e-3ba1-4c85-9eee-58bc5c5d88cf)
-    (at 325.5645 98.679)
+    (at 312.928 98.679)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -719,7 +719,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" (layer "F.Cu")
     (tedit 5AE50EF1) (tstamp 0fb6e35b-aeaf-47b6-b8cf-ac72a2e279e7)
-    (at 502.501041 164.465)
+    (at 27.723959 76.708 180)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=12.5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 12.5mm Electrolytic Capacitor")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -977,9 +977,9 @@
     (fp_line (start -2.866489 -2.7375) (end -1.616489 -2.7375) (layer "F.Fab") (width 0.1) (tstamp d27a5fcc-49e0-4c44-9958-3e7c5f6265a9))
     (fp_line (start -2.241489 -3.3625) (end -2.241489 -2.1125) (layer "F.Fab") (width 0.1) (tstamp e8835df2-ca6e-4b3d-80c6-47ff04657d7c))
     (fp_circle (center 2.5 0) (end 8.75 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp c7095adb-650b-4beb-9a73-60e10f0e0279))
-    (pad "1" thru_hole rect (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 1 "PV") (pintype "passive") (tstamp 0709a2c3-a61d-4744-9807-c35c6359e580))
-    (pad "2" thru_hole circle (at 5 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 5 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp 0e223e01-17ee-432f-870c-4a86221d465a))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D12.5mm_P5.00mm.wrl"
       (offset (xyz 0 0 0))
@@ -990,7 +990,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 111202f3-57df-4ea0-a58e-38079b4224d2)
-    (at 211.2645 43.434)
+    (at 198.628 43.434)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/80bebe3f-1652-42ec-a10a-58d7af648689")
@@ -1058,7 +1058,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 11aaedcf-bae4-48ae-a6e5-c93ae4b2415f)
-    (at 66.548 61.722 90)
+    (at 53.9115 61.722 90)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1102,7 +1102,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 11ebb691-7d4f-4560-a49b-0715817ff705)
-    (at 259.882 112.649)
+    (at 247.2455 112.649)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1144,7 +1144,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 128b010b-dd58-49de-a902-c13429efe14f)
-    (at 242.3795 120.904)
+    (at 229.743 120.904)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1188,7 +1188,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 15ee5e51-b265-4a05-975b-d6f82d7dcfc9)
-    (at 68.834 64.008 -90)
+    (at 56.1975 64.008 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1230,7 +1230,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1b65b2ad-6f13-45ca-b302-844af6676ff9)
-    (at 259.5245 100.584)
+    (at 246.888 100.584)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1272,7 +1272,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1da8e1af-efea-4ab5-9174-b1b1fd5028c0)
-    (at 325.922 114.554)
+    (at 313.2855 114.554)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1314,7 +1314,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 20d2d050-4f0f-47c4-a84d-b82d72eeac1a)
-    (at 292.5445 103.759)
+    (at 279.908 103.759)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1356,7 +1356,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 21067897-d3c0-4f63-b916-4c77cd2f364e)
-    (at 277.027 108.839)
+    (at 264.3905 108.839)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1398,7 +1398,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 222c11f7-77d0-4a2e-838e-59fe49787af3)
-    (at 117.475 90.17 90)
+    (at 104.8385 90.17 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -1433,7 +1433,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 23a2e254-7f62-41d9-8dfe-7c9166a1ecd2)
-    (at 325.3245 123.444)
+    (at 312.688 123.444)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1477,7 +1477,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 260a21e6-23fd-4f66-9880-c12f159935bd)
-    (at 241.7445 54.229)
+    (at 229.108 54.229)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1524,7 +1524,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 2642dfcc-a0e8-4f78-aa09-7a9c9c344712)
-    (at 155.3845 108.839)
+    (at 142.748 108.839)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1566,7 +1566,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 2652db52-c347-4f46-847d-6e45e7b88545)
-    (at 173.7995 55.499)
+    (at 161.163 55.499)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1613,7 +1613,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 267c9dc8-6a2c-434e-8279-831695ea2670)
-    (at 308.4195 99.949)
+    (at 295.783 99.949)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1680,7 +1680,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 2982e58b-85f2-4c8f-b0c7-276a9f2f864f)
-    (at 259.9195 123.444)
+    (at 247.283 123.444)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1724,7 +1724,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 2fb0504d-33b6-4c4f-8186-e4ba2cb3ce49)
-    (at 118.9495 117.729)
+    (at 106.313 117.729)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1768,7 +1768,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 2fb7b244-18b6-4e11-b556-41b03958687d)
-    (at 108.3945 43.434)
+    (at 95.758 43.434)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/c2b9f935-7646-4dba-8db6-7cbf4b6698fd")
@@ -1811,7 +1811,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 33125c43-dabb-4829-86da-638f93da10e6)
-    (at 324.0405 91.44 90)
+    (at 311.404 91.44 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -1846,7 +1846,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 350ff9fe-11ef-4874-9079-3a089d079cee)
-    (at 85.725 93.345 90)
+    (at 73.0885 93.345 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -1881,7 +1881,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 35f405e9-a700-41f4-87e0-956c067efbf1)
-    (at 104.5845 100.584)
+    (at 91.948 100.584)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -1923,7 +1923,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 38a84a87-248f-46b1-8285-9ae81d6b2bb1)
-    (at 153.67 93.98 90)
+    (at 141.0335 93.98 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -1958,7 +1958,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 38be3b91-c1ae-44ec-8182-1d3d9842908c)
-    (at 277.0645 126.619)
+    (at 264.428 126.619)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -2002,7 +2002,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 3958c451-d4e4-4d6f-8e7d-ff4e4aafa13d)
-    (at 308.4195 120.904)
+    (at 295.783 120.904)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -2046,7 +2046,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 3a51f68e-206f-4d57-aa25-748d1feb6657)
-    (at 274.955 92.075 90)
+    (at 262.3185 92.075 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -2081,7 +2081,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 3c15a954-4b5b-4d47-a604-b5949d51c7c7)
-    (at 188.595 92.075 90)
+    (at 175.9585 92.075 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -2116,7 +2116,7 @@
 
   (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 4114f716-1ec1-4cd6-b5a2-021cb878504b)
-    (at 291.9095 63.119)
+    (at 279.273 63.119)
     (descr "SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOP SO")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -2173,7 +2173,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 41928065-6f64-451a-920c-124403fdb52a)
-    (at 154.7495 115.824)
+    (at 142.113 115.824)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -2215,7 +2215,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 43263734-8df2-4b19-b374-d40225dafee6)
-    (at 278.5745 43.434)
+    (at 265.938 43.434)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/890488cd-ab10-404a-8c21-3f8312ab42bc")
@@ -2258,7 +2258,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 4559f4ff-7281-4f2b-9291-48b785ea1046)
-    (at 226.5045 120.269)
+    (at 213.868 120.269)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -2302,7 +2302,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" (layer "F.Cu")
     (tedit 5AE50EF1) (tstamp 464015c8-91e6-4136-988f-bd86c65a9e70)
-    (at 502.501041 144.78)
+    (at 27.94 91.44 180)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=12.5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 12.5mm Electrolytic Capacitor")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -2560,9 +2560,9 @@
     (fp_line (start -2.866489 -2.7375) (end -1.616489 -2.7375) (layer "F.Fab") (width 0.1) (tstamp 3291ff1f-68b4-4977-a5cd-e3c220494dc9))
     (fp_line (start -2.241489 -3.3625) (end -2.241489 -2.1125) (layer "F.Fab") (width 0.1) (tstamp 9fe9d088-bfbc-4b1b-a25d-5faad42c64e8))
     (fp_circle (center 2.5 0) (end 8.75 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 19814da6-4408-4741-b0be-90e6f188376c))
-    (pad "1" thru_hole rect (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 1 "PV") (pintype "passive") (tstamp c07601ab-d88e-41a1-ab4d-87f24472b001))
-    (pad "2" thru_hole circle (at 5 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 5 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp fbd2b65f-24de-4483-8e75-54c0546620f7))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D12.5mm_P5.00mm.wrl"
       (offset (xyz 0 0 0))
@@ -2573,22 +2573,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4662a282-e28c-4831-b34d-f8b011a4edee)
-    (at 464.82 111.125)
+    (at 30.988 134.112 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/a465661f-79f8-42c1-993e-f822d905247b")
     (attr smd)
-    (fp_text reference "R5" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R5" (at 0 -1.43 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 28cb3b92-fe01-4752-88c0-57ee8444109e)
     )
-    (fp_text value "3k" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "3k" (at 0 1.43 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6574f68b-08ba-4ed2-aa3f-46f9baa7acb3)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 7a43b345-a86f-48c6-8aec-3b9116d859a1)
     )
@@ -2602,9 +2602,9 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 5ab92e75-f335-4b9c-8d94-7b726ea8613c))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp a5bcdf23-fc33-4f08-bc2e-79647d808a10))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp f77c7618-56dc-4b9a-a4c5-bd0a6e28d891))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 22 "Net-(D1-Pad2)") (pintype "passive") (tstamp 2069a0f2-150f-4893-936e-855b8a589293))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "PV") (pintype "passive") (tstamp a2a07a9e-298d-426c-aec4-60a5040cdceb))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2615,7 +2615,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 46a6d607-1e86-4cd2-b7ce-3e5141780429)
-    (at 137.16 92.075 90)
+    (at 124.5235 92.075 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -2650,7 +2650,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 476520a5-dfeb-4724-8d8f-be837f2764c7)
-    (at 139.5095 106.299)
+    (at 126.873 106.299)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -2692,7 +2692,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 4849eb37-8786-4274-a381-f6df50792106)
-    (at 91.2495 43.434)
+    (at 78.613 43.434)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/fa8f5f6a-4acd-4c8b-8b1a-edae2ca324c2")
@@ -2735,7 +2735,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 485eab28-ccbe-467e-a6c1-f7991b53d323)
-    (at 122.3645 54.864)
+    (at 109.728 54.864)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -2782,7 +2782,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 4b141d52-2a0c-45ca-afc8-aca2ae6caa84)
-    (at 341.1855 91.821 90)
+    (at 328.549 91.821 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -2817,7 +2817,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 4c57330e-03a0-42c6-88b0-b256f0edf94a)
-    (at 139.5095 55.499)
+    (at 126.873 55.499)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -2864,7 +2864,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 4c8730ba-f00c-4cfa-8de5-5e34f43662ab)
-    (at 312.2295 43.434)
+    (at 299.593 43.434)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/e634baa6-8684-4b08-b735-c810f87aa435")
@@ -2907,7 +2907,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 51864e5a-ce08-415b-abf6-c78762d1c2e8)
-    (at 259.5245 55.499)
+    (at 246.888 55.499)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -2954,7 +2954,7 @@
 
   (footprint "MRDT_Drill_Holes:BATT_PWR_VIA" (layer "F.Cu")
     (tedit 5AD71971) (tstamp 5437a859-4085-4366-8100-7e9d867cf58f)
-    (at 464.82 144.145)
+    (at 31.5595 42.164)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/4fb14c8d-b8ff-4166-bc4c-2eb22b500ce2")
@@ -2973,7 +2973,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5438e57f-e9bb-4213-80ec-25ac3a73df43)
-    (at 138.8745 99.949)
+    (at 126.238 99.949)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -3015,7 +3015,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" (layer "F.Cu")
     (tedit 5AE50EF1) (tstamp 543cda5b-064d-4a84-a1b3-839028909f67)
-    (at 503.136041 205.74)
+    (at 27.723959 120.904 180)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=12.5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 12.5mm Electrolytic Capacitor")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -3273,9 +3273,9 @@
     (fp_line (start -2.241489 -3.3625) (end -2.241489 -2.1125) (layer "F.Fab") (width 0.1) (tstamp 2d47596d-5046-4afd-b944-cdc2959113f1))
     (fp_line (start -2.866489 -2.7375) (end -1.616489 -2.7375) (layer "F.Fab") (width 0.1) (tstamp 87bf3dd4-686d-4ace-b905-139eb7801bf7))
     (fp_circle (center 2.5 0) (end 8.75 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp f58b6d3a-19b4-4d32-8476-b3c3db5a2714))
-    (pad "1" thru_hole rect (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 1 "PV") (pintype "passive") (tstamp e4b22002-6ebf-438a-a1af-04abef6322b6))
-    (pad "2" thru_hole circle (at 5 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 5 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp e0bd6412-ecfe-40db-99b9-013d429508cf))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D12.5mm_P5.00mm.wrl"
       (offset (xyz 0 0 0))
@@ -3286,7 +3286,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 56fd3cf1-d6c3-4039-a5a3-2a9848c4000c)
-    (at 176.8245 43.432)
+    (at 164.188 43.432)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/9e2f90e7-5009-4b24-9e2e-58d07d434755")
@@ -3329,7 +3329,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 59c83906-4e48-48c9-b058-e39b31a809ce)
-    (at 290.83 90.17 90)
+    (at 278.1935 90.17 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -3364,7 +3364,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 5b3f438a-fe02-4104-bd75-caf30bf8fe73)
-    (at 71.755 46.355 -90)
+    (at 59.1185 46.355 -90)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/d0ce15ab-d72d-46a2-bf64-96d8122ec1fd")
@@ -3432,7 +3432,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5dc61d92-50ce-4539-859a-6501fa2af7fe)
-    (at 190.3095 106.934)
+    (at 177.673 106.934)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -3474,7 +3474,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5f0aba59-c575-436e-8cd9-8d3599670e31)
-    (at 71.628 63.119 180)
+    (at 58.9915 63.119 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -3516,7 +3516,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6032598a-223a-4951-ba45-7460b72c77b1)
-    (at 276.6695 117.094)
+    (at 264.033 117.094)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -3558,7 +3558,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
     (tedit 5A70A390) (tstamp 616e38f7-0b12-4aef-9d26-a207e2ac807c)
-    (at 207.2595 64.389)
+    (at 194.623 64.389)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -3620,7 +3620,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
     (tedit 5A70A390) (tstamp 6abe6540-e2f9-4da2-866b-3944771c8b42)
-    (at 71.12 56.642 90)
+    (at 58.4835 56.642 90)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -3682,22 +3682,22 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 6d754712-c6d4-4a6d-bd32-19bfe52338bf)
-    (at 464.82 116.84)
+    (at 33.02 134.112 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/cd2a37f5-52c2-4a81-b81d-ec20bb524bab")
     (attr smd)
-    (fp_text reference "C4" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C4" (at 0 -1.43 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e1ea4bd5-e132-46b9-8334-e08bf427b5ee)
     )
-    (fp_text value "10uF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "10uF" (at 0 1.43 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2df4937e-be27-4506-81db-89c93e131248)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 675cdd4a-7cea-4cc1-aea2-e860ccbf2c2c)
     )
@@ -3711,9 +3711,9 @@
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp 0ffc0b62-329d-4e91-8c47-7e8d7d4a5b1f))
     (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 3f534df9-6360-4f36-884f-4320e0f0704d))
     (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp bb1bb0f9-f043-4e2f-ba62-b229bd057292))
-    (pad "1" smd roundrect (at -0.8625 0) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.8625 0 270) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "PV") (pintype "passive") (tstamp c9e8aff4-b162-44b1-ac1d-ec1101c42ffd))
-    (pad "2" smd roundrect (at 0.8625 0) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.8625 0 270) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 686586a9-2d8b-4c65-a77d-4e5800efea4f))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -3724,7 +3724,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6e925adb-02f2-47d5-9ca8-600ba45d0740)
-    (at 118.277 111.379)
+    (at 105.6405 111.379)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -3766,7 +3766,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
     (tedit 5A70A390) (tstamp 75150ef2-f0b3-4c06-b098-ee15c60f8fee)
-    (at 139.5095 65.024)
+    (at 126.873 65.024)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -3828,7 +3828,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 754d339c-e605-4d62-9801-7f67f20ba113)
-    (at 105.2195 112.649)
+    (at 92.583 112.649)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -3870,7 +3870,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 76ed0e0e-0f55-46a0-8bdf-7eb147330a92)
-    (at 242.102 98.679)
+    (at 229.4655 98.679)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -3912,7 +3912,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
     (tedit 5A70A390) (tstamp 77b69bd9-1732-4c79-8690-b1c1f047b4f1)
-    (at 86.8045 65.659)
+    (at 74.168 65.659)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -3974,7 +3974,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 7ba8d413-fba2-4632-8f51-b4b9cb77c0ce)
-    (at 240.665 90.805 90)
+    (at 228.0285 90.805 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -4009,7 +4009,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 7c1ec3bb-5119-432f-bdd0-dc8b46d1c7a6)
-    (at 68.834 67.818 90)
+    (at 56.1975 67.818 90)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4056,7 +4056,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 7c3207b8-7998-464c-96e8-fbc692d1ba11)
-    (at 157.2895 54.864)
+    (at 144.653 54.864)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4103,7 +4103,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7cc0d14b-90ba-4b5a-8a69-f722c2439006)
-    (at 277.027 99.949)
+    (at 264.3905 99.949)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4145,7 +4145,7 @@
 
   (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 7d5afb95-9494-45ba-a6da-cdf772a8f44a)
-    (at 276.0345 64.389)
+    (at 263.398 64.389)
     (descr "SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOP SO")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4202,7 +4202,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 7e191de7-a7b1-46da-b3c5-860d82b15d1c)
-    (at 87.8345 119.634)
+    (at 75.198 119.634)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4246,7 +4246,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 7e618c25-bfc8-4a45-867e-11519aada138)
-    (at 276.6695 54.864)
+    (at 264.033 54.864)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4293,7 +4293,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 7e901acc-47c1-4ee6-8aea-79e256dd19a6)
-    (at 193.8885 43.432)
+    (at 181.252 43.432)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/6581455c-5846-4323-b17c-fa837ee48daf")
@@ -4336,7 +4336,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 7fb9eef0-f19c-44c4-92a3-57092abddb88)
-    (at 244.9195 43.434)
+    (at 232.283 43.434)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/e7414270-f55c-4226-a09c-b2e04ed52f2a")
@@ -4379,7 +4379,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 819e4860-cb03-478b-bcde-cec2b4219c97)
-    (at 226.782 105.664)
+    (at 214.1455 105.664)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4421,7 +4421,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 840ef110-1263-4306-bb06-d737df3a1340)
-    (at 190.0695 121.539)
+    (at 177.433 121.539)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4465,7 +4465,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 85118f60-2339-49a8-88e4-1321cdf20506)
-    (at 171.8945 106.934)
+    (at 159.258 106.934)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4507,7 +4507,7 @@
 
   (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 860a7c04-682c-4138-8e24-331c0fa0eb16)
-    (at 258.8895 63.119)
+    (at 246.253 63.119)
     (descr "SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOP SO")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4564,7 +4564,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
     (tedit 5A70A390) (tstamp 86e757ab-ea4a-4989-8fe5-6078da0bb646)
-    (at 156.6545 66.294)
+    (at 144.018 66.294)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4626,7 +4626,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 87d3d2ba-2994-4029-8997-9f93907ad3b2)
-    (at 308.4195 106.299)
+    (at 295.783 106.299)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4668,7 +4668,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 8869094d-ebbc-4fcd-9138-743a6cf945a3)
-    (at 390.915 43.265 90)
+    (at 378.2785 43.265 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4710,7 +4710,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 88c65e90-0c5d-40b4-aaaf-40e70e760b1e)
-    (at 309.357 54.544)
+    (at 296.7205 54.544)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4757,7 +4757,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 89218b61-58b5-40ef-a528-b03cffbdb97b)
-    (at 73.4695 81.915 90)
+    (at 60.833 81.915 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -4792,7 +4792,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 897b4093-05b3-426e-aa1e-7421990249a8)
-    (at 363.1335 43.432)
+    (at 350.497 43.432)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/db62272e-2fa1-4644-8f6d-f5d6deb6d55b")
@@ -4835,7 +4835,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 89dbdf90-68ed-4a2d-8e3d-18b9bd792901)
-    (at 306.705 91.44 90)
+    (at 294.0685 91.44 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -4870,7 +4870,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 8cbdd627-a1fe-4f51-9e12-e8009edd2986)
-    (at 189.977 54.544)
+    (at 177.3405 54.544)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4917,7 +4917,7 @@
 
   (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 8ed1ff30-2a7f-44eb-ba16-218a95a52e45)
-    (at 241.7445 63.754)
+    (at 229.108 63.754)
     (descr "SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOP SO")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -4974,22 +4974,22 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 8ffe9bc2-caf2-4be6-9800-48acf7274644)
-    (at 464.82 104.775)
+    (at 30.988 137.668 90)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/22f0b722-92f7-4aed-86ed-fc2f880d17c0")
     (attr smd)
-    (fp_text reference "D1" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D1" (at 0 -1.43 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 00cbf3b2-0267-4780-85a3-dfd09f69f6f9)
     )
-    (fp_text value "Green" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "Green" (at 0 1.43 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e3f0524e-2519-40d0-ac9b-f7cf6b61bd5a)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp cb4a4237-0894-4b0f-9e3d-74d8a836050a)
     )
@@ -5005,9 +5005,9 @@
     (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 92cd5661-e177-489d-b4ca-08809c46df0f))
     (fp_line (start 0.8 -0.4) (end -0.5 -0.4) (layer "F.Fab") (width 0.1) (tstamp a9c8ace8-1b5e-4a67-b1d0-59b3c40cfd0d))
     (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp dccdf80a-1801-4901-8e92-9e7cf5112b54))
-    (pad "1" smd roundrect (at -0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.875 0 90) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp a7cba3c8-89ff-45c9-be14-83b60f21aaf2))
-    (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.875 0 90) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 22 "Net-(D1-Pad2)") (pinfunction "A") (pintype "passive") (tstamp d80f44c8-b9f8-4eb7-ae23-f475c30d1809))
     (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -5018,7 +5018,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 95457ed0-bdde-44b3-a4d9-935dca778b1b)
-    (at 66.548 58.166 -90)
+    (at 53.9115 58.166 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5060,7 +5060,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp 9708bdb4-8d08-4244-b333-253602e4a01d)
-    (at 224.155 92.075 90)
+    (at 211.5185 92.075 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -5095,22 +5095,22 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 970d0c71-11ce-43af-b1cf-ebe7211b6749)
-    (at 469.9 104.775)
+    (at 47.244 137.668 90)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/e556add8-a0ae-4ce5-bbe2-6ae552bafd07")
     (attr smd)
-    (fp_text reference "D7" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D7" (at 0 -1.43 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0be49371-2468-4df8-92f0-8f690bf44180)
     )
-    (fp_text value "Green" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "Green" (at 0 1.43 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1b45cf81-deb4-49cb-8c8b-2c635dc9da02)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp ed6a4da5-2199-4282-bc77-eaada0e2fc4d)
     )
@@ -5126,9 +5126,9 @@
     (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp a998d8ae-fb19-4866-879e-db205622f5a8))
     (fp_line (start -0.5 -0.4) (end -0.8 -0.1) (layer "F.Fab") (width 0.1) (tstamp c259420c-5959-4621-9c7b-45c8bcffa77c))
     (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp ce7a593c-e3ff-46e8-9e07-d0ebfe44c294))
-    (pad "1" smd roundrect (at -0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.875 0 90) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp c3464e32-0e5f-4aba-a9e5-554c8715118f))
-    (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.875 0 90) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 26 "Net-(D7-Pad2)") (pinfunction "A") (pintype "passive") (tstamp d7eb217f-5c0e-42bd-aba8-4ec3fb7bc8c6))
     (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -5139,7 +5139,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 97f7dd65-2982-4135-973e-ea63100caa4b)
-    (at 242.102 105.029)
+    (at 229.4655 105.029)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5181,7 +5181,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 98b2344f-1718-435e-801d-a60c59a78ba6)
-    (at 292.5445 119.634)
+    (at 279.908 119.634)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5225,7 +5225,7 @@
 
   (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 997fa63d-dac3-4042-96c9-1511079d4814)
-    (at 223.9645 63.754)
+    (at 211.328 63.754)
     (descr "SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOP SO")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5282,7 +5282,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 99e13b5b-5cb5-47c5-a7f2-dff3ad389169)
-    (at 325.5645 54.229)
+    (at 312.928 54.229)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5329,7 +5329,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9b5546ee-ea94-4ca9-94b7-d3b60b7ec7c4)
-    (at 155.3845 103.124)
+    (at 142.748 103.124)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5371,7 +5371,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp 9ca5c3e1-6514-4c68-b890-10eb1603c46a)
-    (at 104.887 55.179)
+    (at 92.2505 55.179)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5418,7 +5418,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp 9cb7965d-1327-483b-85b3-e31d89a7e56c)
-    (at 328.9705 43.432)
+    (at 316.334 43.432)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/e9695ffc-9db6-464d-a933-1f9b0247d1bb")
@@ -5461,7 +5461,7 @@
 
   (footprint "MRDT_Drill_Holes:BATT_PWR_VIA" (layer "F.Cu")
     (tedit 5AD71971) (tstamp 9e79126d-b0d6-48b2-909d-07d8c12785a5)
-    (at 464.82 166.37)
+    (at 391.2235 47.244)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/d02aef41-9e4c-483e-b7b8-f62b97f8b6b8")
@@ -5480,7 +5480,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp a76e3e54-3f71-480c-a45c-7afe4961a9d9)
-    (at 208.0895 122.174)
+    (at 195.453 122.174)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5524,7 +5524,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a85e1cd8-554a-4ef5-a10c-2888ebf71afd)
-    (at 325.5645 106.299)
+    (at 312.928 106.299)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5566,7 +5566,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a9e6c73a-36c9-4881-9f3b-d639cb27c279)
-    (at 104.942 106.299)
+    (at 92.3055 106.299)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5608,7 +5608,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp ab2efde4-8da6-4873-8188-52bf2e7d19a0)
-    (at 292.5445 54.229)
+    (at 279.908 54.229)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5655,7 +5655,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp aec77f5f-dcca-4198-bd96-9ff3be1b7643)
-    (at 118.5545 105.029)
+    (at 105.918 105.029)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5697,7 +5697,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp b1731cad-295b-4d86-97a7-312f5c77306d)
-    (at 208.0895 53.594)
+    (at 195.453 53.594)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5744,7 +5744,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp b18b72dd-d153-4ba3-ab25-7604532eafea)
-    (at 257.81 90.805 90)
+    (at 245.1735 90.805 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -5779,7 +5779,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp b1a7eb15-1fd9-480c-b024-4c1865e18688)
-    (at 261.8335 43.432)
+    (at 249.197 43.432)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/ffae5e0f-4e28-467f-b654-3717082654c9")
@@ -5822,7 +5822,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b4afe477-a445-402f-bf4b-4400289c2b7e)
-    (at 293.1795 98.044)
+    (at 280.543 98.044)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5864,7 +5864,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b665cb3a-7737-4bd3-8c59-4767c79e5206)
-    (at 87.082 111.379)
+    (at 74.4455 111.379)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5906,7 +5906,7 @@
 
   (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp bb19d1a8-78d2-4222-9270-c266b066bd44)
-    (at 325.5645 64.389)
+    (at 312.928 64.389)
     (descr "SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOP SO")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -5963,7 +5963,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp bbcac505-247f-4342-ac00-1d2c46c15812)
-    (at 346.1155 43.432)
+    (at 333.479 43.432)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/ca9892df-e141-4c88-9a0f-d1e6480ece25")
@@ -6006,7 +6006,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp bd8de9ac-2054-4c10-9d41-e1b4300e1fb1)
-    (at 259.5245 106.934)
+    (at 246.888 106.934)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -6048,7 +6048,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
     (tedit 5A70A390) (tstamp be675447-d295-4021-a516-aa9ae8ab452b)
-    (at 189.8845 65.279)
+    (at 177.248 65.279)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -6110,7 +6110,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp bec3c3ee-a5fa-407f-9351-64b4d89fe580)
-    (at 87.4395 99.949)
+    (at 74.803 99.949)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -6152,7 +6152,7 @@
 
   (footprint "MRDT_Shields:MODULE_DEV-16771" (layer "F.Cu")
     (tedit 622E7A4F) (tstamp c074144f-caa0-4963-9e62-212b9376e3fd)
-    (at 259.08 153.035)
+    (at 246.4435 153.035)
     (property "MANUFACTURER" "SparkFun Electronics")
     (property "MAXIMUM_PACKAGE_HEIGHT" "4.07mm")
     (property "PARTREV" "4.1")
@@ -6335,7 +6335,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp c2974e85-806c-4ab2-b455-bdcbe3df30cc)
-    (at 228.1785 43.432)
+    (at 215.542 43.432)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/b7dbc472-bb3f-464e-a1f2-a79f15f86f24")
@@ -6378,7 +6378,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp c37ac409-da29-4698-abe6-e256f89f4cbb)
-    (at 295.3155 43.432)
+    (at 282.679 43.432)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/e53a74cf-13f6-4f4f-ac5e-c701417ca0c5")
@@ -6421,7 +6421,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c39632f2-a576-4a2f-a7d9-531a0213f0b0)
-    (at 242.3795 112.014)
+    (at 229.743 112.014)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -6463,7 +6463,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
     (tedit 5A70A390) (tstamp c5710868-a1bf-44e2-88f6-71404bad98d6)
-    (at 104.5845 65.024)
+    (at 91.948 65.024)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -6525,7 +6525,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c7202efc-dcd9-400e-8854-c67128aae76f)
-    (at 226.227 100.584)
+    (at 213.5905 100.584)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -6567,7 +6567,7 @@
 
   (footprint "MRDT_Devices:OKI_Horizontal" (layer "F.Cu")
     (tedit 5DD8981C) (tstamp c925cfb5-21ca-452f-a344-2e9ce4dddb08)
-    (at 451.595 105.78)
+    (at 36.576 133.604)
     (tags "OKI")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -6608,7 +6608,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp cd49eba5-1374-4b53-99cf-38f5676fd468)
-    (at 208.0895 99.949)
+    (at 195.453 99.949)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -6650,7 +6650,7 @@
 
   (footprint "Connector_PinSocket_2.00mm:PinSocket_2x03_P2.00mm_Vertical" (layer "F.Cu")
     (tedit 5A19A428) (tstamp cda9ee36-ce39-46ce-93fb-97ee9ee76228)
-    (at 378.755 42.265 90)
+    (at 366.1185 42.265 90)
     (descr "Through hole straight socket strip, 2x03, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x03 2.00mm double row")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -6707,7 +6707,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp ce8032ad-ba92-4221-a1a3-5c9bc207a691)
-    (at 357.0605 91.821 90)
+    (at 344.424 91.821 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -6742,7 +6742,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp d15da0e4-7c1c-44d3-9ff0-16ff5c47aab3)
-    (at 170.18 92.71 90)
+    (at 157.5435 92.71 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -6777,7 +6777,7 @@
 
   (footprint "MRDT_Connectors:RJ45_Teensy" (layer "F.Cu")
     (tedit 622E7E57) (tstamp d37f1e0a-93ee-4122-805c-49945defdf8e)
-    (at 384.81 69.215)
+    (at 372.1735 69.215)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/cec99afc-23ee-4368-b3e0-ed620092ff72")
@@ -6853,7 +6853,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d572a4b6-0e6f-45a6-a953-8140d0df418b)
-    (at 227.1395 111.379)
+    (at 214.503 111.379)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -6895,7 +6895,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp db5485fc-2520-41e5-a8e0-83849e506032)
-    (at 190.3095 99.949)
+    (at 177.673 99.949)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -6937,7 +6937,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" (layer "F.Cu")
     (tedit 5AE50EF1) (tstamp dc1544b2-5b45-4f94-9ca7-4e3f7b022f92)
-    (at 503.136041 184.785)
+    (at 27.723959 106.172 180)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=12.5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 12.5mm Electrolytic Capacitor")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -7195,9 +7195,9 @@
     (fp_line (start -2.241489 -3.3625) (end -2.241489 -2.1125) (layer "F.Fab") (width 0.1) (tstamp 8c023e22-ab77-446b-9ab9-eb7e82ffa789))
     (fp_line (start -2.866489 -2.7375) (end -1.616489 -2.7375) (layer "F.Fab") (width 0.1) (tstamp 9099713d-b020-4414-908b-b209558dafd8))
     (fp_circle (center 2.5 0) (end 8.75 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 3f2215d7-d955-488a-87f0-235468b4d5c7))
-    (pad "1" thru_hole rect (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 1 "PV") (pintype "passive") (tstamp ecf508ef-859d-45c8-8a75-cc07d1354a47))
-    (pad "2" thru_hole circle (at 5 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 5 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp 5a5e7583-1621-46a3-875a-a8b9de945220))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D12.5mm_P5.00mm.wrl"
       (offset (xyz 0 0 0))
@@ -7208,7 +7208,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
     (tedit 5A70A390) (tstamp ddbf0a2c-a2ab-4a3e-8825-c8b548847970)
-    (at 173.3745 65.279)
+    (at 160.738 65.279)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -7295,7 +7295,7 @@
 
   (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp e71cd24f-cb88-4edd-b180-6e0eac892b8b)
-    (at 309.0545 64.389)
+    (at 296.418 64.389)
     (descr "SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOP SO")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -7352,7 +7352,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e84fc0e9-419f-487b-bb6d-1740f36ffcf3)
-    (at 171.8945 100.584)
+    (at 159.258 100.584)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -7394,7 +7394,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side_PV" (layer "F.Cu")
     (tedit 62156E1F) (tstamp e9baf0e7-596c-4afb-92da-63da7b770e0a)
-    (at 125.5395 43.434)
+    (at 112.903 43.434)
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/605b401e-ad3c-4c8d-9b64-fad4d2317e89")
@@ -7437,7 +7437,7 @@
 
   (footprint "Diode_THT:D_DO-201_P5.08mm_Vertical_KathodeUp" (layer "F.Cu")
     (tedit 5AE50CD5) (tstamp ebfc388f-8ca8-4403-9024-7a1be9f6d0a0)
-    (at 483.215 158.75)
+    (at 22.713 59.436)
     (descr "Diode, DO-201 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=9.53*5.21mm^2, , http://www.diodes.com/_files/packages/DO-201.pdf")
     (tags "Diode DO-201 series Axial Vertical pin pitch 5.08mm  length 9.53mm diameter 5.21mm")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -7487,22 +7487,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ece00fa0-88a6-4e25-84b3-33aacc8be27a)
-    (at 470.2575 111.125)
+    (at 47.244 134.112 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/34a585e0-67c3-431f-9e47-cee333acf604")
     (attr smd)
-    (fp_text reference "R12" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R12" (at 0 -1.43 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 884045b3-1102-4024-91d5-319033cdfdc0)
     )
-    (fp_text value "130" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "130" (at 0 1.43 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 642b9c7a-588e-42a0-ad39-45a233e2f246)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp ca06560f-91c1-431f-a138-5ba6bf2e9f05)
     )
@@ -7516,9 +7516,9 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 56bdfccc-9e7f-4f16-86a1-174efc884719))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp aac073ec-70f8-4cb3-90d8-0163f4d83c32))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp b9f01676-63ec-480f-bb64-9e48f578658f))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "+3V3") (pintype "passive") (tstamp cc8f503c-afae-4947-a6e4-5e66022ff923))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 26 "Net-(D7-Pad2)") (pintype "passive") (tstamp 541db8b3-5ea1-40e3-b61d-32242f7b7de0))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -7529,7 +7529,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp ed5d67e1-2b0e-489d-951f-49187013af77)
-    (at 103.505 90.805 90)
+    (at 90.8685 90.805 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -7564,7 +7564,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f2bdab56-889b-4cb3-9574-b21cc5cf9e4f)
-    (at 308.4195 113.284)
+    (at 295.783 113.284)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -7606,7 +7606,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp f2eea51f-7461-4698-9ac0-9d5f92833511)
-    (at 155.7795 124.079)
+    (at 143.143 124.079)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -7650,7 +7650,7 @@
 
   (footprint "MRDT_Passives:ATC_Fuse_Block" (layer "F.Cu")
     (tedit 5FBB409B) (tstamp f433c11b-854c-4262-af2f-30569be16a1d)
-    (at 205.74 92.075 90)
+    (at 193.1035 92.075 90)
     (tags "Fuse ATC")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
@@ -7685,7 +7685,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
     (tedit 5A70A390) (tstamp f5e4421e-22f8-45db-b122-b93c4a0ab771)
-    (at 119.8595 64.134)
+    (at 107.223 64.134)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -7747,7 +7747,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f660635b-138a-448e-a8aa-4af416cbdde7)
-    (at 140.1445 113.284)
+    (at 127.508 113.284)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -7789,7 +7789,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f9fa89bc-6c0c-4735-ad84-70dd0a632960)
-    (at 86.8045 105.664)
+    (at 74.168 105.664)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -7831,7 +7831,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp faa464aa-cb9f-4cb0-8a90-cf4147c4d660)
-    (at 171.6545 122.174)
+    (at 159.018 122.174)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -7875,22 +7875,22 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp fcf6bf98-bbf7-4733-84e6-366c94e403e7)
-    (at 470.535 116.84)
+    (at 45.212 134.112 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
     (property "Sheetname" "")
     (path "/289ccfa4-892b-4302-bec8-e0be42fd8d90")
     (attr smd)
-    (fp_text reference "C6" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C6" (at 0 -1.43 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 54464ceb-beeb-42de-b7f7-8132c1815bae)
     )
-    (fp_text value "22uF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "22uF" (at 0 1.43 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp db231b96-3149-4769-9767-8cea7948e24f)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp b026c95f-825f-4884-bf29-c197bd06c81f)
     )
@@ -7904,9 +7904,9 @@
     (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 2c35518b-9239-4c4c-9ece-44d980970529))
     (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 7e91085d-8c0f-43c0-916e-3b0e2b39d7ff))
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp bffaabf8-0d0a-428c-8882-0b459fd39d6a))
-    (pad "1" smd roundrect (at -0.8625 0) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.8625 0 270) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "+3V3") (pintype "passive") (tstamp 5bcb52bf-017f-479c-bfdd-6a417e206625))
-    (pad "2" smd roundrect (at 0.8625 0) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.8625 0 270) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 581fef9a-8829-4ca1-ae69-b8f0b71ec7d2))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -7917,7 +7917,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp fd2a48ef-bc69-41cb-adac-58b8c5350aca)
-    (at 171.8945 113.284)
+    (at 159.258 113.284)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -7959,7 +7959,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp fd56ed48-f5b2-4251-b21b-b7b697f03f52)
-    (at 224.5995 53.594)
+    (at 211.963 53.594)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -8006,7 +8006,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp ff600fb0-3d9d-4cf1-a0e9-7b26132bcdbb)
-    (at 104.5845 120.269)
+    (at 91.948 120.269)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "2023 Powerboard.kicad_sch")
@@ -8048,11 +8048,11 @@
     )
   )
 
-  (segment (start 66.548 59.0785) (end 66.548 60.847) (width 0.25) (layer "F.Cu") (net 23) (tstamp 73edfad8-71df-4ba8-8a97-e664c7e69efc))
-  (segment (start 68.834 66.8805) (end 68.834 64.9205) (width 0.254) (layer "F.Cu") (net 65) (tstamp 5fc7a8d6-ad30-4561-9f50-2b6f31ba8432))
-  (segment (start 70.692 63.0955) (end 70.7155 63.119) (width 0.25) (layer "F.Cu") (net 68) (tstamp 3c3a0f10-b887-43aa-b855-eb165f75af46))
-  (segment (start 68.834 60.848) (end 68.84 60.842) (width 0.25) (layer "F.Cu") (net 68) (tstamp 5dfe01ed-66e1-41ae-b2a0-99d5f7c0cc06))
-  (segment (start 68.834 63.0955) (end 68.834 60.848) (width 0.25) (layer "F.Cu") (net 68) (tstamp 85555782-abdf-41c6-82f2-5063a9c7f009))
-  (segment (start 68.834 63.0955) (end 70.692 63.0955) (width 0.25) (layer "F.Cu") (net 68) (tstamp bd21f237-7517-49cb-b862-2c4c894423cf))
+  (segment (start 53.9115 59.0785) (end 53.9115 60.847) (width 0.25) (layer "F.Cu") (net 23) (tstamp 73edfad8-71df-4ba8-8a97-e664c7e69efc))
+  (segment (start 56.1975 66.8805) (end 56.1975 64.9205) (width 0.254) (layer "F.Cu") (net 65) (tstamp 5fc7a8d6-ad30-4561-9f50-2b6f31ba8432))
+  (segment (start 58.0555 63.0955) (end 58.079 63.119) (width 0.25) (layer "F.Cu") (net 68) (tstamp 3c3a0f10-b887-43aa-b855-eb165f75af46))
+  (segment (start 56.1975 60.848) (end 56.2035 60.842) (width 0.25) (layer "F.Cu") (net 68) (tstamp 5dfe01ed-66e1-41ae-b2a0-99d5f7c0cc06))
+  (segment (start 56.1975 63.0955) (end 56.1975 60.848) (width 0.25) (layer "F.Cu") (net 68) (tstamp 85555782-abdf-41c6-82f2-5063a9c7f009))
+  (segment (start 56.1975 63.0955) (end 58.0555 63.0955) (width 0.25) (layer "F.Cu") (net 68) (tstamp bd21f237-7517-49cb-b862-2c4c894423cf))
 
 )
