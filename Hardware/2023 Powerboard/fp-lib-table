@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "Silkscreen")(type "KiCad")(uri "C:/Users/sophi/Desktop/MRDT/Silkscreen")(options "")(descr ""))
+  (lib (name "Libraries")(type "KiCad")(uri "C:/Users/garre/Documents/GitHub/PackVoltage_Hardware/Libraries")(options "")(descr ""))
 )
